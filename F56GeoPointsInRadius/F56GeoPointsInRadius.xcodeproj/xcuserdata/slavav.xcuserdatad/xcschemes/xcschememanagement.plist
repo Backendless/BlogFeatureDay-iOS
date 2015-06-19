@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>F56GeoPointsInRadius.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>22</integer>
+		</dict>
+		<key>F56GeoPointsInRadiusSwift.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>23</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>D3E5BFA71AEA6F3E0038D564</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D3E5BFC01AEA6F3E0038D564</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D3E5C02C1AEA6FEF0038D564</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D3E5C0401AEA6FEF0038D564</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

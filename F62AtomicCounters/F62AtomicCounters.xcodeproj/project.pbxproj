@@ -1,0 +1,929 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9BE40591B2A1F6000CD0A72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BE40581B2A1F6000CD0A72 /* main.m */; };
+		F9BE405C1B2A1F6000CD0A72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BE405B1B2A1F6000CD0A72 /* AppDelegate.m */; };
+		F9BE405F1B2A1F6000CD0A72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BE405E1B2A1F6000CD0A72 /* ViewController.m */; };
+		F9BE40621B2A1F6000CD0A72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BE40601B2A1F6000CD0A72 /* Main.storyboard */; };
+		F9BE40641B2A1F6000CD0A72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9BE40631B2A1F6000CD0A72 /* Images.xcassets */; };
+		F9BE40671B2A1F6000CD0A72 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9BE40651B2A1F6000CD0A72 /* LaunchScreen.xib */; };
+		F9BE40731B2A1F6000CD0A72 /* F62AtomicCountersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BE40721B2A1F6000CD0A72 /* F62AtomicCountersTests.m */; };
+		F9BE40B71B2A1FEC00CD0A72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE40B61B2A1FEC00CD0A72 /* AppDelegate.swift */; };
+		F9BE40B91B2A1FEC00CD0A72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE40B81B2A1FEC00CD0A72 /* ViewController.swift */; };
+		F9BE40BC1B2A1FEC00CD0A72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BE40BA1B2A1FEC00CD0A72 /* Main.storyboard */; };
+		F9BE40BE1B2A1FEC00CD0A72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9BE40BD1B2A1FEC00CD0A72 /* Images.xcassets */; };
+		F9BE40C11B2A1FEC00CD0A72 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9BE40BF1B2A1FEC00CD0A72 /* LaunchScreen.xib */; };
+		F9BE40CD1B2A1FEC00CD0A72 /* F62AtomicCountersSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE40CC1B2A1FEC00CD0A72 /* F62AtomicCountersSwiftTests.swift */; };
+		F9BE41021B2A206800CD0A72 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE41001B2A206800CD0A72 /* libsqlite3.dylib */; };
+		F9BE41031B2A206800CD0A72 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE41011B2A206800CD0A72 /* SystemConfiguration.framework */; };
+		F9BE41041B2A207500CD0A72 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE41011B2A206800CD0A72 /* SystemConfiguration.framework */; };
+		F9BE41051B2A208200CD0A72 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE41001B2A206800CD0A72 /* libsqlite3.dylib */; };
+		F9BE415B1B2A20EB00CD0A72 /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE41081B2A20EB00CD0A72 /* backendless.a */; };
+		F9BE415C1B2A20EB00CD0A72 /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE41081B2A20EB00CD0A72 /* backendless.a */; };
+		F9BE415D1B2A20EB00CD0A72 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE41461B2A20EB00CD0A72 /* CommLibiOS.a */; };
+		F9BE415E1B2A20EB00CD0A72 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE41461B2A20EB00CD0A72 /* CommLibiOS.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9BE406D1B2A1F6000CD0A72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9BE404B1B2A1F6000CD0A72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9BE40521B2A1F6000CD0A72;
+			remoteInfo = F62AtomicCounters;
+		};
+		F9BE40C71B2A1FEC00CD0A72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9BE404B1B2A1F6000CD0A72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9BE40B11B2A1FEC00CD0A72;
+			remoteInfo = F62AtomicCountersSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9BE40531B2A1F6000CD0A72 /* F62AtomicCounters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F62AtomicCounters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9BE40571B2A1F6000CD0A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9BE40581B2A1F6000CD0A72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F9BE405A1B2A1F6000CD0A72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F9BE405B1B2A1F6000CD0A72 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F9BE405D1B2A1F6000CD0A72 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F9BE405E1B2A1F6000CD0A72 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F9BE40611B2A1F6000CD0A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9BE40631B2A1F6000CD0A72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F9BE40661B2A1F6000CD0A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F9BE406C1B2A1F6000CD0A72 /* F62AtomicCountersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F62AtomicCountersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9BE40711B2A1F6000CD0A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9BE40721B2A1F6000CD0A72 /* F62AtomicCountersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = F62AtomicCountersTests.m; sourceTree = "<group>"; };
+		F9BE40B21B2A1FEC00CD0A72 /* F62AtomicCountersSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F62AtomicCountersSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9BE40B51B2A1FEC00CD0A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9BE40B61B2A1FEC00CD0A72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9BE40B81B2A1FEC00CD0A72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9BE40BB1B2A1FEC00CD0A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9BE40BD1B2A1FEC00CD0A72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F9BE40C01B2A1FEC00CD0A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F9BE40C61B2A1FEC00CD0A72 /* F62AtomicCountersSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F62AtomicCountersSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9BE40CB1B2A1FEC00CD0A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9BE40CC1B2A1FEC00CD0A72 /* F62AtomicCountersSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F62AtomicCountersSwiftTests.swift; sourceTree = "<group>"; };
+		F9BE41001B2A206800CD0A72 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		F9BE41011B2A206800CD0A72 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F9BE41081B2A20EB00CD0A72 /* backendless.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = backendless.a; sourceTree = "<group>"; };
+		F9BE410A1B2A20EB00CD0A72 /* AbstractProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractProperty.h; sourceTree = "<group>"; };
+		F9BE410B1B2A20EB00CD0A72 /* AbstractQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractQuery.h; sourceTree = "<group>"; };
+		F9BE410C1B2A20EB00CD0A72 /* AtomicCounters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtomicCounters.h; sourceTree = "<group>"; };
+		F9BE410D1B2A20EB00CD0A72 /* AtomicCountersFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtomicCountersFactory.h; sourceTree = "<group>"; };
+		F9BE410E1B2A20EB00CD0A72 /* Backendless-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Backendless-Bridging-Header.h"; sourceTree = "<group>"; };
+		F9BE410F1B2A20EB00CD0A72 /* Backendless.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Backendless.h; sourceTree = "<group>"; };
+		F9BE41101B2A20EB00CD0A72 /* BackendlessCachePolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessCachePolicy.h; sourceTree = "<group>"; };
+		F9BE41111B2A20EB00CD0A72 /* BackendlessCacheProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessCacheProtocol.h; sourceTree = "<group>"; };
+		F9BE41121B2A20EB00CD0A72 /* BackendlessCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessCollection.h; sourceTree = "<group>"; };
+		F9BE41131B2A20EB00CD0A72 /* BackendlessDataQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessDataQuery.h; sourceTree = "<group>"; };
+		F9BE41141B2A20EB00CD0A72 /* BackendlessEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessEntity.h; sourceTree = "<group>"; };
+		F9BE41151B2A20EB00CD0A72 /* BackendlessFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessFile.h; sourceTree = "<group>"; };
+		F9BE41161B2A20EB00CD0A72 /* BackendlessGeoQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessGeoQuery.h; sourceTree = "<group>"; };
+		F9BE41171B2A20EB00CD0A72 /* BackendlessUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessUser.h; sourceTree = "<group>"; };
+		F9BE41181B2A20EB00CD0A72 /* BEAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEAnnotation.h; sourceTree = "<group>"; };
+		F9BE41191B2A20EB00CD0A72 /* BECollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BECollectionView.h; sourceTree = "<group>"; };
+		F9BE411A1B2A20EB00CD0A72 /* BEMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMapView.h; sourceTree = "<group>"; };
+		F9BE411B1B2A20EB00CD0A72 /* BESubscription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BESubscription.h; sourceTree = "<group>"; };
+		F9BE411C1B2A20EB00CD0A72 /* BETableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BETableView.h; sourceTree = "<group>"; };
+		F9BE411D1B2A20EB00CD0A72 /* CacheFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheFactory.h; sourceTree = "<group>"; };
+		F9BE411E1B2A20EB00CD0A72 /* CacheService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheService.h; sourceTree = "<group>"; };
+		F9BE411F1B2A20EB00CD0A72 /* CustomService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomService.h; sourceTree = "<group>"; };
+		F9BE41201B2A20EB00CD0A72 /* DataPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataPermission.h; sourceTree = "<group>"; };
+		F9BE41211B2A20EB00CD0A72 /* DataStoreFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStoreFactory.h; sourceTree = "<group>"; };
+		F9BE41221B2A20EB00CD0A72 /* DeliveryOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeliveryOptions.h; sourceTree = "<group>"; };
+		F9BE41231B2A20EB00CD0A72 /* DeviceRegistration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceRegistration.h; sourceTree = "<group>"; };
+		F9BE41241B2A20EB00CD0A72 /* Events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Events.h; sourceTree = "<group>"; };
+		F9BE41251B2A20EB00CD0A72 /* FilePermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilePermission.h; sourceTree = "<group>"; };
+		F9BE41261B2A20EB00CD0A72 /* FileService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileService.h; sourceTree = "<group>"; };
+		F9BE41271B2A20EB00CD0A72 /* GeoCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoCategory.h; sourceTree = "<group>"; };
+		F9BE41281B2A20EB00CD0A72 /* GeoCluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoCluster.h; sourceTree = "<group>"; };
+		F9BE41291B2A20EB00CD0A72 /* GeoFence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoFence.h; sourceTree = "<group>"; };
+		F9BE412A1B2A20EB00CD0A72 /* GeoPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoPoint.h; sourceTree = "<group>"; };
+		F9BE412B1B2A20EB00CD0A72 /* GeoService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoService.h; sourceTree = "<group>"; };
+		F9BE412C1B2A20EB00CD0A72 /* HashMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HashMap.h; sourceTree = "<group>"; };
+		F9BE412D1B2A20EB00CD0A72 /* IAtomicCounters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAtomicCounters.h; sourceTree = "<group>"; };
+		F9BE412E1B2A20EB00CD0A72 /* ICacheService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICacheService.h; sourceTree = "<group>"; };
+		F9BE412F1B2A20EB00CD0A72 /* ICallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICallback.h; sourceTree = "<group>"; };
+		F9BE41301B2A20EB00CD0A72 /* IDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDataStore.h; sourceTree = "<group>"; };
+		F9BE41311B2A20EB00CD0A72 /* IMediaStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMediaStreamer.h; sourceTree = "<group>"; };
+		F9BE41321B2A20EB00CD0A72 /* LocationTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationTracker.h; sourceTree = "<group>"; };
+		F9BE41331B2A20EB00CD0A72 /* Logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
+		F9BE41341B2A20EB00CD0A72 /* Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logging.h; sourceTree = "<group>"; };
+		F9BE41351B2A20EB00CD0A72 /* MediaPlaybackOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaPlaybackOptions.h; sourceTree = "<group>"; };
+		F9BE41361B2A20EB00CD0A72 /* MediaPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaPlayer.h; sourceTree = "<group>"; };
+		F9BE41371B2A20EB00CD0A72 /* MediaPublisher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaPublisher.h; sourceTree = "<group>"; };
+		F9BE41381B2A20EB00CD0A72 /* MediaPublishOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaPublishOptions.h; sourceTree = "<group>"; };
+		F9BE41391B2A20EB00CD0A72 /* MediaService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaService.h; sourceTree = "<group>"; };
+		F9BE413A1B2A20EB00CD0A72 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		F9BE413B1B2A20EB00CD0A72 /* MessageStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageStatus.h; sourceTree = "<group>"; };
+		F9BE413C1B2A20EB00CD0A72 /* MessagingService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagingService.h; sourceTree = "<group>"; };
+		F9BE413D1B2A20EB00CD0A72 /* ObjectProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectProperty.h; sourceTree = "<group>"; };
+		F9BE413E1B2A20EB00CD0A72 /* PersistenceService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersistenceService.h; sourceTree = "<group>"; };
+		F9BE413F1B2A20EB00CD0A72 /* ProtectedBackendlessGeoQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtectedBackendlessGeoQuery.h; sourceTree = "<group>"; };
+		F9BE41401B2A20EB00CD0A72 /* PublishOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishOptions.h; sourceTree = "<group>"; };
+		F9BE41411B2A20EB00CD0A72 /* QueryOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryOptions.h; sourceTree = "<group>"; };
+		F9BE41421B2A20EB00CD0A72 /* SubscriptionOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscriptionOptions.h; sourceTree = "<group>"; };
+		F9BE41431B2A20EB00CD0A72 /* UserProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserProperty.h; sourceTree = "<group>"; };
+		F9BE41441B2A20EB00CD0A72 /* UserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserService.h; sourceTree = "<group>"; };
+		F9BE41461B2A20EB00CD0A72 /* CommLibiOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = CommLibiOS.a; sourceTree = "<group>"; };
+		F9BE41481B2A20EB00CD0A72 /* AMFSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMFSerializer.h; sourceTree = "<group>"; };
+		F9BE41491B2A20EB00CD0A72 /* BinaryCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryCodec.h; sourceTree = "<group>"; };
+		F9BE414A1B2A20EB00CD0A72 /* BinaryStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryStream.h; sourceTree = "<group>"; };
+		F9BE414B1B2A20EB00CD0A72 /* DEBUG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEBUG.h; sourceTree = "<group>"; };
+		F9BE414C1B2A20EB00CD0A72 /* FlashorbBinaryReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashorbBinaryReader.h; sourceTree = "<group>"; };
+		F9BE414D1B2A20EB00CD0A72 /* FlashorbBinaryWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashorbBinaryWriter.h; sourceTree = "<group>"; };
+		F9BE414E1B2A20EB00CD0A72 /* IAttributeStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAttributeStore.h; sourceTree = "<group>"; };
+		F9BE414F1B2A20EB00CD0A72 /* IClientSharedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IClientSharedObject.h; sourceTree = "<group>"; };
+		F9BE41501B2A20EB00CD0A72 /* IClientSharedObjectDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IClientSharedObjectDelegate.h; sourceTree = "<group>"; };
+		F9BE41511B2A20EB00CD0A72 /* IPendingServiceCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPendingServiceCallback.h; sourceTree = "<group>"; };
+		F9BE41521B2A20EB00CD0A72 /* IPersistable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPersistable.h; sourceTree = "<group>"; };
+		F9BE41531B2A20EB00CD0A72 /* IRTMProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRTMProtocol.h; sourceTree = "<group>"; };
+		F9BE41541B2A20EB00CD0A72 /* IServiceCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IServiceCall.h; sourceTree = "<group>"; };
+		F9BE41551B2A20EB00CD0A72 /* ISharedObjectListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISharedObjectListener.h; sourceTree = "<group>"; };
+		F9BE41561B2A20EB00CD0A72 /* MemoryTicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoryTicker.h; sourceTree = "<group>"; };
+		F9BE41571B2A20EB00CD0A72 /* Responder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Responder.h; sourceTree = "<group>"; };
+		F9BE41581B2A20EB00CD0A72 /* RTMPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTMPClient.h; sourceTree = "<group>"; };
+		F9BE41591B2A20EB00CD0A72 /* Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
+		F9BE415A1B2A20EB00CD0A72 /* WeborbClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeborbClient.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9BE40501B2A1F6000CD0A72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BE41021B2A206800CD0A72 /* libsqlite3.dylib in Frameworks */,
+				F9BE415D1B2A20EB00CD0A72 /* CommLibiOS.a in Frameworks */,
+				F9BE415B1B2A20EB00CD0A72 /* backendless.a in Frameworks */,
+				F9BE41031B2A206800CD0A72 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BE40691B2A1F6000CD0A72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BE40AF1B2A1FEC00CD0A72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BE41051B2A208200CD0A72 /* libsqlite3.dylib in Frameworks */,
+				F9BE415E1B2A20EB00CD0A72 /* CommLibiOS.a in Frameworks */,
+				F9BE415C1B2A20EB00CD0A72 /* backendless.a in Frameworks */,
+				F9BE41041B2A207500CD0A72 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BE40C31B2A1FEC00CD0A72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9BE404A1B2A1F6000CD0A72 = {
+			isa = PBXGroup;
+			children = (
+				F9BE41061B2A20EB00CD0A72 /* lib */,
+				F9BE41001B2A206800CD0A72 /* libsqlite3.dylib */,
+				F9BE41011B2A206800CD0A72 /* SystemConfiguration.framework */,
+				F9BE40551B2A1F6000CD0A72 /* F62AtomicCounters */,
+				F9BE406F1B2A1F6000CD0A72 /* F62AtomicCountersTests */,
+				F9BE40B31B2A1FEC00CD0A72 /* F62AtomicCountersSwift */,
+				F9BE40C91B2A1FEC00CD0A72 /* F62AtomicCountersSwiftTests */,
+				F9BE40541B2A1F6000CD0A72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9BE40541B2A1F6000CD0A72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE40531B2A1F6000CD0A72 /* F62AtomicCounters.app */,
+				F9BE406C1B2A1F6000CD0A72 /* F62AtomicCountersTests.xctest */,
+				F9BE40B21B2A1FEC00CD0A72 /* F62AtomicCountersSwift.app */,
+				F9BE40C61B2A1FEC00CD0A72 /* F62AtomicCountersSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9BE40551B2A1F6000CD0A72 /* F62AtomicCounters */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE405A1B2A1F6000CD0A72 /* AppDelegate.h */,
+				F9BE405B1B2A1F6000CD0A72 /* AppDelegate.m */,
+				F9BE405D1B2A1F6000CD0A72 /* ViewController.h */,
+				F9BE405E1B2A1F6000CD0A72 /* ViewController.m */,
+				F9BE40601B2A1F6000CD0A72 /* Main.storyboard */,
+				F9BE40631B2A1F6000CD0A72 /* Images.xcassets */,
+				F9BE40651B2A1F6000CD0A72 /* LaunchScreen.xib */,
+				F9BE40561B2A1F6000CD0A72 /* Supporting Files */,
+			);
+			path = F62AtomicCounters;
+			sourceTree = "<group>";
+		};
+		F9BE40561B2A1F6000CD0A72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE40571B2A1F6000CD0A72 /* Info.plist */,
+				F9BE40581B2A1F6000CD0A72 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9BE406F1B2A1F6000CD0A72 /* F62AtomicCountersTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE40721B2A1F6000CD0A72 /* F62AtomicCountersTests.m */,
+				F9BE40701B2A1F6000CD0A72 /* Supporting Files */,
+			);
+			path = F62AtomicCountersTests;
+			sourceTree = "<group>";
+		};
+		F9BE40701B2A1F6000CD0A72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE40711B2A1F6000CD0A72 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9BE40B31B2A1FEC00CD0A72 /* F62AtomicCountersSwift */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE40B61B2A1FEC00CD0A72 /* AppDelegate.swift */,
+				F9BE40B81B2A1FEC00CD0A72 /* ViewController.swift */,
+				F9BE40BA1B2A1FEC00CD0A72 /* Main.storyboard */,
+				F9BE40BD1B2A1FEC00CD0A72 /* Images.xcassets */,
+				F9BE40BF1B2A1FEC00CD0A72 /* LaunchScreen.xib */,
+				F9BE40B41B2A1FEC00CD0A72 /* Supporting Files */,
+			);
+			path = F62AtomicCountersSwift;
+			sourceTree = "<group>";
+		};
+		F9BE40B41B2A1FEC00CD0A72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE40B51B2A1FEC00CD0A72 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9BE40C91B2A1FEC00CD0A72 /* F62AtomicCountersSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE40CC1B2A1FEC00CD0A72 /* F62AtomicCountersSwiftTests.swift */,
+				F9BE40CA1B2A1FEC00CD0A72 /* Supporting Files */,
+			);
+			path = F62AtomicCountersSwiftTests;
+			sourceTree = "<group>";
+		};
+		F9BE40CA1B2A1FEC00CD0A72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE40CB1B2A1FEC00CD0A72 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9BE41061B2A20EB00CD0A72 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE41071B2A20EB00CD0A72 /* backendless */,
+				F9BE41451B2A20EB00CD0A72 /* CommLibiOS */,
+			);
+			name = lib;
+			path = ../lib;
+			sourceTree = "<group>";
+		};
+		F9BE41071B2A20EB00CD0A72 /* backendless */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE41081B2A20EB00CD0A72 /* backendless.a */,
+				F9BE41091B2A20EB00CD0A72 /* include */,
+			);
+			path = backendless;
+			sourceTree = "<group>";
+		};
+		F9BE41091B2A20EB00CD0A72 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE410A1B2A20EB00CD0A72 /* AbstractProperty.h */,
+				F9BE410B1B2A20EB00CD0A72 /* AbstractQuery.h */,
+				F9BE410C1B2A20EB00CD0A72 /* AtomicCounters.h */,
+				F9BE410D1B2A20EB00CD0A72 /* AtomicCountersFactory.h */,
+				F9BE410E1B2A20EB00CD0A72 /* Backendless-Bridging-Header.h */,
+				F9BE410F1B2A20EB00CD0A72 /* Backendless.h */,
+				F9BE41101B2A20EB00CD0A72 /* BackendlessCachePolicy.h */,
+				F9BE41111B2A20EB00CD0A72 /* BackendlessCacheProtocol.h */,
+				F9BE41121B2A20EB00CD0A72 /* BackendlessCollection.h */,
+				F9BE41131B2A20EB00CD0A72 /* BackendlessDataQuery.h */,
+				F9BE41141B2A20EB00CD0A72 /* BackendlessEntity.h */,
+				F9BE41151B2A20EB00CD0A72 /* BackendlessFile.h */,
+				F9BE41161B2A20EB00CD0A72 /* BackendlessGeoQuery.h */,
+				F9BE41171B2A20EB00CD0A72 /* BackendlessUser.h */,
+				F9BE41181B2A20EB00CD0A72 /* BEAnnotation.h */,
+				F9BE41191B2A20EB00CD0A72 /* BECollectionView.h */,
+				F9BE411A1B2A20EB00CD0A72 /* BEMapView.h */,
+				F9BE411B1B2A20EB00CD0A72 /* BESubscription.h */,
+				F9BE411C1B2A20EB00CD0A72 /* BETableView.h */,
+				F9BE411D1B2A20EB00CD0A72 /* CacheFactory.h */,
+				F9BE411E1B2A20EB00CD0A72 /* CacheService.h */,
+				F9BE411F1B2A20EB00CD0A72 /* CustomService.h */,
+				F9BE41201B2A20EB00CD0A72 /* DataPermission.h */,
+				F9BE41211B2A20EB00CD0A72 /* DataStoreFactory.h */,
+				F9BE41221B2A20EB00CD0A72 /* DeliveryOptions.h */,
+				F9BE41231B2A20EB00CD0A72 /* DeviceRegistration.h */,
+				F9BE41241B2A20EB00CD0A72 /* Events.h */,
+				F9BE41251B2A20EB00CD0A72 /* FilePermission.h */,
+				F9BE41261B2A20EB00CD0A72 /* FileService.h */,
+				F9BE41271B2A20EB00CD0A72 /* GeoCategory.h */,
+				F9BE41281B2A20EB00CD0A72 /* GeoCluster.h */,
+				F9BE41291B2A20EB00CD0A72 /* GeoFence.h */,
+				F9BE412A1B2A20EB00CD0A72 /* GeoPoint.h */,
+				F9BE412B1B2A20EB00CD0A72 /* GeoService.h */,
+				F9BE412C1B2A20EB00CD0A72 /* HashMap.h */,
+				F9BE412D1B2A20EB00CD0A72 /* IAtomicCounters.h */,
+				F9BE412E1B2A20EB00CD0A72 /* ICacheService.h */,
+				F9BE412F1B2A20EB00CD0A72 /* ICallback.h */,
+				F9BE41301B2A20EB00CD0A72 /* IDataStore.h */,
+				F9BE41311B2A20EB00CD0A72 /* IMediaStreamer.h */,
+				F9BE41321B2A20EB00CD0A72 /* LocationTracker.h */,
+				F9BE41331B2A20EB00CD0A72 /* Logger.h */,
+				F9BE41341B2A20EB00CD0A72 /* Logging.h */,
+				F9BE41351B2A20EB00CD0A72 /* MediaPlaybackOptions.h */,
+				F9BE41361B2A20EB00CD0A72 /* MediaPlayer.h */,
+				F9BE41371B2A20EB00CD0A72 /* MediaPublisher.h */,
+				F9BE41381B2A20EB00CD0A72 /* MediaPublishOptions.h */,
+				F9BE41391B2A20EB00CD0A72 /* MediaService.h */,
+				F9BE413A1B2A20EB00CD0A72 /* Message.h */,
+				F9BE413B1B2A20EB00CD0A72 /* MessageStatus.h */,
+				F9BE413C1B2A20EB00CD0A72 /* MessagingService.h */,
+				F9BE413D1B2A20EB00CD0A72 /* ObjectProperty.h */,
+				F9BE413E1B2A20EB00CD0A72 /* PersistenceService.h */,
+				F9BE413F1B2A20EB00CD0A72 /* ProtectedBackendlessGeoQuery.h */,
+				F9BE41401B2A20EB00CD0A72 /* PublishOptions.h */,
+				F9BE41411B2A20EB00CD0A72 /* QueryOptions.h */,
+				F9BE41421B2A20EB00CD0A72 /* SubscriptionOptions.h */,
+				F9BE41431B2A20EB00CD0A72 /* UserProperty.h */,
+				F9BE41441B2A20EB00CD0A72 /* UserService.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		F9BE41451B2A20EB00CD0A72 /* CommLibiOS */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE41461B2A20EB00CD0A72 /* CommLibiOS.a */,
+				F9BE41471B2A20EB00CD0A72 /* include */,
+			);
+			path = CommLibiOS;
+			sourceTree = "<group>";
+		};
+		F9BE41471B2A20EB00CD0A72 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE41481B2A20EB00CD0A72 /* AMFSerializer.h */,
+				F9BE41491B2A20EB00CD0A72 /* BinaryCodec.h */,
+				F9BE414A1B2A20EB00CD0A72 /* BinaryStream.h */,
+				F9BE414B1B2A20EB00CD0A72 /* DEBUG.h */,
+				F9BE414C1B2A20EB00CD0A72 /* FlashorbBinaryReader.h */,
+				F9BE414D1B2A20EB00CD0A72 /* FlashorbBinaryWriter.h */,
+				F9BE414E1B2A20EB00CD0A72 /* IAttributeStore.h */,
+				F9BE414F1B2A20EB00CD0A72 /* IClientSharedObject.h */,
+				F9BE41501B2A20EB00CD0A72 /* IClientSharedObjectDelegate.h */,
+				F9BE41511B2A20EB00CD0A72 /* IPendingServiceCallback.h */,
+				F9BE41521B2A20EB00CD0A72 /* IPersistable.h */,
+				F9BE41531B2A20EB00CD0A72 /* IRTMProtocol.h */,
+				F9BE41541B2A20EB00CD0A72 /* IServiceCall.h */,
+				F9BE41551B2A20EB00CD0A72 /* ISharedObjectListener.h */,
+				F9BE41561B2A20EB00CD0A72 /* MemoryTicker.h */,
+				F9BE41571B2A20EB00CD0A72 /* Responder.h */,
+				F9BE41581B2A20EB00CD0A72 /* RTMPClient.h */,
+				F9BE41591B2A20EB00CD0A72 /* Types.h */,
+				F9BE415A1B2A20EB00CD0A72 /* WeborbClient.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9BE40521B2A1F6000CD0A72 /* F62AtomicCounters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9BE40761B2A1F6000CD0A72 /* Build configuration list for PBXNativeTarget "F62AtomicCounters" */;
+			buildPhases = (
+				F9BE404F1B2A1F6000CD0A72 /* Sources */,
+				F9BE40501B2A1F6000CD0A72 /* Frameworks */,
+				F9BE40511B2A1F6000CD0A72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = F62AtomicCounters;
+			productName = F62AtomicCounters;
+			productReference = F9BE40531B2A1F6000CD0A72 /* F62AtomicCounters.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9BE406B1B2A1F6000CD0A72 /* F62AtomicCountersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9BE40791B2A1F6000CD0A72 /* Build configuration list for PBXNativeTarget "F62AtomicCountersTests" */;
+			buildPhases = (
+				F9BE40681B2A1F6000CD0A72 /* Sources */,
+				F9BE40691B2A1F6000CD0A72 /* Frameworks */,
+				F9BE406A1B2A1F6000CD0A72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9BE406E1B2A1F6000CD0A72 /* PBXTargetDependency */,
+			);
+			name = F62AtomicCountersTests;
+			productName = F62AtomicCountersTests;
+			productReference = F9BE406C1B2A1F6000CD0A72 /* F62AtomicCountersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9BE40B11B2A1FEC00CD0A72 /* F62AtomicCountersSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9BE40CE1B2A1FEC00CD0A72 /* Build configuration list for PBXNativeTarget "F62AtomicCountersSwift" */;
+			buildPhases = (
+				F9BE40AE1B2A1FEC00CD0A72 /* Sources */,
+				F9BE40AF1B2A1FEC00CD0A72 /* Frameworks */,
+				F9BE40B01B2A1FEC00CD0A72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = F62AtomicCountersSwift;
+			productName = F62AtomicCountersSwift;
+			productReference = F9BE40B21B2A1FEC00CD0A72 /* F62AtomicCountersSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9BE40C51B2A1FEC00CD0A72 /* F62AtomicCountersSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9BE40D11B2A1FEC00CD0A72 /* Build configuration list for PBXNativeTarget "F62AtomicCountersSwiftTests" */;
+			buildPhases = (
+				F9BE40C21B2A1FEC00CD0A72 /* Sources */,
+				F9BE40C31B2A1FEC00CD0A72 /* Frameworks */,
+				F9BE40C41B2A1FEC00CD0A72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9BE40C81B2A1FEC00CD0A72 /* PBXTargetDependency */,
+			);
+			name = F62AtomicCountersSwiftTests;
+			productName = F62AtomicCountersSwiftTests;
+			productReference = F9BE40C61B2A1FEC00CD0A72 /* F62AtomicCountersSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9BE404B1B2A1F6000CD0A72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Slava Vdovichenko";
+				TargetAttributes = {
+					F9BE40521B2A1F6000CD0A72 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					F9BE406B1B2A1F6000CD0A72 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = F9BE40521B2A1F6000CD0A72;
+					};
+					F9BE40B11B2A1FEC00CD0A72 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					F9BE40C51B2A1FEC00CD0A72 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = F9BE40B11B2A1FEC00CD0A72;
+					};
+				};
+			};
+			buildConfigurationList = F9BE404E1B2A1F6000CD0A72 /* Build configuration list for PBXProject "F62AtomicCounters" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9BE404A1B2A1F6000CD0A72;
+			productRefGroup = F9BE40541B2A1F6000CD0A72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9BE40521B2A1F6000CD0A72 /* F62AtomicCounters */,
+				F9BE40B11B2A1FEC00CD0A72 /* F62AtomicCountersSwift */,
+				F9BE406B1B2A1F6000CD0A72 /* F62AtomicCountersTests */,
+				F9BE40C51B2A1FEC00CD0A72 /* F62AtomicCountersSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9BE40511B2A1F6000CD0A72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BE40621B2A1F6000CD0A72 /* Main.storyboard in Resources */,
+				F9BE40671B2A1F6000CD0A72 /* LaunchScreen.xib in Resources */,
+				F9BE40641B2A1F6000CD0A72 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BE406A1B2A1F6000CD0A72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BE40B01B2A1FEC00CD0A72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BE40BC1B2A1FEC00CD0A72 /* Main.storyboard in Resources */,
+				F9BE40C11B2A1FEC00CD0A72 /* LaunchScreen.xib in Resources */,
+				F9BE40BE1B2A1FEC00CD0A72 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BE40C41B2A1FEC00CD0A72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9BE404F1B2A1F6000CD0A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BE405F1B2A1F6000CD0A72 /* ViewController.m in Sources */,
+				F9BE405C1B2A1F6000CD0A72 /* AppDelegate.m in Sources */,
+				F9BE40591B2A1F6000CD0A72 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BE40681B2A1F6000CD0A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BE40731B2A1F6000CD0A72 /* F62AtomicCountersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BE40AE1B2A1FEC00CD0A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BE40B91B2A1FEC00CD0A72 /* ViewController.swift in Sources */,
+				F9BE40B71B2A1FEC00CD0A72 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BE40C21B2A1FEC00CD0A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BE40CD1B2A1FEC00CD0A72 /* F62AtomicCountersSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9BE406E1B2A1F6000CD0A72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9BE40521B2A1F6000CD0A72 /* F62AtomicCounters */;
+			targetProxy = F9BE406D1B2A1F6000CD0A72 /* PBXContainerItemProxy */;
+		};
+		F9BE40C81B2A1FEC00CD0A72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9BE40B11B2A1FEC00CD0A72 /* F62AtomicCountersSwift */;
+			targetProxy = F9BE40C71B2A1FEC00CD0A72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9BE40601B2A1F6000CD0A72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9BE40611B2A1F6000CD0A72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9BE40651B2A1F6000CD0A72 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9BE40661B2A1F6000CD0A72 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		F9BE40BA1B2A1FEC00CD0A72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9BE40BB1B2A1FEC00CD0A72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9BE40BF1B2A1FEC00CD0A72 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9BE40C01B2A1FEC00CD0A72 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9BE40741B2A1F6000CD0A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9BE40751B2A1F6000CD0A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9BE40771B2A1F6000CD0A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = F62AtomicCounters/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../lib/backendless",
+					"$(SRCROOT)/../lib/CommLibiOS",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F9BE40781B2A1F6000CD0A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = F62AtomicCounters/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../lib/backendless",
+					"$(SRCROOT)/../lib/CommLibiOS",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F9BE407A1B2A1F6000CD0A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = F62AtomicCountersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F62AtomicCounters.app/F62AtomicCounters";
+			};
+			name = Debug;
+		};
+		F9BE407B1B2A1F6000CD0A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = F62AtomicCountersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F62AtomicCounters.app/F62AtomicCounters";
+			};
+			name = Release;
+		};
+		F9BE40CF1B2A1FEC00CD0A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = F62AtomicCountersSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../lib/backendless",
+					"$(SRCROOT)/../lib/CommLibiOS",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9BE40D01B2A1FEC00CD0A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = F62AtomicCountersSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../lib/backendless",
+					"$(SRCROOT)/../lib/CommLibiOS",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		F9BE40D21B2A1FEC00CD0A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = F62AtomicCountersSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F62AtomicCountersSwift.app/F62AtomicCountersSwift";
+			};
+			name = Debug;
+		};
+		F9BE40D31B2A1FEC00CD0A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = F62AtomicCountersSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F62AtomicCountersSwift.app/F62AtomicCountersSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9BE404E1B2A1F6000CD0A72 /* Build configuration list for PBXProject "F62AtomicCounters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9BE40741B2A1F6000CD0A72 /* Debug */,
+				F9BE40751B2A1F6000CD0A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9BE40761B2A1F6000CD0A72 /* Build configuration list for PBXNativeTarget "F62AtomicCounters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9BE40771B2A1F6000CD0A72 /* Debug */,
+				F9BE40781B2A1F6000CD0A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9BE40791B2A1F6000CD0A72 /* Build configuration list for PBXNativeTarget "F62AtomicCountersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9BE407A1B2A1F6000CD0A72 /* Debug */,
+				F9BE407B1B2A1F6000CD0A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9BE40CE1B2A1FEC00CD0A72 /* Build configuration list for PBXNativeTarget "F62AtomicCountersSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9BE40CF1B2A1FEC00CD0A72 /* Debug */,
+				F9BE40D01B2A1FEC00CD0A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9BE40D11B2A1FEC00CD0A72 /* Build configuration list for PBXNativeTarget "F62AtomicCountersSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9BE40D21B2A1FEC00CD0A72 /* Debug */,
+				F9BE40D31B2A1FEC00CD0A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9BE404B1B2A1F6000CD0A72 /* Project object */;
+}

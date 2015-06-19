@@ -1,0 +1,921 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D32941EE1A7FC2FE00C32645 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D32941ED1A7FC2FE00C32645 /* main.m */; };
+		D32941F11A7FC2FE00C32645 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D32941F01A7FC2FE00C32645 /* AppDelegate.m */; };
+		D32941F41A7FC2FE00C32645 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D32941F31A7FC2FE00C32645 /* ViewController.m */; };
+		D32941F71A7FC2FE00C32645 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32941F51A7FC2FE00C32645 /* Main.storyboard */; };
+		D32941F91A7FC2FE00C32645 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D32941F81A7FC2FE00C32645 /* Images.xcassets */; };
+		D32941FC1A7FC2FE00C32645 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D32941FA1A7FC2FE00C32645 /* LaunchScreen.xib */; };
+		D32942081A7FC2FE00C32645 /* F25RetrievingGeoPointsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D32942071A7FC2FE00C32645 /* F25RetrievingGeoPointsTests.m */; };
+		D329421A1A7FC33D00C32645 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32942191A7FC33D00C32645 /* AppDelegate.swift */; };
+		D329421C1A7FC33D00C32645 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D329421B1A7FC33D00C32645 /* ViewController.swift */; };
+		D329421F1A7FC33D00C32645 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D329421D1A7FC33D00C32645 /* Main.storyboard */; };
+		D32942211A7FC33D00C32645 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D32942201A7FC33D00C32645 /* Images.xcassets */; };
+		D32942241A7FC33D00C32645 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D32942221A7FC33D00C32645 /* LaunchScreen.xib */; };
+		D32942301A7FC33D00C32645 /* F25RetrievingGeoPointsSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D329422F1A7FC33D00C32645 /* F25RetrievingGeoPointsSwiftTests.swift */; };
+		D32942391A7FC38100C32645 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D32942371A7FC38100C32645 /* libsqlite3.dylib */; };
+		D329423A1A7FC38100C32645 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D32942381A7FC38100C32645 /* SystemConfiguration.framework */; };
+		D329423B1A7FC39900C32645 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D32942371A7FC38100C32645 /* libsqlite3.dylib */; };
+		D329423C1A7FC39900C32645 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D32942381A7FC38100C32645 /* SystemConfiguration.framework */; };
+		D329428C1A7FC3B300C32645 /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D329423F1A7FC3B300C32645 /* backendless.a */; };
+		D329428D1A7FC3B300C32645 /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D329423F1A7FC3B300C32645 /* backendless.a */; };
+		D32942901A7FC3B300C32645 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D32942771A7FC3B300C32645 /* CommLibiOS.a */; };
+		D32942911A7FC3B300C32645 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D32942771A7FC3B300C32645 /* CommLibiOS.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D32942021A7FC2FE00C32645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D32941E01A7FC2FE00C32645 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D32941E71A7FC2FE00C32645;
+			remoteInfo = F25RetrievingGeoPoints;
+		};
+		D329422A1A7FC33D00C32645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D32941E01A7FC2FE00C32645 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D32942141A7FC33C00C32645;
+			remoteInfo = F25RetrievingGeoPointsSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D31700DA1A84F32A00772766 /* GeoCluster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoCluster.h; sourceTree = "<group>"; };
+		D31700DB1A84F32A00772766 /* ProtectedBackendlessGeoQuery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProtectedBackendlessGeoQuery.h; sourceTree = "<group>"; };
+		D32941E81A7FC2FE00C32645 /* F25RetrievingGeoPoints.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F25RetrievingGeoPoints.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32941EC1A7FC2FE00C32645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D32941ED1A7FC2FE00C32645 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D32941EF1A7FC2FE00C32645 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D32941F01A7FC2FE00C32645 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D32941F21A7FC2FE00C32645 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D32941F31A7FC2FE00C32645 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D32941F61A7FC2FE00C32645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D32941F81A7FC2FE00C32645 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D32941FB1A7FC2FE00C32645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D32942011A7FC2FE00C32645 /* F25RetrievingGeoPointsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F25RetrievingGeoPointsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32942061A7FC2FE00C32645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D32942071A7FC2FE00C32645 /* F25RetrievingGeoPointsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = F25RetrievingGeoPointsTests.m; sourceTree = "<group>"; };
+		D32942151A7FC33C00C32645 /* F25RetrievingGeoPointsSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F25RetrievingGeoPointsSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32942181A7FC33D00C32645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D32942191A7FC33D00C32645 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D329421B1A7FC33D00C32645 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D329421E1A7FC33D00C32645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D32942201A7FC33D00C32645 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D32942231A7FC33D00C32645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D32942291A7FC33D00C32645 /* F25RetrievingGeoPointsSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F25RetrievingGeoPointsSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D329422E1A7FC33D00C32645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D329422F1A7FC33D00C32645 /* F25RetrievingGeoPointsSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F25RetrievingGeoPointsSwiftTests.swift; sourceTree = "<group>"; };
+		D32942371A7FC38100C32645 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		D32942381A7FC38100C32645 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D329423F1A7FC3B300C32645 /* backendless.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = backendless.a; sourceTree = "<group>"; };
+		D32942411A7FC3B300C32645 /* AbstractProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractProperty.h; sourceTree = "<group>"; };
+		D32942421A7FC3B300C32645 /* AbstractQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractQuery.h; sourceTree = "<group>"; };
+		D32942431A7FC3B300C32645 /* AtomicCounters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtomicCounters.h; sourceTree = "<group>"; };
+		D32942441A7FC3B300C32645 /* AtomicCountersFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtomicCountersFactory.h; sourceTree = "<group>"; };
+		D32942451A7FC3B300C32645 /* Backendless-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Backendless-Bridging-Header.h"; sourceTree = "<group>"; };
+		D32942461A7FC3B300C32645 /* Backendless.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Backendless.h; sourceTree = "<group>"; };
+		D32942471A7FC3B300C32645 /* BackendlessCachePolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessCachePolicy.h; sourceTree = "<group>"; };
+		D32942481A7FC3B300C32645 /* BackendlessCacheProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessCacheProtocol.h; sourceTree = "<group>"; };
+		D32942491A7FC3B300C32645 /* BackendlessCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessCollection.h; sourceTree = "<group>"; };
+		D329424A1A7FC3B300C32645 /* BackendlessDataQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessDataQuery.h; sourceTree = "<group>"; };
+		D329424B1A7FC3B300C32645 /* BackendlessEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessEntity.h; sourceTree = "<group>"; };
+		D329424C1A7FC3B300C32645 /* BackendlessFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessFile.h; sourceTree = "<group>"; };
+		D329424D1A7FC3B300C32645 /* BackendlessGeoQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessGeoQuery.h; sourceTree = "<group>"; };
+		D329424E1A7FC3B300C32645 /* BackendlessUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessUser.h; sourceTree = "<group>"; };
+		D329424F1A7FC3B300C32645 /* BEAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEAnnotation.h; sourceTree = "<group>"; };
+		D32942501A7FC3B300C32645 /* BECollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BECollectionView.h; sourceTree = "<group>"; };
+		D32942511A7FC3B300C32645 /* BEMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMapView.h; sourceTree = "<group>"; };
+		D32942521A7FC3B300C32645 /* BESubscription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BESubscription.h; sourceTree = "<group>"; };
+		D32942531A7FC3B300C32645 /* BETableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BETableView.h; sourceTree = "<group>"; };
+		D32942541A7FC3B300C32645 /* CacheFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheFactory.h; sourceTree = "<group>"; };
+		D32942551A7FC3B300C32645 /* CacheService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheService.h; sourceTree = "<group>"; };
+		D32942561A7FC3B300C32645 /* CustomService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomService.h; sourceTree = "<group>"; };
+		D32942571A7FC3B300C32645 /* DataPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataPermission.h; sourceTree = "<group>"; };
+		D32942581A7FC3B300C32645 /* DataStoreFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStoreFactory.h; sourceTree = "<group>"; };
+		D32942591A7FC3B300C32645 /* DeliveryOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeliveryOptions.h; sourceTree = "<group>"; };
+		D329425A1A7FC3B300C32645 /* DeviceRegistration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceRegistration.h; sourceTree = "<group>"; };
+		D329425B1A7FC3B300C32645 /* Events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Events.h; sourceTree = "<group>"; };
+		D329425C1A7FC3B300C32645 /* FilePermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilePermission.h; sourceTree = "<group>"; };
+		D329425D1A7FC3B300C32645 /* FileService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileService.h; sourceTree = "<group>"; };
+		D329425E1A7FC3B300C32645 /* GeoCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoCategory.h; sourceTree = "<group>"; };
+		D329425F1A7FC3B300C32645 /* GeoPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoPoint.h; sourceTree = "<group>"; };
+		D32942601A7FC3B300C32645 /* GeoService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoService.h; sourceTree = "<group>"; };
+		D32942611A7FC3B300C32645 /* HashMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HashMap.h; sourceTree = "<group>"; };
+		D32942621A7FC3B300C32645 /* IAtomicCounters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAtomicCounters.h; sourceTree = "<group>"; };
+		D32942631A7FC3B300C32645 /* ICacheService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICacheService.h; sourceTree = "<group>"; };
+		D32942641A7FC3B300C32645 /* IDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDataStore.h; sourceTree = "<group>"; };
+		D32942651A7FC3B300C32645 /* IMediaStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMediaStreamer.h; sourceTree = "<group>"; };
+		D32942661A7FC3B300C32645 /* MediaPlaybackOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaPlaybackOptions.h; sourceTree = "<group>"; };
+		D32942671A7FC3B300C32645 /* MediaPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaPlayer.h; sourceTree = "<group>"; };
+		D32942681A7FC3B300C32645 /* MediaPublisher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaPublisher.h; sourceTree = "<group>"; };
+		D32942691A7FC3B300C32645 /* MediaPublishOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaPublishOptions.h; sourceTree = "<group>"; };
+		D329426A1A7FC3B300C32645 /* MediaService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaService.h; sourceTree = "<group>"; };
+		D329426B1A7FC3B300C32645 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		D329426C1A7FC3B300C32645 /* MessageStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageStatus.h; sourceTree = "<group>"; };
+		D329426D1A7FC3B300C32645 /* MessagingService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagingService.h; sourceTree = "<group>"; };
+		D329426E1A7FC3B300C32645 /* ObjectProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectProperty.h; sourceTree = "<group>"; };
+		D329426F1A7FC3B300C32645 /* PersistenceService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersistenceService.h; sourceTree = "<group>"; };
+		D32942701A7FC3B300C32645 /* PublishOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishOptions.h; sourceTree = "<group>"; };
+		D32942711A7FC3B300C32645 /* QueryOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryOptions.h; sourceTree = "<group>"; };
+		D32942721A7FC3B300C32645 /* SubscriptionOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscriptionOptions.h; sourceTree = "<group>"; };
+		D32942731A7FC3B300C32645 /* UserProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserProperty.h; sourceTree = "<group>"; };
+		D32942741A7FC3B300C32645 /* UserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserService.h; sourceTree = "<group>"; };
+		D32942771A7FC3B300C32645 /* CommLibiOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = CommLibiOS.a; sourceTree = "<group>"; };
+		D32942791A7FC3B300C32645 /* AMFSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMFSerializer.h; sourceTree = "<group>"; };
+		D329427A1A7FC3B300C32645 /* BinaryCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryCodec.h; sourceTree = "<group>"; };
+		D329427B1A7FC3B300C32645 /* BinaryStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryStream.h; sourceTree = "<group>"; };
+		D329427C1A7FC3B300C32645 /* DEBUG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEBUG.h; sourceTree = "<group>"; };
+		D329427D1A7FC3B300C32645 /* FlashorbBinaryReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashorbBinaryReader.h; sourceTree = "<group>"; };
+		D329427E1A7FC3B300C32645 /* FlashorbBinaryWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashorbBinaryWriter.h; sourceTree = "<group>"; };
+		D329427F1A7FC3B300C32645 /* IAttributeStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAttributeStore.h; sourceTree = "<group>"; };
+		D32942801A7FC3B300C32645 /* IClientSharedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IClientSharedObject.h; sourceTree = "<group>"; };
+		D32942811A7FC3B300C32645 /* IClientSharedObjectDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IClientSharedObjectDelegate.h; sourceTree = "<group>"; };
+		D32942821A7FC3B300C32645 /* IPendingServiceCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPendingServiceCallback.h; sourceTree = "<group>"; };
+		D32942831A7FC3B300C32645 /* IPersistable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPersistable.h; sourceTree = "<group>"; };
+		D32942841A7FC3B300C32645 /* IRTMProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRTMProtocol.h; sourceTree = "<group>"; };
+		D32942851A7FC3B300C32645 /* IServiceCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IServiceCall.h; sourceTree = "<group>"; };
+		D32942861A7FC3B300C32645 /* ISharedObjectListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISharedObjectListener.h; sourceTree = "<group>"; };
+		D32942871A7FC3B300C32645 /* MemoryTicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoryTicker.h; sourceTree = "<group>"; };
+		D32942881A7FC3B300C32645 /* Responder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Responder.h; sourceTree = "<group>"; };
+		D32942891A7FC3B300C32645 /* RTMPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTMPClient.h; sourceTree = "<group>"; };
+		D329428A1A7FC3B300C32645 /* Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
+		D329428B1A7FC3B300C32645 /* WeborbClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeborbClient.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D32941E51A7FC2FE00C32645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32942391A7FC38100C32645 /* libsqlite3.dylib in Frameworks */,
+				D329428C1A7FC3B300C32645 /* backendless.a in Frameworks */,
+				D329423A1A7FC38100C32645 /* SystemConfiguration.framework in Frameworks */,
+				D32942901A7FC3B300C32645 /* CommLibiOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32941FE1A7FC2FE00C32645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32942121A7FC33C00C32645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D329423B1A7FC39900C32645 /* libsqlite3.dylib in Frameworks */,
+				D329428D1A7FC3B300C32645 /* backendless.a in Frameworks */,
+				D329423C1A7FC39900C32645 /* SystemConfiguration.framework in Frameworks */,
+				D32942911A7FC3B300C32645 /* CommLibiOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32942261A7FC33D00C32645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D32941DF1A7FC2FE00C32645 = {
+			isa = PBXGroup;
+			children = (
+				D329423D1A7FC3B300C32645 /* lib */,
+				D32942371A7FC38100C32645 /* libsqlite3.dylib */,
+				D32942381A7FC38100C32645 /* SystemConfiguration.framework */,
+				D32941EA1A7FC2FE00C32645 /* F25RetrievingGeoPoints */,
+				D32942041A7FC2FE00C32645 /* F25RetrievingGeoPointsTests */,
+				D32942161A7FC33D00C32645 /* F25RetrievingGeoPointsSwift */,
+				D329422C1A7FC33D00C32645 /* F25RetrievingGeoPointsSwiftTests */,
+				D32941E91A7FC2FE00C32645 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D32941E91A7FC2FE00C32645 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D32941E81A7FC2FE00C32645 /* F25RetrievingGeoPoints.app */,
+				D32942011A7FC2FE00C32645 /* F25RetrievingGeoPointsTests.xctest */,
+				D32942151A7FC33C00C32645 /* F25RetrievingGeoPointsSwift.app */,
+				D32942291A7FC33D00C32645 /* F25RetrievingGeoPointsSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D32941EA1A7FC2FE00C32645 /* F25RetrievingGeoPoints */ = {
+			isa = PBXGroup;
+			children = (
+				D32941EF1A7FC2FE00C32645 /* AppDelegate.h */,
+				D32941F01A7FC2FE00C32645 /* AppDelegate.m */,
+				D32941F21A7FC2FE00C32645 /* ViewController.h */,
+				D32941F31A7FC2FE00C32645 /* ViewController.m */,
+				D32941F51A7FC2FE00C32645 /* Main.storyboard */,
+				D32941F81A7FC2FE00C32645 /* Images.xcassets */,
+				D32941FA1A7FC2FE00C32645 /* LaunchScreen.xib */,
+				D32941EB1A7FC2FE00C32645 /* Supporting Files */,
+			);
+			path = F25RetrievingGeoPoints;
+			sourceTree = "<group>";
+		};
+		D32941EB1A7FC2FE00C32645 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D32941EC1A7FC2FE00C32645 /* Info.plist */,
+				D32941ED1A7FC2FE00C32645 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D32942041A7FC2FE00C32645 /* F25RetrievingGeoPointsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D32942071A7FC2FE00C32645 /* F25RetrievingGeoPointsTests.m */,
+				D32942051A7FC2FE00C32645 /* Supporting Files */,
+			);
+			path = F25RetrievingGeoPointsTests;
+			sourceTree = "<group>";
+		};
+		D32942051A7FC2FE00C32645 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D32942061A7FC2FE00C32645 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D32942161A7FC33D00C32645 /* F25RetrievingGeoPointsSwift */ = {
+			isa = PBXGroup;
+			children = (
+				D32942191A7FC33D00C32645 /* AppDelegate.swift */,
+				D329421B1A7FC33D00C32645 /* ViewController.swift */,
+				D329421D1A7FC33D00C32645 /* Main.storyboard */,
+				D32942201A7FC33D00C32645 /* Images.xcassets */,
+				D32942221A7FC33D00C32645 /* LaunchScreen.xib */,
+				D32942171A7FC33D00C32645 /* Supporting Files */,
+			);
+			path = F25RetrievingGeoPointsSwift;
+			sourceTree = "<group>";
+		};
+		D32942171A7FC33D00C32645 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D32942181A7FC33D00C32645 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D329422C1A7FC33D00C32645 /* F25RetrievingGeoPointsSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				D329422F1A7FC33D00C32645 /* F25RetrievingGeoPointsSwiftTests.swift */,
+				D329422D1A7FC33D00C32645 /* Supporting Files */,
+			);
+			path = F25RetrievingGeoPointsSwiftTests;
+			sourceTree = "<group>";
+		};
+		D329422D1A7FC33D00C32645 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D329422E1A7FC33D00C32645 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D329423D1A7FC3B300C32645 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				D329423E1A7FC3B300C32645 /* backendless */,
+				D32942761A7FC3B300C32645 /* CommLibiOS */,
+			);
+			name = lib;
+			path = ../lib;
+			sourceTree = "<group>";
+		};
+		D329423E1A7FC3B300C32645 /* backendless */ = {
+			isa = PBXGroup;
+			children = (
+				D329423F1A7FC3B300C32645 /* backendless.a */,
+				D32942401A7FC3B300C32645 /* include */,
+			);
+			path = backendless;
+			sourceTree = "<group>";
+		};
+		D32942401A7FC3B300C32645 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				D31700DA1A84F32A00772766 /* GeoCluster.h */,
+				D31700DB1A84F32A00772766 /* ProtectedBackendlessGeoQuery.h */,
+				D32942411A7FC3B300C32645 /* AbstractProperty.h */,
+				D32942421A7FC3B300C32645 /* AbstractQuery.h */,
+				D32942431A7FC3B300C32645 /* AtomicCounters.h */,
+				D32942441A7FC3B300C32645 /* AtomicCountersFactory.h */,
+				D32942451A7FC3B300C32645 /* Backendless-Bridging-Header.h */,
+				D32942461A7FC3B300C32645 /* Backendless.h */,
+				D32942471A7FC3B300C32645 /* BackendlessCachePolicy.h */,
+				D32942481A7FC3B300C32645 /* BackendlessCacheProtocol.h */,
+				D32942491A7FC3B300C32645 /* BackendlessCollection.h */,
+				D329424A1A7FC3B300C32645 /* BackendlessDataQuery.h */,
+				D329424B1A7FC3B300C32645 /* BackendlessEntity.h */,
+				D329424C1A7FC3B300C32645 /* BackendlessFile.h */,
+				D329424D1A7FC3B300C32645 /* BackendlessGeoQuery.h */,
+				D329424E1A7FC3B300C32645 /* BackendlessUser.h */,
+				D329424F1A7FC3B300C32645 /* BEAnnotation.h */,
+				D32942501A7FC3B300C32645 /* BECollectionView.h */,
+				D32942511A7FC3B300C32645 /* BEMapView.h */,
+				D32942521A7FC3B300C32645 /* BESubscription.h */,
+				D32942531A7FC3B300C32645 /* BETableView.h */,
+				D32942541A7FC3B300C32645 /* CacheFactory.h */,
+				D32942551A7FC3B300C32645 /* CacheService.h */,
+				D32942561A7FC3B300C32645 /* CustomService.h */,
+				D32942571A7FC3B300C32645 /* DataPermission.h */,
+				D32942581A7FC3B300C32645 /* DataStoreFactory.h */,
+				D32942591A7FC3B300C32645 /* DeliveryOptions.h */,
+				D329425A1A7FC3B300C32645 /* DeviceRegistration.h */,
+				D329425B1A7FC3B300C32645 /* Events.h */,
+				D329425C1A7FC3B300C32645 /* FilePermission.h */,
+				D329425D1A7FC3B300C32645 /* FileService.h */,
+				D329425E1A7FC3B300C32645 /* GeoCategory.h */,
+				D329425F1A7FC3B300C32645 /* GeoPoint.h */,
+				D32942601A7FC3B300C32645 /* GeoService.h */,
+				D32942611A7FC3B300C32645 /* HashMap.h */,
+				D32942621A7FC3B300C32645 /* IAtomicCounters.h */,
+				D32942631A7FC3B300C32645 /* ICacheService.h */,
+				D32942641A7FC3B300C32645 /* IDataStore.h */,
+				D32942651A7FC3B300C32645 /* IMediaStreamer.h */,
+				D32942661A7FC3B300C32645 /* MediaPlaybackOptions.h */,
+				D32942671A7FC3B300C32645 /* MediaPlayer.h */,
+				D32942681A7FC3B300C32645 /* MediaPublisher.h */,
+				D32942691A7FC3B300C32645 /* MediaPublishOptions.h */,
+				D329426A1A7FC3B300C32645 /* MediaService.h */,
+				D329426B1A7FC3B300C32645 /* Message.h */,
+				D329426C1A7FC3B300C32645 /* MessageStatus.h */,
+				D329426D1A7FC3B300C32645 /* MessagingService.h */,
+				D329426E1A7FC3B300C32645 /* ObjectProperty.h */,
+				D329426F1A7FC3B300C32645 /* PersistenceService.h */,
+				D32942701A7FC3B300C32645 /* PublishOptions.h */,
+				D32942711A7FC3B300C32645 /* QueryOptions.h */,
+				D32942721A7FC3B300C32645 /* SubscriptionOptions.h */,
+				D32942731A7FC3B300C32645 /* UserProperty.h */,
+				D32942741A7FC3B300C32645 /* UserService.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		D32942761A7FC3B300C32645 /* CommLibiOS */ = {
+			isa = PBXGroup;
+			children = (
+				D32942771A7FC3B300C32645 /* CommLibiOS.a */,
+				D32942781A7FC3B300C32645 /* include */,
+			);
+			path = CommLibiOS;
+			sourceTree = "<group>";
+		};
+		D32942781A7FC3B300C32645 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				D32942791A7FC3B300C32645 /* AMFSerializer.h */,
+				D329427A1A7FC3B300C32645 /* BinaryCodec.h */,
+				D329427B1A7FC3B300C32645 /* BinaryStream.h */,
+				D329427C1A7FC3B300C32645 /* DEBUG.h */,
+				D329427D1A7FC3B300C32645 /* FlashorbBinaryReader.h */,
+				D329427E1A7FC3B300C32645 /* FlashorbBinaryWriter.h */,
+				D329427F1A7FC3B300C32645 /* IAttributeStore.h */,
+				D32942801A7FC3B300C32645 /* IClientSharedObject.h */,
+				D32942811A7FC3B300C32645 /* IClientSharedObjectDelegate.h */,
+				D32942821A7FC3B300C32645 /* IPendingServiceCallback.h */,
+				D32942831A7FC3B300C32645 /* IPersistable.h */,
+				D32942841A7FC3B300C32645 /* IRTMProtocol.h */,
+				D32942851A7FC3B300C32645 /* IServiceCall.h */,
+				D32942861A7FC3B300C32645 /* ISharedObjectListener.h */,
+				D32942871A7FC3B300C32645 /* MemoryTicker.h */,
+				D32942881A7FC3B300C32645 /* Responder.h */,
+				D32942891A7FC3B300C32645 /* RTMPClient.h */,
+				D329428A1A7FC3B300C32645 /* Types.h */,
+				D329428B1A7FC3B300C32645 /* WeborbClient.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D32941E71A7FC2FE00C32645 /* F25RetrievingGeoPoints */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D329420B1A7FC2FE00C32645 /* Build configuration list for PBXNativeTarget "F25RetrievingGeoPoints" */;
+			buildPhases = (
+				D32941E41A7FC2FE00C32645 /* Sources */,
+				D32941E51A7FC2FE00C32645 /* Frameworks */,
+				D32941E61A7FC2FE00C32645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = F25RetrievingGeoPoints;
+			productName = F25RetrievingGeoPoints;
+			productReference = D32941E81A7FC2FE00C32645 /* F25RetrievingGeoPoints.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D32942001A7FC2FE00C32645 /* F25RetrievingGeoPointsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D329420E1A7FC2FE00C32645 /* Build configuration list for PBXNativeTarget "F25RetrievingGeoPointsTests" */;
+			buildPhases = (
+				D32941FD1A7FC2FE00C32645 /* Sources */,
+				D32941FE1A7FC2FE00C32645 /* Frameworks */,
+				D32941FF1A7FC2FE00C32645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D32942031A7FC2FE00C32645 /* PBXTargetDependency */,
+			);
+			name = F25RetrievingGeoPointsTests;
+			productName = F25RetrievingGeoPointsTests;
+			productReference = D32942011A7FC2FE00C32645 /* F25RetrievingGeoPointsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D32942141A7FC33C00C32645 /* F25RetrievingGeoPointsSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D32942311A7FC33D00C32645 /* Build configuration list for PBXNativeTarget "F25RetrievingGeoPointsSwift" */;
+			buildPhases = (
+				D32942111A7FC33C00C32645 /* Sources */,
+				D32942121A7FC33C00C32645 /* Frameworks */,
+				D32942131A7FC33C00C32645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = F25RetrievingGeoPointsSwift;
+			productName = F25RetrievingGeoPointsSwift;
+			productReference = D32942151A7FC33C00C32645 /* F25RetrievingGeoPointsSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D32942281A7FC33D00C32645 /* F25RetrievingGeoPointsSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D32942341A7FC33D00C32645 /* Build configuration list for PBXNativeTarget "F25RetrievingGeoPointsSwiftTests" */;
+			buildPhases = (
+				D32942251A7FC33D00C32645 /* Sources */,
+				D32942261A7FC33D00C32645 /* Frameworks */,
+				D32942271A7FC33D00C32645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D329422B1A7FC33D00C32645 /* PBXTargetDependency */,
+			);
+			name = F25RetrievingGeoPointsSwiftTests;
+			productName = F25RetrievingGeoPointsSwiftTests;
+			productReference = D32942291A7FC33D00C32645 /* F25RetrievingGeoPointsSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D32941E01A7FC2FE00C32645 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = BACKENDLESS.COM;
+				TargetAttributes = {
+					D32941E71A7FC2FE00C32645 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					D32942001A7FC2FE00C32645 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = D32941E71A7FC2FE00C32645;
+					};
+					D32942141A7FC33C00C32645 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					D32942281A7FC33D00C32645 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = D32942141A7FC33C00C32645;
+					};
+				};
+			};
+			buildConfigurationList = D32941E31A7FC2FE00C32645 /* Build configuration list for PBXProject "F25RetrievingGeoPoints" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D32941DF1A7FC2FE00C32645;
+			productRefGroup = D32941E91A7FC2FE00C32645 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D32941E71A7FC2FE00C32645 /* F25RetrievingGeoPoints */,
+				D32942141A7FC33C00C32645 /* F25RetrievingGeoPointsSwift */,
+				D32942001A7FC2FE00C32645 /* F25RetrievingGeoPointsTests */,
+				D32942281A7FC33D00C32645 /* F25RetrievingGeoPointsSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D32941E61A7FC2FE00C32645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32941F71A7FC2FE00C32645 /* Main.storyboard in Resources */,
+				D32941FC1A7FC2FE00C32645 /* LaunchScreen.xib in Resources */,
+				D32941F91A7FC2FE00C32645 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32941FF1A7FC2FE00C32645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32942131A7FC33C00C32645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D329421F1A7FC33D00C32645 /* Main.storyboard in Resources */,
+				D32942241A7FC33D00C32645 /* LaunchScreen.xib in Resources */,
+				D32942211A7FC33D00C32645 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32942271A7FC33D00C32645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D32941E41A7FC2FE00C32645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32941F41A7FC2FE00C32645 /* ViewController.m in Sources */,
+				D32941F11A7FC2FE00C32645 /* AppDelegate.m in Sources */,
+				D32941EE1A7FC2FE00C32645 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32941FD1A7FC2FE00C32645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32942081A7FC2FE00C32645 /* F25RetrievingGeoPointsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32942111A7FC33C00C32645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D329421C1A7FC33D00C32645 /* ViewController.swift in Sources */,
+				D329421A1A7FC33D00C32645 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32942251A7FC33D00C32645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32942301A7FC33D00C32645 /* F25RetrievingGeoPointsSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D32942031A7FC2FE00C32645 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D32941E71A7FC2FE00C32645 /* F25RetrievingGeoPoints */;
+			targetProxy = D32942021A7FC2FE00C32645 /* PBXContainerItemProxy */;
+		};
+		D329422B1A7FC33D00C32645 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D32942141A7FC33C00C32645 /* F25RetrievingGeoPointsSwift */;
+			targetProxy = D329422A1A7FC33D00C32645 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D32941F51A7FC2FE00C32645 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D32941F61A7FC2FE00C32645 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D32941FA1A7FC2FE00C32645 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D32941FB1A7FC2FE00C32645 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		D329421D1A7FC33D00C32645 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D329421E1A7FC33D00C32645 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D32942221A7FC33D00C32645 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D32942231A7FC33D00C32645 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D32942091A7FC2FE00C32645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D329420A1A7FC2FE00C32645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D329420C1A7FC2FE00C32645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = F25RetrievingGeoPoints/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../lib/backendless",
+					"$(SRCROOT)/../lib/CommLibiOS",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D329420D1A7FC2FE00C32645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = F25RetrievingGeoPoints/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../lib/backendless",
+					"$(SRCROOT)/../lib/CommLibiOS",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D329420F1A7FC2FE00C32645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = F25RetrievingGeoPointsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F25RetrievingGeoPoints.app/F25RetrievingGeoPoints";
+			};
+			name = Debug;
+		};
+		D32942101A7FC2FE00C32645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = F25RetrievingGeoPointsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F25RetrievingGeoPoints.app/F25RetrievingGeoPoints";
+			};
+			name = Release;
+		};
+		D32942321A7FC33D00C32645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = F25RetrievingGeoPointsSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../lib/backendless",
+					"$(SRCROOT)/../lib/CommLibiOS",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D32942331A7FC33D00C32645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = F25RetrievingGeoPointsSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../lib/backendless",
+					"$(SRCROOT)/../lib/CommLibiOS",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		D32942351A7FC33D00C32645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = F25RetrievingGeoPointsSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F25RetrievingGeoPointsSwift.app/F25RetrievingGeoPointsSwift";
+			};
+			name = Debug;
+		};
+		D32942361A7FC33D00C32645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = F25RetrievingGeoPointsSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F25RetrievingGeoPointsSwift.app/F25RetrievingGeoPointsSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D32941E31A7FC2FE00C32645 /* Build configuration list for PBXProject "F25RetrievingGeoPoints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32942091A7FC2FE00C32645 /* Debug */,
+				D329420A1A7FC2FE00C32645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D329420B1A7FC2FE00C32645 /* Build configuration list for PBXNativeTarget "F25RetrievingGeoPoints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D329420C1A7FC2FE00C32645 /* Debug */,
+				D329420D1A7FC2FE00C32645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D329420E1A7FC2FE00C32645 /* Build configuration list for PBXNativeTarget "F25RetrievingGeoPointsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D329420F1A7FC2FE00C32645 /* Debug */,
+				D32942101A7FC2FE00C32645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D32942311A7FC33D00C32645 /* Build configuration list for PBXNativeTarget "F25RetrievingGeoPointsSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32942321A7FC33D00C32645 /* Debug */,
+				D32942331A7FC33D00C32645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D32942341A7FC33D00C32645 /* Build configuration list for PBXNativeTarget "F25RetrievingGeoPointsSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32942351A7FC33D00C32645 /* Debug */,
+				D32942361A7FC33D00C32645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D32941E01A7FC2FE00C32645 /* Project object */;
+}

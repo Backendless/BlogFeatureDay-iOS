@@ -1,0 +1,921 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D31701A21A8E1AB500772766 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D31701A11A8E1AB500772766 /* main.m */; };
+		D31701A51A8E1AB500772766 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D31701A41A8E1AB500772766 /* AppDelegate.m */; };
+		D31701A81A8E1AB500772766 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D31701A71A8E1AB500772766 /* ViewController.m */; };
+		D31701AB1A8E1AB500772766 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D31701A91A8E1AB500772766 /* Main.storyboard */; };
+		D31701AD1A8E1AB500772766 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D31701AC1A8E1AB500772766 /* Images.xcassets */; };
+		D31701B01A8E1AB500772766 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D31701AE1A8E1AB500772766 /* LaunchScreen.xib */; };
+		D31701BC1A8E1AB500772766 /* F34SendingEmailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D31701BB1A8E1AB500772766 /* F34SendingEmailTests.m */; };
+		D31701CE1A8E1ACC00772766 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31701CD1A8E1ACC00772766 /* AppDelegate.swift */; };
+		D31701D01A8E1ACC00772766 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31701CF1A8E1ACC00772766 /* ViewController.swift */; };
+		D31701D31A8E1ACC00772766 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D31701D11A8E1ACC00772766 /* Main.storyboard */; };
+		D31701D51A8E1ACC00772766 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D31701D41A8E1ACC00772766 /* Images.xcassets */; };
+		D31701D81A8E1ACC00772766 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D31701D61A8E1ACC00772766 /* LaunchScreen.xib */; };
+		D31701E41A8E1ACC00772766 /* F34SendingEmailSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31701E31A8E1ACC00772766 /* F34SendingEmailSwiftTests.swift */; };
+		D31701ED1A8E1AF600772766 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D31701EB1A8E1AF600772766 /* libsqlite3.dylib */; };
+		D31701EE1A8E1AF600772766 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31701EC1A8E1AF600772766 /* SystemConfiguration.framework */; };
+		D31701EF1A8E1B0900772766 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D31701EB1A8E1AF600772766 /* libsqlite3.dylib */; };
+		D31701F01A8E1B0900772766 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31701EC1A8E1AF600772766 /* SystemConfiguration.framework */; };
+		D31702421A8E1B1C00772766 /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D31701F31A8E1B1C00772766 /* backendless.a */; };
+		D31702431A8E1B1C00772766 /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D31701F31A8E1B1C00772766 /* backendless.a */; };
+		D31702461A8E1B1C00772766 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D317022D1A8E1B1C00772766 /* CommLibiOS.a */; };
+		D31702471A8E1B1C00772766 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D317022D1A8E1B1C00772766 /* CommLibiOS.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D31701B61A8E1AB500772766 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D31701941A8E1AB500772766 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D317019B1A8E1AB500772766;
+			remoteInfo = F34SendingEmail;
+		};
+		D31701DE1A8E1ACC00772766 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D31701941A8E1AB500772766 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D31701C81A8E1ACC00772766;
+			remoteInfo = F34SendingEmailSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D317019C1A8E1AB500772766 /* F34SendingEmail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F34SendingEmail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D31701A01A8E1AB500772766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D31701A11A8E1AB500772766 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D31701A31A8E1AB500772766 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D31701A41A8E1AB500772766 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D31701A61A8E1AB500772766 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D31701A71A8E1AB500772766 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D31701AA1A8E1AB500772766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D31701AC1A8E1AB500772766 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D31701AF1A8E1AB500772766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D31701B51A8E1AB500772766 /* F34SendingEmailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F34SendingEmailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D31701BA1A8E1AB500772766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D31701BB1A8E1AB500772766 /* F34SendingEmailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = F34SendingEmailTests.m; sourceTree = "<group>"; };
+		D31701C91A8E1ACC00772766 /* F34SendingEmailSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F34SendingEmailSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D31701CC1A8E1ACC00772766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D31701CD1A8E1ACC00772766 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D31701CF1A8E1ACC00772766 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D31701D21A8E1ACC00772766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D31701D41A8E1ACC00772766 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D31701D71A8E1ACC00772766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D31701DD1A8E1ACC00772766 /* F34SendingEmailSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F34SendingEmailSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D31701E21A8E1ACC00772766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D31701E31A8E1ACC00772766 /* F34SendingEmailSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F34SendingEmailSwiftTests.swift; sourceTree = "<group>"; };
+		D31701EB1A8E1AF600772766 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		D31701EC1A8E1AF600772766 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D31701F31A8E1B1C00772766 /* backendless.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = backendless.a; sourceTree = "<group>"; };
+		D31701F51A8E1B1C00772766 /* AbstractProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractProperty.h; sourceTree = "<group>"; };
+		D31701F61A8E1B1C00772766 /* AbstractQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractQuery.h; sourceTree = "<group>"; };
+		D31701F71A8E1B1C00772766 /* AtomicCounters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtomicCounters.h; sourceTree = "<group>"; };
+		D31701F81A8E1B1C00772766 /* AtomicCountersFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtomicCountersFactory.h; sourceTree = "<group>"; };
+		D31701F91A8E1B1C00772766 /* Backendless-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Backendless-Bridging-Header.h"; sourceTree = "<group>"; };
+		D31701FA1A8E1B1C00772766 /* Backendless.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Backendless.h; sourceTree = "<group>"; };
+		D31701FB1A8E1B1C00772766 /* BackendlessCachePolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessCachePolicy.h; sourceTree = "<group>"; };
+		D31701FC1A8E1B1C00772766 /* BackendlessCacheProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessCacheProtocol.h; sourceTree = "<group>"; };
+		D31701FD1A8E1B1C00772766 /* BackendlessCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessCollection.h; sourceTree = "<group>"; };
+		D31701FE1A8E1B1C00772766 /* BackendlessDataQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessDataQuery.h; sourceTree = "<group>"; };
+		D31701FF1A8E1B1C00772766 /* BackendlessEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessEntity.h; sourceTree = "<group>"; };
+		D31702001A8E1B1C00772766 /* BackendlessFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessFile.h; sourceTree = "<group>"; };
+		D31702011A8E1B1C00772766 /* BackendlessGeoQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessGeoQuery.h; sourceTree = "<group>"; };
+		D31702021A8E1B1C00772766 /* BackendlessUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessUser.h; sourceTree = "<group>"; };
+		D31702031A8E1B1C00772766 /* BEAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEAnnotation.h; sourceTree = "<group>"; };
+		D31702041A8E1B1C00772766 /* BECollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BECollectionView.h; sourceTree = "<group>"; };
+		D31702051A8E1B1C00772766 /* BEMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMapView.h; sourceTree = "<group>"; };
+		D31702061A8E1B1C00772766 /* BESubscription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BESubscription.h; sourceTree = "<group>"; };
+		D31702071A8E1B1C00772766 /* BETableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BETableView.h; sourceTree = "<group>"; };
+		D31702081A8E1B1C00772766 /* CacheFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheFactory.h; sourceTree = "<group>"; };
+		D31702091A8E1B1C00772766 /* CacheService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheService.h; sourceTree = "<group>"; };
+		D317020A1A8E1B1C00772766 /* CustomService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomService.h; sourceTree = "<group>"; };
+		D317020B1A8E1B1C00772766 /* DataPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataPermission.h; sourceTree = "<group>"; };
+		D317020C1A8E1B1C00772766 /* DataStoreFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStoreFactory.h; sourceTree = "<group>"; };
+		D317020D1A8E1B1C00772766 /* DeliveryOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeliveryOptions.h; sourceTree = "<group>"; };
+		D317020E1A8E1B1C00772766 /* DeviceRegistration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceRegistration.h; sourceTree = "<group>"; };
+		D317020F1A8E1B1C00772766 /* Events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Events.h; sourceTree = "<group>"; };
+		D31702101A8E1B1C00772766 /* FilePermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilePermission.h; sourceTree = "<group>"; };
+		D31702111A8E1B1C00772766 /* FileService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileService.h; sourceTree = "<group>"; };
+		D31702121A8E1B1C00772766 /* GeoCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoCategory.h; sourceTree = "<group>"; };
+		D31702131A8E1B1C00772766 /* GeoCluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoCluster.h; sourceTree = "<group>"; };
+		D31702141A8E1B1C00772766 /* GeoPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoPoint.h; sourceTree = "<group>"; };
+		D31702151A8E1B1C00772766 /* GeoService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoService.h; sourceTree = "<group>"; };
+		D31702161A8E1B1C00772766 /* HashMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HashMap.h; sourceTree = "<group>"; };
+		D31702171A8E1B1C00772766 /* IAtomicCounters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAtomicCounters.h; sourceTree = "<group>"; };
+		D31702181A8E1B1C00772766 /* ICacheService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICacheService.h; sourceTree = "<group>"; };
+		D31702191A8E1B1C00772766 /* IDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDataStore.h; sourceTree = "<group>"; };
+		D317021A1A8E1B1C00772766 /* IMediaStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMediaStreamer.h; sourceTree = "<group>"; };
+		D317021B1A8E1B1C00772766 /* MediaPlaybackOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaPlaybackOptions.h; sourceTree = "<group>"; };
+		D317021C1A8E1B1C00772766 /* MediaPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaPlayer.h; sourceTree = "<group>"; };
+		D317021D1A8E1B1C00772766 /* MediaPublisher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaPublisher.h; sourceTree = "<group>"; };
+		D317021E1A8E1B1C00772766 /* MediaPublishOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaPublishOptions.h; sourceTree = "<group>"; };
+		D317021F1A8E1B1C00772766 /* MediaService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaService.h; sourceTree = "<group>"; };
+		D31702201A8E1B1C00772766 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		D31702211A8E1B1C00772766 /* MessageStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageStatus.h; sourceTree = "<group>"; };
+		D31702221A8E1B1C00772766 /* MessagingService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagingService.h; sourceTree = "<group>"; };
+		D31702231A8E1B1C00772766 /* ObjectProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectProperty.h; sourceTree = "<group>"; };
+		D31702241A8E1B1C00772766 /* PersistenceService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersistenceService.h; sourceTree = "<group>"; };
+		D31702251A8E1B1C00772766 /* ProtectedBackendlessGeoQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtectedBackendlessGeoQuery.h; sourceTree = "<group>"; };
+		D31702261A8E1B1C00772766 /* PublishOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishOptions.h; sourceTree = "<group>"; };
+		D31702271A8E1B1C00772766 /* QueryOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryOptions.h; sourceTree = "<group>"; };
+		D31702281A8E1B1C00772766 /* SubscriptionOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscriptionOptions.h; sourceTree = "<group>"; };
+		D31702291A8E1B1C00772766 /* UserProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserProperty.h; sourceTree = "<group>"; };
+		D317022A1A8E1B1C00772766 /* UserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserService.h; sourceTree = "<group>"; };
+		D317022D1A8E1B1C00772766 /* CommLibiOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = CommLibiOS.a; sourceTree = "<group>"; };
+		D317022F1A8E1B1C00772766 /* AMFSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMFSerializer.h; sourceTree = "<group>"; };
+		D31702301A8E1B1C00772766 /* BinaryCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryCodec.h; sourceTree = "<group>"; };
+		D31702311A8E1B1C00772766 /* BinaryStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryStream.h; sourceTree = "<group>"; };
+		D31702321A8E1B1C00772766 /* DEBUG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEBUG.h; sourceTree = "<group>"; };
+		D31702331A8E1B1C00772766 /* FlashorbBinaryReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashorbBinaryReader.h; sourceTree = "<group>"; };
+		D31702341A8E1B1C00772766 /* FlashorbBinaryWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashorbBinaryWriter.h; sourceTree = "<group>"; };
+		D31702351A8E1B1C00772766 /* IAttributeStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAttributeStore.h; sourceTree = "<group>"; };
+		D31702361A8E1B1C00772766 /* IClientSharedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IClientSharedObject.h; sourceTree = "<group>"; };
+		D31702371A8E1B1C00772766 /* IClientSharedObjectDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IClientSharedObjectDelegate.h; sourceTree = "<group>"; };
+		D31702381A8E1B1C00772766 /* IPendingServiceCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPendingServiceCallback.h; sourceTree = "<group>"; };
+		D31702391A8E1B1C00772766 /* IPersistable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPersistable.h; sourceTree = "<group>"; };
+		D317023A1A8E1B1C00772766 /* IRTMProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRTMProtocol.h; sourceTree = "<group>"; };
+		D317023B1A8E1B1C00772766 /* IServiceCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IServiceCall.h; sourceTree = "<group>"; };
+		D317023C1A8E1B1C00772766 /* ISharedObjectListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISharedObjectListener.h; sourceTree = "<group>"; };
+		D317023D1A8E1B1C00772766 /* MemoryTicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoryTicker.h; sourceTree = "<group>"; };
+		D317023E1A8E1B1C00772766 /* Responder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Responder.h; sourceTree = "<group>"; };
+		D317023F1A8E1B1C00772766 /* RTMPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTMPClient.h; sourceTree = "<group>"; };
+		D31702401A8E1B1C00772766 /* Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
+		D31702411A8E1B1C00772766 /* WeborbClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeborbClient.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D31701991A8E1AB500772766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31701ED1A8E1AF600772766 /* libsqlite3.dylib in Frameworks */,
+				D31702421A8E1B1C00772766 /* backendless.a in Frameworks */,
+				D31701EE1A8E1AF600772766 /* SystemConfiguration.framework in Frameworks */,
+				D31702461A8E1B1C00772766 /* CommLibiOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31701B21A8E1AB500772766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31701C61A8E1ACC00772766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31701EF1A8E1B0900772766 /* libsqlite3.dylib in Frameworks */,
+				D31702431A8E1B1C00772766 /* backendless.a in Frameworks */,
+				D31701F01A8E1B0900772766 /* SystemConfiguration.framework in Frameworks */,
+				D31702471A8E1B1C00772766 /* CommLibiOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31701DA1A8E1ACC00772766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D31701931A8E1AB500772766 = {
+			isa = PBXGroup;
+			children = (
+				D31701F11A8E1B1C00772766 /* lib */,
+				D31701EB1A8E1AF600772766 /* libsqlite3.dylib */,
+				D31701EC1A8E1AF600772766 /* SystemConfiguration.framework */,
+				D317019E1A8E1AB500772766 /* F34SendingEmail */,
+				D31701B81A8E1AB500772766 /* F34SendingEmailTests */,
+				D31701CA1A8E1ACC00772766 /* F34SendingEmailSwift */,
+				D31701E01A8E1ACC00772766 /* F34SendingEmailSwiftTests */,
+				D317019D1A8E1AB500772766 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D317019D1A8E1AB500772766 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D317019C1A8E1AB500772766 /* F34SendingEmail.app */,
+				D31701B51A8E1AB500772766 /* F34SendingEmailTests.xctest */,
+				D31701C91A8E1ACC00772766 /* F34SendingEmailSwift.app */,
+				D31701DD1A8E1ACC00772766 /* F34SendingEmailSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D317019E1A8E1AB500772766 /* F34SendingEmail */ = {
+			isa = PBXGroup;
+			children = (
+				D31701A31A8E1AB500772766 /* AppDelegate.h */,
+				D31701A41A8E1AB500772766 /* AppDelegate.m */,
+				D31701A61A8E1AB500772766 /* ViewController.h */,
+				D31701A71A8E1AB500772766 /* ViewController.m */,
+				D31701A91A8E1AB500772766 /* Main.storyboard */,
+				D31701AC1A8E1AB500772766 /* Images.xcassets */,
+				D31701AE1A8E1AB500772766 /* LaunchScreen.xib */,
+				D317019F1A8E1AB500772766 /* Supporting Files */,
+			);
+			path = F34SendingEmail;
+			sourceTree = "<group>";
+		};
+		D317019F1A8E1AB500772766 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D31701A01A8E1AB500772766 /* Info.plist */,
+				D31701A11A8E1AB500772766 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D31701B81A8E1AB500772766 /* F34SendingEmailTests */ = {
+			isa = PBXGroup;
+			children = (
+				D31701BB1A8E1AB500772766 /* F34SendingEmailTests.m */,
+				D31701B91A8E1AB500772766 /* Supporting Files */,
+			);
+			path = F34SendingEmailTests;
+			sourceTree = "<group>";
+		};
+		D31701B91A8E1AB500772766 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D31701BA1A8E1AB500772766 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D31701CA1A8E1ACC00772766 /* F34SendingEmailSwift */ = {
+			isa = PBXGroup;
+			children = (
+				D31701CD1A8E1ACC00772766 /* AppDelegate.swift */,
+				D31701CF1A8E1ACC00772766 /* ViewController.swift */,
+				D31701D11A8E1ACC00772766 /* Main.storyboard */,
+				D31701D41A8E1ACC00772766 /* Images.xcassets */,
+				D31701D61A8E1ACC00772766 /* LaunchScreen.xib */,
+				D31701CB1A8E1ACC00772766 /* Supporting Files */,
+			);
+			path = F34SendingEmailSwift;
+			sourceTree = "<group>";
+		};
+		D31701CB1A8E1ACC00772766 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D31701CC1A8E1ACC00772766 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D31701E01A8E1ACC00772766 /* F34SendingEmailSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				D31701E31A8E1ACC00772766 /* F34SendingEmailSwiftTests.swift */,
+				D31701E11A8E1ACC00772766 /* Supporting Files */,
+			);
+			path = F34SendingEmailSwiftTests;
+			sourceTree = "<group>";
+		};
+		D31701E11A8E1ACC00772766 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D31701E21A8E1ACC00772766 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D31701F11A8E1B1C00772766 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				D31701F21A8E1B1C00772766 /* backendless */,
+				D317022C1A8E1B1C00772766 /* CommLibiOS */,
+			);
+			name = lib;
+			path = ../lib;
+			sourceTree = "<group>";
+		};
+		D31701F21A8E1B1C00772766 /* backendless */ = {
+			isa = PBXGroup;
+			children = (
+				D31701F31A8E1B1C00772766 /* backendless.a */,
+				D31701F41A8E1B1C00772766 /* include */,
+			);
+			path = backendless;
+			sourceTree = "<group>";
+		};
+		D31701F41A8E1B1C00772766 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				D31701F51A8E1B1C00772766 /* AbstractProperty.h */,
+				D31701F61A8E1B1C00772766 /* AbstractQuery.h */,
+				D31701F71A8E1B1C00772766 /* AtomicCounters.h */,
+				D31701F81A8E1B1C00772766 /* AtomicCountersFactory.h */,
+				D31701F91A8E1B1C00772766 /* Backendless-Bridging-Header.h */,
+				D31701FA1A8E1B1C00772766 /* Backendless.h */,
+				D31701FB1A8E1B1C00772766 /* BackendlessCachePolicy.h */,
+				D31701FC1A8E1B1C00772766 /* BackendlessCacheProtocol.h */,
+				D31701FD1A8E1B1C00772766 /* BackendlessCollection.h */,
+				D31701FE1A8E1B1C00772766 /* BackendlessDataQuery.h */,
+				D31701FF1A8E1B1C00772766 /* BackendlessEntity.h */,
+				D31702001A8E1B1C00772766 /* BackendlessFile.h */,
+				D31702011A8E1B1C00772766 /* BackendlessGeoQuery.h */,
+				D31702021A8E1B1C00772766 /* BackendlessUser.h */,
+				D31702031A8E1B1C00772766 /* BEAnnotation.h */,
+				D31702041A8E1B1C00772766 /* BECollectionView.h */,
+				D31702051A8E1B1C00772766 /* BEMapView.h */,
+				D31702061A8E1B1C00772766 /* BESubscription.h */,
+				D31702071A8E1B1C00772766 /* BETableView.h */,
+				D31702081A8E1B1C00772766 /* CacheFactory.h */,
+				D31702091A8E1B1C00772766 /* CacheService.h */,
+				D317020A1A8E1B1C00772766 /* CustomService.h */,
+				D317020B1A8E1B1C00772766 /* DataPermission.h */,
+				D317020C1A8E1B1C00772766 /* DataStoreFactory.h */,
+				D317020D1A8E1B1C00772766 /* DeliveryOptions.h */,
+				D317020E1A8E1B1C00772766 /* DeviceRegistration.h */,
+				D317020F1A8E1B1C00772766 /* Events.h */,
+				D31702101A8E1B1C00772766 /* FilePermission.h */,
+				D31702111A8E1B1C00772766 /* FileService.h */,
+				D31702121A8E1B1C00772766 /* GeoCategory.h */,
+				D31702131A8E1B1C00772766 /* GeoCluster.h */,
+				D31702141A8E1B1C00772766 /* GeoPoint.h */,
+				D31702151A8E1B1C00772766 /* GeoService.h */,
+				D31702161A8E1B1C00772766 /* HashMap.h */,
+				D31702171A8E1B1C00772766 /* IAtomicCounters.h */,
+				D31702181A8E1B1C00772766 /* ICacheService.h */,
+				D31702191A8E1B1C00772766 /* IDataStore.h */,
+				D317021A1A8E1B1C00772766 /* IMediaStreamer.h */,
+				D317021B1A8E1B1C00772766 /* MediaPlaybackOptions.h */,
+				D317021C1A8E1B1C00772766 /* MediaPlayer.h */,
+				D317021D1A8E1B1C00772766 /* MediaPublisher.h */,
+				D317021E1A8E1B1C00772766 /* MediaPublishOptions.h */,
+				D317021F1A8E1B1C00772766 /* MediaService.h */,
+				D31702201A8E1B1C00772766 /* Message.h */,
+				D31702211A8E1B1C00772766 /* MessageStatus.h */,
+				D31702221A8E1B1C00772766 /* MessagingService.h */,
+				D31702231A8E1B1C00772766 /* ObjectProperty.h */,
+				D31702241A8E1B1C00772766 /* PersistenceService.h */,
+				D31702251A8E1B1C00772766 /* ProtectedBackendlessGeoQuery.h */,
+				D31702261A8E1B1C00772766 /* PublishOptions.h */,
+				D31702271A8E1B1C00772766 /* QueryOptions.h */,
+				D31702281A8E1B1C00772766 /* SubscriptionOptions.h */,
+				D31702291A8E1B1C00772766 /* UserProperty.h */,
+				D317022A1A8E1B1C00772766 /* UserService.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		D317022C1A8E1B1C00772766 /* CommLibiOS */ = {
+			isa = PBXGroup;
+			children = (
+				D317022D1A8E1B1C00772766 /* CommLibiOS.a */,
+				D317022E1A8E1B1C00772766 /* include */,
+			);
+			path = CommLibiOS;
+			sourceTree = "<group>";
+		};
+		D317022E1A8E1B1C00772766 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				D317022F1A8E1B1C00772766 /* AMFSerializer.h */,
+				D31702301A8E1B1C00772766 /* BinaryCodec.h */,
+				D31702311A8E1B1C00772766 /* BinaryStream.h */,
+				D31702321A8E1B1C00772766 /* DEBUG.h */,
+				D31702331A8E1B1C00772766 /* FlashorbBinaryReader.h */,
+				D31702341A8E1B1C00772766 /* FlashorbBinaryWriter.h */,
+				D31702351A8E1B1C00772766 /* IAttributeStore.h */,
+				D31702361A8E1B1C00772766 /* IClientSharedObject.h */,
+				D31702371A8E1B1C00772766 /* IClientSharedObjectDelegate.h */,
+				D31702381A8E1B1C00772766 /* IPendingServiceCallback.h */,
+				D31702391A8E1B1C00772766 /* IPersistable.h */,
+				D317023A1A8E1B1C00772766 /* IRTMProtocol.h */,
+				D317023B1A8E1B1C00772766 /* IServiceCall.h */,
+				D317023C1A8E1B1C00772766 /* ISharedObjectListener.h */,
+				D317023D1A8E1B1C00772766 /* MemoryTicker.h */,
+				D317023E1A8E1B1C00772766 /* Responder.h */,
+				D317023F1A8E1B1C00772766 /* RTMPClient.h */,
+				D31702401A8E1B1C00772766 /* Types.h */,
+				D31702411A8E1B1C00772766 /* WeborbClient.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D317019B1A8E1AB500772766 /* F34SendingEmail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D31701BF1A8E1AB500772766 /* Build configuration list for PBXNativeTarget "F34SendingEmail" */;
+			buildPhases = (
+				D31701981A8E1AB500772766 /* Sources */,
+				D31701991A8E1AB500772766 /* Frameworks */,
+				D317019A1A8E1AB500772766 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = F34SendingEmail;
+			productName = F34SendingEmail;
+			productReference = D317019C1A8E1AB500772766 /* F34SendingEmail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D31701B41A8E1AB500772766 /* F34SendingEmailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D31701C21A8E1AB500772766 /* Build configuration list for PBXNativeTarget "F34SendingEmailTests" */;
+			buildPhases = (
+				D31701B11A8E1AB500772766 /* Sources */,
+				D31701B21A8E1AB500772766 /* Frameworks */,
+				D31701B31A8E1AB500772766 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D31701B71A8E1AB500772766 /* PBXTargetDependency */,
+			);
+			name = F34SendingEmailTests;
+			productName = F34SendingEmailTests;
+			productReference = D31701B51A8E1AB500772766 /* F34SendingEmailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D31701C81A8E1ACC00772766 /* F34SendingEmailSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D31701E51A8E1ACC00772766 /* Build configuration list for PBXNativeTarget "F34SendingEmailSwift" */;
+			buildPhases = (
+				D31701C51A8E1ACC00772766 /* Sources */,
+				D31701C61A8E1ACC00772766 /* Frameworks */,
+				D31701C71A8E1ACC00772766 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = F34SendingEmailSwift;
+			productName = F34SendingEmailSwift;
+			productReference = D31701C91A8E1ACC00772766 /* F34SendingEmailSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D31701DC1A8E1ACC00772766 /* F34SendingEmailSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D31701E81A8E1ACC00772766 /* Build configuration list for PBXNativeTarget "F34SendingEmailSwiftTests" */;
+			buildPhases = (
+				D31701D91A8E1ACC00772766 /* Sources */,
+				D31701DA1A8E1ACC00772766 /* Frameworks */,
+				D31701DB1A8E1ACC00772766 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D31701DF1A8E1ACC00772766 /* PBXTargetDependency */,
+			);
+			name = F34SendingEmailSwiftTests;
+			productName = F34SendingEmailSwiftTests;
+			productReference = D31701DD1A8E1ACC00772766 /* F34SendingEmailSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D31701941A8E1AB500772766 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = BACKENDLESS.COM;
+				TargetAttributes = {
+					D317019B1A8E1AB500772766 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					D31701B41A8E1AB500772766 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = D317019B1A8E1AB500772766;
+					};
+					D31701C81A8E1ACC00772766 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					D31701DC1A8E1ACC00772766 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = D31701C81A8E1ACC00772766;
+					};
+				};
+			};
+			buildConfigurationList = D31701971A8E1AB500772766 /* Build configuration list for PBXProject "F34SendingEmail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D31701931A8E1AB500772766;
+			productRefGroup = D317019D1A8E1AB500772766 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D317019B1A8E1AB500772766 /* F34SendingEmail */,
+				D31701C81A8E1ACC00772766 /* F34SendingEmailSwift */,
+				D31701B41A8E1AB500772766 /* F34SendingEmailTests */,
+				D31701DC1A8E1ACC00772766 /* F34SendingEmailSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D317019A1A8E1AB500772766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31701AB1A8E1AB500772766 /* Main.storyboard in Resources */,
+				D31701B01A8E1AB500772766 /* LaunchScreen.xib in Resources */,
+				D31701AD1A8E1AB500772766 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31701B31A8E1AB500772766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31701C71A8E1ACC00772766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31701D31A8E1ACC00772766 /* Main.storyboard in Resources */,
+				D31701D81A8E1ACC00772766 /* LaunchScreen.xib in Resources */,
+				D31701D51A8E1ACC00772766 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31701DB1A8E1ACC00772766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D31701981A8E1AB500772766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31701A81A8E1AB500772766 /* ViewController.m in Sources */,
+				D31701A51A8E1AB500772766 /* AppDelegate.m in Sources */,
+				D31701A21A8E1AB500772766 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31701B11A8E1AB500772766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31701BC1A8E1AB500772766 /* F34SendingEmailTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31701C51A8E1ACC00772766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31701D01A8E1ACC00772766 /* ViewController.swift in Sources */,
+				D31701CE1A8E1ACC00772766 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31701D91A8E1ACC00772766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31701E41A8E1ACC00772766 /* F34SendingEmailSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D31701B71A8E1AB500772766 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D317019B1A8E1AB500772766 /* F34SendingEmail */;
+			targetProxy = D31701B61A8E1AB500772766 /* PBXContainerItemProxy */;
+		};
+		D31701DF1A8E1ACC00772766 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D31701C81A8E1ACC00772766 /* F34SendingEmailSwift */;
+			targetProxy = D31701DE1A8E1ACC00772766 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D31701A91A8E1AB500772766 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D31701AA1A8E1AB500772766 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D31701AE1A8E1AB500772766 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D31701AF1A8E1AB500772766 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		D31701D11A8E1ACC00772766 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D31701D21A8E1ACC00772766 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D31701D61A8E1ACC00772766 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D31701D71A8E1ACC00772766 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D31701BD1A8E1AB500772766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D31701BE1A8E1AB500772766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D31701C01A8E1AB500772766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = F34SendingEmail/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../lib/backendless",
+					"$(SRCROOT)/../lib/CommLibiOS",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D31701C11A8E1AB500772766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = F34SendingEmail/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../lib/backendless",
+					"$(SRCROOT)/../lib/CommLibiOS",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D31701C31A8E1AB500772766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = F34SendingEmailTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F34SendingEmail.app/F34SendingEmail";
+			};
+			name = Debug;
+		};
+		D31701C41A8E1AB500772766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = F34SendingEmailTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F34SendingEmail.app/F34SendingEmail";
+			};
+			name = Release;
+		};
+		D31701E61A8E1ACC00772766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = F34SendingEmailSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../lib/backendless",
+					"$(SRCROOT)/../lib/CommLibiOS",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D31701E71A8E1ACC00772766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = F34SendingEmailSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../lib/backendless",
+					"$(SRCROOT)/../lib/CommLibiOS",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		D31701E91A8E1ACC00772766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = F34SendingEmailSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F34SendingEmailSwift.app/F34SendingEmailSwift";
+			};
+			name = Debug;
+		};
+		D31701EA1A8E1ACC00772766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = F34SendingEmailSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F34SendingEmailSwift.app/F34SendingEmailSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D31701971A8E1AB500772766 /* Build configuration list for PBXProject "F34SendingEmail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D31701BD1A8E1AB500772766 /* Debug */,
+				D31701BE1A8E1AB500772766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D31701BF1A8E1AB500772766 /* Build configuration list for PBXNativeTarget "F34SendingEmail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D31701C01A8E1AB500772766 /* Debug */,
+				D31701C11A8E1AB500772766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D31701C21A8E1AB500772766 /* Build configuration list for PBXNativeTarget "F34SendingEmailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D31701C31A8E1AB500772766 /* Debug */,
+				D31701C41A8E1AB500772766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D31701E51A8E1ACC00772766 /* Build configuration list for PBXNativeTarget "F34SendingEmailSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D31701E61A8E1ACC00772766 /* Debug */,
+				D31701E71A8E1ACC00772766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D31701E81A8E1ACC00772766 /* Build configuration list for PBXNativeTarget "F34SendingEmailSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D31701E91A8E1ACC00772766 /* Debug */,
+				D31701EA1A8E1ACC00772766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D31701941A8E1AB500772766 /* Project object */;
+}

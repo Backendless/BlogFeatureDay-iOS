@@ -1,0 +1,943 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F997E2061B31980C001C602F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F997E2051B31980C001C602F /* Person.m */; };
+		F997E2081B319823001C602F /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F997E2071B319823001C602F /* Person.swift */; };
+		F9BE3E8B1B29BD5B00CD0A72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BE3E8A1B29BD5B00CD0A72 /* main.m */; };
+		F9BE3E8E1B29BD5B00CD0A72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BE3E8D1B29BD5B00CD0A72 /* AppDelegate.m */; };
+		F9BE3E911B29BD5B00CD0A72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BE3E901B29BD5B00CD0A72 /* ViewController.m */; };
+		F9BE3E941B29BD5B00CD0A72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BE3E921B29BD5B00CD0A72 /* Main.storyboard */; };
+		F9BE3E961B29BD5B00CD0A72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9BE3E951B29BD5B00CD0A72 /* Images.xcassets */; };
+		F9BE3E991B29BD5B00CD0A72 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9BE3E971B29BD5B00CD0A72 /* LaunchScreen.xib */; };
+		F9BE3EA51B29BD5B00CD0A72 /* F61CachePlacingRetrievingObjectsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BE3EA41B29BD5B00CD0A72 /* F61CachePlacingRetrievingObjectsTests.m */; };
+		F9BE3EB71B29BDAC00CD0A72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE3EB61B29BDAC00CD0A72 /* AppDelegate.swift */; };
+		F9BE3EB91B29BDAC00CD0A72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE3EB81B29BDAC00CD0A72 /* ViewController.swift */; };
+		F9BE3EBC1B29BDAC00CD0A72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BE3EBA1B29BDAC00CD0A72 /* Main.storyboard */; };
+		F9BE3EBE1B29BDAC00CD0A72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9BE3EBD1B29BDAC00CD0A72 /* Images.xcassets */; };
+		F9BE3EC11B29BDAC00CD0A72 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9BE3EBF1B29BDAC00CD0A72 /* LaunchScreen.xib */; };
+		F9BE3ECD1B29BDAD00CD0A72 /* F61CachePlacingRetrievingObjectsSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE3ECC1B29BDAD00CD0A72 /* F61CachePlacingRetrievingObjectsSwiftTests.swift */; };
+		F9BE3FE31B29C01B00CD0A72 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE3FE11B29C01B00CD0A72 /* libsqlite3.dylib */; };
+		F9BE3FE41B29C01B00CD0A72 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE3FE21B29C01B00CD0A72 /* SystemConfiguration.framework */; };
+		F9BE3FE51B29C03800CD0A72 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE3FE11B29C01B00CD0A72 /* libsqlite3.dylib */; };
+		F9BE3FE61B29C03800CD0A72 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE3FE21B29C01B00CD0A72 /* SystemConfiguration.framework */; };
+		F9BE403C1B29C05200CD0A72 /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE3FE91B29C05100CD0A72 /* backendless.a */; };
+		F9BE403D1B29C05200CD0A72 /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE3FE91B29C05100CD0A72 /* backendless.a */; };
+		F9BE403E1B29C05200CD0A72 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE40271B29C05200CD0A72 /* CommLibiOS.a */; };
+		F9BE403F1B29C05200CD0A72 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE40271B29C05200CD0A72 /* CommLibiOS.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9BE3E9F1B29BD5B00CD0A72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9BE3E7D1B29BD5A00CD0A72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9BE3E841B29BD5A00CD0A72;
+			remoteInfo = F61CachePlacingRetrievingObjects;
+		};
+		F9BE3EC71B29BDAC00CD0A72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9BE3E7D1B29BD5A00CD0A72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9BE3EB11B29BDAC00CD0A72;
+			remoteInfo = F61CachePlacingRetrievingObjectsSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F997E2041B31980C001C602F /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		F997E2051B31980C001C602F /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		F997E2071B319823001C602F /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		F9BE3E851B29BD5A00CD0A72 /* F61CachePlacingRetrievingObjects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F61CachePlacingRetrievingObjects.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9BE3E891B29BD5B00CD0A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9BE3E8A1B29BD5B00CD0A72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F9BE3E8C1B29BD5B00CD0A72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F9BE3E8D1B29BD5B00CD0A72 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F9BE3E8F1B29BD5B00CD0A72 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F9BE3E901B29BD5B00CD0A72 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F9BE3E931B29BD5B00CD0A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9BE3E951B29BD5B00CD0A72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F9BE3E981B29BD5B00CD0A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F9BE3E9E1B29BD5B00CD0A72 /* F61CachePlacingRetrievingObjectsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F61CachePlacingRetrievingObjectsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9BE3EA31B29BD5B00CD0A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9BE3EA41B29BD5B00CD0A72 /* F61CachePlacingRetrievingObjectsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = F61CachePlacingRetrievingObjectsTests.m; sourceTree = "<group>"; };
+		F9BE3EB21B29BDAC00CD0A72 /* F61CachePlacingRetrievingObjectsSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F61CachePlacingRetrievingObjectsSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9BE3EB51B29BDAC00CD0A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9BE3EB61B29BDAC00CD0A72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9BE3EB81B29BDAC00CD0A72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9BE3EBB1B29BDAC00CD0A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9BE3EBD1B29BDAC00CD0A72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F9BE3EC01B29BDAC00CD0A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F9BE3EC61B29BDAC00CD0A72 /* F61CachePlacingRetrievingObjectsSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F61CachePlacingRetrievingObjectsSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9BE3ECB1B29BDAD00CD0A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9BE3ECC1B29BDAD00CD0A72 /* F61CachePlacingRetrievingObjectsSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F61CachePlacingRetrievingObjectsSwiftTests.swift; sourceTree = "<group>"; };
+		F9BE3FE11B29C01B00CD0A72 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		F9BE3FE21B29C01B00CD0A72 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F9BE3FE91B29C05100CD0A72 /* backendless.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = backendless.a; sourceTree = "<group>"; };
+		F9BE3FEB1B29C05100CD0A72 /* AbstractProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractProperty.h; sourceTree = "<group>"; };
+		F9BE3FEC1B29C05100CD0A72 /* AbstractQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractQuery.h; sourceTree = "<group>"; };
+		F9BE3FED1B29C05100CD0A72 /* AtomicCounters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtomicCounters.h; sourceTree = "<group>"; };
+		F9BE3FEE1B29C05100CD0A72 /* AtomicCountersFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtomicCountersFactory.h; sourceTree = "<group>"; };
+		F9BE3FEF1B29C05100CD0A72 /* Backendless-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Backendless-Bridging-Header.h"; sourceTree = "<group>"; };
+		F9BE3FF01B29C05100CD0A72 /* Backendless.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Backendless.h; sourceTree = "<group>"; };
+		F9BE3FF11B29C05100CD0A72 /* BackendlessCachePolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessCachePolicy.h; sourceTree = "<group>"; };
+		F9BE3FF21B29C05200CD0A72 /* BackendlessCacheProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessCacheProtocol.h; sourceTree = "<group>"; };
+		F9BE3FF31B29C05200CD0A72 /* BackendlessCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessCollection.h; sourceTree = "<group>"; };
+		F9BE3FF41B29C05200CD0A72 /* BackendlessDataQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessDataQuery.h; sourceTree = "<group>"; };
+		F9BE3FF51B29C05200CD0A72 /* BackendlessEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessEntity.h; sourceTree = "<group>"; };
+		F9BE3FF61B29C05200CD0A72 /* BackendlessFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessFile.h; sourceTree = "<group>"; };
+		F9BE3FF71B29C05200CD0A72 /* BackendlessGeoQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessGeoQuery.h; sourceTree = "<group>"; };
+		F9BE3FF81B29C05200CD0A72 /* BackendlessUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessUser.h; sourceTree = "<group>"; };
+		F9BE3FF91B29C05200CD0A72 /* BEAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEAnnotation.h; sourceTree = "<group>"; };
+		F9BE3FFA1B29C05200CD0A72 /* BECollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BECollectionView.h; sourceTree = "<group>"; };
+		F9BE3FFB1B29C05200CD0A72 /* BEMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMapView.h; sourceTree = "<group>"; };
+		F9BE3FFC1B29C05200CD0A72 /* BESubscription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BESubscription.h; sourceTree = "<group>"; };
+		F9BE3FFD1B29C05200CD0A72 /* BETableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BETableView.h; sourceTree = "<group>"; };
+		F9BE3FFE1B29C05200CD0A72 /* CacheFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheFactory.h; sourceTree = "<group>"; };
+		F9BE3FFF1B29C05200CD0A72 /* CacheService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheService.h; sourceTree = "<group>"; };
+		F9BE40001B29C05200CD0A72 /* CustomService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomService.h; sourceTree = "<group>"; };
+		F9BE40011B29C05200CD0A72 /* DataPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataPermission.h; sourceTree = "<group>"; };
+		F9BE40021B29C05200CD0A72 /* DataStoreFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStoreFactory.h; sourceTree = "<group>"; };
+		F9BE40031B29C05200CD0A72 /* DeliveryOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeliveryOptions.h; sourceTree = "<group>"; };
+		F9BE40041B29C05200CD0A72 /* DeviceRegistration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceRegistration.h; sourceTree = "<group>"; };
+		F9BE40051B29C05200CD0A72 /* Events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Events.h; sourceTree = "<group>"; };
+		F9BE40061B29C05200CD0A72 /* FilePermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilePermission.h; sourceTree = "<group>"; };
+		F9BE40071B29C05200CD0A72 /* FileService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileService.h; sourceTree = "<group>"; };
+		F9BE40081B29C05200CD0A72 /* GeoCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoCategory.h; sourceTree = "<group>"; };
+		F9BE40091B29C05200CD0A72 /* GeoCluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoCluster.h; sourceTree = "<group>"; };
+		F9BE400A1B29C05200CD0A72 /* GeoFence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoFence.h; sourceTree = "<group>"; };
+		F9BE400B1B29C05200CD0A72 /* GeoPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoPoint.h; sourceTree = "<group>"; };
+		F9BE400C1B29C05200CD0A72 /* GeoService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoService.h; sourceTree = "<group>"; };
+		F9BE400D1B29C05200CD0A72 /* HashMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HashMap.h; sourceTree = "<group>"; };
+		F9BE400E1B29C05200CD0A72 /* IAtomicCounters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAtomicCounters.h; sourceTree = "<group>"; };
+		F9BE400F1B29C05200CD0A72 /* ICacheService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICacheService.h; sourceTree = "<group>"; };
+		F9BE40101B29C05200CD0A72 /* ICallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICallback.h; sourceTree = "<group>"; };
+		F9BE40111B29C05200CD0A72 /* IDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDataStore.h; sourceTree = "<group>"; };
+		F9BE40121B29C05200CD0A72 /* IMediaStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMediaStreamer.h; sourceTree = "<group>"; };
+		F9BE40131B29C05200CD0A72 /* LocationTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationTracker.h; sourceTree = "<group>"; };
+		F9BE40141B29C05200CD0A72 /* Logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
+		F9BE40151B29C05200CD0A72 /* Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logging.h; sourceTree = "<group>"; };
+		F9BE40161B29C05200CD0A72 /* MediaPlaybackOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaPlaybackOptions.h; sourceTree = "<group>"; };
+		F9BE40171B29C05200CD0A72 /* MediaPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaPlayer.h; sourceTree = "<group>"; };
+		F9BE40181B29C05200CD0A72 /* MediaPublisher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaPublisher.h; sourceTree = "<group>"; };
+		F9BE40191B29C05200CD0A72 /* MediaPublishOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaPublishOptions.h; sourceTree = "<group>"; };
+		F9BE401A1B29C05200CD0A72 /* MediaService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaService.h; sourceTree = "<group>"; };
+		F9BE401B1B29C05200CD0A72 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		F9BE401C1B29C05200CD0A72 /* MessageStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageStatus.h; sourceTree = "<group>"; };
+		F9BE401D1B29C05200CD0A72 /* MessagingService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagingService.h; sourceTree = "<group>"; };
+		F9BE401E1B29C05200CD0A72 /* ObjectProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectProperty.h; sourceTree = "<group>"; };
+		F9BE401F1B29C05200CD0A72 /* PersistenceService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersistenceService.h; sourceTree = "<group>"; };
+		F9BE40201B29C05200CD0A72 /* ProtectedBackendlessGeoQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtectedBackendlessGeoQuery.h; sourceTree = "<group>"; };
+		F9BE40211B29C05200CD0A72 /* PublishOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishOptions.h; sourceTree = "<group>"; };
+		F9BE40221B29C05200CD0A72 /* QueryOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryOptions.h; sourceTree = "<group>"; };
+		F9BE40231B29C05200CD0A72 /* SubscriptionOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscriptionOptions.h; sourceTree = "<group>"; };
+		F9BE40241B29C05200CD0A72 /* UserProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserProperty.h; sourceTree = "<group>"; };
+		F9BE40251B29C05200CD0A72 /* UserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserService.h; sourceTree = "<group>"; };
+		F9BE40271B29C05200CD0A72 /* CommLibiOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = CommLibiOS.a; sourceTree = "<group>"; };
+		F9BE40291B29C05200CD0A72 /* AMFSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMFSerializer.h; sourceTree = "<group>"; };
+		F9BE402A1B29C05200CD0A72 /* BinaryCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryCodec.h; sourceTree = "<group>"; };
+		F9BE402B1B29C05200CD0A72 /* BinaryStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryStream.h; sourceTree = "<group>"; };
+		F9BE402C1B29C05200CD0A72 /* DEBUG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEBUG.h; sourceTree = "<group>"; };
+		F9BE402D1B29C05200CD0A72 /* FlashorbBinaryReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashorbBinaryReader.h; sourceTree = "<group>"; };
+		F9BE402E1B29C05200CD0A72 /* FlashorbBinaryWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashorbBinaryWriter.h; sourceTree = "<group>"; };
+		F9BE402F1B29C05200CD0A72 /* IAttributeStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAttributeStore.h; sourceTree = "<group>"; };
+		F9BE40301B29C05200CD0A72 /* IClientSharedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IClientSharedObject.h; sourceTree = "<group>"; };
+		F9BE40311B29C05200CD0A72 /* IClientSharedObjectDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IClientSharedObjectDelegate.h; sourceTree = "<group>"; };
+		F9BE40321B29C05200CD0A72 /* IPendingServiceCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPendingServiceCallback.h; sourceTree = "<group>"; };
+		F9BE40331B29C05200CD0A72 /* IPersistable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPersistable.h; sourceTree = "<group>"; };
+		F9BE40341B29C05200CD0A72 /* IRTMProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRTMProtocol.h; sourceTree = "<group>"; };
+		F9BE40351B29C05200CD0A72 /* IServiceCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IServiceCall.h; sourceTree = "<group>"; };
+		F9BE40361B29C05200CD0A72 /* ISharedObjectListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISharedObjectListener.h; sourceTree = "<group>"; };
+		F9BE40371B29C05200CD0A72 /* MemoryTicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoryTicker.h; sourceTree = "<group>"; };
+		F9BE40381B29C05200CD0A72 /* Responder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Responder.h; sourceTree = "<group>"; };
+		F9BE40391B29C05200CD0A72 /* RTMPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTMPClient.h; sourceTree = "<group>"; };
+		F9BE403A1B29C05200CD0A72 /* Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
+		F9BE403B1B29C05200CD0A72 /* WeborbClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeborbClient.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9BE3E821B29BD5A00CD0A72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BE3FE31B29C01B00CD0A72 /* libsqlite3.dylib in Frameworks */,
+				F9BE403E1B29C05200CD0A72 /* CommLibiOS.a in Frameworks */,
+				F9BE403C1B29C05200CD0A72 /* backendless.a in Frameworks */,
+				F9BE3FE41B29C01B00CD0A72 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BE3E9B1B29BD5B00CD0A72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BE3EAF1B29BDAC00CD0A72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BE3FE51B29C03800CD0A72 /* libsqlite3.dylib in Frameworks */,
+				F9BE403F1B29C05200CD0A72 /* CommLibiOS.a in Frameworks */,
+				F9BE403D1B29C05200CD0A72 /* backendless.a in Frameworks */,
+				F9BE3FE61B29C03800CD0A72 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BE3EC31B29BDAC00CD0A72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9BE3E7C1B29BD5A00CD0A72 = {
+			isa = PBXGroup;
+			children = (
+				F9BE3FE71B29C05100CD0A72 /* lib */,
+				F9BE3FE11B29C01B00CD0A72 /* libsqlite3.dylib */,
+				F9BE3FE21B29C01B00CD0A72 /* SystemConfiguration.framework */,
+				F9BE3E871B29BD5A00CD0A72 /* F61CachePlacingRetrievingObjects */,
+				F9BE3EA11B29BD5B00CD0A72 /* F61CachePlacingRetrievingObjectsTests */,
+				F9BE3EB31B29BDAC00CD0A72 /* F61CachePlacingRetrievingObjectsSwift */,
+				F9BE3EC91B29BDAD00CD0A72 /* F61CachePlacingRetrievingObjectsSwiftTests */,
+				F9BE3E861B29BD5A00CD0A72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9BE3E861B29BD5A00CD0A72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE3E851B29BD5A00CD0A72 /* F61CachePlacingRetrievingObjects.app */,
+				F9BE3E9E1B29BD5B00CD0A72 /* F61CachePlacingRetrievingObjectsTests.xctest */,
+				F9BE3EB21B29BDAC00CD0A72 /* F61CachePlacingRetrievingObjectsSwift.app */,
+				F9BE3EC61B29BDAC00CD0A72 /* F61CachePlacingRetrievingObjectsSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9BE3E871B29BD5A00CD0A72 /* F61CachePlacingRetrievingObjects */ = {
+			isa = PBXGroup;
+			children = (
+				F997E2041B31980C001C602F /* Person.h */,
+				F997E2051B31980C001C602F /* Person.m */,
+				F9BE3E8C1B29BD5B00CD0A72 /* AppDelegate.h */,
+				F9BE3E8D1B29BD5B00CD0A72 /* AppDelegate.m */,
+				F9BE3E8F1B29BD5B00CD0A72 /* ViewController.h */,
+				F9BE3E901B29BD5B00CD0A72 /* ViewController.m */,
+				F9BE3E921B29BD5B00CD0A72 /* Main.storyboard */,
+				F9BE3E951B29BD5B00CD0A72 /* Images.xcassets */,
+				F9BE3E971B29BD5B00CD0A72 /* LaunchScreen.xib */,
+				F9BE3E881B29BD5B00CD0A72 /* Supporting Files */,
+			);
+			path = F61CachePlacingRetrievingObjects;
+			sourceTree = "<group>";
+		};
+		F9BE3E881B29BD5B00CD0A72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE3E891B29BD5B00CD0A72 /* Info.plist */,
+				F9BE3E8A1B29BD5B00CD0A72 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9BE3EA11B29BD5B00CD0A72 /* F61CachePlacingRetrievingObjectsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE3EA41B29BD5B00CD0A72 /* F61CachePlacingRetrievingObjectsTests.m */,
+				F9BE3EA21B29BD5B00CD0A72 /* Supporting Files */,
+			);
+			path = F61CachePlacingRetrievingObjectsTests;
+			sourceTree = "<group>";
+		};
+		F9BE3EA21B29BD5B00CD0A72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE3EA31B29BD5B00CD0A72 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9BE3EB31B29BDAC00CD0A72 /* F61CachePlacingRetrievingObjectsSwift */ = {
+			isa = PBXGroup;
+			children = (
+				F997E2071B319823001C602F /* Person.swift */,
+				F9BE3EB61B29BDAC00CD0A72 /* AppDelegate.swift */,
+				F9BE3EB81B29BDAC00CD0A72 /* ViewController.swift */,
+				F9BE3EBA1B29BDAC00CD0A72 /* Main.storyboard */,
+				F9BE3EBD1B29BDAC00CD0A72 /* Images.xcassets */,
+				F9BE3EBF1B29BDAC00CD0A72 /* LaunchScreen.xib */,
+				F9BE3EB41B29BDAC00CD0A72 /* Supporting Files */,
+			);
+			path = F61CachePlacingRetrievingObjectsSwift;
+			sourceTree = "<group>";
+		};
+		F9BE3EB41B29BDAC00CD0A72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE3EB51B29BDAC00CD0A72 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9BE3EC91B29BDAD00CD0A72 /* F61CachePlacingRetrievingObjectsSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE3ECC1B29BDAD00CD0A72 /* F61CachePlacingRetrievingObjectsSwiftTests.swift */,
+				F9BE3ECA1B29BDAD00CD0A72 /* Supporting Files */,
+			);
+			path = F61CachePlacingRetrievingObjectsSwiftTests;
+			sourceTree = "<group>";
+		};
+		F9BE3ECA1B29BDAD00CD0A72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE3ECB1B29BDAD00CD0A72 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9BE3FE71B29C05100CD0A72 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE3FE81B29C05100CD0A72 /* backendless */,
+				F9BE40261B29C05200CD0A72 /* CommLibiOS */,
+			);
+			name = lib;
+			path = ../lib;
+			sourceTree = "<group>";
+		};
+		F9BE3FE81B29C05100CD0A72 /* backendless */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE3FE91B29C05100CD0A72 /* backendless.a */,
+				F9BE3FEA1B29C05100CD0A72 /* include */,
+			);
+			path = backendless;
+			sourceTree = "<group>";
+		};
+		F9BE3FEA1B29C05100CD0A72 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE3FEB1B29C05100CD0A72 /* AbstractProperty.h */,
+				F9BE3FEC1B29C05100CD0A72 /* AbstractQuery.h */,
+				F9BE3FED1B29C05100CD0A72 /* AtomicCounters.h */,
+				F9BE3FEE1B29C05100CD0A72 /* AtomicCountersFactory.h */,
+				F9BE3FEF1B29C05100CD0A72 /* Backendless-Bridging-Header.h */,
+				F9BE3FF01B29C05100CD0A72 /* Backendless.h */,
+				F9BE3FF11B29C05100CD0A72 /* BackendlessCachePolicy.h */,
+				F9BE3FF21B29C05200CD0A72 /* BackendlessCacheProtocol.h */,
+				F9BE3FF31B29C05200CD0A72 /* BackendlessCollection.h */,
+				F9BE3FF41B29C05200CD0A72 /* BackendlessDataQuery.h */,
+				F9BE3FF51B29C05200CD0A72 /* BackendlessEntity.h */,
+				F9BE3FF61B29C05200CD0A72 /* BackendlessFile.h */,
+				F9BE3FF71B29C05200CD0A72 /* BackendlessGeoQuery.h */,
+				F9BE3FF81B29C05200CD0A72 /* BackendlessUser.h */,
+				F9BE3FF91B29C05200CD0A72 /* BEAnnotation.h */,
+				F9BE3FFA1B29C05200CD0A72 /* BECollectionView.h */,
+				F9BE3FFB1B29C05200CD0A72 /* BEMapView.h */,
+				F9BE3FFC1B29C05200CD0A72 /* BESubscription.h */,
+				F9BE3FFD1B29C05200CD0A72 /* BETableView.h */,
+				F9BE3FFE1B29C05200CD0A72 /* CacheFactory.h */,
+				F9BE3FFF1B29C05200CD0A72 /* CacheService.h */,
+				F9BE40001B29C05200CD0A72 /* CustomService.h */,
+				F9BE40011B29C05200CD0A72 /* DataPermission.h */,
+				F9BE40021B29C05200CD0A72 /* DataStoreFactory.h */,
+				F9BE40031B29C05200CD0A72 /* DeliveryOptions.h */,
+				F9BE40041B29C05200CD0A72 /* DeviceRegistration.h */,
+				F9BE40051B29C05200CD0A72 /* Events.h */,
+				F9BE40061B29C05200CD0A72 /* FilePermission.h */,
+				F9BE40071B29C05200CD0A72 /* FileService.h */,
+				F9BE40081B29C05200CD0A72 /* GeoCategory.h */,
+				F9BE40091B29C05200CD0A72 /* GeoCluster.h */,
+				F9BE400A1B29C05200CD0A72 /* GeoFence.h */,
+				F9BE400B1B29C05200CD0A72 /* GeoPoint.h */,
+				F9BE400C1B29C05200CD0A72 /* GeoService.h */,
+				F9BE400D1B29C05200CD0A72 /* HashMap.h */,
+				F9BE400E1B29C05200CD0A72 /* IAtomicCounters.h */,
+				F9BE400F1B29C05200CD0A72 /* ICacheService.h */,
+				F9BE40101B29C05200CD0A72 /* ICallback.h */,
+				F9BE40111B29C05200CD0A72 /* IDataStore.h */,
+				F9BE40121B29C05200CD0A72 /* IMediaStreamer.h */,
+				F9BE40131B29C05200CD0A72 /* LocationTracker.h */,
+				F9BE40141B29C05200CD0A72 /* Logger.h */,
+				F9BE40151B29C05200CD0A72 /* Logging.h */,
+				F9BE40161B29C05200CD0A72 /* MediaPlaybackOptions.h */,
+				F9BE40171B29C05200CD0A72 /* MediaPlayer.h */,
+				F9BE40181B29C05200CD0A72 /* MediaPublisher.h */,
+				F9BE40191B29C05200CD0A72 /* MediaPublishOptions.h */,
+				F9BE401A1B29C05200CD0A72 /* MediaService.h */,
+				F9BE401B1B29C05200CD0A72 /* Message.h */,
+				F9BE401C1B29C05200CD0A72 /* MessageStatus.h */,
+				F9BE401D1B29C05200CD0A72 /* MessagingService.h */,
+				F9BE401E1B29C05200CD0A72 /* ObjectProperty.h */,
+				F9BE401F1B29C05200CD0A72 /* PersistenceService.h */,
+				F9BE40201B29C05200CD0A72 /* ProtectedBackendlessGeoQuery.h */,
+				F9BE40211B29C05200CD0A72 /* PublishOptions.h */,
+				F9BE40221B29C05200CD0A72 /* QueryOptions.h */,
+				F9BE40231B29C05200CD0A72 /* SubscriptionOptions.h */,
+				F9BE40241B29C05200CD0A72 /* UserProperty.h */,
+				F9BE40251B29C05200CD0A72 /* UserService.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		F9BE40261B29C05200CD0A72 /* CommLibiOS */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE40271B29C05200CD0A72 /* CommLibiOS.a */,
+				F9BE40281B29C05200CD0A72 /* include */,
+			);
+			path = CommLibiOS;
+			sourceTree = "<group>";
+		};
+		F9BE40281B29C05200CD0A72 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE40291B29C05200CD0A72 /* AMFSerializer.h */,
+				F9BE402A1B29C05200CD0A72 /* BinaryCodec.h */,
+				F9BE402B1B29C05200CD0A72 /* BinaryStream.h */,
+				F9BE402C1B29C05200CD0A72 /* DEBUG.h */,
+				F9BE402D1B29C05200CD0A72 /* FlashorbBinaryReader.h */,
+				F9BE402E1B29C05200CD0A72 /* FlashorbBinaryWriter.h */,
+				F9BE402F1B29C05200CD0A72 /* IAttributeStore.h */,
+				F9BE40301B29C05200CD0A72 /* IClientSharedObject.h */,
+				F9BE40311B29C05200CD0A72 /* IClientSharedObjectDelegate.h */,
+				F9BE40321B29C05200CD0A72 /* IPendingServiceCallback.h */,
+				F9BE40331B29C05200CD0A72 /* IPersistable.h */,
+				F9BE40341B29C05200CD0A72 /* IRTMProtocol.h */,
+				F9BE40351B29C05200CD0A72 /* IServiceCall.h */,
+				F9BE40361B29C05200CD0A72 /* ISharedObjectListener.h */,
+				F9BE40371B29C05200CD0A72 /* MemoryTicker.h */,
+				F9BE40381B29C05200CD0A72 /* Responder.h */,
+				F9BE40391B29C05200CD0A72 /* RTMPClient.h */,
+				F9BE403A1B29C05200CD0A72 /* Types.h */,
+				F9BE403B1B29C05200CD0A72 /* WeborbClient.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9BE3E841B29BD5A00CD0A72 /* F61CachePlacingRetrievingObjects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9BE3EA81B29BD5B00CD0A72 /* Build configuration list for PBXNativeTarget "F61CachePlacingRetrievingObjects" */;
+			buildPhases = (
+				F9BE3E811B29BD5A00CD0A72 /* Sources */,
+				F9BE3E821B29BD5A00CD0A72 /* Frameworks */,
+				F9BE3E831B29BD5A00CD0A72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = F61CachePlacingRetrievingObjects;
+			productName = F61CachePlacingRetrievingObjects;
+			productReference = F9BE3E851B29BD5A00CD0A72 /* F61CachePlacingRetrievingObjects.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9BE3E9D1B29BD5B00CD0A72 /* F61CachePlacingRetrievingObjectsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9BE3EAB1B29BD5B00CD0A72 /* Build configuration list for PBXNativeTarget "F61CachePlacingRetrievingObjectsTests" */;
+			buildPhases = (
+				F9BE3E9A1B29BD5B00CD0A72 /* Sources */,
+				F9BE3E9B1B29BD5B00CD0A72 /* Frameworks */,
+				F9BE3E9C1B29BD5B00CD0A72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9BE3EA01B29BD5B00CD0A72 /* PBXTargetDependency */,
+			);
+			name = F61CachePlacingRetrievingObjectsTests;
+			productName = F61CachePlacingRetrievingObjectsTests;
+			productReference = F9BE3E9E1B29BD5B00CD0A72 /* F61CachePlacingRetrievingObjectsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9BE3EB11B29BDAC00CD0A72 /* F61CachePlacingRetrievingObjectsSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9BE3ECE1B29BDAD00CD0A72 /* Build configuration list for PBXNativeTarget "F61CachePlacingRetrievingObjectsSwift" */;
+			buildPhases = (
+				F9BE3EAE1B29BDAC00CD0A72 /* Sources */,
+				F9BE3EAF1B29BDAC00CD0A72 /* Frameworks */,
+				F9BE3EB01B29BDAC00CD0A72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = F61CachePlacingRetrievingObjectsSwift;
+			productName = F61CachePlacingRetrievingObjectsSwift;
+			productReference = F9BE3EB21B29BDAC00CD0A72 /* F61CachePlacingRetrievingObjectsSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9BE3EC51B29BDAC00CD0A72 /* F61CachePlacingRetrievingObjectsSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9BE3ED11B29BDAD00CD0A72 /* Build configuration list for PBXNativeTarget "F61CachePlacingRetrievingObjectsSwiftTests" */;
+			buildPhases = (
+				F9BE3EC21B29BDAC00CD0A72 /* Sources */,
+				F9BE3EC31B29BDAC00CD0A72 /* Frameworks */,
+				F9BE3EC41B29BDAC00CD0A72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9BE3EC81B29BDAC00CD0A72 /* PBXTargetDependency */,
+			);
+			name = F61CachePlacingRetrievingObjectsSwiftTests;
+			productName = F61CachePlacingRetrievingObjectsSwiftTests;
+			productReference = F9BE3EC61B29BDAC00CD0A72 /* F61CachePlacingRetrievingObjectsSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9BE3E7D1B29BD5A00CD0A72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Slava Vdovichenko";
+				TargetAttributes = {
+					F9BE3E841B29BD5A00CD0A72 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					F9BE3E9D1B29BD5B00CD0A72 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = F9BE3E841B29BD5A00CD0A72;
+					};
+					F9BE3EB11B29BDAC00CD0A72 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					F9BE3EC51B29BDAC00CD0A72 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = F9BE3EB11B29BDAC00CD0A72;
+					};
+				};
+			};
+			buildConfigurationList = F9BE3E801B29BD5A00CD0A72 /* Build configuration list for PBXProject "F61CachePlacingRetrievingObjects" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9BE3E7C1B29BD5A00CD0A72;
+			productRefGroup = F9BE3E861B29BD5A00CD0A72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9BE3E841B29BD5A00CD0A72 /* F61CachePlacingRetrievingObjects */,
+				F9BE3EB11B29BDAC00CD0A72 /* F61CachePlacingRetrievingObjectsSwift */,
+				F9BE3E9D1B29BD5B00CD0A72 /* F61CachePlacingRetrievingObjectsTests */,
+				F9BE3EC51B29BDAC00CD0A72 /* F61CachePlacingRetrievingObjectsSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9BE3E831B29BD5A00CD0A72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BE3E941B29BD5B00CD0A72 /* Main.storyboard in Resources */,
+				F9BE3E991B29BD5B00CD0A72 /* LaunchScreen.xib in Resources */,
+				F9BE3E961B29BD5B00CD0A72 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BE3E9C1B29BD5B00CD0A72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BE3EB01B29BDAC00CD0A72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BE3EBC1B29BDAC00CD0A72 /* Main.storyboard in Resources */,
+				F9BE3EC11B29BDAC00CD0A72 /* LaunchScreen.xib in Resources */,
+				F9BE3EBE1B29BDAC00CD0A72 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BE3EC41B29BDAC00CD0A72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9BE3E811B29BD5A00CD0A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BE3E911B29BD5B00CD0A72 /* ViewController.m in Sources */,
+				F9BE3E8E1B29BD5B00CD0A72 /* AppDelegate.m in Sources */,
+				F997E2061B31980C001C602F /* Person.m in Sources */,
+				F9BE3E8B1B29BD5B00CD0A72 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BE3E9A1B29BD5B00CD0A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BE3EA51B29BD5B00CD0A72 /* F61CachePlacingRetrievingObjectsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BE3EAE1B29BDAC00CD0A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F997E2081B319823001C602F /* Person.swift in Sources */,
+				F9BE3EB91B29BDAC00CD0A72 /* ViewController.swift in Sources */,
+				F9BE3EB71B29BDAC00CD0A72 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BE3EC21B29BDAC00CD0A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BE3ECD1B29BDAD00CD0A72 /* F61CachePlacingRetrievingObjectsSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9BE3EA01B29BD5B00CD0A72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9BE3E841B29BD5A00CD0A72 /* F61CachePlacingRetrievingObjects */;
+			targetProxy = F9BE3E9F1B29BD5B00CD0A72 /* PBXContainerItemProxy */;
+		};
+		F9BE3EC81B29BDAC00CD0A72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9BE3EB11B29BDAC00CD0A72 /* F61CachePlacingRetrievingObjectsSwift */;
+			targetProxy = F9BE3EC71B29BDAC00CD0A72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9BE3E921B29BD5B00CD0A72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9BE3E931B29BD5B00CD0A72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9BE3E971B29BD5B00CD0A72 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9BE3E981B29BD5B00CD0A72 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		F9BE3EBA1B29BDAC00CD0A72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9BE3EBB1B29BDAC00CD0A72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9BE3EBF1B29BDAC00CD0A72 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9BE3EC01B29BDAC00CD0A72 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9BE3EA61B29BD5B00CD0A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9BE3EA71B29BD5B00CD0A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9BE3EA91B29BD5B00CD0A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = F61CachePlacingRetrievingObjects/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../lib/backendless",
+					"$(SRCROOT)/../lib/CommLibiOS",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F9BE3EAA1B29BD5B00CD0A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = F61CachePlacingRetrievingObjects/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../lib/backendless",
+					"$(SRCROOT)/../lib/CommLibiOS",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F9BE3EAC1B29BD5B00CD0A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = F61CachePlacingRetrievingObjectsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F61CachePlacingRetrievingObjects.app/F61CachePlacingRetrievingObjects";
+			};
+			name = Debug;
+		};
+		F9BE3EAD1B29BD5B00CD0A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = F61CachePlacingRetrievingObjectsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F61CachePlacingRetrievingObjects.app/F61CachePlacingRetrievingObjects";
+			};
+			name = Release;
+		};
+		F9BE3ECF1B29BDAD00CD0A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = F61CachePlacingRetrievingObjectsSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../lib/backendless",
+					"$(SRCROOT)/../lib/CommLibiOS",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9BE3ED01B29BDAD00CD0A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = F61CachePlacingRetrievingObjectsSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../lib/backendless",
+					"$(SRCROOT)/../lib/CommLibiOS",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		F9BE3ED21B29BDAD00CD0A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = F61CachePlacingRetrievingObjectsSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F61CachePlacingRetrievingObjectsSwift.app/F61CachePlacingRetrievingObjectsSwift";
+			};
+			name = Debug;
+		};
+		F9BE3ED31B29BDAD00CD0A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = F61CachePlacingRetrievingObjectsSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F61CachePlacingRetrievingObjectsSwift.app/F61CachePlacingRetrievingObjectsSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9BE3E801B29BD5A00CD0A72 /* Build configuration list for PBXProject "F61CachePlacingRetrievingObjects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9BE3EA61B29BD5B00CD0A72 /* Debug */,
+				F9BE3EA71B29BD5B00CD0A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9BE3EA81B29BD5B00CD0A72 /* Build configuration list for PBXNativeTarget "F61CachePlacingRetrievingObjects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9BE3EA91B29BD5B00CD0A72 /* Debug */,
+				F9BE3EAA1B29BD5B00CD0A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9BE3EAB1B29BD5B00CD0A72 /* Build configuration list for PBXNativeTarget "F61CachePlacingRetrievingObjectsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9BE3EAC1B29BD5B00CD0A72 /* Debug */,
+				F9BE3EAD1B29BD5B00CD0A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9BE3ECE1B29BDAD00CD0A72 /* Build configuration list for PBXNativeTarget "F61CachePlacingRetrievingObjectsSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9BE3ECF1B29BDAD00CD0A72 /* Debug */,
+				F9BE3ED01B29BDAD00CD0A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9BE3ED11B29BDAD00CD0A72 /* Build configuration list for PBXNativeTarget "F61CachePlacingRetrievingObjectsSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9BE3ED21B29BDAD00CD0A72 /* Debug */,
+				F9BE3ED31B29BDAD00CD0A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9BE3E7D1B29BD5A00CD0A72 /* Project object */;
+}

@@ -1,0 +1,939 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9BE3E271B29BBAB00CD0A72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BE3E261B29BBAB00CD0A72 /* main.m */; };
+		F9BE3E2A1B29BBAB00CD0A72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BE3E291B29BBAB00CD0A72 /* AppDelegate.m */; };
+		F9BE3E2D1B29BBAB00CD0A72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BE3E2C1B29BBAB00CD0A72 /* ViewController.m */; };
+		F9BE3E301B29BBAB00CD0A72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BE3E2E1B29BBAB00CD0A72 /* Main.storyboard */; };
+		F9BE3E321B29BBAB00CD0A72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9BE3E311B29BBAB00CD0A72 /* Images.xcassets */; };
+		F9BE3E351B29BBAB00CD0A72 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9BE3E331B29BBAB00CD0A72 /* LaunchScreen.xib */; };
+		F9BE3E411B29BBAB00CD0A72 /* F59DataRecursiveRelationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BE3E401B29BBAB00CD0A72 /* F59DataRecursiveRelationsTests.m */; };
+		F9BE3F031B29BDEF00CD0A72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE3F021B29BDEF00CD0A72 /* AppDelegate.swift */; };
+		F9BE3F051B29BDEF00CD0A72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE3F041B29BDEF00CD0A72 /* ViewController.swift */; };
+		F9BE3F081B29BDEF00CD0A72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BE3F061B29BDEF00CD0A72 /* Main.storyboard */; };
+		F9BE3F0A1B29BDEF00CD0A72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9BE3F091B29BDEF00CD0A72 /* Images.xcassets */; };
+		F9BE3F0D1B29BDEF00CD0A72 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9BE3F0B1B29BDEF00CD0A72 /* LaunchScreen.xib */; };
+		F9BE3F191B29BDEF00CD0A72 /* F59DataRecursiveRelationsSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE3F181B29BDEF00CD0A72 /* F59DataRecursiveRelationsSwiftTests.swift */; };
+		F9BE3F221B29BEDC00CD0A72 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE3F201B29BEDC00CD0A72 /* libsqlite3.dylib */; };
+		F9BE3F231B29BEDC00CD0A72 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE3F211B29BEDC00CD0A72 /* SystemConfiguration.framework */; };
+		F9BE3F241B29BF0000CD0A72 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE3F201B29BEDC00CD0A72 /* libsqlite3.dylib */; };
+		F9BE3F251B29BF0000CD0A72 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE3F211B29BEDC00CD0A72 /* SystemConfiguration.framework */; };
+		F9BE3F7E1B29BF6900CD0A72 /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE3F2B1B29BF6900CD0A72 /* backendless.a */; };
+		F9BE3F7F1B29BF6900CD0A72 /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE3F2B1B29BF6900CD0A72 /* backendless.a */; };
+		F9BE3F801B29BF6900CD0A72 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE3F691B29BF6900CD0A72 /* CommLibiOS.a */; };
+		F9BE3F811B29BF6900CD0A72 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE3F691B29BF6900CD0A72 /* CommLibiOS.a */; };
+		F9BE40421B29C8CB00CD0A72 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BE40411B29C8CB00CD0A72 /* Person.m */; };
+		F9BE40441B29D20B00CD0A72 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE40431B29D20B00CD0A72 /* Person.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9BE3E3B1B29BBAB00CD0A72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9BE3E191B29BBAB00CD0A72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9BE3E201B29BBAB00CD0A72;
+			remoteInfo = F59DataRecursiveRelations;
+		};
+		F9BE3F131B29BDEF00CD0A72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9BE3E191B29BBAB00CD0A72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9BE3EFD1B29BDEF00CD0A72;
+			remoteInfo = F59DataRecursiveRelationsSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9BE3E211B29BBAB00CD0A72 /* F59DataRecursiveRelations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F59DataRecursiveRelations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9BE3E251B29BBAB00CD0A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9BE3E261B29BBAB00CD0A72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F9BE3E281B29BBAB00CD0A72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F9BE3E291B29BBAB00CD0A72 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F9BE3E2B1B29BBAB00CD0A72 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F9BE3E2C1B29BBAB00CD0A72 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F9BE3E2F1B29BBAB00CD0A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9BE3E311B29BBAB00CD0A72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F9BE3E341B29BBAB00CD0A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F9BE3E3A1B29BBAB00CD0A72 /* F59DataRecursiveRelationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F59DataRecursiveRelationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9BE3E3F1B29BBAB00CD0A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9BE3E401B29BBAB00CD0A72 /* F59DataRecursiveRelationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = F59DataRecursiveRelationsTests.m; sourceTree = "<group>"; };
+		F9BE3EFE1B29BDEF00CD0A72 /* F59DataRecursiveRelationsSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F59DataRecursiveRelationsSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9BE3F011B29BDEF00CD0A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9BE3F021B29BDEF00CD0A72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9BE3F041B29BDEF00CD0A72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9BE3F071B29BDEF00CD0A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9BE3F091B29BDEF00CD0A72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F9BE3F0C1B29BDEF00CD0A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F9BE3F121B29BDEF00CD0A72 /* F59DataRecursiveRelationsSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F59DataRecursiveRelationsSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9BE3F171B29BDEF00CD0A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9BE3F181B29BDEF00CD0A72 /* F59DataRecursiveRelationsSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F59DataRecursiveRelationsSwiftTests.swift; sourceTree = "<group>"; };
+		F9BE3F201B29BEDC00CD0A72 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		F9BE3F211B29BEDC00CD0A72 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F9BE3F2B1B29BF6900CD0A72 /* backendless.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = backendless.a; sourceTree = "<group>"; };
+		F9BE3F2D1B29BF6900CD0A72 /* AbstractProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractProperty.h; sourceTree = "<group>"; };
+		F9BE3F2E1B29BF6900CD0A72 /* AbstractQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractQuery.h; sourceTree = "<group>"; };
+		F9BE3F2F1B29BF6900CD0A72 /* AtomicCounters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtomicCounters.h; sourceTree = "<group>"; };
+		F9BE3F301B29BF6900CD0A72 /* AtomicCountersFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtomicCountersFactory.h; sourceTree = "<group>"; };
+		F9BE3F311B29BF6900CD0A72 /* Backendless-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Backendless-Bridging-Header.h"; sourceTree = "<group>"; };
+		F9BE3F321B29BF6900CD0A72 /* Backendless.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Backendless.h; sourceTree = "<group>"; };
+		F9BE3F331B29BF6900CD0A72 /* BackendlessCachePolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessCachePolicy.h; sourceTree = "<group>"; };
+		F9BE3F341B29BF6900CD0A72 /* BackendlessCacheProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessCacheProtocol.h; sourceTree = "<group>"; };
+		F9BE3F351B29BF6900CD0A72 /* BackendlessCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessCollection.h; sourceTree = "<group>"; };
+		F9BE3F361B29BF6900CD0A72 /* BackendlessDataQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessDataQuery.h; sourceTree = "<group>"; };
+		F9BE3F371B29BF6900CD0A72 /* BackendlessEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessEntity.h; sourceTree = "<group>"; };
+		F9BE3F381B29BF6900CD0A72 /* BackendlessFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessFile.h; sourceTree = "<group>"; };
+		F9BE3F391B29BF6900CD0A72 /* BackendlessGeoQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessGeoQuery.h; sourceTree = "<group>"; };
+		F9BE3F3A1B29BF6900CD0A72 /* BackendlessUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessUser.h; sourceTree = "<group>"; };
+		F9BE3F3B1B29BF6900CD0A72 /* BEAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEAnnotation.h; sourceTree = "<group>"; };
+		F9BE3F3C1B29BF6900CD0A72 /* BECollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BECollectionView.h; sourceTree = "<group>"; };
+		F9BE3F3D1B29BF6900CD0A72 /* BEMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMapView.h; sourceTree = "<group>"; };
+		F9BE3F3E1B29BF6900CD0A72 /* BESubscription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BESubscription.h; sourceTree = "<group>"; };
+		F9BE3F3F1B29BF6900CD0A72 /* BETableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BETableView.h; sourceTree = "<group>"; };
+		F9BE3F401B29BF6900CD0A72 /* CacheFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheFactory.h; sourceTree = "<group>"; };
+		F9BE3F411B29BF6900CD0A72 /* CacheService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheService.h; sourceTree = "<group>"; };
+		F9BE3F421B29BF6900CD0A72 /* CustomService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomService.h; sourceTree = "<group>"; };
+		F9BE3F431B29BF6900CD0A72 /* DataPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataPermission.h; sourceTree = "<group>"; };
+		F9BE3F441B29BF6900CD0A72 /* DataStoreFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStoreFactory.h; sourceTree = "<group>"; };
+		F9BE3F451B29BF6900CD0A72 /* DeliveryOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeliveryOptions.h; sourceTree = "<group>"; };
+		F9BE3F461B29BF6900CD0A72 /* DeviceRegistration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceRegistration.h; sourceTree = "<group>"; };
+		F9BE3F471B29BF6900CD0A72 /* Events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Events.h; sourceTree = "<group>"; };
+		F9BE3F481B29BF6900CD0A72 /* FilePermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilePermission.h; sourceTree = "<group>"; };
+		F9BE3F491B29BF6900CD0A72 /* FileService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileService.h; sourceTree = "<group>"; };
+		F9BE3F4A1B29BF6900CD0A72 /* GeoCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoCategory.h; sourceTree = "<group>"; };
+		F9BE3F4B1B29BF6900CD0A72 /* GeoCluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoCluster.h; sourceTree = "<group>"; };
+		F9BE3F4C1B29BF6900CD0A72 /* GeoFence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoFence.h; sourceTree = "<group>"; };
+		F9BE3F4D1B29BF6900CD0A72 /* GeoPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoPoint.h; sourceTree = "<group>"; };
+		F9BE3F4E1B29BF6900CD0A72 /* GeoService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoService.h; sourceTree = "<group>"; };
+		F9BE3F4F1B29BF6900CD0A72 /* HashMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HashMap.h; sourceTree = "<group>"; };
+		F9BE3F501B29BF6900CD0A72 /* IAtomicCounters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAtomicCounters.h; sourceTree = "<group>"; };
+		F9BE3F511B29BF6900CD0A72 /* ICacheService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICacheService.h; sourceTree = "<group>"; };
+		F9BE3F521B29BF6900CD0A72 /* ICallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICallback.h; sourceTree = "<group>"; };
+		F9BE3F531B29BF6900CD0A72 /* IDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDataStore.h; sourceTree = "<group>"; };
+		F9BE3F541B29BF6900CD0A72 /* IMediaStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMediaStreamer.h; sourceTree = "<group>"; };
+		F9BE3F551B29BF6900CD0A72 /* LocationTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationTracker.h; sourceTree = "<group>"; };
+		F9BE3F561B29BF6900CD0A72 /* Logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
+		F9BE3F571B29BF6900CD0A72 /* Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logging.h; sourceTree = "<group>"; };
+		F9BE3F581B29BF6900CD0A72 /* MediaPlaybackOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaPlaybackOptions.h; sourceTree = "<group>"; };
+		F9BE3F591B29BF6900CD0A72 /* MediaPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaPlayer.h; sourceTree = "<group>"; };
+		F9BE3F5A1B29BF6900CD0A72 /* MediaPublisher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaPublisher.h; sourceTree = "<group>"; };
+		F9BE3F5B1B29BF6900CD0A72 /* MediaPublishOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaPublishOptions.h; sourceTree = "<group>"; };
+		F9BE3F5C1B29BF6900CD0A72 /* MediaService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaService.h; sourceTree = "<group>"; };
+		F9BE3F5D1B29BF6900CD0A72 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		F9BE3F5E1B29BF6900CD0A72 /* MessageStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageStatus.h; sourceTree = "<group>"; };
+		F9BE3F5F1B29BF6900CD0A72 /* MessagingService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagingService.h; sourceTree = "<group>"; };
+		F9BE3F601B29BF6900CD0A72 /* ObjectProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectProperty.h; sourceTree = "<group>"; };
+		F9BE3F611B29BF6900CD0A72 /* PersistenceService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersistenceService.h; sourceTree = "<group>"; };
+		F9BE3F621B29BF6900CD0A72 /* ProtectedBackendlessGeoQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtectedBackendlessGeoQuery.h; sourceTree = "<group>"; };
+		F9BE3F631B29BF6900CD0A72 /* PublishOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishOptions.h; sourceTree = "<group>"; };
+		F9BE3F641B29BF6900CD0A72 /* QueryOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryOptions.h; sourceTree = "<group>"; };
+		F9BE3F651B29BF6900CD0A72 /* SubscriptionOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscriptionOptions.h; sourceTree = "<group>"; };
+		F9BE3F661B29BF6900CD0A72 /* UserProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserProperty.h; sourceTree = "<group>"; };
+		F9BE3F671B29BF6900CD0A72 /* UserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserService.h; sourceTree = "<group>"; };
+		F9BE3F691B29BF6900CD0A72 /* CommLibiOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = CommLibiOS.a; sourceTree = "<group>"; };
+		F9BE3F6B1B29BF6900CD0A72 /* AMFSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMFSerializer.h; sourceTree = "<group>"; };
+		F9BE3F6C1B29BF6900CD0A72 /* BinaryCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryCodec.h; sourceTree = "<group>"; };
+		F9BE3F6D1B29BF6900CD0A72 /* BinaryStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryStream.h; sourceTree = "<group>"; };
+		F9BE3F6E1B29BF6900CD0A72 /* DEBUG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEBUG.h; sourceTree = "<group>"; };
+		F9BE3F6F1B29BF6900CD0A72 /* FlashorbBinaryReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashorbBinaryReader.h; sourceTree = "<group>"; };
+		F9BE3F701B29BF6900CD0A72 /* FlashorbBinaryWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashorbBinaryWriter.h; sourceTree = "<group>"; };
+		F9BE3F711B29BF6900CD0A72 /* IAttributeStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAttributeStore.h; sourceTree = "<group>"; };
+		F9BE3F721B29BF6900CD0A72 /* IClientSharedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IClientSharedObject.h; sourceTree = "<group>"; };
+		F9BE3F731B29BF6900CD0A72 /* IClientSharedObjectDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IClientSharedObjectDelegate.h; sourceTree = "<group>"; };
+		F9BE3F741B29BF6900CD0A72 /* IPendingServiceCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPendingServiceCallback.h; sourceTree = "<group>"; };
+		F9BE3F751B29BF6900CD0A72 /* IPersistable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPersistable.h; sourceTree = "<group>"; };
+		F9BE3F761B29BF6900CD0A72 /* IRTMProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRTMProtocol.h; sourceTree = "<group>"; };
+		F9BE3F771B29BF6900CD0A72 /* IServiceCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IServiceCall.h; sourceTree = "<group>"; };
+		F9BE3F781B29BF6900CD0A72 /* ISharedObjectListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISharedObjectListener.h; sourceTree = "<group>"; };
+		F9BE3F791B29BF6900CD0A72 /* MemoryTicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoryTicker.h; sourceTree = "<group>"; };
+		F9BE3F7A1B29BF6900CD0A72 /* Responder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Responder.h; sourceTree = "<group>"; };
+		F9BE3F7B1B29BF6900CD0A72 /* RTMPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTMPClient.h; sourceTree = "<group>"; };
+		F9BE3F7C1B29BF6900CD0A72 /* Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
+		F9BE3F7D1B29BF6900CD0A72 /* WeborbClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeborbClient.h; sourceTree = "<group>"; };
+		F9BE40401B29C8CB00CD0A72 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		F9BE40411B29C8CB00CD0A72 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		F9BE40431B29D20B00CD0A72 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9BE3E1E1B29BBAB00CD0A72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BE3F221B29BEDC00CD0A72 /* libsqlite3.dylib in Frameworks */,
+				F9BE3F801B29BF6900CD0A72 /* CommLibiOS.a in Frameworks */,
+				F9BE3F7E1B29BF6900CD0A72 /* backendless.a in Frameworks */,
+				F9BE3F231B29BEDC00CD0A72 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BE3E371B29BBAB00CD0A72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BE3EFB1B29BDEF00CD0A72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BE3F241B29BF0000CD0A72 /* libsqlite3.dylib in Frameworks */,
+				F9BE3F811B29BF6900CD0A72 /* CommLibiOS.a in Frameworks */,
+				F9BE3F7F1B29BF6900CD0A72 /* backendless.a in Frameworks */,
+				F9BE3F251B29BF0000CD0A72 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BE3F0F1B29BDEF00CD0A72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9BE3E181B29BBAB00CD0A72 = {
+			isa = PBXGroup;
+			children = (
+				F9BE3F291B29BF6900CD0A72 /* lib */,
+				F9BE3F201B29BEDC00CD0A72 /* libsqlite3.dylib */,
+				F9BE3F211B29BEDC00CD0A72 /* SystemConfiguration.framework */,
+				F9BE3E231B29BBAB00CD0A72 /* F59DataRecursiveRelations */,
+				F9BE3E3D1B29BBAB00CD0A72 /* F59DataRecursiveRelationsTests */,
+				F9BE3EFF1B29BDEF00CD0A72 /* F59DataRecursiveRelationsSwift */,
+				F9BE3F151B29BDEF00CD0A72 /* F59DataRecursiveRelationsSwiftTests */,
+				F9BE3E221B29BBAB00CD0A72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9BE3E221B29BBAB00CD0A72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE3E211B29BBAB00CD0A72 /* F59DataRecursiveRelations.app */,
+				F9BE3E3A1B29BBAB00CD0A72 /* F59DataRecursiveRelationsTests.xctest */,
+				F9BE3EFE1B29BDEF00CD0A72 /* F59DataRecursiveRelationsSwift.app */,
+				F9BE3F121B29BDEF00CD0A72 /* F59DataRecursiveRelationsSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9BE3E231B29BBAB00CD0A72 /* F59DataRecursiveRelations */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE40401B29C8CB00CD0A72 /* Person.h */,
+				F9BE40411B29C8CB00CD0A72 /* Person.m */,
+				F9BE3E281B29BBAB00CD0A72 /* AppDelegate.h */,
+				F9BE3E291B29BBAB00CD0A72 /* AppDelegate.m */,
+				F9BE3E2B1B29BBAB00CD0A72 /* ViewController.h */,
+				F9BE3E2C1B29BBAB00CD0A72 /* ViewController.m */,
+				F9BE3E2E1B29BBAB00CD0A72 /* Main.storyboard */,
+				F9BE3E311B29BBAB00CD0A72 /* Images.xcassets */,
+				F9BE3E331B29BBAB00CD0A72 /* LaunchScreen.xib */,
+				F9BE3E241B29BBAB00CD0A72 /* Supporting Files */,
+			);
+			path = F59DataRecursiveRelations;
+			sourceTree = "<group>";
+		};
+		F9BE3E241B29BBAB00CD0A72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE3E251B29BBAB00CD0A72 /* Info.plist */,
+				F9BE3E261B29BBAB00CD0A72 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9BE3E3D1B29BBAB00CD0A72 /* F59DataRecursiveRelationsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE3E401B29BBAB00CD0A72 /* F59DataRecursiveRelationsTests.m */,
+				F9BE3E3E1B29BBAB00CD0A72 /* Supporting Files */,
+			);
+			path = F59DataRecursiveRelationsTests;
+			sourceTree = "<group>";
+		};
+		F9BE3E3E1B29BBAB00CD0A72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE3E3F1B29BBAB00CD0A72 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9BE3EFF1B29BDEF00CD0A72 /* F59DataRecursiveRelationsSwift */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE40431B29D20B00CD0A72 /* Person.swift */,
+				F9BE3F021B29BDEF00CD0A72 /* AppDelegate.swift */,
+				F9BE3F041B29BDEF00CD0A72 /* ViewController.swift */,
+				F9BE3F061B29BDEF00CD0A72 /* Main.storyboard */,
+				F9BE3F091B29BDEF00CD0A72 /* Images.xcassets */,
+				F9BE3F0B1B29BDEF00CD0A72 /* LaunchScreen.xib */,
+				F9BE3F001B29BDEF00CD0A72 /* Supporting Files */,
+			);
+			path = F59DataRecursiveRelationsSwift;
+			sourceTree = "<group>";
+		};
+		F9BE3F001B29BDEF00CD0A72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE3F011B29BDEF00CD0A72 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9BE3F151B29BDEF00CD0A72 /* F59DataRecursiveRelationsSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE3F181B29BDEF00CD0A72 /* F59DataRecursiveRelationsSwiftTests.swift */,
+				F9BE3F161B29BDEF00CD0A72 /* Supporting Files */,
+			);
+			path = F59DataRecursiveRelationsSwiftTests;
+			sourceTree = "<group>";
+		};
+		F9BE3F161B29BDEF00CD0A72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE3F171B29BDEF00CD0A72 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9BE3F291B29BF6900CD0A72 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE3F2A1B29BF6900CD0A72 /* backendless */,
+				F9BE3F681B29BF6900CD0A72 /* CommLibiOS */,
+			);
+			name = lib;
+			path = ../lib;
+			sourceTree = "<group>";
+		};
+		F9BE3F2A1B29BF6900CD0A72 /* backendless */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE3F2B1B29BF6900CD0A72 /* backendless.a */,
+				F9BE3F2C1B29BF6900CD0A72 /* include */,
+			);
+			path = backendless;
+			sourceTree = "<group>";
+		};
+		F9BE3F2C1B29BF6900CD0A72 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE3F2D1B29BF6900CD0A72 /* AbstractProperty.h */,
+				F9BE3F2E1B29BF6900CD0A72 /* AbstractQuery.h */,
+				F9BE3F2F1B29BF6900CD0A72 /* AtomicCounters.h */,
+				F9BE3F301B29BF6900CD0A72 /* AtomicCountersFactory.h */,
+				F9BE3F311B29BF6900CD0A72 /* Backendless-Bridging-Header.h */,
+				F9BE3F321B29BF6900CD0A72 /* Backendless.h */,
+				F9BE3F331B29BF6900CD0A72 /* BackendlessCachePolicy.h */,
+				F9BE3F341B29BF6900CD0A72 /* BackendlessCacheProtocol.h */,
+				F9BE3F351B29BF6900CD0A72 /* BackendlessCollection.h */,
+				F9BE3F361B29BF6900CD0A72 /* BackendlessDataQuery.h */,
+				F9BE3F371B29BF6900CD0A72 /* BackendlessEntity.h */,
+				F9BE3F381B29BF6900CD0A72 /* BackendlessFile.h */,
+				F9BE3F391B29BF6900CD0A72 /* BackendlessGeoQuery.h */,
+				F9BE3F3A1B29BF6900CD0A72 /* BackendlessUser.h */,
+				F9BE3F3B1B29BF6900CD0A72 /* BEAnnotation.h */,
+				F9BE3F3C1B29BF6900CD0A72 /* BECollectionView.h */,
+				F9BE3F3D1B29BF6900CD0A72 /* BEMapView.h */,
+				F9BE3F3E1B29BF6900CD0A72 /* BESubscription.h */,
+				F9BE3F3F1B29BF6900CD0A72 /* BETableView.h */,
+				F9BE3F401B29BF6900CD0A72 /* CacheFactory.h */,
+				F9BE3F411B29BF6900CD0A72 /* CacheService.h */,
+				F9BE3F421B29BF6900CD0A72 /* CustomService.h */,
+				F9BE3F431B29BF6900CD0A72 /* DataPermission.h */,
+				F9BE3F441B29BF6900CD0A72 /* DataStoreFactory.h */,
+				F9BE3F451B29BF6900CD0A72 /* DeliveryOptions.h */,
+				F9BE3F461B29BF6900CD0A72 /* DeviceRegistration.h */,
+				F9BE3F471B29BF6900CD0A72 /* Events.h */,
+				F9BE3F481B29BF6900CD0A72 /* FilePermission.h */,
+				F9BE3F491B29BF6900CD0A72 /* FileService.h */,
+				F9BE3F4A1B29BF6900CD0A72 /* GeoCategory.h */,
+				F9BE3F4B1B29BF6900CD0A72 /* GeoCluster.h */,
+				F9BE3F4C1B29BF6900CD0A72 /* GeoFence.h */,
+				F9BE3F4D1B29BF6900CD0A72 /* GeoPoint.h */,
+				F9BE3F4E1B29BF6900CD0A72 /* GeoService.h */,
+				F9BE3F4F1B29BF6900CD0A72 /* HashMap.h */,
+				F9BE3F501B29BF6900CD0A72 /* IAtomicCounters.h */,
+				F9BE3F511B29BF6900CD0A72 /* ICacheService.h */,
+				F9BE3F521B29BF6900CD0A72 /* ICallback.h */,
+				F9BE3F531B29BF6900CD0A72 /* IDataStore.h */,
+				F9BE3F541B29BF6900CD0A72 /* IMediaStreamer.h */,
+				F9BE3F551B29BF6900CD0A72 /* LocationTracker.h */,
+				F9BE3F561B29BF6900CD0A72 /* Logger.h */,
+				F9BE3F571B29BF6900CD0A72 /* Logging.h */,
+				F9BE3F581B29BF6900CD0A72 /* MediaPlaybackOptions.h */,
+				F9BE3F591B29BF6900CD0A72 /* MediaPlayer.h */,
+				F9BE3F5A1B29BF6900CD0A72 /* MediaPublisher.h */,
+				F9BE3F5B1B29BF6900CD0A72 /* MediaPublishOptions.h */,
+				F9BE3F5C1B29BF6900CD0A72 /* MediaService.h */,
+				F9BE3F5D1B29BF6900CD0A72 /* Message.h */,
+				F9BE3F5E1B29BF6900CD0A72 /* MessageStatus.h */,
+				F9BE3F5F1B29BF6900CD0A72 /* MessagingService.h */,
+				F9BE3F601B29BF6900CD0A72 /* ObjectProperty.h */,
+				F9BE3F611B29BF6900CD0A72 /* PersistenceService.h */,
+				F9BE3F621B29BF6900CD0A72 /* ProtectedBackendlessGeoQuery.h */,
+				F9BE3F631B29BF6900CD0A72 /* PublishOptions.h */,
+				F9BE3F641B29BF6900CD0A72 /* QueryOptions.h */,
+				F9BE3F651B29BF6900CD0A72 /* SubscriptionOptions.h */,
+				F9BE3F661B29BF6900CD0A72 /* UserProperty.h */,
+				F9BE3F671B29BF6900CD0A72 /* UserService.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		F9BE3F681B29BF6900CD0A72 /* CommLibiOS */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE3F691B29BF6900CD0A72 /* CommLibiOS.a */,
+				F9BE3F6A1B29BF6900CD0A72 /* include */,
+			);
+			path = CommLibiOS;
+			sourceTree = "<group>";
+		};
+		F9BE3F6A1B29BF6900CD0A72 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE3F6B1B29BF6900CD0A72 /* AMFSerializer.h */,
+				F9BE3F6C1B29BF6900CD0A72 /* BinaryCodec.h */,
+				F9BE3F6D1B29BF6900CD0A72 /* BinaryStream.h */,
+				F9BE3F6E1B29BF6900CD0A72 /* DEBUG.h */,
+				F9BE3F6F1B29BF6900CD0A72 /* FlashorbBinaryReader.h */,
+				F9BE3F701B29BF6900CD0A72 /* FlashorbBinaryWriter.h */,
+				F9BE3F711B29BF6900CD0A72 /* IAttributeStore.h */,
+				F9BE3F721B29BF6900CD0A72 /* IClientSharedObject.h */,
+				F9BE3F731B29BF6900CD0A72 /* IClientSharedObjectDelegate.h */,
+				F9BE3F741B29BF6900CD0A72 /* IPendingServiceCallback.h */,
+				F9BE3F751B29BF6900CD0A72 /* IPersistable.h */,
+				F9BE3F761B29BF6900CD0A72 /* IRTMProtocol.h */,
+				F9BE3F771B29BF6900CD0A72 /* IServiceCall.h */,
+				F9BE3F781B29BF6900CD0A72 /* ISharedObjectListener.h */,
+				F9BE3F791B29BF6900CD0A72 /* MemoryTicker.h */,
+				F9BE3F7A1B29BF6900CD0A72 /* Responder.h */,
+				F9BE3F7B1B29BF6900CD0A72 /* RTMPClient.h */,
+				F9BE3F7C1B29BF6900CD0A72 /* Types.h */,
+				F9BE3F7D1B29BF6900CD0A72 /* WeborbClient.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9BE3E201B29BBAB00CD0A72 /* F59DataRecursiveRelations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9BE3E441B29BBAB00CD0A72 /* Build configuration list for PBXNativeTarget "F59DataRecursiveRelations" */;
+			buildPhases = (
+				F9BE3E1D1B29BBAB00CD0A72 /* Sources */,
+				F9BE3E1E1B29BBAB00CD0A72 /* Frameworks */,
+				F9BE3E1F1B29BBAB00CD0A72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = F59DataRecursiveRelations;
+			productName = F59DataRecursiveRelations;
+			productReference = F9BE3E211B29BBAB00CD0A72 /* F59DataRecursiveRelations.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9BE3E391B29BBAB00CD0A72 /* F59DataRecursiveRelationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9BE3E471B29BBAB00CD0A72 /* Build configuration list for PBXNativeTarget "F59DataRecursiveRelationsTests" */;
+			buildPhases = (
+				F9BE3E361B29BBAB00CD0A72 /* Sources */,
+				F9BE3E371B29BBAB00CD0A72 /* Frameworks */,
+				F9BE3E381B29BBAB00CD0A72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9BE3E3C1B29BBAB00CD0A72 /* PBXTargetDependency */,
+			);
+			name = F59DataRecursiveRelationsTests;
+			productName = F59DataRecursiveRelationsTests;
+			productReference = F9BE3E3A1B29BBAB00CD0A72 /* F59DataRecursiveRelationsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9BE3EFD1B29BDEF00CD0A72 /* F59DataRecursiveRelationsSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9BE3F1A1B29BDEF00CD0A72 /* Build configuration list for PBXNativeTarget "F59DataRecursiveRelationsSwift" */;
+			buildPhases = (
+				F9BE3EFA1B29BDEF00CD0A72 /* Sources */,
+				F9BE3EFB1B29BDEF00CD0A72 /* Frameworks */,
+				F9BE3EFC1B29BDEF00CD0A72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = F59DataRecursiveRelationsSwift;
+			productName = F59DataRecursiveRelationsSwift;
+			productReference = F9BE3EFE1B29BDEF00CD0A72 /* F59DataRecursiveRelationsSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9BE3F111B29BDEF00CD0A72 /* F59DataRecursiveRelationsSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9BE3F1D1B29BDEF00CD0A72 /* Build configuration list for PBXNativeTarget "F59DataRecursiveRelationsSwiftTests" */;
+			buildPhases = (
+				F9BE3F0E1B29BDEF00CD0A72 /* Sources */,
+				F9BE3F0F1B29BDEF00CD0A72 /* Frameworks */,
+				F9BE3F101B29BDEF00CD0A72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9BE3F141B29BDEF00CD0A72 /* PBXTargetDependency */,
+			);
+			name = F59DataRecursiveRelationsSwiftTests;
+			productName = F59DataRecursiveRelationsSwiftTests;
+			productReference = F9BE3F121B29BDEF00CD0A72 /* F59DataRecursiveRelationsSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9BE3E191B29BBAB00CD0A72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Slava Vdovichenko";
+				TargetAttributes = {
+					F9BE3E201B29BBAB00CD0A72 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					F9BE3E391B29BBAB00CD0A72 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = F9BE3E201B29BBAB00CD0A72;
+					};
+					F9BE3EFD1B29BDEF00CD0A72 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					F9BE3F111B29BDEF00CD0A72 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = F9BE3EFD1B29BDEF00CD0A72;
+					};
+				};
+			};
+			buildConfigurationList = F9BE3E1C1B29BBAB00CD0A72 /* Build configuration list for PBXProject "F59DataRecursiveRelations" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9BE3E181B29BBAB00CD0A72;
+			productRefGroup = F9BE3E221B29BBAB00CD0A72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9BE3E201B29BBAB00CD0A72 /* F59DataRecursiveRelations */,
+				F9BE3EFD1B29BDEF00CD0A72 /* F59DataRecursiveRelationsSwift */,
+				F9BE3E391B29BBAB00CD0A72 /* F59DataRecursiveRelationsTests */,
+				F9BE3F111B29BDEF00CD0A72 /* F59DataRecursiveRelationsSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9BE3E1F1B29BBAB00CD0A72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BE3E301B29BBAB00CD0A72 /* Main.storyboard in Resources */,
+				F9BE3E351B29BBAB00CD0A72 /* LaunchScreen.xib in Resources */,
+				F9BE3E321B29BBAB00CD0A72 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BE3E381B29BBAB00CD0A72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BE3EFC1B29BDEF00CD0A72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BE3F081B29BDEF00CD0A72 /* Main.storyboard in Resources */,
+				F9BE3F0D1B29BDEF00CD0A72 /* LaunchScreen.xib in Resources */,
+				F9BE3F0A1B29BDEF00CD0A72 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BE3F101B29BDEF00CD0A72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9BE3E1D1B29BBAB00CD0A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BE3E2D1B29BBAB00CD0A72 /* ViewController.m in Sources */,
+				F9BE3E2A1B29BBAB00CD0A72 /* AppDelegate.m in Sources */,
+				F9BE40421B29C8CB00CD0A72 /* Person.m in Sources */,
+				F9BE3E271B29BBAB00CD0A72 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BE3E361B29BBAB00CD0A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BE3E411B29BBAB00CD0A72 /* F59DataRecursiveRelationsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BE3EFA1B29BDEF00CD0A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BE40441B29D20B00CD0A72 /* Person.swift in Sources */,
+				F9BE3F051B29BDEF00CD0A72 /* ViewController.swift in Sources */,
+				F9BE3F031B29BDEF00CD0A72 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BE3F0E1B29BDEF00CD0A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BE3F191B29BDEF00CD0A72 /* F59DataRecursiveRelationsSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9BE3E3C1B29BBAB00CD0A72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9BE3E201B29BBAB00CD0A72 /* F59DataRecursiveRelations */;
+			targetProxy = F9BE3E3B1B29BBAB00CD0A72 /* PBXContainerItemProxy */;
+		};
+		F9BE3F141B29BDEF00CD0A72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9BE3EFD1B29BDEF00CD0A72 /* F59DataRecursiveRelationsSwift */;
+			targetProxy = F9BE3F131B29BDEF00CD0A72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9BE3E2E1B29BBAB00CD0A72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9BE3E2F1B29BBAB00CD0A72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9BE3E331B29BBAB00CD0A72 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9BE3E341B29BBAB00CD0A72 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		F9BE3F061B29BDEF00CD0A72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9BE3F071B29BDEF00CD0A72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9BE3F0B1B29BDEF00CD0A72 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9BE3F0C1B29BDEF00CD0A72 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9BE3E421B29BBAB00CD0A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9BE3E431B29BBAB00CD0A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9BE3E451B29BBAB00CD0A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = F59DataRecursiveRelations/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/slava/Documents/Projects/backendless/BlogFeatureDay/lib/backendless,
+					/Users/slava/Documents/Projects/backendless/BlogFeatureDay/lib/CommLibiOS,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F9BE3E461B29BBAB00CD0A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = F59DataRecursiveRelations/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/slava/Documents/Projects/backendless/BlogFeatureDay/lib/backendless,
+					/Users/slava/Documents/Projects/backendless/BlogFeatureDay/lib/CommLibiOS,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F9BE3E481B29BBAB00CD0A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = F59DataRecursiveRelationsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F59DataRecursiveRelations.app/F59DataRecursiveRelations";
+			};
+			name = Debug;
+		};
+		F9BE3E491B29BBAB00CD0A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = F59DataRecursiveRelationsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F59DataRecursiveRelations.app/F59DataRecursiveRelations";
+			};
+			name = Release;
+		};
+		F9BE3F1B1B29BDEF00CD0A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = F59DataRecursiveRelationsSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/slava/Documents/Projects/backendless/BlogFeatureDay/lib/backendless,
+					/Users/slava/Documents/Projects/backendless/BlogFeatureDay/lib/CommLibiOS,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9BE3F1C1B29BDEF00CD0A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = F59DataRecursiveRelationsSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/slava/Documents/Projects/backendless/BlogFeatureDay/lib/backendless,
+					/Users/slava/Documents/Projects/backendless/BlogFeatureDay/lib/CommLibiOS,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		F9BE3F1E1B29BDEF00CD0A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = F59DataRecursiveRelationsSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F59DataRecursiveRelationsSwift.app/F59DataRecursiveRelationsSwift";
+			};
+			name = Debug;
+		};
+		F9BE3F1F1B29BDEF00CD0A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = F59DataRecursiveRelationsSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F59DataRecursiveRelationsSwift.app/F59DataRecursiveRelationsSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9BE3E1C1B29BBAB00CD0A72 /* Build configuration list for PBXProject "F59DataRecursiveRelations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9BE3E421B29BBAB00CD0A72 /* Debug */,
+				F9BE3E431B29BBAB00CD0A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9BE3E441B29BBAB00CD0A72 /* Build configuration list for PBXNativeTarget "F59DataRecursiveRelations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9BE3E451B29BBAB00CD0A72 /* Debug */,
+				F9BE3E461B29BBAB00CD0A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9BE3E471B29BBAB00CD0A72 /* Build configuration list for PBXNativeTarget "F59DataRecursiveRelationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9BE3E481B29BBAB00CD0A72 /* Debug */,
+				F9BE3E491B29BBAB00CD0A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9BE3F1A1B29BDEF00CD0A72 /* Build configuration list for PBXNativeTarget "F59DataRecursiveRelationsSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9BE3F1B1B29BDEF00CD0A72 /* Debug */,
+				F9BE3F1C1B29BDEF00CD0A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9BE3F1D1B29BDEF00CD0A72 /* Build configuration list for PBXNativeTarget "F59DataRecursiveRelationsSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9BE3F1E1B29BDEF00CD0A72 /* Debug */,
+				F9BE3F1F1B29BDEF00CD0A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9BE3E191B29BBAB00CD0A72 /* Project object */;
+}

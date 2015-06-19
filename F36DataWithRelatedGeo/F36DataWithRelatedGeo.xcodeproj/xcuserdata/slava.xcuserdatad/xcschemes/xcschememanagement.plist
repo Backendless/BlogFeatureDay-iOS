@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>F36DataWithRelatedGeo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>24</integer>
+		</dict>
+		<key>F36DataWithRelatedGeoSwift.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>25</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>F997E3CD1B34232A001C602F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F997E3E61B34232A001C602F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F997E3FA1B342472001C602F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F997E40E1B342472001C602F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

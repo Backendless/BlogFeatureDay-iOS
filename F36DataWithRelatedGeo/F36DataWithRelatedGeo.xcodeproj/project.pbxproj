@@ -1,0 +1,939 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F997E3D41B34232A001C602F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F997E3D31B34232A001C602F /* main.m */; };
+		F997E3D71B34232A001C602F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F997E3D61B34232A001C602F /* AppDelegate.m */; };
+		F997E3DA1B34232A001C602F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F997E3D91B34232A001C602F /* ViewController.m */; };
+		F997E3DD1B34232A001C602F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F997E3DB1B34232A001C602F /* Main.storyboard */; };
+		F997E3DF1B34232A001C602F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F997E3DE1B34232A001C602F /* Images.xcassets */; };
+		F997E3E21B34232A001C602F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F997E3E01B34232A001C602F /* LaunchScreen.xib */; };
+		F997E3EE1B34232A001C602F /* F36DataWithRelatedGeoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F997E3ED1B34232A001C602F /* F36DataWithRelatedGeoTests.m */; };
+		F997E4001B342472001C602F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F997E3FF1B342472001C602F /* AppDelegate.swift */; };
+		F997E4021B342472001C602F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F997E4011B342472001C602F /* ViewController.swift */; };
+		F997E4051B342472001C602F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F997E4031B342472001C602F /* Main.storyboard */; };
+		F997E4071B342472001C602F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F997E4061B342472001C602F /* Images.xcassets */; };
+		F997E40A1B342472001C602F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F997E4081B342472001C602F /* LaunchScreen.xib */; };
+		F997E4161B342472001C602F /* F36DataWithRelatedGeoSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F997E4151B342472001C602F /* F36DataWithRelatedGeoSwiftTests.swift */; };
+		F997E5291B342683001C602F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F997E5271B342683001C602F /* libsqlite3.dylib */; };
+		F997E52A1B342683001C602F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F997E5281B342683001C602F /* SystemConfiguration.framework */; };
+		F997E52B1B342691001C602F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F997E5271B342683001C602F /* libsqlite3.dylib */; };
+		F997E52C1B342691001C602F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F997E5281B342683001C602F /* SystemConfiguration.framework */; };
+		F997E5821B3426AD001C602F /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F997E52F1B3426AD001C602F /* backendless.a */; };
+		F997E5831B3426AD001C602F /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F997E52F1B3426AD001C602F /* backendless.a */; };
+		F997E5841B3426AE001C602F /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F997E56D1B3426AD001C602F /* CommLibiOS.a */; };
+		F997E5851B3426AE001C602F /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F997E56D1B3426AD001C602F /* CommLibiOS.a */; };
+		F997E79E1B343590001C602F /* Driver.m in Sources */ = {isa = PBXBuildFile; fileRef = F997E79D1B343590001C602F /* Driver.m */; };
+		F997E7A01B3435A2001C602F /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F997E79F1B3435A2001C602F /* Driver.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F997E3E81B34232A001C602F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F997E3C61B34232A001C602F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F997E3CD1B34232A001C602F;
+			remoteInfo = F36DataWithRelatedGeo;
+		};
+		F997E4101B342472001C602F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F997E3C61B34232A001C602F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F997E3FA1B342472001C602F;
+			remoteInfo = F36DataWithRelatedGeoSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F997E3CE1B34232A001C602F /* F36DataWithRelatedGeo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F36DataWithRelatedGeo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F997E3D21B34232A001C602F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F997E3D31B34232A001C602F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F997E3D51B34232A001C602F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F997E3D61B34232A001C602F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F997E3D81B34232A001C602F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F997E3D91B34232A001C602F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F997E3DC1B34232A001C602F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F997E3DE1B34232A001C602F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F997E3E11B34232A001C602F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F997E3E71B34232A001C602F /* F36DataWithRelatedGeoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F36DataWithRelatedGeoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F997E3EC1B34232A001C602F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F997E3ED1B34232A001C602F /* F36DataWithRelatedGeoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = F36DataWithRelatedGeoTests.m; sourceTree = "<group>"; };
+		F997E3FB1B342472001C602F /* F36DataWithRelatedGeoSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F36DataWithRelatedGeoSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F997E3FE1B342472001C602F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F997E3FF1B342472001C602F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F997E4011B342472001C602F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F997E4041B342472001C602F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F997E4061B342472001C602F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F997E4091B342472001C602F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F997E40F1B342472001C602F /* F36DataWithRelatedGeoSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F36DataWithRelatedGeoSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F997E4141B342472001C602F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F997E4151B342472001C602F /* F36DataWithRelatedGeoSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F36DataWithRelatedGeoSwiftTests.swift; sourceTree = "<group>"; };
+		F997E5271B342683001C602F /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		F997E5281B342683001C602F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F997E52F1B3426AD001C602F /* backendless.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = backendless.a; sourceTree = "<group>"; };
+		F997E5311B3426AD001C602F /* AbstractProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractProperty.h; sourceTree = "<group>"; };
+		F997E5321B3426AD001C602F /* AbstractQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractQuery.h; sourceTree = "<group>"; };
+		F997E5331B3426AD001C602F /* AtomicCounters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtomicCounters.h; sourceTree = "<group>"; };
+		F997E5341B3426AD001C602F /* AtomicCountersFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtomicCountersFactory.h; sourceTree = "<group>"; };
+		F997E5351B3426AD001C602F /* Backendless-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Backendless-Bridging-Header.h"; sourceTree = "<group>"; };
+		F997E5361B3426AD001C602F /* Backendless.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Backendless.h; sourceTree = "<group>"; };
+		F997E5371B3426AD001C602F /* BackendlessCachePolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessCachePolicy.h; sourceTree = "<group>"; };
+		F997E5381B3426AD001C602F /* BackendlessCacheProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessCacheProtocol.h; sourceTree = "<group>"; };
+		F997E5391B3426AD001C602F /* BackendlessCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessCollection.h; sourceTree = "<group>"; };
+		F997E53A1B3426AD001C602F /* BackendlessDataQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessDataQuery.h; sourceTree = "<group>"; };
+		F997E53B1B3426AD001C602F /* BackendlessEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessEntity.h; sourceTree = "<group>"; };
+		F997E53C1B3426AD001C602F /* BackendlessFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessFile.h; sourceTree = "<group>"; };
+		F997E53D1B3426AD001C602F /* BackendlessGeoQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessGeoQuery.h; sourceTree = "<group>"; };
+		F997E53E1B3426AD001C602F /* BackendlessUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessUser.h; sourceTree = "<group>"; };
+		F997E53F1B3426AD001C602F /* BEAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEAnnotation.h; sourceTree = "<group>"; };
+		F997E5401B3426AD001C602F /* BECollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BECollectionView.h; sourceTree = "<group>"; };
+		F997E5411B3426AD001C602F /* BEMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMapView.h; sourceTree = "<group>"; };
+		F997E5421B3426AD001C602F /* BESubscription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BESubscription.h; sourceTree = "<group>"; };
+		F997E5431B3426AD001C602F /* BETableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BETableView.h; sourceTree = "<group>"; };
+		F997E5441B3426AD001C602F /* CacheFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheFactory.h; sourceTree = "<group>"; };
+		F997E5451B3426AD001C602F /* CacheService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheService.h; sourceTree = "<group>"; };
+		F997E5461B3426AD001C602F /* CustomService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomService.h; sourceTree = "<group>"; };
+		F997E5471B3426AD001C602F /* DataPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataPermission.h; sourceTree = "<group>"; };
+		F997E5481B3426AD001C602F /* DataStoreFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStoreFactory.h; sourceTree = "<group>"; };
+		F997E5491B3426AD001C602F /* DeliveryOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeliveryOptions.h; sourceTree = "<group>"; };
+		F997E54A1B3426AD001C602F /* DeviceRegistration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceRegistration.h; sourceTree = "<group>"; };
+		F997E54B1B3426AD001C602F /* Events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Events.h; sourceTree = "<group>"; };
+		F997E54C1B3426AD001C602F /* FilePermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilePermission.h; sourceTree = "<group>"; };
+		F997E54D1B3426AD001C602F /* FileService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileService.h; sourceTree = "<group>"; };
+		F997E54E1B3426AD001C602F /* GeoCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoCategory.h; sourceTree = "<group>"; };
+		F997E54F1B3426AD001C602F /* GeoCluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoCluster.h; sourceTree = "<group>"; };
+		F997E5501B3426AD001C602F /* GeoFence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoFence.h; sourceTree = "<group>"; };
+		F997E5511B3426AD001C602F /* GeoPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoPoint.h; sourceTree = "<group>"; };
+		F997E5521B3426AD001C602F /* GeoService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoService.h; sourceTree = "<group>"; };
+		F997E5531B3426AD001C602F /* HashMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HashMap.h; sourceTree = "<group>"; };
+		F997E5541B3426AD001C602F /* IAtomicCounters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAtomicCounters.h; sourceTree = "<group>"; };
+		F997E5551B3426AD001C602F /* ICacheService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICacheService.h; sourceTree = "<group>"; };
+		F997E5561B3426AD001C602F /* ICallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICallback.h; sourceTree = "<group>"; };
+		F997E5571B3426AD001C602F /* IDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDataStore.h; sourceTree = "<group>"; };
+		F997E5581B3426AD001C602F /* IMediaStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMediaStreamer.h; sourceTree = "<group>"; };
+		F997E5591B3426AD001C602F /* LocationTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationTracker.h; sourceTree = "<group>"; };
+		F997E55A1B3426AD001C602F /* Logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
+		F997E55B1B3426AD001C602F /* Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logging.h; sourceTree = "<group>"; };
+		F997E55C1B3426AD001C602F /* MediaPlaybackOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaPlaybackOptions.h; sourceTree = "<group>"; };
+		F997E55D1B3426AD001C602F /* MediaPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaPlayer.h; sourceTree = "<group>"; };
+		F997E55E1B3426AD001C602F /* MediaPublisher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaPublisher.h; sourceTree = "<group>"; };
+		F997E55F1B3426AD001C602F /* MediaPublishOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaPublishOptions.h; sourceTree = "<group>"; };
+		F997E5601B3426AD001C602F /* MediaService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaService.h; sourceTree = "<group>"; };
+		F997E5611B3426AD001C602F /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		F997E5621B3426AD001C602F /* MessageStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageStatus.h; sourceTree = "<group>"; };
+		F997E5631B3426AD001C602F /* MessagingService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagingService.h; sourceTree = "<group>"; };
+		F997E5641B3426AD001C602F /* ObjectProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectProperty.h; sourceTree = "<group>"; };
+		F997E5651B3426AD001C602F /* PersistenceService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersistenceService.h; sourceTree = "<group>"; };
+		F997E5661B3426AD001C602F /* ProtectedBackendlessGeoQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtectedBackendlessGeoQuery.h; sourceTree = "<group>"; };
+		F997E5671B3426AD001C602F /* PublishOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishOptions.h; sourceTree = "<group>"; };
+		F997E5681B3426AD001C602F /* QueryOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryOptions.h; sourceTree = "<group>"; };
+		F997E5691B3426AD001C602F /* SubscriptionOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscriptionOptions.h; sourceTree = "<group>"; };
+		F997E56A1B3426AD001C602F /* UserProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserProperty.h; sourceTree = "<group>"; };
+		F997E56B1B3426AD001C602F /* UserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserService.h; sourceTree = "<group>"; };
+		F997E56D1B3426AD001C602F /* CommLibiOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = CommLibiOS.a; sourceTree = "<group>"; };
+		F997E56F1B3426AD001C602F /* AMFSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMFSerializer.h; sourceTree = "<group>"; };
+		F997E5701B3426AD001C602F /* BinaryCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryCodec.h; sourceTree = "<group>"; };
+		F997E5711B3426AD001C602F /* BinaryStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryStream.h; sourceTree = "<group>"; };
+		F997E5721B3426AD001C602F /* DEBUG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEBUG.h; sourceTree = "<group>"; };
+		F997E5731B3426AD001C602F /* FlashorbBinaryReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashorbBinaryReader.h; sourceTree = "<group>"; };
+		F997E5741B3426AD001C602F /* FlashorbBinaryWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashorbBinaryWriter.h; sourceTree = "<group>"; };
+		F997E5751B3426AD001C602F /* IAttributeStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAttributeStore.h; sourceTree = "<group>"; };
+		F997E5761B3426AD001C602F /* IClientSharedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IClientSharedObject.h; sourceTree = "<group>"; };
+		F997E5771B3426AD001C602F /* IClientSharedObjectDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IClientSharedObjectDelegate.h; sourceTree = "<group>"; };
+		F997E5781B3426AD001C602F /* IPendingServiceCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPendingServiceCallback.h; sourceTree = "<group>"; };
+		F997E5791B3426AD001C602F /* IPersistable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPersistable.h; sourceTree = "<group>"; };
+		F997E57A1B3426AD001C602F /* IRTMProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRTMProtocol.h; sourceTree = "<group>"; };
+		F997E57B1B3426AD001C602F /* IServiceCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IServiceCall.h; sourceTree = "<group>"; };
+		F997E57C1B3426AD001C602F /* ISharedObjectListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISharedObjectListener.h; sourceTree = "<group>"; };
+		F997E57D1B3426AD001C602F /* MemoryTicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoryTicker.h; sourceTree = "<group>"; };
+		F997E57E1B3426AD001C602F /* Responder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Responder.h; sourceTree = "<group>"; };
+		F997E57F1B3426AD001C602F /* RTMPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTMPClient.h; sourceTree = "<group>"; };
+		F997E5801B3426AD001C602F /* Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
+		F997E5811B3426AD001C602F /* WeborbClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeborbClient.h; sourceTree = "<group>"; };
+		F997E79C1B343590001C602F /* Driver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Driver.h; sourceTree = "<group>"; };
+		F997E79D1B343590001C602F /* Driver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Driver.m; sourceTree = "<group>"; };
+		F997E79F1B3435A2001C602F /* Driver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F997E3CB1B34232A001C602F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F997E5291B342683001C602F /* libsqlite3.dylib in Frameworks */,
+				F997E5841B3426AE001C602F /* CommLibiOS.a in Frameworks */,
+				F997E5821B3426AD001C602F /* backendless.a in Frameworks */,
+				F997E52A1B342683001C602F /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F997E3E41B34232A001C602F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F997E3F81B342472001C602F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F997E52B1B342691001C602F /* libsqlite3.dylib in Frameworks */,
+				F997E5851B3426AE001C602F /* CommLibiOS.a in Frameworks */,
+				F997E5831B3426AD001C602F /* backendless.a in Frameworks */,
+				F997E52C1B342691001C602F /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F997E40C1B342472001C602F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F997E3C51B34232A001C602F = {
+			isa = PBXGroup;
+			children = (
+				F997E52D1B3426AD001C602F /* lib */,
+				F997E5271B342683001C602F /* libsqlite3.dylib */,
+				F997E5281B342683001C602F /* SystemConfiguration.framework */,
+				F997E3D01B34232A001C602F /* F36DataWithRelatedGeo */,
+				F997E3EA1B34232A001C602F /* F36DataWithRelatedGeoTests */,
+				F997E3FC1B342472001C602F /* F36DataWithRelatedGeoSwift */,
+				F997E4121B342472001C602F /* F36DataWithRelatedGeoSwiftTests */,
+				F997E3CF1B34232A001C602F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F997E3CF1B34232A001C602F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F997E3CE1B34232A001C602F /* F36DataWithRelatedGeo.app */,
+				F997E3E71B34232A001C602F /* F36DataWithRelatedGeoTests.xctest */,
+				F997E3FB1B342472001C602F /* F36DataWithRelatedGeoSwift.app */,
+				F997E40F1B342472001C602F /* F36DataWithRelatedGeoSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F997E3D01B34232A001C602F /* F36DataWithRelatedGeo */ = {
+			isa = PBXGroup;
+			children = (
+				F997E79C1B343590001C602F /* Driver.h */,
+				F997E79D1B343590001C602F /* Driver.m */,
+				F997E3D51B34232A001C602F /* AppDelegate.h */,
+				F997E3D61B34232A001C602F /* AppDelegate.m */,
+				F997E3D81B34232A001C602F /* ViewController.h */,
+				F997E3D91B34232A001C602F /* ViewController.m */,
+				F997E3DB1B34232A001C602F /* Main.storyboard */,
+				F997E3DE1B34232A001C602F /* Images.xcassets */,
+				F997E3E01B34232A001C602F /* LaunchScreen.xib */,
+				F997E3D11B34232A001C602F /* Supporting Files */,
+			);
+			path = F36DataWithRelatedGeo;
+			sourceTree = "<group>";
+		};
+		F997E3D11B34232A001C602F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F997E3D21B34232A001C602F /* Info.plist */,
+				F997E3D31B34232A001C602F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F997E3EA1B34232A001C602F /* F36DataWithRelatedGeoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F997E3ED1B34232A001C602F /* F36DataWithRelatedGeoTests.m */,
+				F997E3EB1B34232A001C602F /* Supporting Files */,
+			);
+			path = F36DataWithRelatedGeoTests;
+			sourceTree = "<group>";
+		};
+		F997E3EB1B34232A001C602F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F997E3EC1B34232A001C602F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F997E3FC1B342472001C602F /* F36DataWithRelatedGeoSwift */ = {
+			isa = PBXGroup;
+			children = (
+				F997E79F1B3435A2001C602F /* Driver.swift */,
+				F997E3FF1B342472001C602F /* AppDelegate.swift */,
+				F997E4011B342472001C602F /* ViewController.swift */,
+				F997E4031B342472001C602F /* Main.storyboard */,
+				F997E4061B342472001C602F /* Images.xcassets */,
+				F997E4081B342472001C602F /* LaunchScreen.xib */,
+				F997E3FD1B342472001C602F /* Supporting Files */,
+			);
+			path = F36DataWithRelatedGeoSwift;
+			sourceTree = "<group>";
+		};
+		F997E3FD1B342472001C602F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F997E3FE1B342472001C602F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F997E4121B342472001C602F /* F36DataWithRelatedGeoSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				F997E4151B342472001C602F /* F36DataWithRelatedGeoSwiftTests.swift */,
+				F997E4131B342472001C602F /* Supporting Files */,
+			);
+			path = F36DataWithRelatedGeoSwiftTests;
+			sourceTree = "<group>";
+		};
+		F997E4131B342472001C602F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F997E4141B342472001C602F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F997E52D1B3426AD001C602F /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				F997E52E1B3426AD001C602F /* backendless */,
+				F997E56C1B3426AD001C602F /* CommLibiOS */,
+			);
+			name = lib;
+			path = ../lib;
+			sourceTree = "<group>";
+		};
+		F997E52E1B3426AD001C602F /* backendless */ = {
+			isa = PBXGroup;
+			children = (
+				F997E52F1B3426AD001C602F /* backendless.a */,
+				F997E5301B3426AD001C602F /* include */,
+			);
+			path = backendless;
+			sourceTree = "<group>";
+		};
+		F997E5301B3426AD001C602F /* include */ = {
+			isa = PBXGroup;
+			children = (
+				F997E5311B3426AD001C602F /* AbstractProperty.h */,
+				F997E5321B3426AD001C602F /* AbstractQuery.h */,
+				F997E5331B3426AD001C602F /* AtomicCounters.h */,
+				F997E5341B3426AD001C602F /* AtomicCountersFactory.h */,
+				F997E5351B3426AD001C602F /* Backendless-Bridging-Header.h */,
+				F997E5361B3426AD001C602F /* Backendless.h */,
+				F997E5371B3426AD001C602F /* BackendlessCachePolicy.h */,
+				F997E5381B3426AD001C602F /* BackendlessCacheProtocol.h */,
+				F997E5391B3426AD001C602F /* BackendlessCollection.h */,
+				F997E53A1B3426AD001C602F /* BackendlessDataQuery.h */,
+				F997E53B1B3426AD001C602F /* BackendlessEntity.h */,
+				F997E53C1B3426AD001C602F /* BackendlessFile.h */,
+				F997E53D1B3426AD001C602F /* BackendlessGeoQuery.h */,
+				F997E53E1B3426AD001C602F /* BackendlessUser.h */,
+				F997E53F1B3426AD001C602F /* BEAnnotation.h */,
+				F997E5401B3426AD001C602F /* BECollectionView.h */,
+				F997E5411B3426AD001C602F /* BEMapView.h */,
+				F997E5421B3426AD001C602F /* BESubscription.h */,
+				F997E5431B3426AD001C602F /* BETableView.h */,
+				F997E5441B3426AD001C602F /* CacheFactory.h */,
+				F997E5451B3426AD001C602F /* CacheService.h */,
+				F997E5461B3426AD001C602F /* CustomService.h */,
+				F997E5471B3426AD001C602F /* DataPermission.h */,
+				F997E5481B3426AD001C602F /* DataStoreFactory.h */,
+				F997E5491B3426AD001C602F /* DeliveryOptions.h */,
+				F997E54A1B3426AD001C602F /* DeviceRegistration.h */,
+				F997E54B1B3426AD001C602F /* Events.h */,
+				F997E54C1B3426AD001C602F /* FilePermission.h */,
+				F997E54D1B3426AD001C602F /* FileService.h */,
+				F997E54E1B3426AD001C602F /* GeoCategory.h */,
+				F997E54F1B3426AD001C602F /* GeoCluster.h */,
+				F997E5501B3426AD001C602F /* GeoFence.h */,
+				F997E5511B3426AD001C602F /* GeoPoint.h */,
+				F997E5521B3426AD001C602F /* GeoService.h */,
+				F997E5531B3426AD001C602F /* HashMap.h */,
+				F997E5541B3426AD001C602F /* IAtomicCounters.h */,
+				F997E5551B3426AD001C602F /* ICacheService.h */,
+				F997E5561B3426AD001C602F /* ICallback.h */,
+				F997E5571B3426AD001C602F /* IDataStore.h */,
+				F997E5581B3426AD001C602F /* IMediaStreamer.h */,
+				F997E5591B3426AD001C602F /* LocationTracker.h */,
+				F997E55A1B3426AD001C602F /* Logger.h */,
+				F997E55B1B3426AD001C602F /* Logging.h */,
+				F997E55C1B3426AD001C602F /* MediaPlaybackOptions.h */,
+				F997E55D1B3426AD001C602F /* MediaPlayer.h */,
+				F997E55E1B3426AD001C602F /* MediaPublisher.h */,
+				F997E55F1B3426AD001C602F /* MediaPublishOptions.h */,
+				F997E5601B3426AD001C602F /* MediaService.h */,
+				F997E5611B3426AD001C602F /* Message.h */,
+				F997E5621B3426AD001C602F /* MessageStatus.h */,
+				F997E5631B3426AD001C602F /* MessagingService.h */,
+				F997E5641B3426AD001C602F /* ObjectProperty.h */,
+				F997E5651B3426AD001C602F /* PersistenceService.h */,
+				F997E5661B3426AD001C602F /* ProtectedBackendlessGeoQuery.h */,
+				F997E5671B3426AD001C602F /* PublishOptions.h */,
+				F997E5681B3426AD001C602F /* QueryOptions.h */,
+				F997E5691B3426AD001C602F /* SubscriptionOptions.h */,
+				F997E56A1B3426AD001C602F /* UserProperty.h */,
+				F997E56B1B3426AD001C602F /* UserService.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		F997E56C1B3426AD001C602F /* CommLibiOS */ = {
+			isa = PBXGroup;
+			children = (
+				F997E56D1B3426AD001C602F /* CommLibiOS.a */,
+				F997E56E1B3426AD001C602F /* include */,
+			);
+			path = CommLibiOS;
+			sourceTree = "<group>";
+		};
+		F997E56E1B3426AD001C602F /* include */ = {
+			isa = PBXGroup;
+			children = (
+				F997E56F1B3426AD001C602F /* AMFSerializer.h */,
+				F997E5701B3426AD001C602F /* BinaryCodec.h */,
+				F997E5711B3426AD001C602F /* BinaryStream.h */,
+				F997E5721B3426AD001C602F /* DEBUG.h */,
+				F997E5731B3426AD001C602F /* FlashorbBinaryReader.h */,
+				F997E5741B3426AD001C602F /* FlashorbBinaryWriter.h */,
+				F997E5751B3426AD001C602F /* IAttributeStore.h */,
+				F997E5761B3426AD001C602F /* IClientSharedObject.h */,
+				F997E5771B3426AD001C602F /* IClientSharedObjectDelegate.h */,
+				F997E5781B3426AD001C602F /* IPendingServiceCallback.h */,
+				F997E5791B3426AD001C602F /* IPersistable.h */,
+				F997E57A1B3426AD001C602F /* IRTMProtocol.h */,
+				F997E57B1B3426AD001C602F /* IServiceCall.h */,
+				F997E57C1B3426AD001C602F /* ISharedObjectListener.h */,
+				F997E57D1B3426AD001C602F /* MemoryTicker.h */,
+				F997E57E1B3426AD001C602F /* Responder.h */,
+				F997E57F1B3426AD001C602F /* RTMPClient.h */,
+				F997E5801B3426AD001C602F /* Types.h */,
+				F997E5811B3426AD001C602F /* WeborbClient.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F997E3CD1B34232A001C602F /* F36DataWithRelatedGeo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F997E3F11B34232A001C602F /* Build configuration list for PBXNativeTarget "F36DataWithRelatedGeo" */;
+			buildPhases = (
+				F997E3CA1B34232A001C602F /* Sources */,
+				F997E3CB1B34232A001C602F /* Frameworks */,
+				F997E3CC1B34232A001C602F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = F36DataWithRelatedGeo;
+			productName = F36DataWithRelatedGeo;
+			productReference = F997E3CE1B34232A001C602F /* F36DataWithRelatedGeo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F997E3E61B34232A001C602F /* F36DataWithRelatedGeoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F997E3F41B34232A001C602F /* Build configuration list for PBXNativeTarget "F36DataWithRelatedGeoTests" */;
+			buildPhases = (
+				F997E3E31B34232A001C602F /* Sources */,
+				F997E3E41B34232A001C602F /* Frameworks */,
+				F997E3E51B34232A001C602F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F997E3E91B34232A001C602F /* PBXTargetDependency */,
+			);
+			name = F36DataWithRelatedGeoTests;
+			productName = F36DataWithRelatedGeoTests;
+			productReference = F997E3E71B34232A001C602F /* F36DataWithRelatedGeoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F997E3FA1B342472001C602F /* F36DataWithRelatedGeoSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F997E4171B342472001C602F /* Build configuration list for PBXNativeTarget "F36DataWithRelatedGeoSwift" */;
+			buildPhases = (
+				F997E3F71B342472001C602F /* Sources */,
+				F997E3F81B342472001C602F /* Frameworks */,
+				F997E3F91B342472001C602F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = F36DataWithRelatedGeoSwift;
+			productName = F36DataWithRelatedGeoSwift;
+			productReference = F997E3FB1B342472001C602F /* F36DataWithRelatedGeoSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F997E40E1B342472001C602F /* F36DataWithRelatedGeoSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F997E41A1B342472001C602F /* Build configuration list for PBXNativeTarget "F36DataWithRelatedGeoSwiftTests" */;
+			buildPhases = (
+				F997E40B1B342472001C602F /* Sources */,
+				F997E40C1B342472001C602F /* Frameworks */,
+				F997E40D1B342472001C602F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F997E4111B342472001C602F /* PBXTargetDependency */,
+			);
+			name = F36DataWithRelatedGeoSwiftTests;
+			productName = F36DataWithRelatedGeoSwiftTests;
+			productReference = F997E40F1B342472001C602F /* F36DataWithRelatedGeoSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F997E3C61B34232A001C602F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Slava Vdovichenko";
+				TargetAttributes = {
+					F997E3CD1B34232A001C602F = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					F997E3E61B34232A001C602F = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = F997E3CD1B34232A001C602F;
+					};
+					F997E3FA1B342472001C602F = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					F997E40E1B342472001C602F = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = F997E3FA1B342472001C602F;
+					};
+				};
+			};
+			buildConfigurationList = F997E3C91B34232A001C602F /* Build configuration list for PBXProject "F36DataWithRelatedGeo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F997E3C51B34232A001C602F;
+			productRefGroup = F997E3CF1B34232A001C602F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F997E3CD1B34232A001C602F /* F36DataWithRelatedGeo */,
+				F997E3FA1B342472001C602F /* F36DataWithRelatedGeoSwift */,
+				F997E3E61B34232A001C602F /* F36DataWithRelatedGeoTests */,
+				F997E40E1B342472001C602F /* F36DataWithRelatedGeoSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F997E3CC1B34232A001C602F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F997E3DD1B34232A001C602F /* Main.storyboard in Resources */,
+				F997E3E21B34232A001C602F /* LaunchScreen.xib in Resources */,
+				F997E3DF1B34232A001C602F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F997E3E51B34232A001C602F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F997E3F91B342472001C602F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F997E4051B342472001C602F /* Main.storyboard in Resources */,
+				F997E40A1B342472001C602F /* LaunchScreen.xib in Resources */,
+				F997E4071B342472001C602F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F997E40D1B342472001C602F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F997E3CA1B34232A001C602F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F997E3DA1B34232A001C602F /* ViewController.m in Sources */,
+				F997E3D71B34232A001C602F /* AppDelegate.m in Sources */,
+				F997E3D41B34232A001C602F /* main.m in Sources */,
+				F997E79E1B343590001C602F /* Driver.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F997E3E31B34232A001C602F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F997E3EE1B34232A001C602F /* F36DataWithRelatedGeoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F997E3F71B342472001C602F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F997E7A01B3435A2001C602F /* Driver.swift in Sources */,
+				F997E4021B342472001C602F /* ViewController.swift in Sources */,
+				F997E4001B342472001C602F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F997E40B1B342472001C602F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F997E4161B342472001C602F /* F36DataWithRelatedGeoSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F997E3E91B34232A001C602F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F997E3CD1B34232A001C602F /* F36DataWithRelatedGeo */;
+			targetProxy = F997E3E81B34232A001C602F /* PBXContainerItemProxy */;
+		};
+		F997E4111B342472001C602F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F997E3FA1B342472001C602F /* F36DataWithRelatedGeoSwift */;
+			targetProxy = F997E4101B342472001C602F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F997E3DB1B34232A001C602F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F997E3DC1B34232A001C602F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F997E3E01B34232A001C602F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F997E3E11B34232A001C602F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		F997E4031B342472001C602F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F997E4041B342472001C602F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F997E4081B342472001C602F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F997E4091B342472001C602F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F997E3EF1B34232A001C602F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F997E3F01B34232A001C602F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F997E3F21B34232A001C602F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = F36DataWithRelatedGeo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../lib/backendless",
+					"$(SRCROOT)/../lib/CommLibiOS",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F997E3F31B34232A001C602F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = F36DataWithRelatedGeo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../lib/backendless",
+					"$(SRCROOT)/../lib/CommLibiOS",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F997E3F51B34232A001C602F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = F36DataWithRelatedGeoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F36DataWithRelatedGeo.app/F36DataWithRelatedGeo";
+			};
+			name = Debug;
+		};
+		F997E3F61B34232A001C602F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = F36DataWithRelatedGeoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F36DataWithRelatedGeo.app/F36DataWithRelatedGeo";
+			};
+			name = Release;
+		};
+		F997E4181B342472001C602F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = F36DataWithRelatedGeoSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../lib/backendless",
+					"$(SRCROOT)/../lib/CommLibiOS",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F997E4191B342472001C602F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = F36DataWithRelatedGeoSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../lib/backendless",
+					"$(SRCROOT)/../lib/CommLibiOS",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		F997E41B1B342472001C602F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = F36DataWithRelatedGeoSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F36DataWithRelatedGeoSwift.app/F36DataWithRelatedGeoSwift";
+			};
+			name = Debug;
+		};
+		F997E41C1B342472001C602F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = F36DataWithRelatedGeoSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F36DataWithRelatedGeoSwift.app/F36DataWithRelatedGeoSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F997E3C91B34232A001C602F /* Build configuration list for PBXProject "F36DataWithRelatedGeo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F997E3EF1B34232A001C602F /* Debug */,
+				F997E3F01B34232A001C602F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F997E3F11B34232A001C602F /* Build configuration list for PBXNativeTarget "F36DataWithRelatedGeo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F997E3F21B34232A001C602F /* Debug */,
+				F997E3F31B34232A001C602F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F997E3F41B34232A001C602F /* Build configuration list for PBXNativeTarget "F36DataWithRelatedGeoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F997E3F51B34232A001C602F /* Debug */,
+				F997E3F61B34232A001C602F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F997E4171B342472001C602F /* Build configuration list for PBXNativeTarget "F36DataWithRelatedGeoSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F997E4181B342472001C602F /* Debug */,
+				F997E4191B342472001C602F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F997E41A1B342472001C602F /* Build configuration list for PBXNativeTarget "F36DataWithRelatedGeoSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F997E41B1B342472001C602F /* Debug */,
+				F997E41C1B342472001C602F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F997E3C61B34232A001C602F /* Project object */;
+}

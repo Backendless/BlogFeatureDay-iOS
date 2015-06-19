@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:F36DataWithRelatedGeo/F36DataWithRelatedGeo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:F28TwoStepDataLoading/F28TwoStepDataLoading.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:F22OneStepDataLoading/F22OneStepDataLoading.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:F21RetrievingAutolodedData/F21RetrievingAutolodedData.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:F17DataPaging/F17DataPaging.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:F32SavingGeoPoint/F32SavingGeoPoint.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:F38DynamicUserDefinition/F38DynamicUserDefinition.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:F65MessagingPublishSubscribe/F65MessagingPublishSubscribe.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:F62AtomicCounters/F62AtomicCounters.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:F61CachePlacingRetrievingObjects/F61CachePlacingRetrievingObjects.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:F60DataSaveUserBelong/F60DataSaveUserBelong.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:F59DataRecursiveRelations/F59DataRecursiveRelations.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:F57GeoPointsInRectangular/F57GeoPointsInRectangular.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:F56GeoPointsInRadius/F56GeoPointsInRadius.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:F55UserWithRelatedData/F55UserWithRelatedData.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:F52FetchingUsers/F52FetchingUsers.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:F43RequiredUserProperties/F43RequiredUserProperties.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:F39GeoPointWithRelatedData/F39GeoPointWithRelatedData.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:F34SendingEmail/F34SendingEmail.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:F31UploadingFiles/F31UploadingFiles.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:F25RetrievingGeoPoints/F25RetrievingGeoPoints.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:F16RetrievingData/F16RetrievingData.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:F4UserLogin/F4UserLogin.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:F2RegisteringUsers/F2RegisteringUsers.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:F1SavingObjects/F1SavingObjects.xcodeproj">
+   </FileRef>
+</Workspace>

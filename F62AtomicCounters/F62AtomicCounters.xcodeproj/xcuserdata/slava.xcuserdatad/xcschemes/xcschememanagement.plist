@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>F62AtomicCounters.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>46</integer>
+		</dict>
+		<key>F62AtomicCountersSwift.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>47</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>F9BE40521B2A1F6000CD0A72</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F9BE406B1B2A1F6000CD0A72</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F9BE40B11B2A1FEC00CD0A72</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F9BE40C51B2A1FEC00CD0A72</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
