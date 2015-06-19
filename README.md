@@ -1,1 +1,2 @@
 How feature-rich is Backendless? Well, it has a ton of features (which means if the features were measured as kilos in the metric system, we would have 1000 of them). Can you name all of them? Can we? Well, that’s what I am challenging myself and the rest of the company to find out. Starting today we’re going to write a blog post every day describing a feature.
+There are all iOS samples (Objective-C & Swift) of the BlogFeatureDay project (https://backendless.com/blog-a-feature-a-day-challenge/) here.
