@@ -1,9 +1,6 @@
 //
 //  ViewController.m
 //  F21RetrievingAutolodedData
-//
-//  ViewController.m
-//  F16RetrievingData
 /*
  * *********************************************************************************************************************
  *

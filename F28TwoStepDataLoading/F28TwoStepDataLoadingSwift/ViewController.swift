@@ -1,9 +1,6 @@
 //
 //  ViewController.swift
 //  F28TwoStepDataLoadingSwift
-//
-//  ViewController.swift
-//  F16RetrievingDataSwift
 /*
 * *********************************************************************************************************************
 *

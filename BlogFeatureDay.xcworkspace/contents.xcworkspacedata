@@ -5,6 +5,12 @@
       location = "group:README.md">
    </FileRef>
    <FileRef
+      location = "group:F123CustomClassToTableMapping/F123CustomClassToTableMapping.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:F122ClassToTableMapping/F122ClassToTableMapping.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:F36DataWithRelatedGeo/F36DataWithRelatedGeo.xcodeproj">
    </FileRef>
    <FileRef

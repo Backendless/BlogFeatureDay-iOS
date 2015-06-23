@@ -1,9 +1,6 @@
 //
 //  ViewController.swift
 //  F22OneStepDataLoadingSwift
-//
-//  ViewController.swift
-//  F16RetrievingDataSwift
 /*
 * *********************************************************************************************************************
 *

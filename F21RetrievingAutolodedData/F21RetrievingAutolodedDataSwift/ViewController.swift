@@ -1,9 +1,6 @@
 //
 //  ViewController.swift
 //  F21RetrievingAutolodedDataSwift
-//
-//  ViewController.swift
-//  F16RetrievingDataSwift
 /*
 * *********************************************************************************************************************
 *

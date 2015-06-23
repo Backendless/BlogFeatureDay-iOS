@@ -1,0 +1,949 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F96A1FB71B395B77001B2D08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F96A1FB61B395B77001B2D08 /* main.m */; };
+		F96A1FBA1B395B77001B2D08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F96A1FB91B395B77001B2D08 /* AppDelegate.m */; };
+		F96A1FBD1B395B77001B2D08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F96A1FBC1B395B77001B2D08 /* ViewController.m */; };
+		F96A1FC01B395B77001B2D08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F96A1FBE1B395B77001B2D08 /* Main.storyboard */; };
+		F96A1FC21B395B77001B2D08 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F96A1FC11B395B77001B2D08 /* Images.xcassets */; };
+		F96A1FC51B395B77001B2D08 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F96A1FC31B395B77001B2D08 /* LaunchScreen.xib */; };
+		F96A1FD11B395B77001B2D08 /* F122ClassToTableMappingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F96A1FD01B395B77001B2D08 /* F122ClassToTableMappingTests.m */; };
+		F96A203B1B395C41001B2D08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96A203A1B395C41001B2D08 /* AppDelegate.swift */; };
+		F96A203D1B395C41001B2D08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96A203C1B395C41001B2D08 /* ViewController.swift */; };
+		F96A20401B395C41001B2D08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F96A203E1B395C41001B2D08 /* Main.storyboard */; };
+		F96A20421B395C41001B2D08 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F96A20411B395C41001B2D08 /* Images.xcassets */; };
+		F96A20451B395C41001B2D08 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F96A20431B395C41001B2D08 /* LaunchScreen.xib */; };
+		F96A20511B395C41001B2D08 /* F122ClassToTableMappingSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96A20501B395C41001B2D08 /* F122ClassToTableMappingSwiftTests.swift */; };
+		F96A205A1B395CC1001B2D08 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F96A20581B395CC1001B2D08 /* libsqlite3.dylib */; };
+		F96A205B1B395CC1001B2D08 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F96A20591B395CC1001B2D08 /* SystemConfiguration.framework */; };
+		F96A205C1B395CD7001B2D08 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F96A20581B395CC1001B2D08 /* libsqlite3.dylib */; };
+		F96A205D1B395CD7001B2D08 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F96A20591B395CC1001B2D08 /* SystemConfiguration.framework */; };
+		F96A21121B395D25001B2D08 /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F96A20BF1B395D25001B2D08 /* backendless.a */; };
+		F96A21131B395D25001B2D08 /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F96A20BF1B395D25001B2D08 /* backendless.a */; };
+		F96A21141B395D25001B2D08 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F96A20FD1B395D25001B2D08 /* CommLibiOS.a */; };
+		F96A21151B395D25001B2D08 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F96A20FD1B395D25001B2D08 /* CommLibiOS.a */; };
+		F96A21241B395EB1001B2D08 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = F96A21211B395EB1001B2D08 /* Location.m */; };
+		F96A21251B395EB1001B2D08 /* Restaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = F96A21231B395EB1001B2D08 /* Restaurant.m */; };
+		F96A21281B395ED3001B2D08 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96A21261B395ED3001B2D08 /* Location.swift */; };
+		F96A21291B395ED3001B2D08 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96A21271B395ED3001B2D08 /* Restaurant.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F96A1FCB1B395B77001B2D08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F96A1FA91B395B77001B2D08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F96A1FB01B395B77001B2D08;
+			remoteInfo = F122ClassToTableMapping;
+		};
+		F96A204B1B395C41001B2D08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F96A1FA91B395B77001B2D08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F96A20351B395C41001B2D08;
+			remoteInfo = F122ClassToTableMappingSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F96A1FB11B395B77001B2D08 /* F122ClassToTableMapping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F122ClassToTableMapping.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F96A1FB51B395B77001B2D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F96A1FB61B395B77001B2D08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F96A1FB81B395B77001B2D08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F96A1FB91B395B77001B2D08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F96A1FBB1B395B77001B2D08 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F96A1FBC1B395B77001B2D08 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F96A1FBF1B395B77001B2D08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F96A1FC11B395B77001B2D08 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F96A1FC41B395B77001B2D08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F96A1FCA1B395B77001B2D08 /* F122ClassToTableMappingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F122ClassToTableMappingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F96A1FCF1B395B77001B2D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F96A1FD01B395B77001B2D08 /* F122ClassToTableMappingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = F122ClassToTableMappingTests.m; sourceTree = "<group>"; };
+		F96A20361B395C41001B2D08 /* F122ClassToTableMappingSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F122ClassToTableMappingSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F96A20391B395C41001B2D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F96A203A1B395C41001B2D08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F96A203C1B395C41001B2D08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F96A203F1B395C41001B2D08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F96A20411B395C41001B2D08 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F96A20441B395C41001B2D08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F96A204A1B395C41001B2D08 /* F122ClassToTableMappingSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F122ClassToTableMappingSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F96A204F1B395C41001B2D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F96A20501B395C41001B2D08 /* F122ClassToTableMappingSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F122ClassToTableMappingSwiftTests.swift; sourceTree = "<group>"; };
+		F96A20581B395CC1001B2D08 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		F96A20591B395CC1001B2D08 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F96A20BF1B395D25001B2D08 /* backendless.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = backendless.a; sourceTree = "<group>"; };
+		F96A20C11B395D25001B2D08 /* AbstractProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractProperty.h; sourceTree = "<group>"; };
+		F96A20C21B395D25001B2D08 /* AbstractQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractQuery.h; sourceTree = "<group>"; };
+		F96A20C31B395D25001B2D08 /* AtomicCounters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtomicCounters.h; sourceTree = "<group>"; };
+		F96A20C41B395D25001B2D08 /* AtomicCountersFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtomicCountersFactory.h; sourceTree = "<group>"; };
+		F96A20C51B395D25001B2D08 /* Backendless-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Backendless-Bridging-Header.h"; sourceTree = "<group>"; };
+		F96A20C61B395D25001B2D08 /* Backendless.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Backendless.h; sourceTree = "<group>"; };
+		F96A20C71B395D25001B2D08 /* BackendlessCachePolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessCachePolicy.h; sourceTree = "<group>"; };
+		F96A20C81B395D25001B2D08 /* BackendlessCacheProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessCacheProtocol.h; sourceTree = "<group>"; };
+		F96A20C91B395D25001B2D08 /* BackendlessCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessCollection.h; sourceTree = "<group>"; };
+		F96A20CA1B395D25001B2D08 /* BackendlessDataQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessDataQuery.h; sourceTree = "<group>"; };
+		F96A20CB1B395D25001B2D08 /* BackendlessEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessEntity.h; sourceTree = "<group>"; };
+		F96A20CC1B395D25001B2D08 /* BackendlessFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessFile.h; sourceTree = "<group>"; };
+		F96A20CD1B395D25001B2D08 /* BackendlessGeoQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessGeoQuery.h; sourceTree = "<group>"; };
+		F96A20CE1B395D25001B2D08 /* BackendlessUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackendlessUser.h; sourceTree = "<group>"; };
+		F96A20CF1B395D25001B2D08 /* BEAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEAnnotation.h; sourceTree = "<group>"; };
+		F96A20D01B395D25001B2D08 /* BECollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BECollectionView.h; sourceTree = "<group>"; };
+		F96A20D11B395D25001B2D08 /* BEMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMapView.h; sourceTree = "<group>"; };
+		F96A20D21B395D25001B2D08 /* BESubscription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BESubscription.h; sourceTree = "<group>"; };
+		F96A20D31B395D25001B2D08 /* BETableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BETableView.h; sourceTree = "<group>"; };
+		F96A20D41B395D25001B2D08 /* CacheFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheFactory.h; sourceTree = "<group>"; };
+		F96A20D51B395D25001B2D08 /* CacheService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheService.h; sourceTree = "<group>"; };
+		F96A20D61B395D25001B2D08 /* CustomService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomService.h; sourceTree = "<group>"; };
+		F96A20D71B395D25001B2D08 /* DataPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataPermission.h; sourceTree = "<group>"; };
+		F96A20D81B395D25001B2D08 /* DataStoreFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStoreFactory.h; sourceTree = "<group>"; };
+		F96A20D91B395D25001B2D08 /* DeliveryOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeliveryOptions.h; sourceTree = "<group>"; };
+		F96A20DA1B395D25001B2D08 /* DeviceRegistration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceRegistration.h; sourceTree = "<group>"; };
+		F96A20DB1B395D25001B2D08 /* Events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Events.h; sourceTree = "<group>"; };
+		F96A20DC1B395D25001B2D08 /* FilePermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilePermission.h; sourceTree = "<group>"; };
+		F96A20DD1B395D25001B2D08 /* FileService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileService.h; sourceTree = "<group>"; };
+		F96A20DE1B395D25001B2D08 /* GeoCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoCategory.h; sourceTree = "<group>"; };
+		F96A20DF1B395D25001B2D08 /* GeoCluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoCluster.h; sourceTree = "<group>"; };
+		F96A20E01B395D25001B2D08 /* GeoFence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoFence.h; sourceTree = "<group>"; };
+		F96A20E11B395D25001B2D08 /* GeoPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoPoint.h; sourceTree = "<group>"; };
+		F96A20E21B395D25001B2D08 /* GeoService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoService.h; sourceTree = "<group>"; };
+		F96A20E31B395D25001B2D08 /* HashMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HashMap.h; sourceTree = "<group>"; };
+		F96A20E41B395D25001B2D08 /* IAtomicCounters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAtomicCounters.h; sourceTree = "<group>"; };
+		F96A20E51B395D25001B2D08 /* ICacheService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICacheService.h; sourceTree = "<group>"; };
+		F96A20E61B395D25001B2D08 /* ICallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICallback.h; sourceTree = "<group>"; };
+		F96A20E71B395D25001B2D08 /* IDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDataStore.h; sourceTree = "<group>"; };
+		F96A20E81B395D25001B2D08 /* IMediaStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMediaStreamer.h; sourceTree = "<group>"; };
+		F96A20E91B395D25001B2D08 /* LocationTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationTracker.h; sourceTree = "<group>"; };
+		F96A20EA1B395D25001B2D08 /* Logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
+		F96A20EB1B395D25001B2D08 /* Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logging.h; sourceTree = "<group>"; };
+		F96A20EC1B395D25001B2D08 /* MediaPlaybackOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaPlaybackOptions.h; sourceTree = "<group>"; };
+		F96A20ED1B395D25001B2D08 /* MediaPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaPlayer.h; sourceTree = "<group>"; };
+		F96A20EE1B395D25001B2D08 /* MediaPublisher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaPublisher.h; sourceTree = "<group>"; };
+		F96A20EF1B395D25001B2D08 /* MediaPublishOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaPublishOptions.h; sourceTree = "<group>"; };
+		F96A20F01B395D25001B2D08 /* MediaService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaService.h; sourceTree = "<group>"; };
+		F96A20F11B395D25001B2D08 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		F96A20F21B395D25001B2D08 /* MessageStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageStatus.h; sourceTree = "<group>"; };
+		F96A20F31B395D25001B2D08 /* MessagingService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagingService.h; sourceTree = "<group>"; };
+		F96A20F41B395D25001B2D08 /* ObjectProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectProperty.h; sourceTree = "<group>"; };
+		F96A20F51B395D25001B2D08 /* PersistenceService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersistenceService.h; sourceTree = "<group>"; };
+		F96A20F61B395D25001B2D08 /* ProtectedBackendlessGeoQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtectedBackendlessGeoQuery.h; sourceTree = "<group>"; };
+		F96A20F71B395D25001B2D08 /* PublishOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishOptions.h; sourceTree = "<group>"; };
+		F96A20F81B395D25001B2D08 /* QueryOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryOptions.h; sourceTree = "<group>"; };
+		F96A20F91B395D25001B2D08 /* SubscriptionOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscriptionOptions.h; sourceTree = "<group>"; };
+		F96A20FA1B395D25001B2D08 /* UserProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserProperty.h; sourceTree = "<group>"; };
+		F96A20FB1B395D25001B2D08 /* UserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserService.h; sourceTree = "<group>"; };
+		F96A20FD1B395D25001B2D08 /* CommLibiOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = CommLibiOS.a; sourceTree = "<group>"; };
+		F96A20FF1B395D25001B2D08 /* AMFSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMFSerializer.h; sourceTree = "<group>"; };
+		F96A21001B395D25001B2D08 /* BinaryCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryCodec.h; sourceTree = "<group>"; };
+		F96A21011B395D25001B2D08 /* BinaryStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryStream.h; sourceTree = "<group>"; };
+		F96A21021B395D25001B2D08 /* DEBUG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEBUG.h; sourceTree = "<group>"; };
+		F96A21031B395D25001B2D08 /* FlashorbBinaryReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashorbBinaryReader.h; sourceTree = "<group>"; };
+		F96A21041B395D25001B2D08 /* FlashorbBinaryWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashorbBinaryWriter.h; sourceTree = "<group>"; };
+		F96A21051B395D25001B2D08 /* IAttributeStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAttributeStore.h; sourceTree = "<group>"; };
+		F96A21061B395D25001B2D08 /* IClientSharedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IClientSharedObject.h; sourceTree = "<group>"; };
+		F96A21071B395D25001B2D08 /* IClientSharedObjectDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IClientSharedObjectDelegate.h; sourceTree = "<group>"; };
+		F96A21081B395D25001B2D08 /* IPendingServiceCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPendingServiceCallback.h; sourceTree = "<group>"; };
+		F96A21091B395D25001B2D08 /* IPersistable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPersistable.h; sourceTree = "<group>"; };
+		F96A210A1B395D25001B2D08 /* IRTMProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRTMProtocol.h; sourceTree = "<group>"; };
+		F96A210B1B395D25001B2D08 /* IServiceCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IServiceCall.h; sourceTree = "<group>"; };
+		F96A210C1B395D25001B2D08 /* ISharedObjectListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISharedObjectListener.h; sourceTree = "<group>"; };
+		F96A210D1B395D25001B2D08 /* MemoryTicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoryTicker.h; sourceTree = "<group>"; };
+		F96A210E1B395D25001B2D08 /* Responder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Responder.h; sourceTree = "<group>"; };
+		F96A210F1B395D25001B2D08 /* RTMPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTMPClient.h; sourceTree = "<group>"; };
+		F96A21101B395D25001B2D08 /* Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
+		F96A21111B395D25001B2D08 /* WeborbClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeborbClient.h; sourceTree = "<group>"; };
+		F96A21201B395EB1001B2D08 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		F96A21211B395EB1001B2D08 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		F96A21221B395EB1001B2D08 /* Restaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Restaurant.h; sourceTree = "<group>"; };
+		F96A21231B395EB1001B2D08 /* Restaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Restaurant.m; sourceTree = "<group>"; };
+		F96A21261B395ED3001B2D08 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		F96A21271B395ED3001B2D08 /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F96A1FAE1B395B77001B2D08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F96A205A1B395CC1001B2D08 /* libsqlite3.dylib in Frameworks */,
+				F96A21141B395D25001B2D08 /* CommLibiOS.a in Frameworks */,
+				F96A21121B395D25001B2D08 /* backendless.a in Frameworks */,
+				F96A205B1B395CC1001B2D08 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F96A1FC71B395B77001B2D08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F96A20331B395C41001B2D08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F96A205C1B395CD7001B2D08 /* libsqlite3.dylib in Frameworks */,
+				F96A21151B395D25001B2D08 /* CommLibiOS.a in Frameworks */,
+				F96A21131B395D25001B2D08 /* backendless.a in Frameworks */,
+				F96A205D1B395CD7001B2D08 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F96A20471B395C41001B2D08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F96A1FA81B395B77001B2D08 = {
+			isa = PBXGroup;
+			children = (
+				F96A20BD1B395D25001B2D08 /* lib */,
+				F96A20581B395CC1001B2D08 /* libsqlite3.dylib */,
+				F96A20591B395CC1001B2D08 /* SystemConfiguration.framework */,
+				F96A1FB31B395B77001B2D08 /* F122ClassToTableMapping */,
+				F96A1FCD1B395B77001B2D08 /* F122ClassToTableMappingTests */,
+				F96A20371B395C41001B2D08 /* F122ClassToTableMappingSwift */,
+				F96A204D1B395C41001B2D08 /* F122ClassToTableMappingSwiftTests */,
+				F96A1FB21B395B77001B2D08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F96A1FB21B395B77001B2D08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F96A1FB11B395B77001B2D08 /* F122ClassToTableMapping.app */,
+				F96A1FCA1B395B77001B2D08 /* F122ClassToTableMappingTests.xctest */,
+				F96A20361B395C41001B2D08 /* F122ClassToTableMappingSwift.app */,
+				F96A204A1B395C41001B2D08 /* F122ClassToTableMappingSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F96A1FB31B395B77001B2D08 /* F122ClassToTableMapping */ = {
+			isa = PBXGroup;
+			children = (
+				F96A21201B395EB1001B2D08 /* Location.h */,
+				F96A21211B395EB1001B2D08 /* Location.m */,
+				F96A21221B395EB1001B2D08 /* Restaurant.h */,
+				F96A21231B395EB1001B2D08 /* Restaurant.m */,
+				F96A1FB81B395B77001B2D08 /* AppDelegate.h */,
+				F96A1FB91B395B77001B2D08 /* AppDelegate.m */,
+				F96A1FBB1B395B77001B2D08 /* ViewController.h */,
+				F96A1FBC1B395B77001B2D08 /* ViewController.m */,
+				F96A1FBE1B395B77001B2D08 /* Main.storyboard */,
+				F96A1FC11B395B77001B2D08 /* Images.xcassets */,
+				F96A1FC31B395B77001B2D08 /* LaunchScreen.xib */,
+				F96A1FB41B395B77001B2D08 /* Supporting Files */,
+			);
+			path = F122ClassToTableMapping;
+			sourceTree = "<group>";
+		};
+		F96A1FB41B395B77001B2D08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F96A1FB51B395B77001B2D08 /* Info.plist */,
+				F96A1FB61B395B77001B2D08 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F96A1FCD1B395B77001B2D08 /* F122ClassToTableMappingTests */ = {
+			isa = PBXGroup;
+			children = (
+				F96A1FD01B395B77001B2D08 /* F122ClassToTableMappingTests.m */,
+				F96A1FCE1B395B77001B2D08 /* Supporting Files */,
+			);
+			path = F122ClassToTableMappingTests;
+			sourceTree = "<group>";
+		};
+		F96A1FCE1B395B77001B2D08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F96A1FCF1B395B77001B2D08 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F96A20371B395C41001B2D08 /* F122ClassToTableMappingSwift */ = {
+			isa = PBXGroup;
+			children = (
+				F96A21261B395ED3001B2D08 /* Location.swift */,
+				F96A21271B395ED3001B2D08 /* Restaurant.swift */,
+				F96A203A1B395C41001B2D08 /* AppDelegate.swift */,
+				F96A203C1B395C41001B2D08 /* ViewController.swift */,
+				F96A203E1B395C41001B2D08 /* Main.storyboard */,
+				F96A20411B395C41001B2D08 /* Images.xcassets */,
+				F96A20431B395C41001B2D08 /* LaunchScreen.xib */,
+				F96A20381B395C41001B2D08 /* Supporting Files */,
+			);
+			path = F122ClassToTableMappingSwift;
+			sourceTree = "<group>";
+		};
+		F96A20381B395C41001B2D08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F96A20391B395C41001B2D08 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F96A204D1B395C41001B2D08 /* F122ClassToTableMappingSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				F96A20501B395C41001B2D08 /* F122ClassToTableMappingSwiftTests.swift */,
+				F96A204E1B395C41001B2D08 /* Supporting Files */,
+			);
+			path = F122ClassToTableMappingSwiftTests;
+			sourceTree = "<group>";
+		};
+		F96A204E1B395C41001B2D08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F96A204F1B395C41001B2D08 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F96A20BD1B395D25001B2D08 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				F96A20BE1B395D25001B2D08 /* backendless */,
+				F96A20FC1B395D25001B2D08 /* CommLibiOS */,
+			);
+			name = lib;
+			path = ../lib;
+			sourceTree = "<group>";
+		};
+		F96A20BE1B395D25001B2D08 /* backendless */ = {
+			isa = PBXGroup;
+			children = (
+				F96A20BF1B395D25001B2D08 /* backendless.a */,
+				F96A20C01B395D25001B2D08 /* include */,
+			);
+			path = backendless;
+			sourceTree = "<group>";
+		};
+		F96A20C01B395D25001B2D08 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				F96A20C11B395D25001B2D08 /* AbstractProperty.h */,
+				F96A20C21B395D25001B2D08 /* AbstractQuery.h */,
+				F96A20C31B395D25001B2D08 /* AtomicCounters.h */,
+				F96A20C41B395D25001B2D08 /* AtomicCountersFactory.h */,
+				F96A20C51B395D25001B2D08 /* Backendless-Bridging-Header.h */,
+				F96A20C61B395D25001B2D08 /* Backendless.h */,
+				F96A20C71B395D25001B2D08 /* BackendlessCachePolicy.h */,
+				F96A20C81B395D25001B2D08 /* BackendlessCacheProtocol.h */,
+				F96A20C91B395D25001B2D08 /* BackendlessCollection.h */,
+				F96A20CA1B395D25001B2D08 /* BackendlessDataQuery.h */,
+				F96A20CB1B395D25001B2D08 /* BackendlessEntity.h */,
+				F96A20CC1B395D25001B2D08 /* BackendlessFile.h */,
+				F96A20CD1B395D25001B2D08 /* BackendlessGeoQuery.h */,
+				F96A20CE1B395D25001B2D08 /* BackendlessUser.h */,
+				F96A20CF1B395D25001B2D08 /* BEAnnotation.h */,
+				F96A20D01B395D25001B2D08 /* BECollectionView.h */,
+				F96A20D11B395D25001B2D08 /* BEMapView.h */,
+				F96A20D21B395D25001B2D08 /* BESubscription.h */,
+				F96A20D31B395D25001B2D08 /* BETableView.h */,
+				F96A20D41B395D25001B2D08 /* CacheFactory.h */,
+				F96A20D51B395D25001B2D08 /* CacheService.h */,
+				F96A20D61B395D25001B2D08 /* CustomService.h */,
+				F96A20D71B395D25001B2D08 /* DataPermission.h */,
+				F96A20D81B395D25001B2D08 /* DataStoreFactory.h */,
+				F96A20D91B395D25001B2D08 /* DeliveryOptions.h */,
+				F96A20DA1B395D25001B2D08 /* DeviceRegistration.h */,
+				F96A20DB1B395D25001B2D08 /* Events.h */,
+				F96A20DC1B395D25001B2D08 /* FilePermission.h */,
+				F96A20DD1B395D25001B2D08 /* FileService.h */,
+				F96A20DE1B395D25001B2D08 /* GeoCategory.h */,
+				F96A20DF1B395D25001B2D08 /* GeoCluster.h */,
+				F96A20E01B395D25001B2D08 /* GeoFence.h */,
+				F96A20E11B395D25001B2D08 /* GeoPoint.h */,
+				F96A20E21B395D25001B2D08 /* GeoService.h */,
+				F96A20E31B395D25001B2D08 /* HashMap.h */,
+				F96A20E41B395D25001B2D08 /* IAtomicCounters.h */,
+				F96A20E51B395D25001B2D08 /* ICacheService.h */,
+				F96A20E61B395D25001B2D08 /* ICallback.h */,
+				F96A20E71B395D25001B2D08 /* IDataStore.h */,
+				F96A20E81B395D25001B2D08 /* IMediaStreamer.h */,
+				F96A20E91B395D25001B2D08 /* LocationTracker.h */,
+				F96A20EA1B395D25001B2D08 /* Logger.h */,
+				F96A20EB1B395D25001B2D08 /* Logging.h */,
+				F96A20EC1B395D25001B2D08 /* MediaPlaybackOptions.h */,
+				F96A20ED1B395D25001B2D08 /* MediaPlayer.h */,
+				F96A20EE1B395D25001B2D08 /* MediaPublisher.h */,
+				F96A20EF1B395D25001B2D08 /* MediaPublishOptions.h */,
+				F96A20F01B395D25001B2D08 /* MediaService.h */,
+				F96A20F11B395D25001B2D08 /* Message.h */,
+				F96A20F21B395D25001B2D08 /* MessageStatus.h */,
+				F96A20F31B395D25001B2D08 /* MessagingService.h */,
+				F96A20F41B395D25001B2D08 /* ObjectProperty.h */,
+				F96A20F51B395D25001B2D08 /* PersistenceService.h */,
+				F96A20F61B395D25001B2D08 /* ProtectedBackendlessGeoQuery.h */,
+				F96A20F71B395D25001B2D08 /* PublishOptions.h */,
+				F96A20F81B395D25001B2D08 /* QueryOptions.h */,
+				F96A20F91B395D25001B2D08 /* SubscriptionOptions.h */,
+				F96A20FA1B395D25001B2D08 /* UserProperty.h */,
+				F96A20FB1B395D25001B2D08 /* UserService.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		F96A20FC1B395D25001B2D08 /* CommLibiOS */ = {
+			isa = PBXGroup;
+			children = (
+				F96A20FD1B395D25001B2D08 /* CommLibiOS.a */,
+				F96A20FE1B395D25001B2D08 /* include */,
+			);
+			path = CommLibiOS;
+			sourceTree = "<group>";
+		};
+		F96A20FE1B395D25001B2D08 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				F96A20FF1B395D25001B2D08 /* AMFSerializer.h */,
+				F96A21001B395D25001B2D08 /* BinaryCodec.h */,
+				F96A21011B395D25001B2D08 /* BinaryStream.h */,
+				F96A21021B395D25001B2D08 /* DEBUG.h */,
+				F96A21031B395D25001B2D08 /* FlashorbBinaryReader.h */,
+				F96A21041B395D25001B2D08 /* FlashorbBinaryWriter.h */,
+				F96A21051B395D25001B2D08 /* IAttributeStore.h */,
+				F96A21061B395D25001B2D08 /* IClientSharedObject.h */,
+				F96A21071B395D25001B2D08 /* IClientSharedObjectDelegate.h */,
+				F96A21081B395D25001B2D08 /* IPendingServiceCallback.h */,
+				F96A21091B395D25001B2D08 /* IPersistable.h */,
+				F96A210A1B395D25001B2D08 /* IRTMProtocol.h */,
+				F96A210B1B395D25001B2D08 /* IServiceCall.h */,
+				F96A210C1B395D25001B2D08 /* ISharedObjectListener.h */,
+				F96A210D1B395D25001B2D08 /* MemoryTicker.h */,
+				F96A210E1B395D25001B2D08 /* Responder.h */,
+				F96A210F1B395D25001B2D08 /* RTMPClient.h */,
+				F96A21101B395D25001B2D08 /* Types.h */,
+				F96A21111B395D25001B2D08 /* WeborbClient.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F96A1FB01B395B77001B2D08 /* F122ClassToTableMapping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F96A1FD41B395B77001B2D08 /* Build configuration list for PBXNativeTarget "F122ClassToTableMapping" */;
+			buildPhases = (
+				F96A1FAD1B395B77001B2D08 /* Sources */,
+				F96A1FAE1B395B77001B2D08 /* Frameworks */,
+				F96A1FAF1B395B77001B2D08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = F122ClassToTableMapping;
+			productName = F122ClassToTableMapping;
+			productReference = F96A1FB11B395B77001B2D08 /* F122ClassToTableMapping.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F96A1FC91B395B77001B2D08 /* F122ClassToTableMappingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F96A1FD71B395B77001B2D08 /* Build configuration list for PBXNativeTarget "F122ClassToTableMappingTests" */;
+			buildPhases = (
+				F96A1FC61B395B77001B2D08 /* Sources */,
+				F96A1FC71B395B77001B2D08 /* Frameworks */,
+				F96A1FC81B395B77001B2D08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F96A1FCC1B395B77001B2D08 /* PBXTargetDependency */,
+			);
+			name = F122ClassToTableMappingTests;
+			productName = F122ClassToTableMappingTests;
+			productReference = F96A1FCA1B395B77001B2D08 /* F122ClassToTableMappingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F96A20351B395C41001B2D08 /* F122ClassToTableMappingSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F96A20521B395C41001B2D08 /* Build configuration list for PBXNativeTarget "F122ClassToTableMappingSwift" */;
+			buildPhases = (
+				F96A20321B395C41001B2D08 /* Sources */,
+				F96A20331B395C41001B2D08 /* Frameworks */,
+				F96A20341B395C41001B2D08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = F122ClassToTableMappingSwift;
+			productName = F122ClassToTableMappingSwift;
+			productReference = F96A20361B395C41001B2D08 /* F122ClassToTableMappingSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F96A20491B395C41001B2D08 /* F122ClassToTableMappingSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F96A20551B395C41001B2D08 /* Build configuration list for PBXNativeTarget "F122ClassToTableMappingSwiftTests" */;
+			buildPhases = (
+				F96A20461B395C41001B2D08 /* Sources */,
+				F96A20471B395C41001B2D08 /* Frameworks */,
+				F96A20481B395C41001B2D08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F96A204C1B395C41001B2D08 /* PBXTargetDependency */,
+			);
+			name = F122ClassToTableMappingSwiftTests;
+			productName = F122ClassToTableMappingSwiftTests;
+			productReference = F96A204A1B395C41001B2D08 /* F122ClassToTableMappingSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F96A1FA91B395B77001B2D08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Slava Vdovichenko";
+				TargetAttributes = {
+					F96A1FB01B395B77001B2D08 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					F96A1FC91B395B77001B2D08 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = F96A1FB01B395B77001B2D08;
+					};
+					F96A20351B395C41001B2D08 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					F96A20491B395C41001B2D08 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = F96A20351B395C41001B2D08;
+					};
+				};
+			};
+			buildConfigurationList = F96A1FAC1B395B77001B2D08 /* Build configuration list for PBXProject "F122ClassToTableMapping" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F96A1FA81B395B77001B2D08;
+			productRefGroup = F96A1FB21B395B77001B2D08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F96A1FB01B395B77001B2D08 /* F122ClassToTableMapping */,
+				F96A20351B395C41001B2D08 /* F122ClassToTableMappingSwift */,
+				F96A1FC91B395B77001B2D08 /* F122ClassToTableMappingTests */,
+				F96A20491B395C41001B2D08 /* F122ClassToTableMappingSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F96A1FAF1B395B77001B2D08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F96A1FC01B395B77001B2D08 /* Main.storyboard in Resources */,
+				F96A1FC51B395B77001B2D08 /* LaunchScreen.xib in Resources */,
+				F96A1FC21B395B77001B2D08 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F96A1FC81B395B77001B2D08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F96A20341B395C41001B2D08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F96A20401B395C41001B2D08 /* Main.storyboard in Resources */,
+				F96A20451B395C41001B2D08 /* LaunchScreen.xib in Resources */,
+				F96A20421B395C41001B2D08 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F96A20481B395C41001B2D08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F96A1FAD1B395B77001B2D08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F96A1FBD1B395B77001B2D08 /* ViewController.m in Sources */,
+				F96A21251B395EB1001B2D08 /* Restaurant.m in Sources */,
+				F96A1FBA1B395B77001B2D08 /* AppDelegate.m in Sources */,
+				F96A21241B395EB1001B2D08 /* Location.m in Sources */,
+				F96A1FB71B395B77001B2D08 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F96A1FC61B395B77001B2D08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F96A1FD11B395B77001B2D08 /* F122ClassToTableMappingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F96A20321B395C41001B2D08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F96A21291B395ED3001B2D08 /* Restaurant.swift in Sources */,
+				F96A203D1B395C41001B2D08 /* ViewController.swift in Sources */,
+				F96A21281B395ED3001B2D08 /* Location.swift in Sources */,
+				F96A203B1B395C41001B2D08 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F96A20461B395C41001B2D08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F96A20511B395C41001B2D08 /* F122ClassToTableMappingSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F96A1FCC1B395B77001B2D08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F96A1FB01B395B77001B2D08 /* F122ClassToTableMapping */;
+			targetProxy = F96A1FCB1B395B77001B2D08 /* PBXContainerItemProxy */;
+		};
+		F96A204C1B395C41001B2D08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F96A20351B395C41001B2D08 /* F122ClassToTableMappingSwift */;
+			targetProxy = F96A204B1B395C41001B2D08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F96A1FBE1B395B77001B2D08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F96A1FBF1B395B77001B2D08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F96A1FC31B395B77001B2D08 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F96A1FC41B395B77001B2D08 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		F96A203E1B395C41001B2D08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F96A203F1B395C41001B2D08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F96A20431B395C41001B2D08 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F96A20441B395C41001B2D08 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F96A1FD21B395B77001B2D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F96A1FD31B395B77001B2D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F96A1FD51B395B77001B2D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = F122ClassToTableMapping/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../lib/backendless",
+					"$(SRCROOT)/../lib/CommLibiOS",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F96A1FD61B395B77001B2D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = F122ClassToTableMapping/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../lib/backendless",
+					"$(SRCROOT)/../lib/CommLibiOS",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F96A1FD81B395B77001B2D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = F122ClassToTableMappingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F122ClassToTableMapping.app/F122ClassToTableMapping";
+			};
+			name = Debug;
+		};
+		F96A1FD91B395B77001B2D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = F122ClassToTableMappingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F122ClassToTableMapping.app/F122ClassToTableMapping";
+			};
+			name = Release;
+		};
+		F96A20531B395C41001B2D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = F122ClassToTableMappingSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../lib/backendless",
+					"$(SRCROOT)/../lib/CommLibiOS",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F96A20541B395C41001B2D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = F122ClassToTableMappingSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../lib/backendless",
+					"$(SRCROOT)/../lib/CommLibiOS",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		F96A20561B395C41001B2D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = F122ClassToTableMappingSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F122ClassToTableMappingSwift.app/F122ClassToTableMappingSwift";
+			};
+			name = Debug;
+		};
+		F96A20571B395C41001B2D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = F122ClassToTableMappingSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F122ClassToTableMappingSwift.app/F122ClassToTableMappingSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F96A1FAC1B395B77001B2D08 /* Build configuration list for PBXProject "F122ClassToTableMapping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F96A1FD21B395B77001B2D08 /* Debug */,
+				F96A1FD31B395B77001B2D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F96A1FD41B395B77001B2D08 /* Build configuration list for PBXNativeTarget "F122ClassToTableMapping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F96A1FD51B395B77001B2D08 /* Debug */,
+				F96A1FD61B395B77001B2D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F96A1FD71B395B77001B2D08 /* Build configuration list for PBXNativeTarget "F122ClassToTableMappingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F96A1FD81B395B77001B2D08 /* Debug */,
+				F96A1FD91B395B77001B2D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F96A20521B395C41001B2D08 /* Build configuration list for PBXNativeTarget "F122ClassToTableMappingSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F96A20531B395C41001B2D08 /* Debug */,
+				F96A20541B395C41001B2D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F96A20551B395C41001B2D08 /* Build configuration list for PBXNativeTarget "F122ClassToTableMappingSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F96A20561B395C41001B2D08 /* Debug */,
+				F96A20571B395C41001B2D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F96A1FA91B395B77001B2D08 /* Project object */;
+}
