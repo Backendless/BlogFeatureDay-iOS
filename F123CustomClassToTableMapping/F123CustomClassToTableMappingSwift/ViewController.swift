@@ -73,7 +73,7 @@ class ViewController: UIViewController {
             
             var query = BackendlessDataQuery()
             query.queryOptions = queryOptions
-            var restaurants = self.backendless.persistenceService.of(PlaceToEat.ofClass()).find(query)
+            var restaurants = self.backendless.data.of(PlaceToEat.ofClass()).find(query)
             
             var currentPage = restaurants.getCurrentPage()
             println("Loaded \(currentPage.count) restaurant objects")
@@ -104,7 +104,7 @@ class ViewController: UIViewController {
         
         var query = BackendlessDataQuery()
         query.queryOptions = queryOptions
-        backendless.persistenceService.of(PlaceToEat.ofClass()).find(
+        backendless.data.of(PlaceToEat.ofClass()).find(
             query,
             response: { (var restaurants : BackendlessCollection!) -> () in
                 var currentPage = restaurants.getCurrentPage()

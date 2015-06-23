@@ -74,7 +74,7 @@ static NSString *VERSION_NUM = @"v1";
         
         BackendlessDataQuery *query = [BackendlessDataQuery query];
         query.queryOptions = queryOptions;
-        BackendlessCollection *restaurants = [[backendless.persistenceService of:PlaceToEat.class] find:query];
+        BackendlessCollection *restaurants = [[backendless.data of:PlaceToEat.class] find:query];
         
         NSArray *currentPage =[restaurants getCurrentPage];
         NSLog(@"Loaded %lu restaurant objects", (unsigned long)[currentPage count]);
@@ -104,7 +104,7 @@ static NSString *VERSION_NUM = @"v1";
     
     BackendlessDataQuery *query = [BackendlessDataQuery query];
     query.queryOptions = queryOptions;
-    [[backendless.persistenceService of:PlaceToEat.class]
+    [[backendless.data of:PlaceToEat.class]
      find:query
      response:^(BackendlessCollection *restaurants) {
          
