@@ -43,9 +43,9 @@ class ViewController: UIViewController {
     
     func addGeoPointSync() {
         
-        println("\n============ Adding geo point with the SYNC API ============")
+        print("\n============ Adding geo point with the SYNC API ============")
         
-        Types.try({ () -> Void in
+        Types.tryblock({ () -> Void in
             
             var dallasTX = GeoPoint.geoPoint(
                 GEO_POINT(latitude: 32.803468, longitude: -96.769879),
@@ -54,20 +54,20 @@ class ViewController: UIViewController {
                 ) as! GeoPoint
             
             dallasTX = self.backendless.geoService.savePoint(dallasTX);
-            println("SYNC: geo point saved. Object ID - \(dallasTX.objectId)")
+            print("SYNC: geo point saved. Object ID - \(dallasTX.objectId)")
             },
             
-            catch: { (exception) -> Void in
-                println("Server reported an error: \(exception as! Fault)")
+            catchblock: { (exception) -> Void in
+                print("Server reported an error: \(exception as! Fault)")
             }
         )
     }
     
     func addGeoPointAsync() {
         
-        println("\n============ Adding geo point with the ASYNC API ============")
+        print("\n============ Adding geo point with the ASYNC API ============")
         
-        var houstonTX = GeoPoint.geoPoint(
+        let houstonTX = GeoPoint.geoPoint(
             GEO_POINT(latitude: 29.76429, longitude: -95.38370),
             categories: ["cities"],
             metadata: ["city":"Houston", "population":2196000, "photo":"http://en.wikipedia.org/wiki/Houston#mediaviewer/File:Uptown_Houston.jpg"]
@@ -75,11 +75,11 @@ class ViewController: UIViewController {
         
         backendless.geoService.savePoint(
             houstonTX,
-            response: { (var point : GeoPoint!) -> () in
-                println("ASYNC: geo point saved. Object ID - \(point.objectId)")
+            response: { ( point : GeoPoint!) -> () in
+                print("ASYNC: geo point saved. Object ID - \(point.objectId)")
             },
-            error: { (var fault : Fault!) -> () in
-                println("Server reported an error: \(fault)")
+            error: { ( fault : Fault!) -> () in
+                print("Server reported an error: \(fault)")
             }
         )
     }

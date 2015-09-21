@@ -13,39 +13,20 @@
 		D31700F61A8E167D00772766 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D31700F41A8E167D00772766 /* Main.storyboard */; };
 		D31700F81A8E167D00772766 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D31700F71A8E167D00772766 /* Images.xcassets */; };
 		D31700FB1A8E167D00772766 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D31700F91A8E167D00772766 /* LaunchScreen.xib */; };
-		D31701071A8E167D00772766 /* F31UploadingFilesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D31701061A8E167D00772766 /* F31UploadingFilesTests.m */; };
 		D31701191A8E16E400772766 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31701181A8E16E400772766 /* AppDelegate.swift */; };
 		D317011B1A8E16E400772766 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D317011A1A8E16E400772766 /* ViewController.swift */; };
 		D317011E1A8E16E400772766 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D317011C1A8E16E400772766 /* Main.storyboard */; };
 		D31701201A8E16E400772766 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D317011F1A8E16E400772766 /* Images.xcassets */; };
 		D31701231A8E16E400772766 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D31701211A8E16E400772766 /* LaunchScreen.xib */; };
-		D317012F1A8E16E400772766 /* F31UploadingFilesSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D317012E1A8E16E400772766 /* F31UploadingFilesSwiftTests.swift */; };
-		D31701381A8E171100772766 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D31701361A8E171100772766 /* libsqlite3.dylib */; };
 		D31701391A8E171100772766 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31701371A8E171100772766 /* SystemConfiguration.framework */; };
-		D317013A1A8E172700772766 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D31701361A8E171100772766 /* libsqlite3.dylib */; };
 		D317013B1A8E172700772766 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31701371A8E171100772766 /* SystemConfiguration.framework */; };
 		D317018D1A8E176E00772766 /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D317013E1A8E176E00772766 /* backendless.a */; };
 		D317018E1A8E176E00772766 /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D317013E1A8E176E00772766 /* backendless.a */; };
 		D31701911A8E176E00772766 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D31701781A8E176E00772766 /* CommLibiOS.a */; };
 		D31701921A8E176E00772766 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D31701781A8E176E00772766 /* CommLibiOS.a */; };
+		F90F29571BB00CF5004F8D33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90F29561BB00CF5004F8D33 /* libsqlite3.tbd */; };
+		F90F29581BB00CFA004F8D33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90F29561BB00CF5004F8D33 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D31701011A8E167D00772766 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D31700DF1A8E167C00772766 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D31700E61A8E167C00772766;
-			remoteInfo = F31UploadingFiles;
-		};
-		D31701291A8E16E400772766 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D31700DF1A8E167C00772766 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D31701131A8E16E300772766;
-			remoteInfo = F31UploadingFilesSwift;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D31700E71A8E167C00772766 /* F31UploadingFiles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F31UploadingFiles.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,7 +39,6 @@
 		D31700F51A8E167D00772766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D31700F71A8E167D00772766 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D31700FA1A8E167D00772766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D31701001A8E167D00772766 /* F31UploadingFilesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F31UploadingFilesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D31701051A8E167D00772766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D31701061A8E167D00772766 /* F31UploadingFilesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = F31UploadingFilesTests.m; sourceTree = "<group>"; };
 		D31701141A8E16E300772766 /* F31UploadingFilesSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F31UploadingFilesSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,10 +48,8 @@
 		D317011D1A8E16E400772766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D317011F1A8E16E400772766 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D31701221A8E16E400772766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D31701281A8E16E400772766 /* F31UploadingFilesSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F31UploadingFilesSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D317012D1A8E16E400772766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D317012E1A8E16E400772766 /* F31UploadingFilesSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F31UploadingFilesSwiftTests.swift; sourceTree = "<group>"; };
-		D31701361A8E171100772766 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		D31701371A8E171100772766 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		D317013E1A8E176E00772766 /* backendless.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = backendless.a; sourceTree = "<group>"; };
 		D31701401A8E176E00772766 /* AbstractProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractProperty.h; sourceTree = "<group>"; };
@@ -148,6 +126,7 @@
 		D317018A1A8E176E00772766 /* RTMPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTMPClient.h; sourceTree = "<group>"; };
 		D317018B1A8E176E00772766 /* Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
 		D317018C1A8E176E00772766 /* WeborbClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeborbClient.h; sourceTree = "<group>"; };
+		F90F29561BB00CF5004F8D33 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,17 +134,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D31701381A8E171100772766 /* libsqlite3.dylib in Frameworks */,
+				F90F29571BB00CF5004F8D33 /* libsqlite3.tbd in Frameworks */,
 				D317018D1A8E176E00772766 /* backendless.a in Frameworks */,
 				D31701391A8E171100772766 /* SystemConfiguration.framework in Frameworks */,
 				D31701911A8E176E00772766 /* CommLibiOS.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D31700FD1A8E167D00772766 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,17 +145,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D317013A1A8E172700772766 /* libsqlite3.dylib in Frameworks */,
+				F90F29581BB00CFA004F8D33 /* libsqlite3.tbd in Frameworks */,
 				D317018E1A8E176E00772766 /* backendless.a in Frameworks */,
 				D317013B1A8E172700772766 /* SystemConfiguration.framework in Frameworks */,
 				D31701921A8E176E00772766 /* CommLibiOS.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D31701251A8E16E400772766 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,8 +158,8 @@
 		D31700DE1A8E167C00772766 = {
 			isa = PBXGroup;
 			children = (
+				F90F29561BB00CF5004F8D33 /* libsqlite3.tbd */,
 				D317013C1A8E176E00772766 /* lib */,
-				D31701361A8E171100772766 /* libsqlite3.dylib */,
 				D31701371A8E171100772766 /* SystemConfiguration.framework */,
 				D31700E91A8E167C00772766 /* F31UploadingFiles */,
 				D31701031A8E167D00772766 /* F31UploadingFilesTests */,
@@ -208,9 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				D31700E71A8E167C00772766 /* F31UploadingFiles.app */,
-				D31701001A8E167D00772766 /* F31UploadingFilesTests.xctest */,
 				D31701141A8E16E300772766 /* F31UploadingFilesSwift.app */,
-				D31701281A8E16E400772766 /* F31UploadingFilesSwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -429,24 +392,6 @@
 			productReference = D31700E71A8E167C00772766 /* F31UploadingFiles.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D31700FF1A8E167D00772766 /* F31UploadingFilesTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D317010D1A8E167D00772766 /* Build configuration list for PBXNativeTarget "F31UploadingFilesTests" */;
-			buildPhases = (
-				D31700FC1A8E167D00772766 /* Sources */,
-				D31700FD1A8E167D00772766 /* Frameworks */,
-				D31700FE1A8E167D00772766 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D31701021A8E167D00772766 /* PBXTargetDependency */,
-			);
-			name = F31UploadingFilesTests;
-			productName = F31UploadingFilesTests;
-			productReference = D31701001A8E167D00772766 /* F31UploadingFilesTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		D31701131A8E16E300772766 /* F31UploadingFilesSwift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D31701301A8E16E400772766 /* Build configuration list for PBXNativeTarget "F31UploadingFilesSwift" */;
@@ -464,46 +409,21 @@
 			productReference = D31701141A8E16E300772766 /* F31UploadingFilesSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D31701271A8E16E400772766 /* F31UploadingFilesSwiftTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D31701331A8E16E400772766 /* Build configuration list for PBXNativeTarget "F31UploadingFilesSwiftTests" */;
-			buildPhases = (
-				D31701241A8E16E400772766 /* Sources */,
-				D31701251A8E16E400772766 /* Frameworks */,
-				D31701261A8E16E400772766 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D317012A1A8E16E400772766 /* PBXTargetDependency */,
-			);
-			name = F31UploadingFilesSwiftTests;
-			productName = F31UploadingFilesSwiftTests;
-			productReference = D31701281A8E16E400772766 /* F31UploadingFilesSwiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		D31700DF1A8E167C00772766 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = BACKENDLESS.COM;
 				TargetAttributes = {
 					D31700E61A8E167C00772766 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
-					D31700FF1A8E167D00772766 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = D31700E61A8E167C00772766;
-					};
 					D31701131A8E16E300772766 = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					D31701271A8E16E400772766 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = D31701131A8E16E300772766;
 					};
 				};
 			};
@@ -522,8 +442,6 @@
 			targets = (
 				D31700E61A8E167C00772766 /* F31UploadingFiles */,
 				D31701131A8E16E300772766 /* F31UploadingFilesSwift */,
-				D31700FF1A8E167D00772766 /* F31UploadingFilesTests */,
-				D31701271A8E16E400772766 /* F31UploadingFilesSwiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -539,13 +457,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D31700FE1A8E167D00772766 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D31701121A8E16E300772766 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -553,13 +464,6 @@
 				D317011E1A8E16E400772766 /* Main.storyboard in Resources */,
 				D31701231A8E16E400772766 /* LaunchScreen.xib in Resources */,
 				D31701201A8E16E400772766 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D31701261A8E16E400772766 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,14 +480,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D31700FC1A8E167D00772766 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D31701071A8E167D00772766 /* F31UploadingFilesTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D31701101A8E16E300772766 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -593,28 +489,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D31701241A8E16E400772766 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D317012F1A8E16E400772766 /* F31UploadingFilesSwiftTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D31701021A8E167D00772766 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D31700E61A8E167C00772766 /* F31UploadingFiles */;
-			targetProxy = D31701011A8E167D00772766 /* PBXContainerItemProxy */;
-		};
-		D317012A1A8E16E400772766 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D31701131A8E16E300772766 /* F31UploadingFilesSwift */;
-			targetProxy = D31701291A8E16E400772766 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D31700F41A8E167D00772766 /* Main.storyboard */ = {
@@ -672,6 +547,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -740,6 +616,7 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -756,41 +633,8 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		D317010E1A8E167D00772766 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F31UploadingFilesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F31UploadingFiles.app/F31UploadingFiles";
-			};
-			name = Debug;
-		};
-		D317010F1A8E167D00772766 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F31UploadingFilesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F31UploadingFiles.app/F31UploadingFiles";
 			};
 			name = Release;
 		};
@@ -810,6 +654,7 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -828,42 +673,9 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
-			};
-			name = Release;
-		};
-		D31701341A8E16E400772766 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F31UploadingFilesSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F31UploadingFilesSwift.app/F31UploadingFilesSwift";
-			};
-			name = Debug;
-		};
-		D31701351A8E16E400772766 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F31UploadingFilesSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F31UploadingFilesSwift.app/F31UploadingFilesSwift";
 			};
 			name = Release;
 		};
@@ -888,29 +700,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D317010D1A8E167D00772766 /* Build configuration list for PBXNativeTarget "F31UploadingFilesTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D317010E1A8E167D00772766 /* Debug */,
-				D317010F1A8E167D00772766 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		D31701301A8E16E400772766 /* Build configuration list for PBXNativeTarget "F31UploadingFilesSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D31701311A8E16E400772766 /* Debug */,
 				D31701321A8E16E400772766 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D31701331A8E16E400772766 /* Build configuration list for PBXNativeTarget "F31UploadingFilesSwiftTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D31701341A8E16E400772766 /* Debug */,
-				D31701351A8E16E400772766 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

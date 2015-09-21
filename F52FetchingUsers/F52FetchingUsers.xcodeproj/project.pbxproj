@@ -13,39 +13,20 @@
 		D35DC1651AD670D400EF2A68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35DC1631AD670D400EF2A68 /* Main.storyboard */; };
 		D35DC1671AD670D400EF2A68 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35DC1661AD670D400EF2A68 /* Images.xcassets */; };
 		D35DC16A1AD670D400EF2A68 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D35DC1681AD670D400EF2A68 /* LaunchScreen.xib */; };
-		D35DC1761AD670D400EF2A68 /* F52FetchingUsersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D35DC1751AD670D400EF2A68 /* F52FetchingUsersTests.m */; };
 		D35DC1E01AD6715500EF2A68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35DC1DF1AD6715500EF2A68 /* AppDelegate.swift */; };
 		D35DC1E21AD6715500EF2A68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35DC1E11AD6715500EF2A68 /* ViewController.swift */; };
 		D35DC1E51AD6715500EF2A68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35DC1E31AD6715500EF2A68 /* Main.storyboard */; };
 		D35DC1E71AD6715500EF2A68 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35DC1E61AD6715500EF2A68 /* Images.xcassets */; };
 		D35DC1EA1AD6715600EF2A68 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D35DC1E81AD6715500EF2A68 /* LaunchScreen.xib */; };
-		D35DC1F61AD6715600EF2A68 /* F52FetchingUsersSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35DC1F51AD6715600EF2A68 /* F52FetchingUsersSwiftTests.swift */; };
-		D35DC27F1AD672FB00EF2A68 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D35DC27D1AD672FB00EF2A68 /* libsqlite3.dylib */; };
 		D35DC2801AD672FB00EF2A68 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35DC27E1AD672FB00EF2A68 /* SystemConfiguration.framework */; };
-		D35DC2811AD6730800EF2A68 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D35DC27D1AD672FB00EF2A68 /* libsqlite3.dylib */; };
 		D35DC2821AD6730800EF2A68 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35DC27E1AD672FB00EF2A68 /* SystemConfiguration.framework */; };
 		D35DC2D31AD6731500EF2A68 /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D35DC2851AD6731400EF2A68 /* backendless.a */; };
 		D35DC2D41AD6731500EF2A68 /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D35DC2851AD6731400EF2A68 /* backendless.a */; };
 		D35DC2D51AD6731500EF2A68 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D35DC2BE1AD6731400EF2A68 /* CommLibiOS.a */; };
 		D35DC2D61AD6731500EF2A68 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D35DC2BE1AD6731400EF2A68 /* CommLibiOS.a */; };
+		F91469FA1BAED63000DAE8E9 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F91469F91BAED63000DAE8E9 /* libsqlite3.tbd */; };
+		F91469FB1BAED63B00DAE8E9 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F91469F91BAED63000DAE8E9 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D35DC1701AD670D400EF2A68 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D35DC14E1AD670D300EF2A68 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D35DC1551AD670D300EF2A68;
-			remoteInfo = F52FetchingUsers;
-		};
-		D35DC1F01AD6715600EF2A68 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D35DC14E1AD670D300EF2A68 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D35DC1DA1AD6715500EF2A68;
-			remoteInfo = F52FetchingUsersSwift;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D35DC1561AD670D300EF2A68 /* F52FetchingUsers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F52FetchingUsers.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,7 +39,6 @@
 		D35DC1641AD670D400EF2A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D35DC1661AD670D400EF2A68 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D35DC1691AD670D400EF2A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D35DC16F1AD670D400EF2A68 /* F52FetchingUsersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F52FetchingUsersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35DC1741AD670D400EF2A68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D35DC1751AD670D400EF2A68 /* F52FetchingUsersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = F52FetchingUsersTests.m; sourceTree = "<group>"; };
 		D35DC1DB1AD6715500EF2A68 /* F52FetchingUsersSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F52FetchingUsersSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,10 +48,8 @@
 		D35DC1E41AD6715500EF2A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D35DC1E61AD6715500EF2A68 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D35DC1E91AD6715500EF2A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D35DC1EF1AD6715600EF2A68 /* F52FetchingUsersSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F52FetchingUsersSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35DC1F41AD6715600EF2A68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D35DC1F51AD6715600EF2A68 /* F52FetchingUsersSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F52FetchingUsersSwiftTests.swift; sourceTree = "<group>"; };
-		D35DC27D1AD672FB00EF2A68 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		D35DC27E1AD672FB00EF2A68 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		D35DC2851AD6731400EF2A68 /* backendless.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = backendless.a; sourceTree = "<group>"; };
 		D35DC2871AD6731400EF2A68 /* AbstractProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractProperty.h; sourceTree = "<group>"; };
@@ -148,6 +126,7 @@
 		D35DC2D01AD6731500EF2A68 /* RTMPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTMPClient.h; sourceTree = "<group>"; };
 		D35DC2D11AD6731500EF2A68 /* Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
 		D35DC2D21AD6731500EF2A68 /* WeborbClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeborbClient.h; sourceTree = "<group>"; };
+		F91469F91BAED63000DAE8E9 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,17 +134,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D35DC27F1AD672FB00EF2A68 /* libsqlite3.dylib in Frameworks */,
+				F91469FA1BAED63000DAE8E9 /* libsqlite3.tbd in Frameworks */,
 				D35DC2D51AD6731500EF2A68 /* CommLibiOS.a in Frameworks */,
 				D35DC2D31AD6731500EF2A68 /* backendless.a in Frameworks */,
 				D35DC2801AD672FB00EF2A68 /* SystemConfiguration.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D35DC16C1AD670D400EF2A68 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,17 +145,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D35DC2811AD6730800EF2A68 /* libsqlite3.dylib in Frameworks */,
+				F91469FB1BAED63B00DAE8E9 /* libsqlite3.tbd in Frameworks */,
 				D35DC2D61AD6731500EF2A68 /* CommLibiOS.a in Frameworks */,
 				D35DC2D41AD6731500EF2A68 /* backendless.a in Frameworks */,
 				D35DC2821AD6730800EF2A68 /* SystemConfiguration.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D35DC1EC1AD6715600EF2A68 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,8 +158,8 @@
 		D35DC14D1AD670D300EF2A68 = {
 			isa = PBXGroup;
 			children = (
+				F91469F91BAED63000DAE8E9 /* libsqlite3.tbd */,
 				D35DC2831AD6731400EF2A68 /* lib */,
-				D35DC27D1AD672FB00EF2A68 /* libsqlite3.dylib */,
 				D35DC27E1AD672FB00EF2A68 /* SystemConfiguration.framework */,
 				D35DC1581AD670D300EF2A68 /* F52FetchingUsers */,
 				D35DC1721AD670D400EF2A68 /* F52FetchingUsersTests */,
@@ -208,9 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				D35DC1561AD670D300EF2A68 /* F52FetchingUsers.app */,
-				D35DC16F1AD670D400EF2A68 /* F52FetchingUsersTests.xctest */,
 				D35DC1DB1AD6715500EF2A68 /* F52FetchingUsersSwift.app */,
-				D35DC1EF1AD6715600EF2A68 /* F52FetchingUsersSwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -429,24 +392,6 @@
 			productReference = D35DC1561AD670D300EF2A68 /* F52FetchingUsers.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D35DC16E1AD670D400EF2A68 /* F52FetchingUsersTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D35DC17C1AD670D400EF2A68 /* Build configuration list for PBXNativeTarget "F52FetchingUsersTests" */;
-			buildPhases = (
-				D35DC16B1AD670D400EF2A68 /* Sources */,
-				D35DC16C1AD670D400EF2A68 /* Frameworks */,
-				D35DC16D1AD670D400EF2A68 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D35DC1711AD670D400EF2A68 /* PBXTargetDependency */,
-			);
-			name = F52FetchingUsersTests;
-			productName = F52FetchingUsersTests;
-			productReference = D35DC16F1AD670D400EF2A68 /* F52FetchingUsersTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		D35DC1DA1AD6715500EF2A68 /* F52FetchingUsersSwift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D35DC1F71AD6715600EF2A68 /* Build configuration list for PBXNativeTarget "F52FetchingUsersSwift" */;
@@ -464,46 +409,21 @@
 			productReference = D35DC1DB1AD6715500EF2A68 /* F52FetchingUsersSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D35DC1EE1AD6715600EF2A68 /* F52FetchingUsersSwiftTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D35DC1FA1AD6715600EF2A68 /* Build configuration list for PBXNativeTarget "F52FetchingUsersSwiftTests" */;
-			buildPhases = (
-				D35DC1EB1AD6715600EF2A68 /* Sources */,
-				D35DC1EC1AD6715600EF2A68 /* Frameworks */,
-				D35DC1ED1AD6715600EF2A68 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D35DC1F11AD6715600EF2A68 /* PBXTargetDependency */,
-			);
-			name = F52FetchingUsersSwiftTests;
-			productName = F52FetchingUsersSwiftTests;
-			productReference = D35DC1EF1AD6715600EF2A68 /* F52FetchingUsersSwiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		D35DC14E1AD670D300EF2A68 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0620;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = backendless.com;
 				TargetAttributes = {
 					D35DC1551AD670D300EF2A68 = {
 						CreatedOnToolsVersion = 6.2;
 					};
-					D35DC16E1AD670D400EF2A68 = {
-						CreatedOnToolsVersion = 6.2;
-						TestTargetID = D35DC1551AD670D300EF2A68;
-					};
 					D35DC1DA1AD6715500EF2A68 = {
 						CreatedOnToolsVersion = 6.2;
-					};
-					D35DC1EE1AD6715600EF2A68 = {
-						CreatedOnToolsVersion = 6.2;
-						TestTargetID = D35DC1DA1AD6715500EF2A68;
 					};
 				};
 			};
@@ -522,8 +442,6 @@
 			targets = (
 				D35DC1551AD670D300EF2A68 /* F52FetchingUsers */,
 				D35DC1DA1AD6715500EF2A68 /* F52FetchingUsersSwift */,
-				D35DC16E1AD670D400EF2A68 /* F52FetchingUsersTests */,
-				D35DC1EE1AD6715600EF2A68 /* F52FetchingUsersSwiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -539,13 +457,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D35DC16D1AD670D400EF2A68 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D35DC1D91AD6715500EF2A68 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -553,13 +464,6 @@
 				D35DC1E51AD6715500EF2A68 /* Main.storyboard in Resources */,
 				D35DC1EA1AD6715600EF2A68 /* LaunchScreen.xib in Resources */,
 				D35DC1E71AD6715500EF2A68 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D35DC1ED1AD6715600EF2A68 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,14 +480,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D35DC16B1AD670D400EF2A68 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D35DC1761AD670D400EF2A68 /* F52FetchingUsersTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D35DC1D71AD6715500EF2A68 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -593,28 +489,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D35DC1EB1AD6715600EF2A68 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D35DC1F61AD6715600EF2A68 /* F52FetchingUsersSwiftTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D35DC1711AD670D400EF2A68 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D35DC1551AD670D300EF2A68 /* F52FetchingUsers */;
-			targetProxy = D35DC1701AD670D400EF2A68 /* PBXContainerItemProxy */;
-		};
-		D35DC1F11AD6715600EF2A68 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D35DC1DA1AD6715500EF2A68 /* F52FetchingUsersSwift */;
-			targetProxy = D35DC1F01AD6715600EF2A68 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D35DC1631AD670D400EF2A68 /* Main.storyboard */ = {
@@ -672,6 +547,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -739,6 +615,7 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -754,41 +631,8 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		D35DC17D1AD670D400EF2A68 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F52FetchingUsersTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F52FetchingUsers.app/F52FetchingUsers";
-			};
-			name = Debug;
-		};
-		D35DC17E1AD670D400EF2A68 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F52FetchingUsersTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F52FetchingUsers.app/F52FetchingUsers";
 			};
 			name = Release;
 		};
@@ -796,6 +640,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -807,6 +652,7 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -817,6 +663,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = F52FetchingUsersSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -824,42 +671,9 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
-			};
-			name = Release;
-		};
-		D35DC1FB1AD6715600EF2A68 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F52FetchingUsersSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F52FetchingUsersSwift.app/F52FetchingUsersSwift";
-			};
-			name = Debug;
-		};
-		D35DC1FC1AD6715600EF2A68 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F52FetchingUsersSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F52FetchingUsersSwift.app/F52FetchingUsersSwift";
 			};
 			name = Release;
 		};
@@ -882,14 +696,7 @@
 				D35DC17B1AD670D400EF2A68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		D35DC17C1AD670D400EF2A68 /* Build configuration list for PBXNativeTarget "F52FetchingUsersTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D35DC17D1AD670D400EF2A68 /* Debug */,
-				D35DC17E1AD670D400EF2A68 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D35DC1F71AD6715600EF2A68 /* Build configuration list for PBXNativeTarget "F52FetchingUsersSwift" */ = {
 			isa = XCConfigurationList;
@@ -898,14 +705,7 @@
 				D35DC1F91AD6715600EF2A68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		D35DC1FA1AD6715600EF2A68 /* Build configuration list for PBXNativeTarget "F52FetchingUsersSwiftTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D35DC1FB1AD6715600EF2A68 /* Debug */,
-				D35DC1FC1AD6715600EF2A68 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

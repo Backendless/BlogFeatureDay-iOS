@@ -7,22 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F90F29841BB00FA0004F8D33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90F29831BB00FA0004F8D33 /* libsqlite3.tbd */; };
+		F90F29851BB00FA5004F8D33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90F29831BB00FA0004F8D33 /* libsqlite3.tbd */; };
 		F997E33E1B342292001C602F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F997E33D1B342292001C602F /* main.m */; };
 		F997E3411B342292001C602F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F997E3401B342292001C602F /* AppDelegate.m */; };
 		F997E3441B342292001C602F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F997E3431B342292001C602F /* ViewController.m */; };
 		F997E3471B342292001C602F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F997E3451B342292001C602F /* Main.storyboard */; };
 		F997E3491B342292001C602F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F997E3481B342292001C602F /* Images.xcassets */; };
 		F997E34C1B342292001C602F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F997E34A1B342292001C602F /* LaunchScreen.xib */; };
-		F997E3581B342292001C602F /* F21RetrievingAutolodedDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F997E3571B342292001C602F /* F21RetrievingAutolodedDataTests.m */; };
 		F997E4721B3424C5001C602F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F997E4711B3424C5001C602F /* AppDelegate.swift */; };
 		F997E4741B3424C5001C602F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F997E4731B3424C5001C602F /* ViewController.swift */; };
 		F997E4771B3424C5001C602F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F997E4751B3424C5001C602F /* Main.storyboard */; };
 		F997E4791B3424C5001C602F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F997E4781B3424C5001C602F /* Images.xcassets */; };
 		F997E47C1B3424C5001C602F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F997E47A1B3424C5001C602F /* LaunchScreen.xib */; };
-		F997E4881B3424C5001C602F /* F21RetrievingAutolodedDataSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F997E4871B3424C5001C602F /* F21RetrievingAutolodedDataSwiftTests.swift */; };
-		F997E5171B3425FA001C602F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F997E5151B3425FA001C602F /* libsqlite3.dylib */; };
 		F997E5181B3425FA001C602F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F997E5161B3425FA001C602F /* SystemConfiguration.framework */; };
-		F997E5191B342606001C602F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F997E5151B3425FA001C602F /* libsqlite3.dylib */; };
 		F997E51A1B342606001C602F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F997E5161B3425FA001C602F /* SystemConfiguration.framework */; };
 		F997E68D1B342726001C602F /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F997E63A1B342726001C602F /* backendless.a */; };
 		F997E68E1B342726001C602F /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F997E63A1B342726001C602F /* backendless.a */; };
@@ -34,24 +32,8 @@
 		F997E7BE1B3441F8001C602F /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F997E7BC1B3441F8001C602F /* Restaurant.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F997E3521B342292001C602F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F997E3301B342292001C602F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F997E3371B342292001C602F;
-			remoteInfo = F21RetrievingAutolodedData;
-		};
-		F997E4821B3424C5001C602F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F997E3301B342292001C602F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F997E46C1B3424C5001C602F;
-			remoteInfo = F21RetrievingAutolodedDataSwift;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		F90F29831BB00FA0004F8D33 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		F997E3381B342292001C602F /* F21RetrievingAutolodedData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F21RetrievingAutolodedData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F997E33C1B342292001C602F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F997E33D1B342292001C602F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -62,7 +44,6 @@
 		F997E3461B342292001C602F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F997E3481B342292001C602F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F997E34B1B342292001C602F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		F997E3511B342292001C602F /* F21RetrievingAutolodedDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F21RetrievingAutolodedDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F997E3561B342292001C602F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F997E3571B342292001C602F /* F21RetrievingAutolodedDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = F21RetrievingAutolodedDataTests.m; sourceTree = "<group>"; };
 		F997E46D1B3424C5001C602F /* F21RetrievingAutolodedDataSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F21RetrievingAutolodedDataSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,10 +53,8 @@
 		F997E4761B3424C5001C602F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F997E4781B3424C5001C602F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F997E47B1B3424C5001C602F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		F997E4811B3424C5001C602F /* F21RetrievingAutolodedDataSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F21RetrievingAutolodedDataSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F997E4861B3424C5001C602F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F997E4871B3424C5001C602F /* F21RetrievingAutolodedDataSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F21RetrievingAutolodedDataSwiftTests.swift; sourceTree = "<group>"; };
-		F997E5151B3425FA001C602F /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		F997E5161B3425FA001C602F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		F997E63A1B342726001C602F /* backendless.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = backendless.a; sourceTree = "<group>"; };
 		F997E63C1B342726001C602F /* AbstractProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractProperty.h; sourceTree = "<group>"; };
@@ -170,17 +149,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F997E5171B3425FA001C602F /* libsqlite3.dylib in Frameworks */,
+				F90F29841BB00FA0004F8D33 /* libsqlite3.tbd in Frameworks */,
 				F997E68F1B342726001C602F /* CommLibiOS.a in Frameworks */,
 				F997E68D1B342726001C602F /* backendless.a in Frameworks */,
 				F997E5181B3425FA001C602F /* SystemConfiguration.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F997E34E1B342292001C602F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,17 +160,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F997E5191B342606001C602F /* libsqlite3.dylib in Frameworks */,
+				F90F29851BB00FA5004F8D33 /* libsqlite3.tbd in Frameworks */,
 				F997E6901B342726001C602F /* CommLibiOS.a in Frameworks */,
 				F997E68E1B342726001C602F /* backendless.a in Frameworks */,
 				F997E51A1B342606001C602F /* SystemConfiguration.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F997E47E1B3424C5001C602F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,8 +173,8 @@
 		F997E32F1B342292001C602F = {
 			isa = PBXGroup;
 			children = (
+				F90F29831BB00FA0004F8D33 /* libsqlite3.tbd */,
 				F997E6381B342726001C602F /* lib */,
-				F997E5151B3425FA001C602F /* libsqlite3.dylib */,
 				F997E5161B3425FA001C602F /* SystemConfiguration.framework */,
 				F997E33A1B342292001C602F /* F21RetrievingAutolodedData */,
 				F997E3541B342292001C602F /* F21RetrievingAutolodedDataTests */,
@@ -223,9 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				F997E3381B342292001C602F /* F21RetrievingAutolodedData.app */,
-				F997E3511B342292001C602F /* F21RetrievingAutolodedDataTests.xctest */,
 				F997E46D1B3424C5001C602F /* F21RetrievingAutolodedDataSwift.app */,
-				F997E4811B3424C5001C602F /* F21RetrievingAutolodedDataSwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -455,24 +418,6 @@
 			productReference = F997E3381B342292001C602F /* F21RetrievingAutolodedData.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F997E3501B342292001C602F /* F21RetrievingAutolodedDataTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F997E35E1B342292001C602F /* Build configuration list for PBXNativeTarget "F21RetrievingAutolodedDataTests" */;
-			buildPhases = (
-				F997E34D1B342292001C602F /* Sources */,
-				F997E34E1B342292001C602F /* Frameworks */,
-				F997E34F1B342292001C602F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F997E3531B342292001C602F /* PBXTargetDependency */,
-			);
-			name = F21RetrievingAutolodedDataTests;
-			productName = F21RetrievingAutolodedDataTests;
-			productReference = F997E3511B342292001C602F /* F21RetrievingAutolodedDataTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		F997E46C1B3424C5001C602F /* F21RetrievingAutolodedDataSwift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F997E4891B3424C5001C602F /* Build configuration list for PBXNativeTarget "F21RetrievingAutolodedDataSwift" */;
@@ -490,46 +435,21 @@
 			productReference = F997E46D1B3424C5001C602F /* F21RetrievingAutolodedDataSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F997E4801B3424C5001C602F /* F21RetrievingAutolodedDataSwiftTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F997E48C1B3424C5001C602F /* Build configuration list for PBXNativeTarget "F21RetrievingAutolodedDataSwiftTests" */;
-			buildPhases = (
-				F997E47D1B3424C5001C602F /* Sources */,
-				F997E47E1B3424C5001C602F /* Frameworks */,
-				F997E47F1B3424C5001C602F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F997E4831B3424C5001C602F /* PBXTargetDependency */,
-			);
-			name = F21RetrievingAutolodedDataSwiftTests;
-			productName = F21RetrievingAutolodedDataSwiftTests;
-			productReference = F997E4811B3424C5001C602F /* F21RetrievingAutolodedDataSwiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		F997E3301B342292001C602F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Slava Vdovichenko";
 				TargetAttributes = {
 					F997E3371B342292001C602F = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
-					F997E3501B342292001C602F = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = F997E3371B342292001C602F;
-					};
 					F997E46C1B3424C5001C602F = {
 						CreatedOnToolsVersion = 6.3.2;
-					};
-					F997E4801B3424C5001C602F = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = F997E46C1B3424C5001C602F;
 					};
 				};
 			};
@@ -548,8 +468,6 @@
 			targets = (
 				F997E3371B342292001C602F /* F21RetrievingAutolodedData */,
 				F997E46C1B3424C5001C602F /* F21RetrievingAutolodedDataSwift */,
-				F997E3501B342292001C602F /* F21RetrievingAutolodedDataTests */,
-				F997E4801B3424C5001C602F /* F21RetrievingAutolodedDataSwiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -565,13 +483,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F997E34F1B342292001C602F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F997E46B1B3424C5001C602F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -579,13 +490,6 @@
 				F997E4771B3424C5001C602F /* Main.storyboard in Resources */,
 				F997E47C1B3424C5001C602F /* LaunchScreen.xib in Resources */,
 				F997E4791B3424C5001C602F /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F997E47F1B3424C5001C602F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,14 +508,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F997E34D1B342292001C602F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F997E3581B342292001C602F /* F21RetrievingAutolodedDataTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F997E4691B3424C5001C602F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -623,28 +519,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F997E47D1B3424C5001C602F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F997E4881B3424C5001C602F /* F21RetrievingAutolodedDataSwiftTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F997E3531B342292001C602F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F997E3371B342292001C602F /* F21RetrievingAutolodedData */;
-			targetProxy = F997E3521B342292001C602F /* PBXContainerItemProxy */;
-		};
-		F997E4831B3424C5001C602F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F997E46C1B3424C5001C602F /* F21RetrievingAutolodedDataSwift */;
-			targetProxy = F997E4821B3424C5001C602F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F997E3451B342292001C602F /* Main.storyboard */ = {
@@ -703,6 +578,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -775,6 +651,7 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -790,41 +667,8 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		F997E35F1B342292001C602F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F21RetrievingAutolodedDataTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F21RetrievingAutolodedData.app/F21RetrievingAutolodedData";
-			};
-			name = Debug;
-		};
-		F997E3601B342292001C602F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F21RetrievingAutolodedDataTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F21RetrievingAutolodedData.app/F21RetrievingAutolodedData";
 			};
 			name = Release;
 		};
@@ -843,6 +687,7 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -860,42 +705,9 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
-			};
-			name = Release;
-		};
-		F997E48D1B3424C5001C602F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F21RetrievingAutolodedDataSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F21RetrievingAutolodedDataSwift.app/F21RetrievingAutolodedDataSwift";
-			};
-			name = Debug;
-		};
-		F997E48E1B3424C5001C602F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F21RetrievingAutolodedDataSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F21RetrievingAutolodedDataSwift.app/F21RetrievingAutolodedDataSwift";
 			};
 			name = Release;
 		};
@@ -918,14 +730,7 @@
 				F997E35D1B342292001C602F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		F997E35E1B342292001C602F /* Build configuration list for PBXNativeTarget "F21RetrievingAutolodedDataTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F997E35F1B342292001C602F /* Debug */,
-				F997E3601B342292001C602F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F997E4891B3424C5001C602F /* Build configuration list for PBXNativeTarget "F21RetrievingAutolodedDataSwift" */ = {
 			isa = XCConfigurationList;
@@ -934,14 +739,7 @@
 				F997E48B1B3424C5001C602F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		F997E48C1B3424C5001C602F /* Build configuration list for PBXNativeTarget "F21RetrievingAutolodedDataSwiftTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F997E48D1B3424C5001C602F /* Debug */,
-				F997E48E1B3424C5001C602F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,22 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F90F29931BB01056004F8D33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90F29921BB01056004F8D33 /* libsqlite3.tbd */; };
+		F90F29941BB0105A004F8D33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90F29921BB01056004F8D33 /* libsqlite3.tbd */; };
 		F96A1FE91B395BC2001B2D08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F96A1FE81B395BC2001B2D08 /* main.m */; };
 		F96A1FEC1B395BC2001B2D08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F96A1FEB1B395BC2001B2D08 /* AppDelegate.m */; };
 		F96A1FEF1B395BC2001B2D08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F96A1FEE1B395BC2001B2D08 /* ViewController.m */; };
 		F96A1FF21B395BC2001B2D08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F96A1FF01B395BC2001B2D08 /* Main.storyboard */; };
 		F96A1FF41B395BC2001B2D08 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F96A1FF31B395BC2001B2D08 /* Images.xcassets */; };
 		F96A1FF71B395BC2001B2D08 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F96A1FF51B395BC2001B2D08 /* LaunchScreen.xib */; };
-		F96A20031B395BC2001B2D08 /* F123CustomClassToTableMappingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F96A20021B395BC2001B2D08 /* F123CustomClassToTableMappingTests.m */; };
 		F96A20151B395C20001B2D08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96A20141B395C20001B2D08 /* AppDelegate.swift */; };
 		F96A20171B395C20001B2D08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96A20161B395C20001B2D08 /* ViewController.swift */; };
 		F96A201A1B395C20001B2D08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F96A20181B395C20001B2D08 /* Main.storyboard */; };
 		F96A201C1B395C20001B2D08 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F96A201B1B395C20001B2D08 /* Images.xcassets */; };
 		F96A201F1B395C20001B2D08 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F96A201D1B395C20001B2D08 /* LaunchScreen.xib */; };
-		F96A202B1B395C20001B2D08 /* F123CustomClassToTableMappingSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96A202A1B395C20001B2D08 /* F123CustomClassToTableMappingSwiftTests.swift */; };
-		F96A20601B395CEB001B2D08 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F96A205E1B395CEB001B2D08 /* libsqlite3.dylib */; };
 		F96A20611B395CEB001B2D08 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F96A205F1B395CEB001B2D08 /* SystemConfiguration.framework */; };
-		F96A20621B395CF8001B2D08 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F96A205E1B395CEB001B2D08 /* libsqlite3.dylib */; };
 		F96A20631B395CF8001B2D08 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F96A205F1B395CEB001B2D08 /* SystemConfiguration.framework */; };
 		F96A20B91B395D0F001B2D08 /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F96A20661B395D0F001B2D08 /* backendless.a */; };
 		F96A20BA1B395D0F001B2D08 /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F96A20661B395D0F001B2D08 /* backendless.a */; };
@@ -34,24 +32,8 @@
 		F96A212E1B398035001B2D08 /* PlaceToEat.m in Sources */ = {isa = PBXBuildFile; fileRef = F96A212D1B398035001B2D08 /* PlaceToEat.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F96A1FFD1B395BC2001B2D08 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F96A1FDB1B395BC2001B2D08 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F96A1FE21B395BC2001B2D08;
-			remoteInfo = F123CustomClassToTableMapping;
-		};
-		F96A20251B395C20001B2D08 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F96A1FDB1B395BC2001B2D08 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F96A200F1B395C20001B2D08;
-			remoteInfo = F123CustomClassToTableMappingSwift;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		F90F29921BB01056004F8D33 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		F96A1FE31B395BC2001B2D08 /* F123CustomClassToTableMapping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F123CustomClassToTableMapping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F96A1FE71B395BC2001B2D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F96A1FE81B395BC2001B2D08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -62,7 +44,6 @@
 		F96A1FF11B395BC2001B2D08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F96A1FF31B395BC2001B2D08 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F96A1FF61B395BC2001B2D08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		F96A1FFC1B395BC2001B2D08 /* F123CustomClassToTableMappingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F123CustomClassToTableMappingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F96A20011B395BC2001B2D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F96A20021B395BC2001B2D08 /* F123CustomClassToTableMappingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = F123CustomClassToTableMappingTests.m; sourceTree = "<group>"; };
 		F96A20101B395C20001B2D08 /* F123CustomClassToTableMappingSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F123CustomClassToTableMappingSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,10 +53,8 @@
 		F96A20191B395C20001B2D08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F96A201B1B395C20001B2D08 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F96A201E1B395C20001B2D08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		F96A20241B395C20001B2D08 /* F123CustomClassToTableMappingSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F123CustomClassToTableMappingSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F96A20291B395C20001B2D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F96A202A1B395C20001B2D08 /* F123CustomClassToTableMappingSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F123CustomClassToTableMappingSwiftTests.swift; sourceTree = "<group>"; };
-		F96A205E1B395CEB001B2D08 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		F96A205F1B395CEB001B2D08 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		F96A20661B395D0F001B2D08 /* backendless.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = backendless.a; sourceTree = "<group>"; };
 		F96A20681B395D0F001B2D08 /* AbstractProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractProperty.h; sourceTree = "<group>"; };
@@ -170,17 +149,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F96A20601B395CEB001B2D08 /* libsqlite3.dylib in Frameworks */,
+				F90F29931BB01056004F8D33 /* libsqlite3.tbd in Frameworks */,
 				F96A20BB1B395D0F001B2D08 /* CommLibiOS.a in Frameworks */,
 				F96A20B91B395D0F001B2D08 /* backendless.a in Frameworks */,
 				F96A20611B395CEB001B2D08 /* SystemConfiguration.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F96A1FF91B395BC2001B2D08 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,17 +160,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F96A20621B395CF8001B2D08 /* libsqlite3.dylib in Frameworks */,
+				F90F29941BB0105A004F8D33 /* libsqlite3.tbd in Frameworks */,
 				F96A20BC1B395D0F001B2D08 /* CommLibiOS.a in Frameworks */,
 				F96A20BA1B395D0F001B2D08 /* backendless.a in Frameworks */,
 				F96A20631B395CF8001B2D08 /* SystemConfiguration.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F96A20211B395C20001B2D08 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,8 +173,8 @@
 		F96A1FDA1B395BC2001B2D08 = {
 			isa = PBXGroup;
 			children = (
+				F90F29921BB01056004F8D33 /* libsqlite3.tbd */,
 				F96A20641B395D0F001B2D08 /* lib */,
-				F96A205E1B395CEB001B2D08 /* libsqlite3.dylib */,
 				F96A205F1B395CEB001B2D08 /* SystemConfiguration.framework */,
 				F96A1FE51B395BC2001B2D08 /* F123CustomClassToTableMapping */,
 				F96A1FFF1B395BC2001B2D08 /* F123CustomClassToTableMappingTests */,
@@ -223,9 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				F96A1FE31B395BC2001B2D08 /* F123CustomClassToTableMapping.app */,
-				F96A1FFC1B395BC2001B2D08 /* F123CustomClassToTableMappingTests.xctest */,
 				F96A20101B395C20001B2D08 /* F123CustomClassToTableMappingSwift.app */,
-				F96A20241B395C20001B2D08 /* F123CustomClassToTableMappingSwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -455,24 +418,6 @@
 			productReference = F96A1FE31B395BC2001B2D08 /* F123CustomClassToTableMapping.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F96A1FFB1B395BC2001B2D08 /* F123CustomClassToTableMappingTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F96A20091B395BC2001B2D08 /* Build configuration list for PBXNativeTarget "F123CustomClassToTableMappingTests" */;
-			buildPhases = (
-				F96A1FF81B395BC2001B2D08 /* Sources */,
-				F96A1FF91B395BC2001B2D08 /* Frameworks */,
-				F96A1FFA1B395BC2001B2D08 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F96A1FFE1B395BC2001B2D08 /* PBXTargetDependency */,
-			);
-			name = F123CustomClassToTableMappingTests;
-			productName = F123CustomClassToTableMappingTests;
-			productReference = F96A1FFC1B395BC2001B2D08 /* F123CustomClassToTableMappingTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		F96A200F1B395C20001B2D08 /* F123CustomClassToTableMappingSwift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F96A202C1B395C20001B2D08 /* Build configuration list for PBXNativeTarget "F123CustomClassToTableMappingSwift" */;
@@ -490,46 +435,21 @@
 			productReference = F96A20101B395C20001B2D08 /* F123CustomClassToTableMappingSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F96A20231B395C20001B2D08 /* F123CustomClassToTableMappingSwiftTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F96A202F1B395C20001B2D08 /* Build configuration list for PBXNativeTarget "F123CustomClassToTableMappingSwiftTests" */;
-			buildPhases = (
-				F96A20201B395C20001B2D08 /* Sources */,
-				F96A20211B395C20001B2D08 /* Frameworks */,
-				F96A20221B395C20001B2D08 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F96A20261B395C20001B2D08 /* PBXTargetDependency */,
-			);
-			name = F123CustomClassToTableMappingSwiftTests;
-			productName = F123CustomClassToTableMappingSwiftTests;
-			productReference = F96A20241B395C20001B2D08 /* F123CustomClassToTableMappingSwiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		F96A1FDB1B395BC2001B2D08 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Slava Vdovichenko";
 				TargetAttributes = {
 					F96A1FE21B395BC2001B2D08 = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
-					F96A1FFB1B395BC2001B2D08 = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = F96A1FE21B395BC2001B2D08;
-					};
 					F96A200F1B395C20001B2D08 = {
 						CreatedOnToolsVersion = 6.3.2;
-					};
-					F96A20231B395C20001B2D08 = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = F96A200F1B395C20001B2D08;
 					};
 				};
 			};
@@ -548,8 +468,6 @@
 			targets = (
 				F96A1FE21B395BC2001B2D08 /* F123CustomClassToTableMapping */,
 				F96A200F1B395C20001B2D08 /* F123CustomClassToTableMappingSwift */,
-				F96A1FFB1B395BC2001B2D08 /* F123CustomClassToTableMappingTests */,
-				F96A20231B395C20001B2D08 /* F123CustomClassToTableMappingSwiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -565,13 +483,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F96A1FFA1B395BC2001B2D08 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F96A200E1B395C20001B2D08 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -579,13 +490,6 @@
 				F96A201A1B395C20001B2D08 /* Main.storyboard in Resources */,
 				F96A201F1B395C20001B2D08 /* LaunchScreen.xib in Resources */,
 				F96A201C1B395C20001B2D08 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F96A20221B395C20001B2D08 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,14 +508,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F96A1FF81B395BC2001B2D08 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F96A20031B395BC2001B2D08 /* F123CustomClassToTableMappingTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F96A200C1B395C20001B2D08 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -623,28 +519,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F96A20201B395C20001B2D08 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F96A202B1B395C20001B2D08 /* F123CustomClassToTableMappingSwiftTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F96A1FFE1B395BC2001B2D08 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F96A1FE21B395BC2001B2D08 /* F123CustomClassToTableMapping */;
-			targetProxy = F96A1FFD1B395BC2001B2D08 /* PBXContainerItemProxy */;
-		};
-		F96A20261B395C20001B2D08 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F96A200F1B395C20001B2D08 /* F123CustomClassToTableMappingSwift */;
-			targetProxy = F96A20251B395C20001B2D08 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F96A1FF01B395BC2001B2D08 /* Main.storyboard */ = {
@@ -703,6 +578,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -775,6 +651,7 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -790,41 +667,8 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		F96A200A1B395BC2001B2D08 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F123CustomClassToTableMappingTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F123CustomClassToTableMapping.app/F123CustomClassToTableMapping";
-			};
-			name = Debug;
-		};
-		F96A200B1B395BC2001B2D08 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F123CustomClassToTableMappingTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F123CustomClassToTableMapping.app/F123CustomClassToTableMapping";
 			};
 			name = Release;
 		};
@@ -843,6 +687,7 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -860,42 +705,9 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
-			};
-			name = Release;
-		};
-		F96A20301B395C20001B2D08 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F123CustomClassToTableMappingSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F123CustomClassToTableMappingSwift.app/F123CustomClassToTableMappingSwift";
-			};
-			name = Debug;
-		};
-		F96A20311B395C20001B2D08 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F123CustomClassToTableMappingSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F123CustomClassToTableMappingSwift.app/F123CustomClassToTableMappingSwift";
 			};
 			name = Release;
 		};
@@ -918,14 +730,7 @@
 				F96A20081B395BC2001B2D08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		F96A20091B395BC2001B2D08 /* Build configuration list for PBXNativeTarget "F123CustomClassToTableMappingTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F96A200A1B395BC2001B2D08 /* Debug */,
-				F96A200B1B395BC2001B2D08 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F96A202C1B395C20001B2D08 /* Build configuration list for PBXNativeTarget "F123CustomClassToTableMappingSwift" */ = {
 			isa = XCConfigurationList;
@@ -934,14 +739,7 @@
 				F96A202E1B395C20001B2D08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		F96A202F1B395C20001B2D08 /* Build configuration list for PBXNativeTarget "F123CustomClassToTableMappingSwiftTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F96A20301B395C20001B2D08 /* Debug */,
-				F96A20311B395C20001B2D08 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

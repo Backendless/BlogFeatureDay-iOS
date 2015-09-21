@@ -13,39 +13,20 @@
 		D31701AB1A8E1AB500772766 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D31701A91A8E1AB500772766 /* Main.storyboard */; };
 		D31701AD1A8E1AB500772766 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D31701AC1A8E1AB500772766 /* Images.xcassets */; };
 		D31701B01A8E1AB500772766 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D31701AE1A8E1AB500772766 /* LaunchScreen.xib */; };
-		D31701BC1A8E1AB500772766 /* F34SendingEmailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D31701BB1A8E1AB500772766 /* F34SendingEmailTests.m */; };
 		D31701CE1A8E1ACC00772766 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31701CD1A8E1ACC00772766 /* AppDelegate.swift */; };
 		D31701D01A8E1ACC00772766 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31701CF1A8E1ACC00772766 /* ViewController.swift */; };
 		D31701D31A8E1ACC00772766 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D31701D11A8E1ACC00772766 /* Main.storyboard */; };
 		D31701D51A8E1ACC00772766 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D31701D41A8E1ACC00772766 /* Images.xcassets */; };
 		D31701D81A8E1ACC00772766 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D31701D61A8E1ACC00772766 /* LaunchScreen.xib */; };
-		D31701E41A8E1ACC00772766 /* F34SendingEmailSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31701E31A8E1ACC00772766 /* F34SendingEmailSwiftTests.swift */; };
-		D31701ED1A8E1AF600772766 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D31701EB1A8E1AF600772766 /* libsqlite3.dylib */; };
 		D31701EE1A8E1AF600772766 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31701EC1A8E1AF600772766 /* SystemConfiguration.framework */; };
-		D31701EF1A8E1B0900772766 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D31701EB1A8E1AF600772766 /* libsqlite3.dylib */; };
 		D31701F01A8E1B0900772766 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31701EC1A8E1AF600772766 /* SystemConfiguration.framework */; };
 		D31702421A8E1B1C00772766 /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D31701F31A8E1B1C00772766 /* backendless.a */; };
 		D31702431A8E1B1C00772766 /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D31701F31A8E1B1C00772766 /* backendless.a */; };
 		D31702461A8E1B1C00772766 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D317022D1A8E1B1C00772766 /* CommLibiOS.a */; };
 		D31702471A8E1B1C00772766 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D317022D1A8E1B1C00772766 /* CommLibiOS.a */; };
+		F90F295A1BB00D21004F8D33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90F29591BB00D21004F8D33 /* libsqlite3.tbd */; };
+		F90F295B1BB00D26004F8D33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90F29591BB00D21004F8D33 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D31701B61A8E1AB500772766 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D31701941A8E1AB500772766 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D317019B1A8E1AB500772766;
-			remoteInfo = F34SendingEmail;
-		};
-		D31701DE1A8E1ACC00772766 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D31701941A8E1AB500772766 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D31701C81A8E1ACC00772766;
-			remoteInfo = F34SendingEmailSwift;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D317019C1A8E1AB500772766 /* F34SendingEmail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F34SendingEmail.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,7 +39,6 @@
 		D31701AA1A8E1AB500772766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D31701AC1A8E1AB500772766 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D31701AF1A8E1AB500772766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D31701B51A8E1AB500772766 /* F34SendingEmailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F34SendingEmailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D31701BA1A8E1AB500772766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D31701BB1A8E1AB500772766 /* F34SendingEmailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = F34SendingEmailTests.m; sourceTree = "<group>"; };
 		D31701C91A8E1ACC00772766 /* F34SendingEmailSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F34SendingEmailSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,10 +48,8 @@
 		D31701D21A8E1ACC00772766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D31701D41A8E1ACC00772766 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D31701D71A8E1ACC00772766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D31701DD1A8E1ACC00772766 /* F34SendingEmailSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F34SendingEmailSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D31701E21A8E1ACC00772766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D31701E31A8E1ACC00772766 /* F34SendingEmailSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F34SendingEmailSwiftTests.swift; sourceTree = "<group>"; };
-		D31701EB1A8E1AF600772766 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		D31701EC1A8E1AF600772766 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		D31701F31A8E1B1C00772766 /* backendless.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = backendless.a; sourceTree = "<group>"; };
 		D31701F51A8E1B1C00772766 /* AbstractProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractProperty.h; sourceTree = "<group>"; };
@@ -148,6 +126,7 @@
 		D317023F1A8E1B1C00772766 /* RTMPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTMPClient.h; sourceTree = "<group>"; };
 		D31702401A8E1B1C00772766 /* Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
 		D31702411A8E1B1C00772766 /* WeborbClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeborbClient.h; sourceTree = "<group>"; };
+		F90F29591BB00D21004F8D33 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,17 +134,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D31701ED1A8E1AF600772766 /* libsqlite3.dylib in Frameworks */,
+				F90F295A1BB00D21004F8D33 /* libsqlite3.tbd in Frameworks */,
 				D31702421A8E1B1C00772766 /* backendless.a in Frameworks */,
 				D31701EE1A8E1AF600772766 /* SystemConfiguration.framework in Frameworks */,
 				D31702461A8E1B1C00772766 /* CommLibiOS.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D31701B21A8E1AB500772766 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,17 +145,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D31701EF1A8E1B0900772766 /* libsqlite3.dylib in Frameworks */,
+				F90F295B1BB00D26004F8D33 /* libsqlite3.tbd in Frameworks */,
 				D31702431A8E1B1C00772766 /* backendless.a in Frameworks */,
 				D31701F01A8E1B0900772766 /* SystemConfiguration.framework in Frameworks */,
 				D31702471A8E1B1C00772766 /* CommLibiOS.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D31701DA1A8E1ACC00772766 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,8 +158,8 @@
 		D31701931A8E1AB500772766 = {
 			isa = PBXGroup;
 			children = (
+				F90F29591BB00D21004F8D33 /* libsqlite3.tbd */,
 				D31701F11A8E1B1C00772766 /* lib */,
-				D31701EB1A8E1AF600772766 /* libsqlite3.dylib */,
 				D31701EC1A8E1AF600772766 /* SystemConfiguration.framework */,
 				D317019E1A8E1AB500772766 /* F34SendingEmail */,
 				D31701B81A8E1AB500772766 /* F34SendingEmailTests */,
@@ -208,9 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				D317019C1A8E1AB500772766 /* F34SendingEmail.app */,
-				D31701B51A8E1AB500772766 /* F34SendingEmailTests.xctest */,
 				D31701C91A8E1ACC00772766 /* F34SendingEmailSwift.app */,
-				D31701DD1A8E1ACC00772766 /* F34SendingEmailSwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -429,24 +392,6 @@
 			productReference = D317019C1A8E1AB500772766 /* F34SendingEmail.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D31701B41A8E1AB500772766 /* F34SendingEmailTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D31701C21A8E1AB500772766 /* Build configuration list for PBXNativeTarget "F34SendingEmailTests" */;
-			buildPhases = (
-				D31701B11A8E1AB500772766 /* Sources */,
-				D31701B21A8E1AB500772766 /* Frameworks */,
-				D31701B31A8E1AB500772766 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D31701B71A8E1AB500772766 /* PBXTargetDependency */,
-			);
-			name = F34SendingEmailTests;
-			productName = F34SendingEmailTests;
-			productReference = D31701B51A8E1AB500772766 /* F34SendingEmailTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		D31701C81A8E1ACC00772766 /* F34SendingEmailSwift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D31701E51A8E1ACC00772766 /* Build configuration list for PBXNativeTarget "F34SendingEmailSwift" */;
@@ -464,46 +409,21 @@
 			productReference = D31701C91A8E1ACC00772766 /* F34SendingEmailSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D31701DC1A8E1ACC00772766 /* F34SendingEmailSwiftTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D31701E81A8E1ACC00772766 /* Build configuration list for PBXNativeTarget "F34SendingEmailSwiftTests" */;
-			buildPhases = (
-				D31701D91A8E1ACC00772766 /* Sources */,
-				D31701DA1A8E1ACC00772766 /* Frameworks */,
-				D31701DB1A8E1ACC00772766 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D31701DF1A8E1ACC00772766 /* PBXTargetDependency */,
-			);
-			name = F34SendingEmailSwiftTests;
-			productName = F34SendingEmailSwiftTests;
-			productReference = D31701DD1A8E1ACC00772766 /* F34SendingEmailSwiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		D31701941A8E1AB500772766 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = BACKENDLESS.COM;
 				TargetAttributes = {
 					D317019B1A8E1AB500772766 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
-					D31701B41A8E1AB500772766 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = D317019B1A8E1AB500772766;
-					};
 					D31701C81A8E1ACC00772766 = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					D31701DC1A8E1ACC00772766 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = D31701C81A8E1ACC00772766;
 					};
 				};
 			};
@@ -522,8 +442,6 @@
 			targets = (
 				D317019B1A8E1AB500772766 /* F34SendingEmail */,
 				D31701C81A8E1ACC00772766 /* F34SendingEmailSwift */,
-				D31701B41A8E1AB500772766 /* F34SendingEmailTests */,
-				D31701DC1A8E1ACC00772766 /* F34SendingEmailSwiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -539,13 +457,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D31701B31A8E1AB500772766 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D31701C71A8E1ACC00772766 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -553,13 +464,6 @@
 				D31701D31A8E1ACC00772766 /* Main.storyboard in Resources */,
 				D31701D81A8E1ACC00772766 /* LaunchScreen.xib in Resources */,
 				D31701D51A8E1ACC00772766 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D31701DB1A8E1ACC00772766 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,14 +480,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D31701B11A8E1AB500772766 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D31701BC1A8E1AB500772766 /* F34SendingEmailTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D31701C51A8E1ACC00772766 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -593,28 +489,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D31701D91A8E1ACC00772766 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D31701E41A8E1ACC00772766 /* F34SendingEmailSwiftTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D31701B71A8E1AB500772766 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D317019B1A8E1AB500772766 /* F34SendingEmail */;
-			targetProxy = D31701B61A8E1AB500772766 /* PBXContainerItemProxy */;
-		};
-		D31701DF1A8E1ACC00772766 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D31701C81A8E1ACC00772766 /* F34SendingEmailSwift */;
-			targetProxy = D31701DE1A8E1ACC00772766 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D31701A91A8E1AB500772766 /* Main.storyboard */ = {
@@ -672,6 +547,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -740,6 +616,7 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -756,41 +633,8 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		D31701C31A8E1AB500772766 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F34SendingEmailTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F34SendingEmail.app/F34SendingEmail";
-			};
-			name = Debug;
-		};
-		D31701C41A8E1AB500772766 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F34SendingEmailTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F34SendingEmail.app/F34SendingEmail";
 			};
 			name = Release;
 		};
@@ -810,6 +654,7 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -828,42 +673,9 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
-			};
-			name = Release;
-		};
-		D31701E91A8E1ACC00772766 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F34SendingEmailSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F34SendingEmailSwift.app/F34SendingEmailSwift";
-			};
-			name = Debug;
-		};
-		D31701EA1A8E1ACC00772766 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F34SendingEmailSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F34SendingEmailSwift.app/F34SendingEmailSwift";
 			};
 			name = Release;
 		};
@@ -888,29 +700,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D31701C21A8E1AB500772766 /* Build configuration list for PBXNativeTarget "F34SendingEmailTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D31701C31A8E1AB500772766 /* Debug */,
-				D31701C41A8E1AB500772766 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		D31701E51A8E1ACC00772766 /* Build configuration list for PBXNativeTarget "F34SendingEmailSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D31701E61A8E1ACC00772766 /* Debug */,
 				D31701E71A8E1ACC00772766 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D31701E81A8E1ACC00772766 /* Build configuration list for PBXNativeTarget "F34SendingEmailSwiftTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D31701E91A8E1ACC00772766 /* Debug */,
-				D31701EA1A8E1ACC00772766 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

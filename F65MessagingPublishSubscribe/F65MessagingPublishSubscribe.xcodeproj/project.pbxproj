@@ -7,22 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F90F29781BB00F12004F8D33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90F29771BB00F12004F8D33 /* libsqlite3.tbd */; };
+		F90F29791BB00F16004F8D33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90F29771BB00F12004F8D33 /* libsqlite3.tbd */; };
 		F9BE408B1B2A1FB400CD0A72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BE408A1B2A1FB400CD0A72 /* main.m */; };
 		F9BE408E1B2A1FB400CD0A72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BE408D1B2A1FB400CD0A72 /* AppDelegate.m */; };
 		F9BE40911B2A1FB400CD0A72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BE40901B2A1FB400CD0A72 /* ViewController.m */; };
 		F9BE40941B2A1FB400CD0A72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BE40921B2A1FB400CD0A72 /* Main.storyboard */; };
 		F9BE40961B2A1FB400CD0A72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9BE40951B2A1FB400CD0A72 /* Images.xcassets */; };
 		F9BE40991B2A1FB400CD0A72 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9BE40971B2A1FB400CD0A72 /* LaunchScreen.xib */; };
-		F9BE40A51B2A1FB400CD0A72 /* F65MessagingPublishSubscribeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BE40A41B2A1FB400CD0A72 /* F65MessagingPublishSubscribeTests.m */; };
 		F9BE40DD1B2A200800CD0A72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE40DC1B2A200800CD0A72 /* AppDelegate.swift */; };
 		F9BE40DF1B2A200800CD0A72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE40DE1B2A200800CD0A72 /* ViewController.swift */; };
 		F9BE40E21B2A200800CD0A72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BE40E01B2A200800CD0A72 /* Main.storyboard */; };
 		F9BE40E41B2A200800CD0A72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9BE40E31B2A200800CD0A72 /* Images.xcassets */; };
 		F9BE40E71B2A200800CD0A72 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9BE40E51B2A200800CD0A72 /* LaunchScreen.xib */; };
-		F9BE40F31B2A200800CD0A72 /* F65MessagingPublishSubscribeSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE40F21B2A200800CD0A72 /* F65MessagingPublishSubscribeSwiftTests.swift */; };
-		F9BE40FC1B2A203100CD0A72 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE40FA1B2A203100CD0A72 /* libsqlite3.dylib */; };
 		F9BE40FD1B2A203100CD0A72 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE40FB1B2A203100CD0A72 /* SystemConfiguration.framework */; };
-		F9BE40FE1B2A204D00CD0A72 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE40FA1B2A203100CD0A72 /* libsqlite3.dylib */; };
 		F9BE40FF1B2A204D00CD0A72 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE40FB1B2A203100CD0A72 /* SystemConfiguration.framework */; };
 		F9BE41B41B2A20FC00CD0A72 /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE41611B2A20FC00CD0A72 /* backendless.a */; };
 		F9BE41B51B2A20FC00CD0A72 /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE41611B2A20FC00CD0A72 /* backendless.a */; };
@@ -30,24 +28,8 @@
 		F9BE41B71B2A20FC00CD0A72 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE419F1B2A20FC00CD0A72 /* CommLibiOS.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F9BE409F1B2A1FB400CD0A72 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F9BE407D1B2A1FB400CD0A72 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F9BE40841B2A1FB400CD0A72;
-			remoteInfo = F65MessagingPublishSubscribe;
-		};
-		F9BE40ED1B2A200800CD0A72 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F9BE407D1B2A1FB400CD0A72 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F9BE40D71B2A200700CD0A72;
-			remoteInfo = F65MessagingPublishSubscribeSwift;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		F90F29771BB00F12004F8D33 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		F9BE40851B2A1FB400CD0A72 /* F65MessagingPublishSubscribe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F65MessagingPublishSubscribe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9BE40891B2A1FB400CD0A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9BE408A1B2A1FB400CD0A72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -58,7 +40,6 @@
 		F9BE40931B2A1FB400CD0A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9BE40951B2A1FB400CD0A72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F9BE40981B2A1FB400CD0A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		F9BE409E1B2A1FB400CD0A72 /* F65MessagingPublishSubscribeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F65MessagingPublishSubscribeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9BE40A31B2A1FB400CD0A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9BE40A41B2A1FB400CD0A72 /* F65MessagingPublishSubscribeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = F65MessagingPublishSubscribeTests.m; sourceTree = "<group>"; };
 		F9BE40D81B2A200700CD0A72 /* F65MessagingPublishSubscribeSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F65MessagingPublishSubscribeSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,10 +49,8 @@
 		F9BE40E11B2A200800CD0A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9BE40E31B2A200800CD0A72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F9BE40E61B2A200800CD0A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		F9BE40EC1B2A200800CD0A72 /* F65MessagingPublishSubscribeSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F65MessagingPublishSubscribeSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9BE40F11B2A200800CD0A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9BE40F21B2A200800CD0A72 /* F65MessagingPublishSubscribeSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F65MessagingPublishSubscribeSwiftTests.swift; sourceTree = "<group>"; };
-		F9BE40FA1B2A203100CD0A72 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		F9BE40FB1B2A203100CD0A72 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		F9BE41611B2A20FC00CD0A72 /* backendless.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = backendless.a; sourceTree = "<group>"; };
 		F9BE41631B2A20FC00CD0A72 /* AbstractProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractProperty.h; sourceTree = "<group>"; };
@@ -160,17 +139,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9BE40FC1B2A203100CD0A72 /* libsqlite3.dylib in Frameworks */,
+				F90F29781BB00F12004F8D33 /* libsqlite3.tbd in Frameworks */,
 				F9BE41B61B2A20FC00CD0A72 /* CommLibiOS.a in Frameworks */,
 				F9BE41B41B2A20FC00CD0A72 /* backendless.a in Frameworks */,
 				F9BE40FD1B2A203100CD0A72 /* SystemConfiguration.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F9BE409B1B2A1FB400CD0A72 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,17 +150,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9BE40FE1B2A204D00CD0A72 /* libsqlite3.dylib in Frameworks */,
+				F90F29791BB00F16004F8D33 /* libsqlite3.tbd in Frameworks */,
 				F9BE41B71B2A20FC00CD0A72 /* CommLibiOS.a in Frameworks */,
 				F9BE41B51B2A20FC00CD0A72 /* backendless.a in Frameworks */,
 				F9BE40FF1B2A204D00CD0A72 /* SystemConfiguration.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F9BE40E91B2A200800CD0A72 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,8 +163,8 @@
 		F9BE407C1B2A1FB400CD0A72 = {
 			isa = PBXGroup;
 			children = (
+				F90F29771BB00F12004F8D33 /* libsqlite3.tbd */,
 				F9BE415F1B2A20FC00CD0A72 /* lib */,
-				F9BE40FA1B2A203100CD0A72 /* libsqlite3.dylib */,
 				F9BE40FB1B2A203100CD0A72 /* SystemConfiguration.framework */,
 				F9BE40871B2A1FB400CD0A72 /* F65MessagingPublishSubscribe */,
 				F9BE40A11B2A1FB400CD0A72 /* F65MessagingPublishSubscribeTests */,
@@ -213,9 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				F9BE40851B2A1FB400CD0A72 /* F65MessagingPublishSubscribe.app */,
-				F9BE409E1B2A1FB400CD0A72 /* F65MessagingPublishSubscribeTests.xctest */,
 				F9BE40D81B2A200700CD0A72 /* F65MessagingPublishSubscribeSwift.app */,
-				F9BE40EC1B2A200800CD0A72 /* F65MessagingPublishSubscribeSwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -439,24 +402,6 @@
 			productReference = F9BE40851B2A1FB400CD0A72 /* F65MessagingPublishSubscribe.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F9BE409D1B2A1FB400CD0A72 /* F65MessagingPublishSubscribeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F9BE40AB1B2A1FB400CD0A72 /* Build configuration list for PBXNativeTarget "F65MessagingPublishSubscribeTests" */;
-			buildPhases = (
-				F9BE409A1B2A1FB400CD0A72 /* Sources */,
-				F9BE409B1B2A1FB400CD0A72 /* Frameworks */,
-				F9BE409C1B2A1FB400CD0A72 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F9BE40A01B2A1FB400CD0A72 /* PBXTargetDependency */,
-			);
-			name = F65MessagingPublishSubscribeTests;
-			productName = F65MessagingPublishSubscribeTests;
-			productReference = F9BE409E1B2A1FB400CD0A72 /* F65MessagingPublishSubscribeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		F9BE40D71B2A200700CD0A72 /* F65MessagingPublishSubscribeSwift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9BE40F41B2A200800CD0A72 /* Build configuration list for PBXNativeTarget "F65MessagingPublishSubscribeSwift" */;
@@ -474,46 +419,21 @@
 			productReference = F9BE40D81B2A200700CD0A72 /* F65MessagingPublishSubscribeSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F9BE40EB1B2A200800CD0A72 /* F65MessagingPublishSubscribeSwiftTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F9BE40F71B2A200800CD0A72 /* Build configuration list for PBXNativeTarget "F65MessagingPublishSubscribeSwiftTests" */;
-			buildPhases = (
-				F9BE40E81B2A200800CD0A72 /* Sources */,
-				F9BE40E91B2A200800CD0A72 /* Frameworks */,
-				F9BE40EA1B2A200800CD0A72 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F9BE40EE1B2A200800CD0A72 /* PBXTargetDependency */,
-			);
-			name = F65MessagingPublishSubscribeSwiftTests;
-			productName = F65MessagingPublishSubscribeSwiftTests;
-			productReference = F9BE40EC1B2A200800CD0A72 /* F65MessagingPublishSubscribeSwiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		F9BE407D1B2A1FB400CD0A72 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Slava Vdovichenko";
 				TargetAttributes = {
 					F9BE40841B2A1FB400CD0A72 = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
-					F9BE409D1B2A1FB400CD0A72 = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = F9BE40841B2A1FB400CD0A72;
-					};
 					F9BE40D71B2A200700CD0A72 = {
 						CreatedOnToolsVersion = 6.3.2;
-					};
-					F9BE40EB1B2A200800CD0A72 = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = F9BE40D71B2A200700CD0A72;
 					};
 				};
 			};
@@ -532,8 +452,6 @@
 			targets = (
 				F9BE40841B2A1FB400CD0A72 /* F65MessagingPublishSubscribe */,
 				F9BE40D71B2A200700CD0A72 /* F65MessagingPublishSubscribeSwift */,
-				F9BE409D1B2A1FB400CD0A72 /* F65MessagingPublishSubscribeTests */,
-				F9BE40EB1B2A200800CD0A72 /* F65MessagingPublishSubscribeSwiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -549,13 +467,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9BE409C1B2A1FB400CD0A72 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F9BE40D61B2A200700CD0A72 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -563,13 +474,6 @@
 				F9BE40E21B2A200800CD0A72 /* Main.storyboard in Resources */,
 				F9BE40E71B2A200800CD0A72 /* LaunchScreen.xib in Resources */,
 				F9BE40E41B2A200800CD0A72 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F9BE40EA1B2A200800CD0A72 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,14 +490,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9BE409A1B2A1FB400CD0A72 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F9BE40A51B2A1FB400CD0A72 /* F65MessagingPublishSubscribeTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F9BE40D41B2A200700CD0A72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -603,28 +499,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9BE40E81B2A200800CD0A72 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F9BE40F31B2A200800CD0A72 /* F65MessagingPublishSubscribeSwiftTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F9BE40A01B2A1FB400CD0A72 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F9BE40841B2A1FB400CD0A72 /* F65MessagingPublishSubscribe */;
-			targetProxy = F9BE409F1B2A1FB400CD0A72 /* PBXContainerItemProxy */;
-		};
-		F9BE40EE1B2A200800CD0A72 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F9BE40D71B2A200700CD0A72 /* F65MessagingPublishSubscribeSwift */;
-			targetProxy = F9BE40ED1B2A200800CD0A72 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F9BE40921B2A1FB400CD0A72 /* Main.storyboard */ = {
@@ -683,6 +558,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -755,6 +631,7 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -770,41 +647,8 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		F9BE40AC1B2A1FB400CD0A72 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F65MessagingPublishSubscribeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F65MessagingPublishSubscribe.app/F65MessagingPublishSubscribe";
-			};
-			name = Debug;
-		};
-		F9BE40AD1B2A1FB400CD0A72 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F65MessagingPublishSubscribeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F65MessagingPublishSubscribe.app/F65MessagingPublishSubscribe";
 			};
 			name = Release;
 		};
@@ -823,6 +667,7 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -840,42 +685,9 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
-			};
-			name = Release;
-		};
-		F9BE40F81B2A200800CD0A72 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F65MessagingPublishSubscribeSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F65MessagingPublishSubscribeSwift.app/F65MessagingPublishSubscribeSwift";
-			};
-			name = Debug;
-		};
-		F9BE40F91B2A200800CD0A72 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F65MessagingPublishSubscribeSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F65MessagingPublishSubscribeSwift.app/F65MessagingPublishSubscribeSwift";
 			};
 			name = Release;
 		};
@@ -898,14 +710,7 @@
 				F9BE40AA1B2A1FB400CD0A72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		F9BE40AB1B2A1FB400CD0A72 /* Build configuration list for PBXNativeTarget "F65MessagingPublishSubscribeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F9BE40AC1B2A1FB400CD0A72 /* Debug */,
-				F9BE40AD1B2A1FB400CD0A72 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F9BE40F41B2A200800CD0A72 /* Build configuration list for PBXNativeTarget "F65MessagingPublishSubscribeSwift" */ = {
 			isa = XCConfigurationList;
@@ -914,14 +719,7 @@
 				F9BE40F61B2A200800CD0A72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		F9BE40F71B2A200800CD0A72 /* Build configuration list for PBXNativeTarget "F65MessagingPublishSubscribeSwiftTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F9BE40F81B2A200800CD0A72 /* Debug */,
-				F9BE40F91B2A200800CD0A72 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

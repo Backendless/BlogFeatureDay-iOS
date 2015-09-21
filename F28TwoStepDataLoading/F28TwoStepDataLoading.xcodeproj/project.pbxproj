@@ -7,22 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F90F298A1BB00FE6004F8D33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90F29891BB00FE6004F8D33 /* libsqlite3.tbd */; };
+		F90F298B1BB00FF0004F8D33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90F29891BB00FE6004F8D33 /* libsqlite3.tbd */; };
 		F997E3A21B3422FC001C602F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F997E3A11B3422FC001C602F /* main.m */; };
 		F997E3A51B3422FC001C602F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F997E3A41B3422FC001C602F /* AppDelegate.m */; };
 		F997E3A81B3422FC001C602F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F997E3A71B3422FC001C602F /* ViewController.m */; };
 		F997E3AB1B3422FC001C602F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F997E3A91B3422FC001C602F /* Main.storyboard */; };
 		F997E3AD1B3422FC001C602F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F997E3AC1B3422FC001C602F /* Images.xcassets */; };
 		F997E3B01B3422FC001C602F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F997E3AE1B3422FC001C602F /* LaunchScreen.xib */; };
-		F997E3BC1B3422FC001C602F /* F28TwoStepDataLoadingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F997E3BB1B3422FC001C602F /* F28TwoStepDataLoadingTests.m */; };
 		F997E4261B342488001C602F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F997E4251B342488001C602F /* AppDelegate.swift */; };
 		F997E4281B342488001C602F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F997E4271B342488001C602F /* ViewController.swift */; };
 		F997E42B1B342488001C602F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F997E4291B342488001C602F /* Main.storyboard */; };
 		F997E42D1B342488001C602F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F997E42C1B342488001C602F /* Images.xcassets */; };
 		F997E4301B342488001C602F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F997E42E1B342488001C602F /* LaunchScreen.xib */; };
-		F997E43C1B342488001C602F /* F28TwoStepDataLoadingSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F997E43B1B342488001C602F /* F28TwoStepDataLoadingSwiftTests.swift */; };
-		F997E5231B34265B001C602F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F997E5211B34265B001C602F /* libsqlite3.dylib */; };
 		F997E5241B34265B001C602F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F997E5221B34265B001C602F /* SystemConfiguration.framework */; };
-		F997E5251B342669001C602F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F997E5211B34265B001C602F /* libsqlite3.dylib */; };
 		F997E5261B342669001C602F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F997E5221B34265B001C602F /* SystemConfiguration.framework */; };
 		F997E5DB1B3426F0001C602F /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F997E5881B3426F0001C602F /* backendless.a */; };
 		F997E5DC1B3426F0001C602F /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F997E5881B3426F0001C602F /* backendless.a */; };
@@ -34,24 +32,8 @@
 		F997E7AA1B343950001C602F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = F997E7A91B343950001C602F /* Location.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F997E3B61B3422FC001C602F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F997E3941B3422FC001C602F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F997E39B1B3422FC001C602F;
-			remoteInfo = F28TwoStepDataLoading;
-		};
-		F997E4361B342488001C602F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F997E3941B3422FC001C602F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F997E4201B342488001C602F;
-			remoteInfo = F28TwoStepDataLoadingSwift;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		F90F29891BB00FE6004F8D33 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		F997E39C1B3422FC001C602F /* F28TwoStepDataLoading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F28TwoStepDataLoading.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F997E3A01B3422FC001C602F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F997E3A11B3422FC001C602F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -62,7 +44,6 @@
 		F997E3AA1B3422FC001C602F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F997E3AC1B3422FC001C602F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F997E3AF1B3422FC001C602F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		F997E3B51B3422FC001C602F /* F28TwoStepDataLoadingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F28TwoStepDataLoadingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F997E3BA1B3422FC001C602F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F997E3BB1B3422FC001C602F /* F28TwoStepDataLoadingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = F28TwoStepDataLoadingTests.m; sourceTree = "<group>"; };
 		F997E4211B342488001C602F /* F28TwoStepDataLoadingSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F28TwoStepDataLoadingSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,10 +53,8 @@
 		F997E42A1B342488001C602F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F997E42C1B342488001C602F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F997E42F1B342488001C602F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		F997E4351B342488001C602F /* F28TwoStepDataLoadingSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F28TwoStepDataLoadingSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F997E43A1B342488001C602F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F997E43B1B342488001C602F /* F28TwoStepDataLoadingSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F28TwoStepDataLoadingSwiftTests.swift; sourceTree = "<group>"; };
-		F997E5211B34265B001C602F /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		F997E5221B34265B001C602F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		F997E5881B3426F0001C602F /* backendless.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = backendless.a; sourceTree = "<group>"; };
 		F997E58A1B3426F0001C602F /* AbstractProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractProperty.h; sourceTree = "<group>"; };
@@ -170,17 +149,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F997E5231B34265B001C602F /* libsqlite3.dylib in Frameworks */,
+				F90F298A1BB00FE6004F8D33 /* libsqlite3.tbd in Frameworks */,
 				F997E5DD1B3426F0001C602F /* CommLibiOS.a in Frameworks */,
 				F997E5DB1B3426F0001C602F /* backendless.a in Frameworks */,
 				F997E5241B34265B001C602F /* SystemConfiguration.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F997E3B21B3422FC001C602F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,17 +160,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F997E5251B342669001C602F /* libsqlite3.dylib in Frameworks */,
+				F90F298B1BB00FF0004F8D33 /* libsqlite3.tbd in Frameworks */,
 				F997E5DE1B3426F0001C602F /* CommLibiOS.a in Frameworks */,
 				F997E5DC1B3426F0001C602F /* backendless.a in Frameworks */,
 				F997E5261B342669001C602F /* SystemConfiguration.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F997E4321B342488001C602F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,8 +173,8 @@
 		F997E3931B3422FC001C602F = {
 			isa = PBXGroup;
 			children = (
+				F90F29891BB00FE6004F8D33 /* libsqlite3.tbd */,
 				F997E5861B3426F0001C602F /* lib */,
-				F997E5211B34265B001C602F /* libsqlite3.dylib */,
 				F997E5221B34265B001C602F /* SystemConfiguration.framework */,
 				F997E39E1B3422FC001C602F /* F28TwoStepDataLoading */,
 				F997E3B81B3422FC001C602F /* F28TwoStepDataLoadingTests */,
@@ -223,9 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				F997E39C1B3422FC001C602F /* F28TwoStepDataLoading.app */,
-				F997E3B51B3422FC001C602F /* F28TwoStepDataLoadingTests.xctest */,
 				F997E4211B342488001C602F /* F28TwoStepDataLoadingSwift.app */,
-				F997E4351B342488001C602F /* F28TwoStepDataLoadingSwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -455,24 +418,6 @@
 			productReference = F997E39C1B3422FC001C602F /* F28TwoStepDataLoading.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F997E3B41B3422FC001C602F /* F28TwoStepDataLoadingTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F997E3C21B3422FC001C602F /* Build configuration list for PBXNativeTarget "F28TwoStepDataLoadingTests" */;
-			buildPhases = (
-				F997E3B11B3422FC001C602F /* Sources */,
-				F997E3B21B3422FC001C602F /* Frameworks */,
-				F997E3B31B3422FC001C602F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F997E3B71B3422FC001C602F /* PBXTargetDependency */,
-			);
-			name = F28TwoStepDataLoadingTests;
-			productName = F28TwoStepDataLoadingTests;
-			productReference = F997E3B51B3422FC001C602F /* F28TwoStepDataLoadingTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		F997E4201B342488001C602F /* F28TwoStepDataLoadingSwift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F997E43D1B342488001C602F /* Build configuration list for PBXNativeTarget "F28TwoStepDataLoadingSwift" */;
@@ -490,46 +435,21 @@
 			productReference = F997E4211B342488001C602F /* F28TwoStepDataLoadingSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F997E4341B342488001C602F /* F28TwoStepDataLoadingSwiftTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F997E4401B342488001C602F /* Build configuration list for PBXNativeTarget "F28TwoStepDataLoadingSwiftTests" */;
-			buildPhases = (
-				F997E4311B342488001C602F /* Sources */,
-				F997E4321B342488001C602F /* Frameworks */,
-				F997E4331B342488001C602F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F997E4371B342488001C602F /* PBXTargetDependency */,
-			);
-			name = F28TwoStepDataLoadingSwiftTests;
-			productName = F28TwoStepDataLoadingSwiftTests;
-			productReference = F997E4351B342488001C602F /* F28TwoStepDataLoadingSwiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		F997E3941B3422FC001C602F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Slava Vdovichenko";
 				TargetAttributes = {
 					F997E39B1B3422FC001C602F = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
-					F997E3B41B3422FC001C602F = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = F997E39B1B3422FC001C602F;
-					};
 					F997E4201B342488001C602F = {
 						CreatedOnToolsVersion = 6.3.2;
-					};
-					F997E4341B342488001C602F = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = F997E4201B342488001C602F;
 					};
 				};
 			};
@@ -548,8 +468,6 @@
 			targets = (
 				F997E39B1B3422FC001C602F /* F28TwoStepDataLoading */,
 				F997E4201B342488001C602F /* F28TwoStepDataLoadingSwift */,
-				F997E3B41B3422FC001C602F /* F28TwoStepDataLoadingTests */,
-				F997E4341B342488001C602F /* F28TwoStepDataLoadingSwiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -565,13 +483,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F997E3B31B3422FC001C602F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F997E41F1B342488001C602F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -579,13 +490,6 @@
 				F997E42B1B342488001C602F /* Main.storyboard in Resources */,
 				F997E4301B342488001C602F /* LaunchScreen.xib in Resources */,
 				F997E42D1B342488001C602F /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F997E4331B342488001C602F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,14 +508,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F997E3B11B3422FC001C602F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F997E3BC1B3422FC001C602F /* F28TwoStepDataLoadingTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F997E41D1B342488001C602F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -623,28 +519,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F997E4311B342488001C602F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F997E43C1B342488001C602F /* F28TwoStepDataLoadingSwiftTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F997E3B71B3422FC001C602F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F997E39B1B3422FC001C602F /* F28TwoStepDataLoading */;
-			targetProxy = F997E3B61B3422FC001C602F /* PBXContainerItemProxy */;
-		};
-		F997E4371B342488001C602F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F997E4201B342488001C602F /* F28TwoStepDataLoadingSwift */;
-			targetProxy = F997E4361B342488001C602F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F997E3A91B3422FC001C602F /* Main.storyboard */ = {
@@ -703,6 +578,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -775,6 +651,7 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -790,41 +667,8 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		F997E3C31B3422FC001C602F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F28TwoStepDataLoadingTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F28TwoStepDataLoading.app/F28TwoStepDataLoading";
-			};
-			name = Debug;
-		};
-		F997E3C41B3422FC001C602F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F28TwoStepDataLoadingTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F28TwoStepDataLoading.app/F28TwoStepDataLoading";
 			};
 			name = Release;
 		};
@@ -843,6 +687,7 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -860,42 +705,9 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
-			};
-			name = Release;
-		};
-		F997E4411B342488001C602F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F28TwoStepDataLoadingSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F28TwoStepDataLoadingSwift.app/F28TwoStepDataLoadingSwift";
-			};
-			name = Debug;
-		};
-		F997E4421B342488001C602F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F28TwoStepDataLoadingSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F28TwoStepDataLoadingSwift.app/F28TwoStepDataLoadingSwift";
 			};
 			name = Release;
 		};
@@ -918,14 +730,7 @@
 				F997E3C11B3422FC001C602F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		F997E3C21B3422FC001C602F /* Build configuration list for PBXNativeTarget "F28TwoStepDataLoadingTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F997E3C31B3422FC001C602F /* Debug */,
-				F997E3C41B3422FC001C602F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F997E43D1B342488001C602F /* Build configuration list for PBXNativeTarget "F28TwoStepDataLoadingSwift" */ = {
 			isa = XCConfigurationList;
@@ -934,14 +739,7 @@
 				F997E43F1B342488001C602F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		F997E4401B342488001C602F /* Build configuration list for PBXNativeTarget "F28TwoStepDataLoadingSwiftTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F997E4411B342488001C602F /* Debug */,
-				F997E4421B342488001C602F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

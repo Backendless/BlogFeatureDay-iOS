@@ -34,7 +34,7 @@ static NSString *VERSION_NUM = @"v1";
     [backendless initApp:APP_ID secret:SECRET_KEY version:VERSION_NUM];
     
     [self uploadSync];
-    [self uploadAsync];
+    //[self uploadAsync];
 }
 
 #pragma mark -

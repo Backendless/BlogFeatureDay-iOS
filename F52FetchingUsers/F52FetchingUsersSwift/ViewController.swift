@@ -6,8 +6,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let APP_ID = "YOUR-APP-ID-GOES-HERE"
-    let SECRET_KEY = "YOUR-IOS-SECRET-KEY-GOES-HERE"
+    let APP_ID = "7B92560B-91F0-E94D-FFEB-77451B0F9700"
+    let SECRET_KEY = "B9D27BA8-3964-F3AE-FF26-E71FFF487300"
     let VERSION_NUM = "v1"
     
     var backendless = Backendless.sharedInstance()
@@ -17,37 +17,39 @@ class ViewController: UIViewController {
         
         backendless.initApp(APP_ID, secret:SECRET_KEY, version:VERSION_NUM)
         
+        print("Users have will be fetched")
+        
         fetchingUsersSync()
         fetchingUsersAsync()
     }
     
     func fetchingUsersSync() {
         
-        Types.try({ () -> Void in
+        Types.tryblock({ () -> Void in
             
-            var dataStore = self.backendless.persistenceService.of(BackendlessUser.ofClass())
-            var users = dataStore.find()
-            println("Users have been fetched (SYNC): \(users)")
+            let dataStore = self.backendless.persistenceService.of(BackendlessUser.ofClass())
+            let users = dataStore.find()
+            print("Users have been fetched (SYNC): \(users)")
             },
             
-            catch: { (exception) -> Void in
-                println("Server reported an error (SYNC): \(exception as! Fault)")
+            catchblock: { (exception) -> Void in
+                print("Server reported an error (SYNC): \(exception as! Fault)")
             }
         )
     }
     
     func fetchingUsersAsync() {
         
-        var dataStore = self.backendless.persistenceService.of(BackendlessUser.ofClass())
+        let dataStore = self.backendless.persistenceService.of(BackendlessUser.ofClass())
         dataStore.find(
-            { (var users : BackendlessCollection!) -> () in
-                println("Users have been fetched  (ASYNC): \(users)")
+            { ( users : BackendlessCollection!) -> () in
+                print("Users have been fetched  (ASYNC): \(users)")
             },
-            error: { (var fault : Fault!) -> () in
-                println("Server reported an error (ASYNC): \(fault)")
+            error: { ( fault : Fault!) -> () in
+                print("Server reported an error (ASYNC): \(fault)")
             }
         )
     }
-    
+
 }
 

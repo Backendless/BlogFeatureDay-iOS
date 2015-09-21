@@ -13,18 +13,14 @@
 		D35CA55C1A77A9FA00F500B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35CA55A1A77A9FA00F500B0 /* Main.storyboard */; };
 		D35CA55E1A77A9FA00F500B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35CA55D1A77A9FA00F500B0 /* Images.xcassets */; };
 		D35CA5611A77A9FA00F500B0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D35CA55F1A77A9FA00F500B0 /* LaunchScreen.xib */; };
-		D35CA56D1A77A9FA00F500B0 /* F16RetrievingDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D35CA56C1A77A9FA00F500B0 /* F16RetrievingDataTests.m */; };
 		D35CA57F1A77AA5700F500B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35CA57E1A77AA5700F500B0 /* AppDelegate.swift */; };
 		D35CA5811A77AA5700F500B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35CA5801A77AA5700F500B0 /* ViewController.swift */; };
 		D35CA5841A77AA5700F500B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35CA5821A77AA5700F500B0 /* Main.storyboard */; };
 		D35CA5861A77AA5700F500B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35CA5851A77AA5700F500B0 /* Images.xcassets */; };
 		D35CA5891A77AA5700F500B0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D35CA5871A77AA5700F500B0 /* LaunchScreen.xib */; };
-		D35CA5951A77AA5700F500B0 /* F16RetrievingDataSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35CA5941A77AA5700F500B0 /* F16RetrievingDataSwiftTests.swift */; };
 		D35CA5A61A77AB0200F500B0 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = D35CA59D1A77AB0200F500B0 /* Location.m */; };
 		D35CA5AA1A77AB0200F500B0 /* Restaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = D35CA5A51A77AB0200F500B0 /* Restaurant.m */; };
-		D35CA5AD1A77ABB800F500B0 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D35CA5AB1A77ABB800F500B0 /* libsqlite3.dylib */; };
 		D35CA5AE1A77ABB800F500B0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35CA5AC1A77ABB800F500B0 /* SystemConfiguration.framework */; };
-		D35CA5AF1A77ABCE00F500B0 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D35CA5AB1A77ABB800F500B0 /* libsqlite3.dylib */; };
 		D35CA5B01A77ABCE00F500B0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35CA5AC1A77ABB800F500B0 /* SystemConfiguration.framework */; };
 		D35CA5FF1A77AC1900F500B0 /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D35CA5B31A77AC1900F500B0 /* backendless.a */; };
 		D35CA6001A77AC1900F500B0 /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D35CA5B31A77AC1900F500B0 /* backendless.a */; };
@@ -34,24 +30,9 @@
 		D35CA6061A77BBDE00F500B0 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35CA6051A77BBDE00F500B0 /* Menu.swift */; };
 		D35CA6081A77BBF000F500B0 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35CA6071A77BBF000F500B0 /* MenuItem.swift */; };
 		D35CA60C1A77BC2000F500B0 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35CA60B1A77BC2000F500B0 /* Restaurant.swift */; };
+		F90F29511BB00C93004F8D33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90F29501BB00C93004F8D33 /* libsqlite3.tbd */; };
+		F90F29521BB00C9A004F8D33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90F29501BB00C93004F8D33 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D35CA5671A77A9FA00F500B0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D35CA5451A77A9F900F500B0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D35CA54C1A77A9FA00F500B0;
-			remoteInfo = F16RetrievingData;
-		};
-		D35CA58F1A77AA5700F500B0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D35CA5451A77A9F900F500B0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D35CA5791A77AA5700F500B0;
-			remoteInfo = F16RetrievingDataSwift;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D35CA54D1A77A9FA00F500B0 /* F16RetrievingData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F16RetrievingData.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,7 +45,6 @@
 		D35CA55B1A77A9FA00F500B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D35CA55D1A77A9FA00F500B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D35CA5601A77A9FA00F500B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D35CA5661A77A9FA00F500B0 /* F16RetrievingDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F16RetrievingDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35CA56B1A77A9FA00F500B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D35CA56C1A77A9FA00F500B0 /* F16RetrievingDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = F16RetrievingDataTests.m; sourceTree = "<group>"; };
 		D35CA57A1A77AA5700F500B0 /* F16RetrievingDataSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F16RetrievingDataSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,14 +54,12 @@
 		D35CA5831A77AA5700F500B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D35CA5851A77AA5700F500B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D35CA5881A77AA5700F500B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D35CA58E1A77AA5700F500B0 /* F16RetrievingDataSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F16RetrievingDataSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35CA5931A77AA5700F500B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D35CA5941A77AA5700F500B0 /* F16RetrievingDataSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F16RetrievingDataSwiftTests.swift; sourceTree = "<group>"; };
 		D35CA59C1A77AB0200F500B0 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
 		D35CA59D1A77AB0200F500B0 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
 		D35CA5A41A77AB0200F500B0 /* Restaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Restaurant.h; sourceTree = "<group>"; };
 		D35CA5A51A77AB0200F500B0 /* Restaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Restaurant.m; sourceTree = "<group>"; };
-		D35CA5AB1A77ABB800F500B0 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		D35CA5AC1A77ABB800F500B0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		D35CA5B31A77AC1900F500B0 /* backendless.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = backendless.a; sourceTree = "<group>"; };
 		D35CA5B51A77AC1900F500B0 /* AbstractProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractProperty.h; sourceTree = "<group>"; };
@@ -160,6 +138,7 @@
 		D35CA6051A77BBDE00F500B0 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		D35CA6071A77BBF000F500B0 /* MenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		D35CA60B1A77BC2000F500B0 /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		F90F29501BB00C93004F8D33 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,17 +146,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D35CA5AD1A77ABB800F500B0 /* libsqlite3.dylib in Frameworks */,
+				F90F29511BB00C93004F8D33 /* libsqlite3.tbd in Frameworks */,
 				D35CA6011A77AC1900F500B0 /* CommLibiOS.a in Frameworks */,
 				D35CA5FF1A77AC1900F500B0 /* backendless.a in Frameworks */,
 				D35CA5AE1A77ABB800F500B0 /* SystemConfiguration.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D35CA5631A77A9FA00F500B0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,17 +157,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D35CA5AF1A77ABCE00F500B0 /* libsqlite3.dylib in Frameworks */,
+				F90F29521BB00C9A004F8D33 /* libsqlite3.tbd in Frameworks */,
 				D35CA6021A77AC1900F500B0 /* CommLibiOS.a in Frameworks */,
 				D35CA6001A77AC1900F500B0 /* backendless.a in Frameworks */,
 				D35CA5B01A77ABCE00F500B0 /* SystemConfiguration.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D35CA58B1A77AA5700F500B0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,8 +170,8 @@
 		D35CA5441A77A9F900F500B0 = {
 			isa = PBXGroup;
 			children = (
+				F90F29501BB00C93004F8D33 /* libsqlite3.tbd */,
 				D35CA5B11A77AC1900F500B0 /* lib */,
-				D35CA5AB1A77ABB800F500B0 /* libsqlite3.dylib */,
 				D35CA5AC1A77ABB800F500B0 /* SystemConfiguration.framework */,
 				D35CA54F1A77A9FA00F500B0 /* F16RetrievingData */,
 				D35CA5691A77A9FA00F500B0 /* F16RetrievingDataTests */,
@@ -220,9 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				D35CA54D1A77A9FA00F500B0 /* F16RetrievingData.app */,
-				D35CA5661A77A9FA00F500B0 /* F16RetrievingDataTests.xctest */,
 				D35CA57A1A77AA5700F500B0 /* F16RetrievingDataSwift.app */,
-				D35CA58E1A77AA5700F500B0 /* F16RetrievingDataSwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -447,24 +410,6 @@
 			productReference = D35CA54D1A77A9FA00F500B0 /* F16RetrievingData.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D35CA5651A77A9FA00F500B0 /* F16RetrievingDataTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D35CA5731A77A9FA00F500B0 /* Build configuration list for PBXNativeTarget "F16RetrievingDataTests" */;
-			buildPhases = (
-				D35CA5621A77A9FA00F500B0 /* Sources */,
-				D35CA5631A77A9FA00F500B0 /* Frameworks */,
-				D35CA5641A77A9FA00F500B0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D35CA5681A77A9FA00F500B0 /* PBXTargetDependency */,
-			);
-			name = F16RetrievingDataTests;
-			productName = F16RetrievingDataTests;
-			productReference = D35CA5661A77A9FA00F500B0 /* F16RetrievingDataTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		D35CA5791A77AA5700F500B0 /* F16RetrievingDataSwift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D35CA5961A77AA5700F500B0 /* Build configuration list for PBXNativeTarget "F16RetrievingDataSwift" */;
@@ -482,46 +427,21 @@
 			productReference = D35CA57A1A77AA5700F500B0 /* F16RetrievingDataSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D35CA58D1A77AA5700F500B0 /* F16RetrievingDataSwiftTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D35CA5991A77AA5700F500B0 /* Build configuration list for PBXNativeTarget "F16RetrievingDataSwiftTests" */;
-			buildPhases = (
-				D35CA58A1A77AA5700F500B0 /* Sources */,
-				D35CA58B1A77AA5700F500B0 /* Frameworks */,
-				D35CA58C1A77AA5700F500B0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D35CA5901A77AA5700F500B0 /* PBXTargetDependency */,
-			);
-			name = F16RetrievingDataSwiftTests;
-			productName = F16RetrievingDataSwiftTests;
-			productReference = D35CA58E1A77AA5700F500B0 /* F16RetrievingDataSwiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		D35CA5451A77A9F900F500B0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = BACKENDLESS.COM;
 				TargetAttributes = {
 					D35CA54C1A77A9FA00F500B0 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
-					D35CA5651A77A9FA00F500B0 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = D35CA54C1A77A9FA00F500B0;
-					};
 					D35CA5791A77AA5700F500B0 = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					D35CA58D1A77AA5700F500B0 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = D35CA5791A77AA5700F500B0;
 					};
 				};
 			};
@@ -540,8 +460,6 @@
 			targets = (
 				D35CA54C1A77A9FA00F500B0 /* F16RetrievingData */,
 				D35CA5791A77AA5700F500B0 /* F16RetrievingDataSwift */,
-				D35CA5651A77A9FA00F500B0 /* F16RetrievingDataTests */,
-				D35CA58D1A77AA5700F500B0 /* F16RetrievingDataSwiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -557,13 +475,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D35CA5641A77A9FA00F500B0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D35CA5781A77AA5700F500B0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -571,13 +482,6 @@
 				D35CA5841A77AA5700F500B0 /* Main.storyboard in Resources */,
 				D35CA5891A77AA5700F500B0 /* LaunchScreen.xib in Resources */,
 				D35CA5861A77AA5700F500B0 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D35CA58C1A77AA5700F500B0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,14 +500,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D35CA5621A77A9FA00F500B0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D35CA56D1A77A9FA00F500B0 /* F16RetrievingDataTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D35CA5761A77AA5700F500B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -617,28 +513,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D35CA58A1A77AA5700F500B0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D35CA5951A77AA5700F500B0 /* F16RetrievingDataSwiftTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D35CA5681A77A9FA00F500B0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D35CA54C1A77A9FA00F500B0 /* F16RetrievingData */;
-			targetProxy = D35CA5671A77A9FA00F500B0 /* PBXContainerItemProxy */;
-		};
-		D35CA5901A77AA5700F500B0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D35CA5791A77AA5700F500B0 /* F16RetrievingDataSwift */;
-			targetProxy = D35CA58F1A77AA5700F500B0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D35CA55A1A77A9FA00F500B0 /* Main.storyboard */ = {
@@ -696,6 +571,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -764,6 +640,7 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -780,41 +657,8 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		D35CA5741A77A9FA00F500B0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F16RetrievingDataTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F16RetrievingData.app/F16RetrievingData";
-			};
-			name = Debug;
-		};
-		D35CA5751A77A9FA00F500B0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F16RetrievingDataTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F16RetrievingData.app/F16RetrievingData";
 			};
 			name = Release;
 		};
@@ -834,6 +678,7 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -852,42 +697,9 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
-			};
-			name = Release;
-		};
-		D35CA59A1A77AA5700F500B0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F16RetrievingDataSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F16RetrievingDataSwift.app/F16RetrievingDataSwift";
-			};
-			name = Debug;
-		};
-		D35CA59B1A77AA5700F500B0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F16RetrievingDataSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F16RetrievingDataSwift.app/F16RetrievingDataSwift";
 			};
 			name = Release;
 		};
@@ -912,29 +724,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D35CA5731A77A9FA00F500B0 /* Build configuration list for PBXNativeTarget "F16RetrievingDataTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D35CA5741A77A9FA00F500B0 /* Debug */,
-				D35CA5751A77A9FA00F500B0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		D35CA5961A77AA5700F500B0 /* Build configuration list for PBXNativeTarget "F16RetrievingDataSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D35CA5971A77AA5700F500B0 /* Debug */,
 				D35CA5981A77AA5700F500B0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D35CA5991A77AA5700F500B0 /* Build configuration list for PBXNativeTarget "F16RetrievingDataSwiftTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D35CA59A1A77AA5700F500B0 /* Debug */,
-				D35CA59B1A77AA5700F500B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

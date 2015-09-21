@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>F123CustomClassToTableMapping.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>52</integer>
+		</dict>
+		<key>F123CustomClassToTableMappingSwift.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>53</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>F96A1FE21B395BC2001B2D08</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F96A1FFB1B395BC2001B2D08</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F96A200F1B395C20001B2D08</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F96A20231B395C20001B2D08</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

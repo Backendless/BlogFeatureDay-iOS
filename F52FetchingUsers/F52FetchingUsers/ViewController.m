@@ -5,8 +5,8 @@
 #import "ViewController.h"
 #import "Backendless.h"
 
-static NSString *APP_ID = @"YOUR-APP-ID-GOES-HERE";
-static NSString *SECRET_KEY = @"YOUR-IOS-SECRET-KEY-GOES-HERE";
+static NSString *APP_ID = @"7B92560B-91F0-E94D-FFEB-77451B0F9700";
+static NSString *SECRET_KEY = @"B9D27BA8-3964-F3AE-FF26-E71FFF487300";
 static NSString *VERSION_NUM = @"v1";
 
 @implementation ViewController

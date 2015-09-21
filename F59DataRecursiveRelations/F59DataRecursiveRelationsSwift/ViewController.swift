@@ -23,18 +23,18 @@ class ViewController: UIViewController {
     
     func savePersonSync() {
         
-        Types.try({ () -> Void in
+        Types.tryblock({ () -> Void in
             
             var me = Person()
             me.name = "Bobby"
             me.age = 13
             
-            var mom = Person()
+            let mom = Person()
             mom.name = "Jennifer"
             mom.age = 40
             mom.children = [me]
             
-            var dad = Person()
+            let dad = Person()
             dad.name = "Richard"
             dad.age = 41
             dad.children = [me]
@@ -43,27 +43,27 @@ class ViewController: UIViewController {
             me.dad = dad
             
             me = self.backendless.data.save(me) as! Person
-            println("Person has been saved (SYNC): \(me.name) -> \(me.age)")
+            print("Person has been saved (SYNC): \(me.name) -> \(me.age)")
             },
             
-            catch: { (exception) -> Void in
-                println("Server reported an error (SYNC): \(exception as! Fault)")
+            catchblock: { (exception) -> Void in
+                print("Server reported an error (SYNC): \(exception as! Fault)")
             }
         )
     }
     
     func savePersonAsync() {
         
-        var me = Person()
+        let me = Person()
         me.name = "Bobby"
         me.age = 13
         
-        var mom = Person()
+        let mom = Person()
         mom.name = "Jennifer"
         mom.age = 40
         mom.children = [me]
         
-        var dad = Person()
+        let dad = Person()
         dad.name = "Richard"
         dad.age = 41
         dad.children = [me]
@@ -73,11 +73,11 @@ class ViewController: UIViewController {
         
         backendless.data.save(
             me,
-            response: { (var person : AnyObject!) -> () in
-                println("Person has been saved (ASYNC): \((person as! Person).name) -> \((person as! Person).age)")
+            response: { ( person : AnyObject!) -> () in
+                print("Person has been saved (ASYNC): \((person as! Person).name) -> \((person as! Person).age)")
             },
-            error: { (var fault : Fault!) -> () in
-                println("Server reported an error (ASYNC): \(fault)")
+            error: { ( fault : Fault!) -> () in
+                print("Server reported an error (ASYNC): \(fault)")
             }
         )
     }

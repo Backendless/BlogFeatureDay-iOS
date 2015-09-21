@@ -24,28 +24,28 @@ class ViewController: UIViewController {
     
     func counterIncrementAndGetSync() {
         
-        Types.try({ () -> Void in
+        Types.tryblock({ () -> Void in
             
-            var counter = self.backendless.counters.of("my counter")
-            var counterValue = counter.incrementAndGet()
-            println("Counter value  (SYNC): \(counterValue )")
+            let counter = self.backendless.counters.of("my counter")
+            let counterValue = counter.incrementAndGet()
+            print("Counter value  (SYNC): \(counterValue )")
             },
             
-            catch: { (exception) -> Void in
-                println("Server reported an error (SYNC): \(exception as! Fault)")
+            catchblock: { (exception) -> Void in
+                print("Server reported an error (SYNC): \(exception as! Fault)")
             }
         )
     }
     
     func counterIncrementAndGetAsync() {
         
-        var counter = self.backendless.counters.of("my counter")
+        let counter = self.backendless.counters.of("my counter")
         counter.incrementAndGet(
-            { (var counterValue) -> () in
-                println("Counter value  (ASYNC): \(counterValue )")
+            { ( counterValue) -> () in
+                print("Counter value  (ASYNC): \(counterValue )")
             },
-            error: { (var fault : Fault!) -> () in
-                println("Server reported an error (ASYNC): \(fault)")
+            error: { ( fault : Fault!) -> () in
+                print("Server reported an error (ASYNC): \(fault)")
             }
         )
     }

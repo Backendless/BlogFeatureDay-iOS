@@ -7,22 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F90F29811BB00F81004F8D33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90F29801BB00F81004F8D33 /* libsqlite3.tbd */; };
+		F90F29821BB00F85004F8D33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90F29801BB00F81004F8D33 /* libsqlite3.tbd */; };
 		F997E30C1B342257001C602F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F997E30B1B342257001C602F /* main.m */; };
 		F997E30F1B342257001C602F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F997E30E1B342257001C602F /* AppDelegate.m */; };
 		F997E3121B342257001C602F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F997E3111B342257001C602F /* ViewController.m */; };
 		F997E3151B342257001C602F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F997E3131B342257001C602F /* Main.storyboard */; };
 		F997E3171B342257001C602F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F997E3161B342257001C602F /* Images.xcassets */; };
 		F997E31A1B342257001C602F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F997E3181B342257001C602F /* LaunchScreen.xib */; };
-		F997E3261B342257001C602F /* F17DataPagingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F997E3251B342257001C602F /* F17DataPagingTests.m */; };
 		F997E4981B3424E1001C602F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F997E4971B3424E1001C602F /* AppDelegate.swift */; };
 		F997E49A1B3424E1001C602F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F997E4991B3424E1001C602F /* ViewController.swift */; };
 		F997E49D1B3424E1001C602F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F997E49B1B3424E1001C602F /* Main.storyboard */; };
 		F997E49F1B3424E1001C602F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F997E49E1B3424E1001C602F /* Images.xcassets */; };
 		F997E4A21B3424E1001C602F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F997E4A01B3424E1001C602F /* LaunchScreen.xib */; };
-		F997E4AE1B3424E1001C602F /* F17DataPagingSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F997E4AD1B3424E1001C602F /* F17DataPagingSwiftTests.swift */; };
-		F997E5111B3425CE001C602F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F997E50F1B3425CE001C602F /* libsqlite3.dylib */; };
 		F997E5121B3425CE001C602F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F997E5101B3425CE001C602F /* SystemConfiguration.framework */; };
-		F997E5131B3425E0001C602F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F997E50F1B3425CE001C602F /* libsqlite3.dylib */; };
 		F997E5141B3425E0001C602F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F997E5101B3425CE001C602F /* SystemConfiguration.framework */; };
 		F997E6E61B342748001C602F /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F997E6931B342748001C602F /* backendless.a */; };
 		F997E6E71B342748001C602F /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F997E6931B342748001C602F /* backendless.a */; };
@@ -34,24 +32,8 @@
 		F997E7C81B3444B5001C602F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = F997E7C71B3444B5001C602F /* Location.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F997E3201B342257001C602F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F997E2FE1B342257001C602F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F997E3051B342257001C602F;
-			remoteInfo = F17DataPaging;
-		};
-		F997E4A81B3424E1001C602F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F997E2FE1B342257001C602F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F997E4921B3424E1001C602F;
-			remoteInfo = F17DataPagingSwift;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		F90F29801BB00F81004F8D33 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		F997E3061B342257001C602F /* F17DataPaging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F17DataPaging.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F997E30A1B342257001C602F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F997E30B1B342257001C602F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -62,7 +44,6 @@
 		F997E3141B342257001C602F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F997E3161B342257001C602F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F997E3191B342257001C602F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		F997E31F1B342257001C602F /* F17DataPagingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F17DataPagingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F997E3241B342257001C602F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F997E3251B342257001C602F /* F17DataPagingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = F17DataPagingTests.m; sourceTree = "<group>"; };
 		F997E4931B3424E1001C602F /* F17DataPagingSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F17DataPagingSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,10 +53,8 @@
 		F997E49C1B3424E1001C602F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F997E49E1B3424E1001C602F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F997E4A11B3424E1001C602F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		F997E4A71B3424E1001C602F /* F17DataPagingSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F17DataPagingSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F997E4AC1B3424E1001C602F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F997E4AD1B3424E1001C602F /* F17DataPagingSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F17DataPagingSwiftTests.swift; sourceTree = "<group>"; };
-		F997E50F1B3425CE001C602F /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		F997E5101B3425CE001C602F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		F997E6931B342748001C602F /* backendless.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = backendless.a; sourceTree = "<group>"; };
 		F997E6951B342748001C602F /* AbstractProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractProperty.h; sourceTree = "<group>"; };
@@ -170,17 +149,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F997E5111B3425CE001C602F /* libsqlite3.dylib in Frameworks */,
+				F90F29811BB00F81004F8D33 /* libsqlite3.tbd in Frameworks */,
 				F997E6E81B342748001C602F /* CommLibiOS.a in Frameworks */,
 				F997E6E61B342748001C602F /* backendless.a in Frameworks */,
 				F997E5121B3425CE001C602F /* SystemConfiguration.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F997E31C1B342257001C602F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,17 +160,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F997E5131B3425E0001C602F /* libsqlite3.dylib in Frameworks */,
+				F90F29821BB00F85004F8D33 /* libsqlite3.tbd in Frameworks */,
 				F997E6E91B342748001C602F /* CommLibiOS.a in Frameworks */,
 				F997E6E71B342748001C602F /* backendless.a in Frameworks */,
 				F997E5141B3425E0001C602F /* SystemConfiguration.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F997E4A41B3424E1001C602F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,8 +173,8 @@
 		F997E2FD1B342257001C602F = {
 			isa = PBXGroup;
 			children = (
+				F90F29801BB00F81004F8D33 /* libsqlite3.tbd */,
 				F997E6911B342748001C602F /* lib */,
-				F997E50F1B3425CE001C602F /* libsqlite3.dylib */,
 				F997E5101B3425CE001C602F /* SystemConfiguration.framework */,
 				F997E3081B342257001C602F /* F17DataPaging */,
 				F997E3221B342257001C602F /* F17DataPagingTests */,
@@ -223,9 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				F997E3061B342257001C602F /* F17DataPaging.app */,
-				F997E31F1B342257001C602F /* F17DataPagingTests.xctest */,
 				F997E4931B3424E1001C602F /* F17DataPagingSwift.app */,
-				F997E4A71B3424E1001C602F /* F17DataPagingSwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -455,24 +418,6 @@
 			productReference = F997E3061B342257001C602F /* F17DataPaging.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F997E31E1B342257001C602F /* F17DataPagingTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F997E32C1B342257001C602F /* Build configuration list for PBXNativeTarget "F17DataPagingTests" */;
-			buildPhases = (
-				F997E31B1B342257001C602F /* Sources */,
-				F997E31C1B342257001C602F /* Frameworks */,
-				F997E31D1B342257001C602F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F997E3211B342257001C602F /* PBXTargetDependency */,
-			);
-			name = F17DataPagingTests;
-			productName = F17DataPagingTests;
-			productReference = F997E31F1B342257001C602F /* F17DataPagingTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		F997E4921B3424E1001C602F /* F17DataPagingSwift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F997E4AF1B3424E1001C602F /* Build configuration list for PBXNativeTarget "F17DataPagingSwift" */;
@@ -490,46 +435,21 @@
 			productReference = F997E4931B3424E1001C602F /* F17DataPagingSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F997E4A61B3424E1001C602F /* F17DataPagingSwiftTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F997E4B21B3424E1001C602F /* Build configuration list for PBXNativeTarget "F17DataPagingSwiftTests" */;
-			buildPhases = (
-				F997E4A31B3424E1001C602F /* Sources */,
-				F997E4A41B3424E1001C602F /* Frameworks */,
-				F997E4A51B3424E1001C602F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F997E4A91B3424E1001C602F /* PBXTargetDependency */,
-			);
-			name = F17DataPagingSwiftTests;
-			productName = F17DataPagingSwiftTests;
-			productReference = F997E4A71B3424E1001C602F /* F17DataPagingSwiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		F997E2FE1B342257001C602F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Slava Vdovichenko";
 				TargetAttributes = {
 					F997E3051B342257001C602F = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
-					F997E31E1B342257001C602F = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = F997E3051B342257001C602F;
-					};
 					F997E4921B3424E1001C602F = {
 						CreatedOnToolsVersion = 6.3.2;
-					};
-					F997E4A61B3424E1001C602F = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = F997E4921B3424E1001C602F;
 					};
 				};
 			};
@@ -548,8 +468,6 @@
 			targets = (
 				F997E3051B342257001C602F /* F17DataPaging */,
 				F997E4921B3424E1001C602F /* F17DataPagingSwift */,
-				F997E31E1B342257001C602F /* F17DataPagingTests */,
-				F997E4A61B3424E1001C602F /* F17DataPagingSwiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -565,13 +483,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F997E31D1B342257001C602F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F997E4911B3424E1001C602F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -579,13 +490,6 @@
 				F997E49D1B3424E1001C602F /* Main.storyboard in Resources */,
 				F997E4A21B3424E1001C602F /* LaunchScreen.xib in Resources */,
 				F997E49F1B3424E1001C602F /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F997E4A51B3424E1001C602F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,14 +508,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F997E31B1B342257001C602F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F997E3261B342257001C602F /* F17DataPagingTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F997E48F1B3424E1001C602F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -623,28 +519,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F997E4A31B3424E1001C602F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F997E4AE1B3424E1001C602F /* F17DataPagingSwiftTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F997E3211B342257001C602F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F997E3051B342257001C602F /* F17DataPaging */;
-			targetProxy = F997E3201B342257001C602F /* PBXContainerItemProxy */;
-		};
-		F997E4A91B3424E1001C602F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F997E4921B3424E1001C602F /* F17DataPagingSwift */;
-			targetProxy = F997E4A81B3424E1001C602F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F997E3131B342257001C602F /* Main.storyboard */ = {
@@ -703,6 +578,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -775,6 +651,7 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -790,41 +667,8 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		F997E32D1B342257001C602F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F17DataPagingTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F17DataPaging.app/F17DataPaging";
-			};
-			name = Debug;
-		};
-		F997E32E1B342257001C602F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F17DataPagingTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F17DataPaging.app/F17DataPaging";
 			};
 			name = Release;
 		};
@@ -843,6 +687,7 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -860,42 +705,9 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
-			};
-			name = Release;
-		};
-		F997E4B31B3424E1001C602F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F17DataPagingSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F17DataPagingSwift.app/F17DataPagingSwift";
-			};
-			name = Debug;
-		};
-		F997E4B41B3424E1001C602F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F17DataPagingSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F17DataPagingSwift.app/F17DataPagingSwift";
 			};
 			name = Release;
 		};
@@ -918,14 +730,7 @@
 				F997E32B1B342257001C602F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		F997E32C1B342257001C602F /* Build configuration list for PBXNativeTarget "F17DataPagingTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F997E32D1B342257001C602F /* Debug */,
-				F997E32E1B342257001C602F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F997E4AF1B3424E1001C602F /* Build configuration list for PBXNativeTarget "F17DataPagingSwift" */ = {
 			isa = XCConfigurationList;
@@ -934,14 +739,7 @@
 				F997E4B11B3424E1001C602F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		F997E4B21B3424E1001C602F /* Build configuration list for PBXNativeTarget "F17DataPagingSwiftTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F997E4B31B3424E1001C602F /* Debug */,
-				F997E4B41B3424E1001C602F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

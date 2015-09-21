@@ -42,36 +42,36 @@ class ViewController: UIViewController {
     
     func sendHTMLEmailSync() {
         
-        println("\n============ Sending email with the SYNC API ============")
+        print("\n============ Sending email with the SYNC API ============")
         
-        Types.try({ () -> Void in
+        Types.tryblock({ () -> Void in
 
-            var subject = "Hello from Backendless! (Sync call)"
-            var body = "This is an email sent by <b>synchronous</b> API call from a <a href=\"http://backendless.com\">Backendless</a> backend"
-            var recipient = "mark@backendless.com"
+            let subject = "Hello from Backendless! (Sync call)"
+            let body = "This is an email sent by <b>synchronous</b> API call from a <a href=\"http://backendless.com\">Backendless</a> backend"
+            let recipient = "mark@backendless.com"
             self.backendless.messagingService.sendHTMLEmail(subject, body:body, to:[recipient])
-            println("SYNC: HTML email has been sent")
+            print("SYNC: HTML email has been sent")
             },
             
-            catch: { (exception) -> Void in
-                println("Server reported an error: \(exception as! Fault)")
+            catchblock: { (exception) -> Void in
+                print("Server reported an error: \(exception as! Fault)")
             }
         )
     }
     
     func sendHTMLEmailAsync() {
         
-        println("\n============ Sending email with the ASYNC API ============")
+        print("\n============ Sending email with the ASYNC API ============")
         
-        var subject = "Hello from Backendless! (Async call)"
-        var body = "This is an email sent by <b>asynchronous</b> API call from a <a href=\"http://backendless.com\">Backendless</a> backend"
-        var recipient = "mark@backendless.com"
+        let subject = "Hello from Backendless! (Async call)"
+        let body = "This is an email sent by <b>asynchronous</b> API call from a <a href=\"http://backendless.com\">Backendless</a> backend"
+        let recipient = "mark@backendless.com"
         backendless.messagingService.sendHTMLEmail(subject, body:body, to:[recipient],
-            response: { (var result : AnyObject!) -> () in
-                println("ASYNC: HTML email has been sent")
+            response: { ( result : AnyObject!) -> () in
+                print("ASYNC: HTML email has been sent")
             },
-            error: { (var fault : Fault!) -> () in
-                println("Server reported an error: \(fault)")
+            error: { ( fault : Fault!) -> () in
+                print("Server reported an error: \(fault)")
             }
         )
     }

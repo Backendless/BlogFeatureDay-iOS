@@ -26,50 +26,50 @@ class ViewController: UIViewController {
     
     func addToCacheSync() {
         
-        Types.try({ () -> Void in
+        Types.tryblock({ () -> Void in
             
-            var p = Person()
+            let p = Person()
             p.name = "James Bond";
             p.age = 42;
             
             self.backendless.cache.put("myobject", object: p)
-            println("Person has been placed into cache (SYNC)")
+            print("Person has been placed into cache (SYNC)")
             },
             
-            catch: { (exception) -> Void in
-                println("Server reported an error (SYNC): \(exception as! Fault)")
+            catchblock: { (exception) -> Void in
+                print("Server reported an error (SYNC): \(exception as! Fault)")
             }
         )
     }
     
     func getFromCacheSync() {
         
-        Types.try({ () -> Void in
+        Types.tryblock({ () -> Void in
             
-            var person = self.backendless.cache.get("myobject") as! Person
-            println("Received object from cache (SYNC): name - \(person.name), age - \(person.age)")
+            let person = self.backendless.cache.get("myobject") as! Person
+            print("Received object from cache (SYNC): name - \(person.name), age - \(person.age)")
             },
             
-            catch: { (exception) -> Void in
-                println("Server reported an error (SYNC): \(exception as! Fault)")
+            catchblock: { (exception) -> Void in
+                print("Server reported an error (SYNC): \(exception as! Fault)")
             }
         )
     }
 
     func addToCacheAsync() {
         
-        var p = Person()
+        let p = Person()
         p.name = "James Bond";
         p.age = 42;
         
         backendless.cache.put(
             "myobject",
             object: p,
-            response: { (var o : AnyObject!) -> () in
-                println("Person has been placed into cache (ASYNC)")
+            response: { ( o : AnyObject!) -> () in
+                print("Person has been placed into cache (ASYNC)")
             },
-            error: { (var fault : Fault!) -> () in
-                println("Server reported an error (ASYNC): \(fault)")
+            error: { ( fault : Fault!) -> () in
+                print("Server reported an error (ASYNC): \(fault)")
             }
         )
     }
@@ -78,12 +78,12 @@ class ViewController: UIViewController {
         
         backendless.cache.get(
             "myobject",
-            response: { (var o : AnyObject!) -> () in
-                var person = o as! Person
-                println("Received object from cache (ASYNC): name - \(person.name), age - \(person.age)")
+            response: { ( o : AnyObject!) -> () in
+                let person = o as! Person
+                print("Received object from cache (ASYNC): name - \(person.name), age - \(person.age)")
             },
-            error: { (var fault : Fault!) -> () in
-                println("Server reported an error (ASYNC): \(fault)")
+            error: { ( fault : Fault!) -> () in
+                print("Server reported an error (ASYNC): \(fault)")
             }
         )
     }

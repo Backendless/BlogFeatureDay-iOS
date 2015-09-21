@@ -11,27 +11,6 @@
       location = "group:F122ClassToTableMapping/F122ClassToTableMapping.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:F36DataWithRelatedGeo/F36DataWithRelatedGeo.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:F28TwoStepDataLoading/F28TwoStepDataLoading.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:F22OneStepDataLoading/F22OneStepDataLoading.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:F21RetrievingAutolodedData/F21RetrievingAutolodedData.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:F17DataPaging/F17DataPaging.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:F32SavingGeoPoint/F32SavingGeoPoint.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:F38DynamicUserDefinition/F38DynamicUserDefinition.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:F65MessagingPublishSubscribe/F65MessagingPublishSubscribe.xcodeproj">
    </FileRef>
    <FileRef
@@ -65,13 +44,34 @@
       location = "group:F39GeoPointWithRelatedData/F39GeoPointWithRelatedData.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:F38DynamicUserDefinition/F38DynamicUserDefinition.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:F36DataWithRelatedGeo/F36DataWithRelatedGeo.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:F34SendingEmail/F34SendingEmail.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:F32SavingGeoPoint/F32SavingGeoPoint.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:F31UploadingFiles/F31UploadingFiles.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:F28TwoStepDataLoading/F28TwoStepDataLoading.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:F25RetrievingGeoPoints/F25RetrievingGeoPoints.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:F22OneStepDataLoading/F22OneStepDataLoading.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:F21RetrievingAutolodedData/F21RetrievingAutolodedData.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:F17DataPaging/F17DataPaging.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:F16RetrievingData/F16RetrievingData.xcodeproj">

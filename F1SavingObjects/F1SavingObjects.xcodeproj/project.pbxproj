@@ -13,8 +13,6 @@
 		D35CA3251A5FF93600F500B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35CA3231A5FF93600F500B0 /* Main.storyboard */; };
 		D35CA3271A5FF93600F500B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35CA3261A5FF93600F500B0 /* Images.xcassets */; };
 		D35CA32A1A5FF93600F500B0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D35CA3281A5FF93600F500B0 /* LaunchScreen.xib */; };
-		D35CA3361A5FF93600F500B0 /* F1SavingObjectsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D35CA3351A5FF93600F500B0 /* F1SavingObjectsTests.m */; };
-		D35CA3C71A5FFF1300F500B0 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D35CA3C51A5FFF1300F500B0 /* libsqlite3.dylib */; };
 		D35CA3C81A5FFF1300F500B0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35CA3C61A5FFF1300F500B0 /* SystemConfiguration.framework */; };
 		D35CA4171A5FFF1F00F500B0 /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D35CA3CB1A5FFF1E00F500B0 /* backendless.a */; };
 		D35CA4181A5FFF1F00F500B0 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D35CA4021A5FFF1F00F500B0 /* CommLibiOS.a */; };
@@ -23,8 +21,6 @@
 		D35CA4511A60254900F500B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35CA44F1A60254900F500B0 /* Main.storyboard */; };
 		D35CA4531A60254900F500B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35CA4521A60254900F500B0 /* Images.xcassets */; };
 		D35CA4561A60254900F500B0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D35CA4541A60254900F500B0 /* LaunchScreen.xib */; };
-		D35CA4621A60254A00F500B0 /* F1SavingObjectsSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35CA4611A60254A00F500B0 /* F1SavingObjectsSwiftTests.swift */; };
-		D35CA4691A60255D00F500B0 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D35CA3C51A5FFF1300F500B0 /* libsqlite3.dylib */; };
 		D35CA46A1A60256100F500B0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35CA3C61A5FFF1300F500B0 /* SystemConfiguration.framework */; };
 		D35CA46B1A60256900F500B0 /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D35CA3CB1A5FFF1E00F500B0 /* backendless.a */; };
 		D35CA46C1A60256D00F500B0 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D35CA4021A5FFF1F00F500B0 /* CommLibiOS.a */; };
@@ -32,24 +28,9 @@
 		D35CA4721A602C3200F500B0 /* OrderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D35CA4711A602C3200F500B0 /* OrderItem.m */; };
 		D35CA4741A602D1800F500B0 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35CA4731A602D1800F500B0 /* Order.swift */; };
 		D35CA4761A602D3400F500B0 /* OrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35CA4751A602D3400F500B0 /* OrderItem.swift */; };
+		F90F29481BB00960004F8D33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90F29471BB00960004F8D33 /* libsqlite3.tbd */; };
+		F90F29491BB0096B004F8D33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90F29471BB00960004F8D33 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D35CA3301A5FF93600F500B0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D35CA30E1A5FF93600F500B0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D35CA3151A5FF93600F500B0;
-			remoteInfo = F1SavingObjects;
-		};
-		D35CA45C1A60254A00F500B0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D35CA30E1A5FF93600F500B0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D35CA4461A60254900F500B0;
-			remoteInfo = F1SavingObjectsSwift;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D35CA3161A5FF93600F500B0 /* F1SavingObjects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F1SavingObjects.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,10 +43,8 @@
 		D35CA3241A5FF93600F500B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D35CA3261A5FF93600F500B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D35CA3291A5FF93600F500B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D35CA32F1A5FF93600F500B0 /* F1SavingObjectsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F1SavingObjectsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35CA3341A5FF93600F500B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D35CA3351A5FF93600F500B0 /* F1SavingObjectsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = F1SavingObjectsTests.m; sourceTree = "<group>"; };
-		D35CA3C51A5FFF1300F500B0 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		D35CA3C61A5FFF1300F500B0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		D35CA3CB1A5FFF1E00F500B0 /* backendless.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = backendless.a; sourceTree = "<group>"; };
 		D35CA3CD1A5FFF1E00F500B0 /* AbstractProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractProperty.h; sourceTree = "<group>"; };
@@ -147,7 +126,6 @@
 		D35CA4501A60254900F500B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D35CA4521A60254900F500B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D35CA4551A60254900F500B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D35CA45B1A60254A00F500B0 /* F1SavingObjectsSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F1SavingObjectsSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35CA4601A60254A00F500B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D35CA4611A60254A00F500B0 /* F1SavingObjectsSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F1SavingObjectsSwiftTests.swift; sourceTree = "<group>"; };
 		D35CA46D1A602C1000F500B0 /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
@@ -156,6 +134,7 @@
 		D35CA4711A602C3200F500B0 /* OrderItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderItem.m; sourceTree = "<group>"; };
 		D35CA4731A602D1800F500B0 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		D35CA4751A602D3400F500B0 /* OrderItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderItem.swift; sourceTree = "<group>"; };
+		F90F29471BB00960004F8D33 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,17 +142,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D35CA3C71A5FFF1300F500B0 /* libsqlite3.dylib in Frameworks */,
+				F90F29481BB00960004F8D33 /* libsqlite3.tbd in Frameworks */,
 				D35CA4181A5FFF1F00F500B0 /* CommLibiOS.a in Frameworks */,
 				D35CA4171A5FFF1F00F500B0 /* backendless.a in Frameworks */,
 				D35CA3C81A5FFF1300F500B0 /* SystemConfiguration.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D35CA32C1A5FF93600F500B0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,17 +153,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F90F29491BB0096B004F8D33 /* libsqlite3.tbd in Frameworks */,
 				D35CA46B1A60256900F500B0 /* backendless.a in Frameworks */,
 				D35CA46C1A60256D00F500B0 /* CommLibiOS.a in Frameworks */,
-				D35CA4691A60255D00F500B0 /* libsqlite3.dylib in Frameworks */,
 				D35CA46A1A60256100F500B0 /* SystemConfiguration.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D35CA4581A60254A00F500B0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,8 +166,8 @@
 		D35CA30D1A5FF93600F500B0 = {
 			isa = PBXGroup;
 			children = (
+				F90F29471BB00960004F8D33 /* libsqlite3.tbd */,
 				D35CA3C91A5FFF1E00F500B0 /* lib */,
-				D35CA3C51A5FFF1300F500B0 /* libsqlite3.dylib */,
 				D35CA3C61A5FFF1300F500B0 /* SystemConfiguration.framework */,
 				D35CA3181A5FF93600F500B0 /* F1SavingObjects */,
 				D35CA3321A5FF93600F500B0 /* F1SavingObjectsTests */,
@@ -216,9 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				D35CA3161A5FF93600F500B0 /* F1SavingObjects.app */,
-				D35CA32F1A5FF93600F500B0 /* F1SavingObjectsTests.xctest */,
 				D35CA4471A60254900F500B0 /* F1SavingObjectsSwift.app */,
-				D35CA45B1A60254A00F500B0 /* F1SavingObjectsSwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -441,24 +404,6 @@
 			productReference = D35CA3161A5FF93600F500B0 /* F1SavingObjects.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D35CA32E1A5FF93600F500B0 /* F1SavingObjectsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D35CA33C1A5FF93600F500B0 /* Build configuration list for PBXNativeTarget "F1SavingObjectsTests" */;
-			buildPhases = (
-				D35CA32B1A5FF93600F500B0 /* Sources */,
-				D35CA32C1A5FF93600F500B0 /* Frameworks */,
-				D35CA32D1A5FF93600F500B0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D35CA3311A5FF93600F500B0 /* PBXTargetDependency */,
-			);
-			name = F1SavingObjectsTests;
-			productName = F1SavingObjectsTests;
-			productReference = D35CA32F1A5FF93600F500B0 /* F1SavingObjectsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		D35CA4461A60254900F500B0 /* F1SavingObjectsSwift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D35CA4631A60254A00F500B0 /* Build configuration list for PBXNativeTarget "F1SavingObjectsSwift" */;
@@ -476,46 +421,21 @@
 			productReference = D35CA4471A60254900F500B0 /* F1SavingObjectsSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D35CA45A1A60254A00F500B0 /* F1SavingObjectsSwiftTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D35CA4661A60254A00F500B0 /* Build configuration list for PBXNativeTarget "F1SavingObjectsSwiftTests" */;
-			buildPhases = (
-				D35CA4571A60254A00F500B0 /* Sources */,
-				D35CA4581A60254A00F500B0 /* Frameworks */,
-				D35CA4591A60254A00F500B0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D35CA45D1A60254A00F500B0 /* PBXTargetDependency */,
-			);
-			name = F1SavingObjectsSwiftTests;
-			productName = F1SavingObjectsSwiftTests;
-			productReference = D35CA45B1A60254A00F500B0 /* F1SavingObjectsSwiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		D35CA30E1A5FF93600F500B0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = BACKENDLESS.COM;
 				TargetAttributes = {
 					D35CA3151A5FF93600F500B0 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
-					D35CA32E1A5FF93600F500B0 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = D35CA3151A5FF93600F500B0;
-					};
 					D35CA4461A60254900F500B0 = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					D35CA45A1A60254A00F500B0 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = D35CA4461A60254900F500B0;
 					};
 				};
 			};
@@ -534,8 +454,6 @@
 			targets = (
 				D35CA3151A5FF93600F500B0 /* F1SavingObjects */,
 				D35CA4461A60254900F500B0 /* F1SavingObjectsSwift */,
-				D35CA32E1A5FF93600F500B0 /* F1SavingObjectsTests */,
-				D35CA45A1A60254A00F500B0 /* F1SavingObjectsSwiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -551,13 +469,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D35CA32D1A5FF93600F500B0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D35CA4451A60254900F500B0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -565,13 +476,6 @@
 				D35CA4511A60254900F500B0 /* Main.storyboard in Resources */,
 				D35CA4561A60254900F500B0 /* LaunchScreen.xib in Resources */,
 				D35CA4531A60254900F500B0 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D35CA4591A60254A00F500B0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -590,14 +494,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D35CA32B1A5FF93600F500B0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D35CA3361A5FF93600F500B0 /* F1SavingObjectsTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D35CA4431A60254900F500B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -609,28 +505,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D35CA4571A60254A00F500B0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D35CA4621A60254A00F500B0 /* F1SavingObjectsSwiftTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D35CA3311A5FF93600F500B0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D35CA3151A5FF93600F500B0 /* F1SavingObjects */;
-			targetProxy = D35CA3301A5FF93600F500B0 /* PBXContainerItemProxy */;
-		};
-		D35CA45D1A60254A00F500B0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D35CA4461A60254900F500B0 /* F1SavingObjectsSwift */;
-			targetProxy = D35CA45C1A60254A00F500B0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D35CA3231A5FF93600F500B0 /* Main.storyboard */ = {
@@ -688,6 +563,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -756,6 +632,7 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -772,41 +649,8 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		D35CA33D1A5FF93600F500B0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F1SavingObjectsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F1SavingObjects.app/F1SavingObjects";
-			};
-			name = Debug;
-		};
-		D35CA33E1A5FF93600F500B0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F1SavingObjectsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F1SavingObjects.app/F1SavingObjects";
 			};
 			name = Release;
 		};
@@ -826,6 +670,7 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -844,42 +689,9 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
-			};
-			name = Release;
-		};
-		D35CA4671A60254A00F500B0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F1SavingObjectsSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F1SavingObjectsSwift.app/F1SavingObjectsSwift";
-			};
-			name = Debug;
-		};
-		D35CA4681A60254A00F500B0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F1SavingObjectsSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F1SavingObjectsSwift.app/F1SavingObjectsSwift";
 			};
 			name = Release;
 		};
@@ -904,29 +716,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D35CA33C1A5FF93600F500B0 /* Build configuration list for PBXNativeTarget "F1SavingObjectsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D35CA33D1A5FF93600F500B0 /* Debug */,
-				D35CA33E1A5FF93600F500B0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		D35CA4631A60254A00F500B0 /* Build configuration list for PBXNativeTarget "F1SavingObjectsSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D35CA4641A60254A00F500B0 /* Debug */,
 				D35CA4651A60254A00F500B0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D35CA4661A60254A00F500B0 /* Build configuration list for PBXNativeTarget "F1SavingObjectsSwiftTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D35CA4671A60254A00F500B0 /* Debug */,
-				D35CA4681A60254A00F500B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

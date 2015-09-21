@@ -41,15 +41,15 @@ class ViewController: UIViewController {
     
     func loginUser() {
         
-        Types.try({ () -> Void in
+        Types.tryblock({ () -> Void in
             
-            var registeredUser = self.backendless.userService.login("spiday@backendless.com", password: "greeng0blin")
-            println("User has been logged in (SYNC): \(registeredUser)")
+            let registeredUser = self.backendless.userService.login("spiday@backendless.com", password: "greeng0blin")
+            print("User has been logged in (SYNC): \(registeredUser)")
             self.backendless.userService.logout()
             },
             
-            catch: { (exception) -> Void in
-                println("Server reported an error: \(exception as! Fault)")
+            catchblock: { (exception) -> Void in
+                print("Server reported an error: \(exception as! Fault)")
         })
     }
     
@@ -57,11 +57,11 @@ class ViewController: UIViewController {
         
         backendless.userService.login(
             "spiday@backendless.com", password:"greeng0blin",
-            response: { (var registeredUser : BackendlessUser!) -> () in
-                println("User has been logged in (ASYNC): \(registeredUser)")
+            response: { ( registeredUser : BackendlessUser!) -> () in
+                print("User has been logged in (ASYNC): \(registeredUser)")
             },
-            error: { (var fault : Fault!) -> () in
-                println("Server reported an error: \(fault)")
+            error: { ( fault : Fault!) -> () in
+                print("Server reported an error: \(fault)")
             }
         )
     }

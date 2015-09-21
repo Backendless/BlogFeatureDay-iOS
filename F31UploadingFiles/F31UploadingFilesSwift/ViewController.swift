@@ -42,32 +42,32 @@ class ViewController: UIViewController {
 
     func uploadSync() {
         
-        println("\n============ Uploading files with the SYNC API ============")
+        print("\n============ Uploading files with the SYNC API ============")
         
-        Types.try({ () -> Void in
+        Types.tryblock({ () -> Void in
 
-            var data = NSData(bytes:"Hello mbaas!\nUploading files is easy!", length:37)
-            var uploadedFile = self.backendless.fileService.upload("myfiles/myhelloworld-sync.txt", content: data)
-            println("File has been uploaded. File URL is - \(uploadedFile.fileURL)")
+            let data = NSData(bytes:"Hello mbaas!\nUploading files is easy!", length:37)
+            let uploadedFile = self.backendless.fileService.upload("myfiles/myhelloworld-sync.txt", content: data)
+            print("File has been uploaded. File URL is - \(uploadedFile.fileURL)")
             },
             
-            catch: { (exception) -> Void in
-                println("Server reported an error: \(exception as! Fault)")
+            catchblock: { (exception) -> Void in
+                print("Server reported an error: \(exception as! Fault)")
             }
         )
     }
 
     func uploadAsync() {
         
-        println("\n============ Uploading files with the ASYNC API ============")
+        print("\n============ Uploading files with the ASYNC API ============")
         
-        var data = NSData(bytes:"Hello mbaas!\nUploading files is easy!", length:37)
+        let data = NSData(bytes:"Hello mbaas!\nUploading files is easy!", length:37)
         backendless.fileService.upload("myfiles/myhelloworld-async.txt", content: data,
-            response: { (var uploadedFile : BackendlessFile!) -> () in
-                println("File has been uploaded. File URL is - \(uploadedFile.fileURL)")
+            response: { ( uploadedFile : BackendlessFile!) -> () in
+                print("File has been uploaded. File URL is - \(uploadedFile.fileURL)")
             },
-            error: { (var fault : Fault!) -> () in
-                println("Server reported an error: \(fault)")
+            error: { ( fault : Fault!) -> () in
+                print("Server reported an error: \(fault)")
             }
         )
     }

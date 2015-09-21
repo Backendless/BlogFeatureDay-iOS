@@ -13,39 +13,20 @@
 		D32941F71A7FC2FE00C32645 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32941F51A7FC2FE00C32645 /* Main.storyboard */; };
 		D32941F91A7FC2FE00C32645 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D32941F81A7FC2FE00C32645 /* Images.xcassets */; };
 		D32941FC1A7FC2FE00C32645 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D32941FA1A7FC2FE00C32645 /* LaunchScreen.xib */; };
-		D32942081A7FC2FE00C32645 /* F25RetrievingGeoPointsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D32942071A7FC2FE00C32645 /* F25RetrievingGeoPointsTests.m */; };
 		D329421A1A7FC33D00C32645 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32942191A7FC33D00C32645 /* AppDelegate.swift */; };
 		D329421C1A7FC33D00C32645 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D329421B1A7FC33D00C32645 /* ViewController.swift */; };
 		D329421F1A7FC33D00C32645 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D329421D1A7FC33D00C32645 /* Main.storyboard */; };
 		D32942211A7FC33D00C32645 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D32942201A7FC33D00C32645 /* Images.xcassets */; };
 		D32942241A7FC33D00C32645 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D32942221A7FC33D00C32645 /* LaunchScreen.xib */; };
-		D32942301A7FC33D00C32645 /* F25RetrievingGeoPointsSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D329422F1A7FC33D00C32645 /* F25RetrievingGeoPointsSwiftTests.swift */; };
-		D32942391A7FC38100C32645 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D32942371A7FC38100C32645 /* libsqlite3.dylib */; };
 		D329423A1A7FC38100C32645 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D32942381A7FC38100C32645 /* SystemConfiguration.framework */; };
-		D329423B1A7FC39900C32645 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D32942371A7FC38100C32645 /* libsqlite3.dylib */; };
 		D329423C1A7FC39900C32645 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D32942381A7FC38100C32645 /* SystemConfiguration.framework */; };
 		D329428C1A7FC3B300C32645 /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D329423F1A7FC3B300C32645 /* backendless.a */; };
 		D329428D1A7FC3B300C32645 /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D329423F1A7FC3B300C32645 /* backendless.a */; };
 		D32942901A7FC3B300C32645 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D32942771A7FC3B300C32645 /* CommLibiOS.a */; };
 		D32942911A7FC3B300C32645 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D32942771A7FC3B300C32645 /* CommLibiOS.a */; };
+		F90F29541BB00CCA004F8D33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90F29531BB00CCA004F8D33 /* libsqlite3.tbd */; };
+		F90F29551BB00CD2004F8D33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90F29531BB00CCA004F8D33 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D32942021A7FC2FE00C32645 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D32941E01A7FC2FE00C32645 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D32941E71A7FC2FE00C32645;
-			remoteInfo = F25RetrievingGeoPoints;
-		};
-		D329422A1A7FC33D00C32645 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D32941E01A7FC2FE00C32645 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D32942141A7FC33C00C32645;
-			remoteInfo = F25RetrievingGeoPointsSwift;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D31700DA1A84F32A00772766 /* GeoCluster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoCluster.h; sourceTree = "<group>"; };
@@ -60,7 +41,6 @@
 		D32941F61A7FC2FE00C32645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D32941F81A7FC2FE00C32645 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D32941FB1A7FC2FE00C32645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D32942011A7FC2FE00C32645 /* F25RetrievingGeoPointsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F25RetrievingGeoPointsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D32942061A7FC2FE00C32645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D32942071A7FC2FE00C32645 /* F25RetrievingGeoPointsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = F25RetrievingGeoPointsTests.m; sourceTree = "<group>"; };
 		D32942151A7FC33C00C32645 /* F25RetrievingGeoPointsSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F25RetrievingGeoPointsSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,10 +50,8 @@
 		D329421E1A7FC33D00C32645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D32942201A7FC33D00C32645 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D32942231A7FC33D00C32645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D32942291A7FC33D00C32645 /* F25RetrievingGeoPointsSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F25RetrievingGeoPointsSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D329422E1A7FC33D00C32645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D329422F1A7FC33D00C32645 /* F25RetrievingGeoPointsSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F25RetrievingGeoPointsSwiftTests.swift; sourceTree = "<group>"; };
-		D32942371A7FC38100C32645 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		D32942381A7FC38100C32645 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		D329423F1A7FC3B300C32645 /* backendless.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = backendless.a; sourceTree = "<group>"; };
 		D32942411A7FC3B300C32645 /* AbstractProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractProperty.h; sourceTree = "<group>"; };
@@ -148,6 +126,7 @@
 		D32942891A7FC3B300C32645 /* RTMPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTMPClient.h; sourceTree = "<group>"; };
 		D329428A1A7FC3B300C32645 /* Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
 		D329428B1A7FC3B300C32645 /* WeborbClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeborbClient.h; sourceTree = "<group>"; };
+		F90F29531BB00CCA004F8D33 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,17 +134,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D32942391A7FC38100C32645 /* libsqlite3.dylib in Frameworks */,
+				F90F29541BB00CCA004F8D33 /* libsqlite3.tbd in Frameworks */,
 				D329428C1A7FC3B300C32645 /* backendless.a in Frameworks */,
 				D329423A1A7FC38100C32645 /* SystemConfiguration.framework in Frameworks */,
 				D32942901A7FC3B300C32645 /* CommLibiOS.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D32941FE1A7FC2FE00C32645 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,17 +145,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D329423B1A7FC39900C32645 /* libsqlite3.dylib in Frameworks */,
+				F90F29551BB00CD2004F8D33 /* libsqlite3.tbd in Frameworks */,
 				D329428D1A7FC3B300C32645 /* backendless.a in Frameworks */,
 				D329423C1A7FC39900C32645 /* SystemConfiguration.framework in Frameworks */,
 				D32942911A7FC3B300C32645 /* CommLibiOS.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D32942261A7FC33D00C32645 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,8 +158,8 @@
 		D32941DF1A7FC2FE00C32645 = {
 			isa = PBXGroup;
 			children = (
+				F90F29531BB00CCA004F8D33 /* libsqlite3.tbd */,
 				D329423D1A7FC3B300C32645 /* lib */,
-				D32942371A7FC38100C32645 /* libsqlite3.dylib */,
 				D32942381A7FC38100C32645 /* SystemConfiguration.framework */,
 				D32941EA1A7FC2FE00C32645 /* F25RetrievingGeoPoints */,
 				D32942041A7FC2FE00C32645 /* F25RetrievingGeoPointsTests */,
@@ -208,9 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				D32941E81A7FC2FE00C32645 /* F25RetrievingGeoPoints.app */,
-				D32942011A7FC2FE00C32645 /* F25RetrievingGeoPointsTests.xctest */,
 				D32942151A7FC33C00C32645 /* F25RetrievingGeoPointsSwift.app */,
-				D32942291A7FC33D00C32645 /* F25RetrievingGeoPointsSwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -429,24 +392,6 @@
 			productReference = D32941E81A7FC2FE00C32645 /* F25RetrievingGeoPoints.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D32942001A7FC2FE00C32645 /* F25RetrievingGeoPointsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D329420E1A7FC2FE00C32645 /* Build configuration list for PBXNativeTarget "F25RetrievingGeoPointsTests" */;
-			buildPhases = (
-				D32941FD1A7FC2FE00C32645 /* Sources */,
-				D32941FE1A7FC2FE00C32645 /* Frameworks */,
-				D32941FF1A7FC2FE00C32645 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D32942031A7FC2FE00C32645 /* PBXTargetDependency */,
-			);
-			name = F25RetrievingGeoPointsTests;
-			productName = F25RetrievingGeoPointsTests;
-			productReference = D32942011A7FC2FE00C32645 /* F25RetrievingGeoPointsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		D32942141A7FC33C00C32645 /* F25RetrievingGeoPointsSwift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D32942311A7FC33D00C32645 /* Build configuration list for PBXNativeTarget "F25RetrievingGeoPointsSwift" */;
@@ -464,46 +409,21 @@
 			productReference = D32942151A7FC33C00C32645 /* F25RetrievingGeoPointsSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D32942281A7FC33D00C32645 /* F25RetrievingGeoPointsSwiftTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D32942341A7FC33D00C32645 /* Build configuration list for PBXNativeTarget "F25RetrievingGeoPointsSwiftTests" */;
-			buildPhases = (
-				D32942251A7FC33D00C32645 /* Sources */,
-				D32942261A7FC33D00C32645 /* Frameworks */,
-				D32942271A7FC33D00C32645 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D329422B1A7FC33D00C32645 /* PBXTargetDependency */,
-			);
-			name = F25RetrievingGeoPointsSwiftTests;
-			productName = F25RetrievingGeoPointsSwiftTests;
-			productReference = D32942291A7FC33D00C32645 /* F25RetrievingGeoPointsSwiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		D32941E01A7FC2FE00C32645 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = BACKENDLESS.COM;
 				TargetAttributes = {
 					D32941E71A7FC2FE00C32645 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
-					D32942001A7FC2FE00C32645 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = D32941E71A7FC2FE00C32645;
-					};
 					D32942141A7FC33C00C32645 = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					D32942281A7FC33D00C32645 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = D32942141A7FC33C00C32645;
 					};
 				};
 			};
@@ -522,8 +442,6 @@
 			targets = (
 				D32941E71A7FC2FE00C32645 /* F25RetrievingGeoPoints */,
 				D32942141A7FC33C00C32645 /* F25RetrievingGeoPointsSwift */,
-				D32942001A7FC2FE00C32645 /* F25RetrievingGeoPointsTests */,
-				D32942281A7FC33D00C32645 /* F25RetrievingGeoPointsSwiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -539,13 +457,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D32941FF1A7FC2FE00C32645 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D32942131A7FC33C00C32645 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -553,13 +464,6 @@
 				D329421F1A7FC33D00C32645 /* Main.storyboard in Resources */,
 				D32942241A7FC33D00C32645 /* LaunchScreen.xib in Resources */,
 				D32942211A7FC33D00C32645 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D32942271A7FC33D00C32645 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,14 +480,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D32941FD1A7FC2FE00C32645 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D32942081A7FC2FE00C32645 /* F25RetrievingGeoPointsTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D32942111A7FC33C00C32645 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -593,28 +489,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D32942251A7FC33D00C32645 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D32942301A7FC33D00C32645 /* F25RetrievingGeoPointsSwiftTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D32942031A7FC2FE00C32645 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D32941E71A7FC2FE00C32645 /* F25RetrievingGeoPoints */;
-			targetProxy = D32942021A7FC2FE00C32645 /* PBXContainerItemProxy */;
-		};
-		D329422B1A7FC33D00C32645 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D32942141A7FC33C00C32645 /* F25RetrievingGeoPointsSwift */;
-			targetProxy = D329422A1A7FC33D00C32645 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D32941F51A7FC2FE00C32645 /* Main.storyboard */ = {
@@ -672,6 +547,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -740,6 +616,7 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -756,41 +633,8 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		D329420F1A7FC2FE00C32645 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F25RetrievingGeoPointsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F25RetrievingGeoPoints.app/F25RetrievingGeoPoints";
-			};
-			name = Debug;
-		};
-		D32942101A7FC2FE00C32645 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F25RetrievingGeoPointsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F25RetrievingGeoPoints.app/F25RetrievingGeoPoints";
 			};
 			name = Release;
 		};
@@ -810,6 +654,7 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -828,42 +673,9 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
-			};
-			name = Release;
-		};
-		D32942351A7FC33D00C32645 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F25RetrievingGeoPointsSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F25RetrievingGeoPointsSwift.app/F25RetrievingGeoPointsSwift";
-			};
-			name = Debug;
-		};
-		D32942361A7FC33D00C32645 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F25RetrievingGeoPointsSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F25RetrievingGeoPointsSwift.app/F25RetrievingGeoPointsSwift";
 			};
 			name = Release;
 		};
@@ -888,29 +700,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D329420E1A7FC2FE00C32645 /* Build configuration list for PBXNativeTarget "F25RetrievingGeoPointsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D329420F1A7FC2FE00C32645 /* Debug */,
-				D32942101A7FC2FE00C32645 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		D32942311A7FC33D00C32645 /* Build configuration list for PBXNativeTarget "F25RetrievingGeoPointsSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D32942321A7FC33D00C32645 /* Debug */,
 				D32942331A7FC33D00C32645 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D32942341A7FC33D00C32645 /* Build configuration list for PBXNativeTarget "F25RetrievingGeoPointsSwiftTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D32942351A7FC33D00C32645 /* Debug */,
-				D32942361A7FC33D00C32645 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

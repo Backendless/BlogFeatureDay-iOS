@@ -13,39 +13,20 @@
 		D3E5BFB71AEA6F3E0038D564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3E5BFB51AEA6F3E0038D564 /* Main.storyboard */; };
 		D3E5BFB91AEA6F3E0038D564 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3E5BFB81AEA6F3E0038D564 /* Images.xcassets */; };
 		D3E5BFBC1AEA6F3E0038D564 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E5BFBA1AEA6F3E0038D564 /* LaunchScreen.xib */; };
-		D3E5BFC81AEA6F3E0038D564 /* F56GeoPointsInRadiusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E5BFC71AEA6F3E0038D564 /* F56GeoPointsInRadiusTests.m */; };
 		D3E5C0321AEA6FEF0038D564 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5C0311AEA6FEF0038D564 /* AppDelegate.swift */; };
 		D3E5C0341AEA6FEF0038D564 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5C0331AEA6FEF0038D564 /* ViewController.swift */; };
 		D3E5C0371AEA6FEF0038D564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3E5C0351AEA6FEF0038D564 /* Main.storyboard */; };
 		D3E5C0391AEA6FEF0038D564 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3E5C0381AEA6FEF0038D564 /* Images.xcassets */; };
 		D3E5C03C1AEA6FEF0038D564 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E5C03A1AEA6FEF0038D564 /* LaunchScreen.xib */; };
-		D3E5C0481AEA6FF00038D564 /* F56GeoPointsInRadiusSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5C0471AEA6FF00038D564 /* F56GeoPointsInRadiusSwiftTests.swift */; };
-		D3E5C0511AEA70530038D564 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E5C04F1AEA70530038D564 /* libsqlite3.dylib */; };
 		D3E5C0521AEA70530038D564 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E5C0501AEA70530038D564 /* SystemConfiguration.framework */; };
-		D3E5C0531AEA706D0038D564 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E5C04F1AEA70530038D564 /* libsqlite3.dylib */; };
 		D3E5C0541AEA706D0038D564 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E5C0501AEA70530038D564 /* SystemConfiguration.framework */; };
 		D3E5C1061AEA71670038D564 /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E5C0B61AEA71660038D564 /* backendless.a */; };
 		D3E5C1071AEA71670038D564 /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E5C0B61AEA71660038D564 /* backendless.a */; };
 		D3E5C1081AEA71670038D564 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E5C0F11AEA71670038D564 /* CommLibiOS.a */; };
 		D3E5C1091AEA71670038D564 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E5C0F11AEA71670038D564 /* CommLibiOS.a */; };
+		F90F29661BB00DE4004F8D33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90F29651BB00DE4004F8D33 /* libsqlite3.tbd */; };
+		F90F29671BB00DED004F8D33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90F29651BB00DE4004F8D33 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D3E5BFC21AEA6F3E0038D564 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D3E5BFA01AEA6F3E0038D564 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D3E5BFA71AEA6F3E0038D564;
-			remoteInfo = F56GeoPointsInRadius;
-		};
-		D3E5C0421AEA6FEF0038D564 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D3E5BFA01AEA6F3E0038D564 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D3E5C02C1AEA6FEF0038D564;
-			remoteInfo = F56GeoPointsInRadiusSwift;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D3E5BFA81AEA6F3E0038D564 /* F56GeoPointsInRadius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F56GeoPointsInRadius.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,7 +39,6 @@
 		D3E5BFB61AEA6F3E0038D564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3E5BFB81AEA6F3E0038D564 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D3E5BFBB1AEA6F3E0038D564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D3E5BFC11AEA6F3E0038D564 /* F56GeoPointsInRadiusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F56GeoPointsInRadiusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E5BFC61AEA6F3E0038D564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3E5BFC71AEA6F3E0038D564 /* F56GeoPointsInRadiusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = F56GeoPointsInRadiusTests.m; sourceTree = "<group>"; };
 		D3E5C02D1AEA6FEF0038D564 /* F56GeoPointsInRadiusSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F56GeoPointsInRadiusSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,10 +48,8 @@
 		D3E5C0361AEA6FEF0038D564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3E5C0381AEA6FEF0038D564 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D3E5C03B1AEA6FEF0038D564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D3E5C0411AEA6FEF0038D564 /* F56GeoPointsInRadiusSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F56GeoPointsInRadiusSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E5C0461AEA6FF00038D564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3E5C0471AEA6FF00038D564 /* F56GeoPointsInRadiusSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F56GeoPointsInRadiusSwiftTests.swift; sourceTree = "<group>"; };
-		D3E5C04F1AEA70530038D564 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		D3E5C0501AEA70530038D564 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		D3E5C0B61AEA71660038D564 /* backendless.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = backendless.a; sourceTree = "<group>"; };
 		D3E5C0B81AEA71660038D564 /* AbstractProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractProperty.h; sourceTree = "<group>"; };
@@ -150,6 +128,7 @@
 		D3E5C1031AEA71670038D564 /* RTMPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTMPClient.h; sourceTree = "<group>"; };
 		D3E5C1041AEA71670038D564 /* Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
 		D3E5C1051AEA71670038D564 /* WeborbClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeborbClient.h; sourceTree = "<group>"; };
+		F90F29651BB00DE4004F8D33 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,17 +136,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F90F29661BB00DE4004F8D33 /* libsqlite3.tbd in Frameworks */,
 				D3E5C0521AEA70530038D564 /* SystemConfiguration.framework in Frameworks */,
-				D3E5C0511AEA70530038D564 /* libsqlite3.dylib in Frameworks */,
 				D3E5C1081AEA71670038D564 /* CommLibiOS.a in Frameworks */,
 				D3E5C1061AEA71670038D564 /* backendless.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D3E5BFBE1AEA6F3E0038D564 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,17 +147,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3E5C0531AEA706D0038D564 /* libsqlite3.dylib in Frameworks */,
+				F90F29671BB00DED004F8D33 /* libsqlite3.tbd in Frameworks */,
 				D3E5C1091AEA71670038D564 /* CommLibiOS.a in Frameworks */,
 				D3E5C1071AEA71670038D564 /* backendless.a in Frameworks */,
 				D3E5C0541AEA706D0038D564 /* SystemConfiguration.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D3E5C03E1AEA6FEF0038D564 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,8 +160,8 @@
 		D3E5BF9F1AEA6F3E0038D564 = {
 			isa = PBXGroup;
 			children = (
+				F90F29651BB00DE4004F8D33 /* libsqlite3.tbd */,
 				D3E5C0B41AEA71660038D564 /* lib */,
-				D3E5C04F1AEA70530038D564 /* libsqlite3.dylib */,
 				D3E5C0501AEA70530038D564 /* SystemConfiguration.framework */,
 				D3E5BFAA1AEA6F3E0038D564 /* F56GeoPointsInRadius */,
 				D3E5BFC41AEA6F3E0038D564 /* F56GeoPointsInRadiusTests */,
@@ -210,9 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				D3E5BFA81AEA6F3E0038D564 /* F56GeoPointsInRadius.app */,
-				D3E5BFC11AEA6F3E0038D564 /* F56GeoPointsInRadiusTests.xctest */,
 				D3E5C02D1AEA6FEF0038D564 /* F56GeoPointsInRadiusSwift.app */,
-				D3E5C0411AEA6FEF0038D564 /* F56GeoPointsInRadiusSwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -433,24 +396,6 @@
 			productReference = D3E5BFA81AEA6F3E0038D564 /* F56GeoPointsInRadius.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D3E5BFC01AEA6F3E0038D564 /* F56GeoPointsInRadiusTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D3E5BFCE1AEA6F3F0038D564 /* Build configuration list for PBXNativeTarget "F56GeoPointsInRadiusTests" */;
-			buildPhases = (
-				D3E5BFBD1AEA6F3E0038D564 /* Sources */,
-				D3E5BFBE1AEA6F3E0038D564 /* Frameworks */,
-				D3E5BFBF1AEA6F3E0038D564 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D3E5BFC31AEA6F3E0038D564 /* PBXTargetDependency */,
-			);
-			name = F56GeoPointsInRadiusTests;
-			productName = F56GeoPointsInRadiusTests;
-			productReference = D3E5BFC11AEA6F3E0038D564 /* F56GeoPointsInRadiusTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		D3E5C02C1AEA6FEF0038D564 /* F56GeoPointsInRadiusSwift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3E5C0491AEA6FF00038D564 /* Build configuration list for PBXNativeTarget "F56GeoPointsInRadiusSwift" */;
@@ -468,46 +413,21 @@
 			productReference = D3E5C02D1AEA6FEF0038D564 /* F56GeoPointsInRadiusSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D3E5C0401AEA6FEF0038D564 /* F56GeoPointsInRadiusSwiftTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D3E5C04C1AEA6FF00038D564 /* Build configuration list for PBXNativeTarget "F56GeoPointsInRadiusSwiftTests" */;
-			buildPhases = (
-				D3E5C03D1AEA6FEF0038D564 /* Sources */,
-				D3E5C03E1AEA6FEF0038D564 /* Frameworks */,
-				D3E5C03F1AEA6FEF0038D564 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D3E5C0431AEA6FEF0038D564 /* PBXTargetDependency */,
-			);
-			name = F56GeoPointsInRadiusSwiftTests;
-			productName = F56GeoPointsInRadiusSwiftTests;
-			productReference = D3E5C0411AEA6FEF0038D564 /* F56GeoPointsInRadiusSwiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		D3E5BFA01AEA6F3E0038D564 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = backendless.com;
 				TargetAttributes = {
 					D3E5BFA71AEA6F3E0038D564 = {
 						CreatedOnToolsVersion = 6.3;
 					};
-					D3E5BFC01AEA6F3E0038D564 = {
-						CreatedOnToolsVersion = 6.3;
-						TestTargetID = D3E5BFA71AEA6F3E0038D564;
-					};
 					D3E5C02C1AEA6FEF0038D564 = {
 						CreatedOnToolsVersion = 6.3;
-					};
-					D3E5C0401AEA6FEF0038D564 = {
-						CreatedOnToolsVersion = 6.3;
-						TestTargetID = D3E5C02C1AEA6FEF0038D564;
 					};
 				};
 			};
@@ -526,8 +446,6 @@
 			targets = (
 				D3E5BFA71AEA6F3E0038D564 /* F56GeoPointsInRadius */,
 				D3E5C02C1AEA6FEF0038D564 /* F56GeoPointsInRadiusSwift */,
-				D3E5BFC01AEA6F3E0038D564 /* F56GeoPointsInRadiusTests */,
-				D3E5C0401AEA6FEF0038D564 /* F56GeoPointsInRadiusSwiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -543,13 +461,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3E5BFBF1AEA6F3E0038D564 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D3E5C02B1AEA6FEF0038D564 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -557,13 +468,6 @@
 				D3E5C0371AEA6FEF0038D564 /* Main.storyboard in Resources */,
 				D3E5C03C1AEA6FEF0038D564 /* LaunchScreen.xib in Resources */,
 				D3E5C0391AEA6FEF0038D564 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D3E5C03F1AEA6FEF0038D564 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,14 +484,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3E5BFBD1AEA6F3E0038D564 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D3E5BFC81AEA6F3E0038D564 /* F56GeoPointsInRadiusTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D3E5C0291AEA6FEF0038D564 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -597,28 +493,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3E5C03D1AEA6FEF0038D564 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D3E5C0481AEA6FF00038D564 /* F56GeoPointsInRadiusSwiftTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D3E5BFC31AEA6F3E0038D564 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D3E5BFA71AEA6F3E0038D564 /* F56GeoPointsInRadius */;
-			targetProxy = D3E5BFC21AEA6F3E0038D564 /* PBXContainerItemProxy */;
-		};
-		D3E5C0431AEA6FEF0038D564 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D3E5C02C1AEA6FEF0038D564 /* F56GeoPointsInRadiusSwift */;
-			targetProxy = D3E5C0421AEA6FEF0038D564 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D3E5BFB51AEA6F3E0038D564 /* Main.storyboard */ = {
@@ -677,6 +552,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -747,6 +623,7 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -762,41 +639,8 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		D3E5BFCF1AEA6F3F0038D564 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F56GeoPointsInRadiusTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F56GeoPointsInRadius.app/F56GeoPointsInRadius";
-			};
-			name = Debug;
-		};
-		D3E5BFD01AEA6F3F0038D564 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F56GeoPointsInRadiusTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F56GeoPointsInRadius.app/F56GeoPointsInRadius";
 			};
 			name = Release;
 		};
@@ -815,6 +659,7 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -832,42 +677,9 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
-			};
-			name = Release;
-		};
-		D3E5C04D1AEA6FF00038D564 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F56GeoPointsInRadiusSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F56GeoPointsInRadiusSwift.app/F56GeoPointsInRadiusSwift";
-			};
-			name = Debug;
-		};
-		D3E5C04E1AEA6FF00038D564 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F56GeoPointsInRadiusSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F56GeoPointsInRadiusSwift.app/F56GeoPointsInRadiusSwift";
 			};
 			name = Release;
 		};
@@ -890,14 +702,7 @@
 				D3E5BFCD1AEA6F3F0038D564 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		D3E5BFCE1AEA6F3F0038D564 /* Build configuration list for PBXNativeTarget "F56GeoPointsInRadiusTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D3E5BFCF1AEA6F3F0038D564 /* Debug */,
-				D3E5BFD01AEA6F3F0038D564 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3E5C0491AEA6FF00038D564 /* Build configuration list for PBXNativeTarget "F56GeoPointsInRadiusSwift" */ = {
 			isa = XCConfigurationList;
@@ -906,14 +711,7 @@
 				D3E5C04B1AEA6FF00038D564 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		D3E5C04C1AEA6FF00038D564 /* Build configuration list for PBXNativeTarget "F56GeoPointsInRadiusSwiftTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D3E5C04D1AEA6FF00038D564 /* Debug */,
-				D3E5C04E1AEA6FF00038D564 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

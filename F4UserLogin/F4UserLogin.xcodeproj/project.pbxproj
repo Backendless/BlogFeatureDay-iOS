@@ -13,39 +13,20 @@
 		D35CA48F1A63DBB600F500B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35CA48D1A63DBB600F500B0 /* Main.storyboard */; };
 		D35CA4911A63DBB600F500B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35CA4901A63DBB600F500B0 /* Images.xcassets */; };
 		D35CA4941A63DBB600F500B0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D35CA4921A63DBB600F500B0 /* LaunchScreen.xib */; };
-		D35CA4A01A63DBB700F500B0 /* F4UserLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D35CA49F1A63DBB700F500B0 /* F4UserLoginTests.m */; };
 		D35CA4B21A63DC0500F500B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35CA4B11A63DC0500F500B0 /* AppDelegate.swift */; };
 		D35CA4B41A63DC0500F500B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35CA4B31A63DC0500F500B0 /* ViewController.swift */; };
 		D35CA4B71A63DC0500F500B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35CA4B51A63DC0500F500B0 /* Main.storyboard */; };
 		D35CA4B91A63DC0500F500B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35CA4B81A63DC0500F500B0 /* Images.xcassets */; };
 		D35CA4BC1A63DC0500F500B0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D35CA4BA1A63DC0500F500B0 /* LaunchScreen.xib */; };
-		D35CA4C81A63DC0500F500B0 /* F4UserLoginSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35CA4C71A63DC0500F500B0 /* F4UserLoginSwiftTests.swift */; };
-		D35CA4D11A63DC8A00F500B0 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D35CA4CF1A63DC8A00F500B0 /* libsqlite3.dylib */; };
 		D35CA4D21A63DC8A00F500B0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35CA4D01A63DC8A00F500B0 /* SystemConfiguration.framework */; };
-		D35CA4D31A63DC9F00F500B0 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D35CA4CF1A63DC8A00F500B0 /* libsqlite3.dylib */; };
 		D35CA4D41A63DC9F00F500B0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35CA4D01A63DC8A00F500B0 /* SystemConfiguration.framework */; };
 		D35CA5231A63DCBE00F500B0 /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D35CA4D71A63DCBE00F500B0 /* backendless.a */; };
 		D35CA5241A63DCBE00F500B0 /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D35CA4D71A63DCBE00F500B0 /* backendless.a */; };
 		D35CA5251A63DCBE00F500B0 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D35CA50E1A63DCBE00F500B0 /* CommLibiOS.a */; };
 		D35CA5261A63DCBE00F500B0 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D35CA50E1A63DCBE00F500B0 /* CommLibiOS.a */; };
+		F90F294E1BB00C66004F8D33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90F294D1BB00C66004F8D33 /* libsqlite3.tbd */; };
+		F90F294F1BB00C6D004F8D33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90F294D1BB00C66004F8D33 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D35CA49A1A63DBB700F500B0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D35CA4781A63DBB600F500B0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D35CA47F1A63DBB600F500B0;
-			remoteInfo = F4UserLogin;
-		};
-		D35CA4C21A63DC0500F500B0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D35CA4781A63DBB600F500B0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D35CA4AC1A63DC0400F500B0;
-			remoteInfo = F4UserLoginSwift;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D35CA4801A63DBB600F500B0 /* F4UserLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F4UserLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,7 +39,6 @@
 		D35CA48E1A63DBB600F500B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D35CA4901A63DBB600F500B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D35CA4931A63DBB600F500B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D35CA4991A63DBB700F500B0 /* F4UserLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F4UserLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35CA49E1A63DBB700F500B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D35CA49F1A63DBB700F500B0 /* F4UserLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = F4UserLoginTests.m; sourceTree = "<group>"; };
 		D35CA4AD1A63DC0500F500B0 /* F4UserLoginSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F4UserLoginSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,10 +48,8 @@
 		D35CA4B61A63DC0500F500B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D35CA4B81A63DC0500F500B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D35CA4BB1A63DC0500F500B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D35CA4C11A63DC0500F500B0 /* F4UserLoginSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F4UserLoginSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35CA4C61A63DC0500F500B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D35CA4C71A63DC0500F500B0 /* F4UserLoginSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F4UserLoginSwiftTests.swift; sourceTree = "<group>"; };
-		D35CA4CF1A63DC8A00F500B0 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		D35CA4D01A63DC8A00F500B0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		D35CA4D71A63DCBE00F500B0 /* backendless.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = backendless.a; sourceTree = "<group>"; };
 		D35CA4D91A63DCBE00F500B0 /* AbstractProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractProperty.h; sourceTree = "<group>"; };
@@ -146,6 +124,7 @@
 		D35CA5201A63DCBE00F500B0 /* RTMPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTMPClient.h; sourceTree = "<group>"; };
 		D35CA5211A63DCBE00F500B0 /* Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
 		D35CA5221A63DCBE00F500B0 /* WeborbClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeborbClient.h; sourceTree = "<group>"; };
+		F90F294D1BB00C66004F8D33 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,17 +132,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D35CA4D11A63DC8A00F500B0 /* libsqlite3.dylib in Frameworks */,
+				F90F294E1BB00C66004F8D33 /* libsqlite3.tbd in Frameworks */,
 				D35CA5251A63DCBE00F500B0 /* CommLibiOS.a in Frameworks */,
 				D35CA5231A63DCBE00F500B0 /* backendless.a in Frameworks */,
 				D35CA4D21A63DC8A00F500B0 /* SystemConfiguration.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D35CA4961A63DBB700F500B0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,17 +143,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D35CA4D31A63DC9F00F500B0 /* libsqlite3.dylib in Frameworks */,
+				F90F294F1BB00C6D004F8D33 /* libsqlite3.tbd in Frameworks */,
 				D35CA5261A63DCBE00F500B0 /* CommLibiOS.a in Frameworks */,
 				D35CA5241A63DCBE00F500B0 /* backendless.a in Frameworks */,
 				D35CA4D41A63DC9F00F500B0 /* SystemConfiguration.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D35CA4BE1A63DC0500F500B0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,8 +156,8 @@
 		D35CA4771A63DBB600F500B0 = {
 			isa = PBXGroup;
 			children = (
+				F90F294D1BB00C66004F8D33 /* libsqlite3.tbd */,
 				D35CA4D51A63DCBE00F500B0 /* lib */,
-				D35CA4CF1A63DC8A00F500B0 /* libsqlite3.dylib */,
 				D35CA4D01A63DC8A00F500B0 /* SystemConfiguration.framework */,
 				D35CA4821A63DBB600F500B0 /* F4UserLogin */,
 				D35CA49C1A63DBB700F500B0 /* F4UserLoginTests */,
@@ -206,9 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				D35CA4801A63DBB600F500B0 /* F4UserLogin.app */,
-				D35CA4991A63DBB700F500B0 /* F4UserLoginTests.xctest */,
 				D35CA4AD1A63DC0500F500B0 /* F4UserLoginSwift.app */,
-				D35CA4C11A63DC0500F500B0 /* F4UserLoginSwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -425,24 +388,6 @@
 			productReference = D35CA4801A63DBB600F500B0 /* F4UserLogin.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D35CA4981A63DBB700F500B0 /* F4UserLoginTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D35CA4A61A63DBB700F500B0 /* Build configuration list for PBXNativeTarget "F4UserLoginTests" */;
-			buildPhases = (
-				D35CA4951A63DBB700F500B0 /* Sources */,
-				D35CA4961A63DBB700F500B0 /* Frameworks */,
-				D35CA4971A63DBB700F500B0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D35CA49B1A63DBB700F500B0 /* PBXTargetDependency */,
-			);
-			name = F4UserLoginTests;
-			productName = F4UserLoginTests;
-			productReference = D35CA4991A63DBB700F500B0 /* F4UserLoginTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		D35CA4AC1A63DC0400F500B0 /* F4UserLoginSwift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D35CA4C91A63DC0500F500B0 /* Build configuration list for PBXNativeTarget "F4UserLoginSwift" */;
@@ -460,46 +405,21 @@
 			productReference = D35CA4AD1A63DC0500F500B0 /* F4UserLoginSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D35CA4C01A63DC0500F500B0 /* F4UserLoginSwiftTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D35CA4CC1A63DC0500F500B0 /* Build configuration list for PBXNativeTarget "F4UserLoginSwiftTests" */;
-			buildPhases = (
-				D35CA4BD1A63DC0500F500B0 /* Sources */,
-				D35CA4BE1A63DC0500F500B0 /* Frameworks */,
-				D35CA4BF1A63DC0500F500B0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D35CA4C31A63DC0500F500B0 /* PBXTargetDependency */,
-			);
-			name = F4UserLoginSwiftTests;
-			productName = F4UserLoginSwiftTests;
-			productReference = D35CA4C11A63DC0500F500B0 /* F4UserLoginSwiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		D35CA4781A63DBB600F500B0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = BACKENDLESS.COM;
 				TargetAttributes = {
 					D35CA47F1A63DBB600F500B0 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
-					D35CA4981A63DBB700F500B0 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = D35CA47F1A63DBB600F500B0;
-					};
 					D35CA4AC1A63DC0400F500B0 = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					D35CA4C01A63DC0500F500B0 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = D35CA4AC1A63DC0400F500B0;
 					};
 				};
 			};
@@ -518,8 +438,6 @@
 			targets = (
 				D35CA47F1A63DBB600F500B0 /* F4UserLogin */,
 				D35CA4AC1A63DC0400F500B0 /* F4UserLoginSwift */,
-				D35CA4981A63DBB700F500B0 /* F4UserLoginTests */,
-				D35CA4C01A63DC0500F500B0 /* F4UserLoginSwiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -535,13 +453,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D35CA4971A63DBB700F500B0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D35CA4AB1A63DC0400F500B0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -549,13 +460,6 @@
 				D35CA4B71A63DC0500F500B0 /* Main.storyboard in Resources */,
 				D35CA4BC1A63DC0500F500B0 /* LaunchScreen.xib in Resources */,
 				D35CA4B91A63DC0500F500B0 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D35CA4BF1A63DC0500F500B0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,14 +476,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D35CA4951A63DBB700F500B0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D35CA4A01A63DBB700F500B0 /* F4UserLoginTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D35CA4A91A63DC0400F500B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -589,28 +485,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D35CA4BD1A63DC0500F500B0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D35CA4C81A63DC0500F500B0 /* F4UserLoginSwiftTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D35CA49B1A63DBB700F500B0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D35CA47F1A63DBB600F500B0 /* F4UserLogin */;
-			targetProxy = D35CA49A1A63DBB700F500B0 /* PBXContainerItemProxy */;
-		};
-		D35CA4C31A63DC0500F500B0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D35CA4AC1A63DC0400F500B0 /* F4UserLoginSwift */;
-			targetProxy = D35CA4C21A63DC0500F500B0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D35CA48D1A63DBB600F500B0 /* Main.storyboard */ = {
@@ -668,6 +543,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -736,6 +612,7 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -752,41 +629,8 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		D35CA4A71A63DBB700F500B0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F4UserLoginTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F4UserLogin.app/F4UserLogin";
-			};
-			name = Debug;
-		};
-		D35CA4A81A63DBB700F500B0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F4UserLoginTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F4UserLogin.app/F4UserLogin";
 			};
 			name = Release;
 		};
@@ -806,6 +650,7 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -824,42 +669,9 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
-			};
-			name = Release;
-		};
-		D35CA4CD1A63DC0500F500B0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F4UserLoginSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F4UserLoginSwift.app/F4UserLoginSwift";
-			};
-			name = Debug;
-		};
-		D35CA4CE1A63DC0500F500B0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F4UserLoginSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F4UserLoginSwift.app/F4UserLoginSwift";
 			};
 			name = Release;
 		};
@@ -884,29 +696,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D35CA4A61A63DBB700F500B0 /* Build configuration list for PBXNativeTarget "F4UserLoginTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D35CA4A71A63DBB700F500B0 /* Debug */,
-				D35CA4A81A63DBB700F500B0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		D35CA4C91A63DC0500F500B0 /* Build configuration list for PBXNativeTarget "F4UserLoginSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D35CA4CA1A63DC0500F500B0 /* Debug */,
 				D35CA4CB1A63DC0500F500B0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D35CA4CC1A63DC0500F500B0 /* Build configuration list for PBXNativeTarget "F4UserLoginSwiftTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D35CA4CD1A63DC0500F500B0 /* Debug */,
-				D35CA4CE1A63DC0500F500B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

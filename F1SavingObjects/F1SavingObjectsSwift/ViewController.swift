@@ -35,17 +35,17 @@ class ViewController: UIViewController {
         
         backendless.initApp(APP_ID, secret:SECRET_KEY, version:VERSION_NUM)
         
-        Types.try({ () -> Void in
+        Types.tryblock({ () -> Void in
             
             // create the orders datastore
-            var orders = self.backendless.persistenceService.of(Order().ofClass())
+            let orders = self.backendless.persistenceService.of(Order().ofClass())
             
-            var orderItem1 = OrderItem()
+            let orderItem1 = OrderItem()
             orderItem1.name = "Printer"
             orderItem1.quantity = 1
             orderItem1.price = 99.0
             
-            var orderItem2 = OrderItem()
+            let orderItem2 = OrderItem()
             orderItem2.name = "Paper"
             orderItem2.quantity = 10
             orderItem2.price = 19.0
@@ -57,12 +57,12 @@ class ViewController: UIViewController {
             order.orderItems.append(orderItem2)
             
             order = orders.save(order) as! Order
-            println("Order has been saved: \(order.show())")
+            print("Order has been saved: \(order.show())")
             
             },
             
-            catch: { (exception) -> Void in
-                println("Server reported an error: \(exception as! Fault)")
+            catchblock: { (exception) -> Void in
+                print("Server reported an error: \(exception as! Fault)")
         })
     }
 

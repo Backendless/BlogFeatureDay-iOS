@@ -7,47 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F90F29751BB00ED6004F8D33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90F29741BB00ED6004F8D33 /* libsqlite3.tbd */; };
+		F90F29761BB00EDB004F8D33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90F29741BB00ED6004F8D33 /* libsqlite3.tbd */; };
 		F9BE40591B2A1F6000CD0A72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BE40581B2A1F6000CD0A72 /* main.m */; };
 		F9BE405C1B2A1F6000CD0A72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BE405B1B2A1F6000CD0A72 /* AppDelegate.m */; };
 		F9BE405F1B2A1F6000CD0A72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BE405E1B2A1F6000CD0A72 /* ViewController.m */; };
 		F9BE40621B2A1F6000CD0A72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BE40601B2A1F6000CD0A72 /* Main.storyboard */; };
 		F9BE40641B2A1F6000CD0A72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9BE40631B2A1F6000CD0A72 /* Images.xcassets */; };
 		F9BE40671B2A1F6000CD0A72 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9BE40651B2A1F6000CD0A72 /* LaunchScreen.xib */; };
-		F9BE40731B2A1F6000CD0A72 /* F62AtomicCountersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BE40721B2A1F6000CD0A72 /* F62AtomicCountersTests.m */; };
 		F9BE40B71B2A1FEC00CD0A72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE40B61B2A1FEC00CD0A72 /* AppDelegate.swift */; };
 		F9BE40B91B2A1FEC00CD0A72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE40B81B2A1FEC00CD0A72 /* ViewController.swift */; };
 		F9BE40BC1B2A1FEC00CD0A72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BE40BA1B2A1FEC00CD0A72 /* Main.storyboard */; };
 		F9BE40BE1B2A1FEC00CD0A72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9BE40BD1B2A1FEC00CD0A72 /* Images.xcassets */; };
 		F9BE40C11B2A1FEC00CD0A72 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9BE40BF1B2A1FEC00CD0A72 /* LaunchScreen.xib */; };
-		F9BE40CD1B2A1FEC00CD0A72 /* F62AtomicCountersSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE40CC1B2A1FEC00CD0A72 /* F62AtomicCountersSwiftTests.swift */; };
-		F9BE41021B2A206800CD0A72 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE41001B2A206800CD0A72 /* libsqlite3.dylib */; };
 		F9BE41031B2A206800CD0A72 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE41011B2A206800CD0A72 /* SystemConfiguration.framework */; };
 		F9BE41041B2A207500CD0A72 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE41011B2A206800CD0A72 /* SystemConfiguration.framework */; };
-		F9BE41051B2A208200CD0A72 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE41001B2A206800CD0A72 /* libsqlite3.dylib */; };
 		F9BE415B1B2A20EB00CD0A72 /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE41081B2A20EB00CD0A72 /* backendless.a */; };
 		F9BE415C1B2A20EB00CD0A72 /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE41081B2A20EB00CD0A72 /* backendless.a */; };
 		F9BE415D1B2A20EB00CD0A72 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE41461B2A20EB00CD0A72 /* CommLibiOS.a */; };
 		F9BE415E1B2A20EB00CD0A72 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE41461B2A20EB00CD0A72 /* CommLibiOS.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F9BE406D1B2A1F6000CD0A72 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F9BE404B1B2A1F6000CD0A72 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F9BE40521B2A1F6000CD0A72;
-			remoteInfo = F62AtomicCounters;
-		};
-		F9BE40C71B2A1FEC00CD0A72 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F9BE404B1B2A1F6000CD0A72 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F9BE40B11B2A1FEC00CD0A72;
-			remoteInfo = F62AtomicCountersSwift;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		F90F29741BB00ED6004F8D33 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		F9BE40531B2A1F6000CD0A72 /* F62AtomicCounters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F62AtomicCounters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9BE40571B2A1F6000CD0A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9BE40581B2A1F6000CD0A72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -58,7 +40,6 @@
 		F9BE40611B2A1F6000CD0A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9BE40631B2A1F6000CD0A72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F9BE40661B2A1F6000CD0A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		F9BE406C1B2A1F6000CD0A72 /* F62AtomicCountersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F62AtomicCountersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9BE40711B2A1F6000CD0A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9BE40721B2A1F6000CD0A72 /* F62AtomicCountersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = F62AtomicCountersTests.m; sourceTree = "<group>"; };
 		F9BE40B21B2A1FEC00CD0A72 /* F62AtomicCountersSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F62AtomicCountersSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,10 +49,8 @@
 		F9BE40BB1B2A1FEC00CD0A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9BE40BD1B2A1FEC00CD0A72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F9BE40C01B2A1FEC00CD0A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		F9BE40C61B2A1FEC00CD0A72 /* F62AtomicCountersSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F62AtomicCountersSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9BE40CB1B2A1FEC00CD0A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9BE40CC1B2A1FEC00CD0A72 /* F62AtomicCountersSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F62AtomicCountersSwiftTests.swift; sourceTree = "<group>"; };
-		F9BE41001B2A206800CD0A72 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		F9BE41011B2A206800CD0A72 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		F9BE41081B2A20EB00CD0A72 /* backendless.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = backendless.a; sourceTree = "<group>"; };
 		F9BE410A1B2A20EB00CD0A72 /* AbstractProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractProperty.h; sourceTree = "<group>"; };
@@ -160,17 +139,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9BE41021B2A206800CD0A72 /* libsqlite3.dylib in Frameworks */,
+				F90F29751BB00ED6004F8D33 /* libsqlite3.tbd in Frameworks */,
 				F9BE415D1B2A20EB00CD0A72 /* CommLibiOS.a in Frameworks */,
 				F9BE415B1B2A20EB00CD0A72 /* backendless.a in Frameworks */,
 				F9BE41031B2A206800CD0A72 /* SystemConfiguration.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F9BE40691B2A1F6000CD0A72 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,17 +150,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9BE41051B2A208200CD0A72 /* libsqlite3.dylib in Frameworks */,
+				F90F29761BB00EDB004F8D33 /* libsqlite3.tbd in Frameworks */,
 				F9BE415E1B2A20EB00CD0A72 /* CommLibiOS.a in Frameworks */,
 				F9BE415C1B2A20EB00CD0A72 /* backendless.a in Frameworks */,
 				F9BE41041B2A207500CD0A72 /* SystemConfiguration.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F9BE40C31B2A1FEC00CD0A72 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,8 +163,8 @@
 		F9BE404A1B2A1F6000CD0A72 = {
 			isa = PBXGroup;
 			children = (
+				F90F29741BB00ED6004F8D33 /* libsqlite3.tbd */,
 				F9BE41061B2A20EB00CD0A72 /* lib */,
-				F9BE41001B2A206800CD0A72 /* libsqlite3.dylib */,
 				F9BE41011B2A206800CD0A72 /* SystemConfiguration.framework */,
 				F9BE40551B2A1F6000CD0A72 /* F62AtomicCounters */,
 				F9BE406F1B2A1F6000CD0A72 /* F62AtomicCountersTests */,
@@ -213,9 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				F9BE40531B2A1F6000CD0A72 /* F62AtomicCounters.app */,
-				F9BE406C1B2A1F6000CD0A72 /* F62AtomicCountersTests.xctest */,
 				F9BE40B21B2A1FEC00CD0A72 /* F62AtomicCountersSwift.app */,
-				F9BE40C61B2A1FEC00CD0A72 /* F62AtomicCountersSwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -439,24 +402,6 @@
 			productReference = F9BE40531B2A1F6000CD0A72 /* F62AtomicCounters.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F9BE406B1B2A1F6000CD0A72 /* F62AtomicCountersTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F9BE40791B2A1F6000CD0A72 /* Build configuration list for PBXNativeTarget "F62AtomicCountersTests" */;
-			buildPhases = (
-				F9BE40681B2A1F6000CD0A72 /* Sources */,
-				F9BE40691B2A1F6000CD0A72 /* Frameworks */,
-				F9BE406A1B2A1F6000CD0A72 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F9BE406E1B2A1F6000CD0A72 /* PBXTargetDependency */,
-			);
-			name = F62AtomicCountersTests;
-			productName = F62AtomicCountersTests;
-			productReference = F9BE406C1B2A1F6000CD0A72 /* F62AtomicCountersTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		F9BE40B11B2A1FEC00CD0A72 /* F62AtomicCountersSwift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9BE40CE1B2A1FEC00CD0A72 /* Build configuration list for PBXNativeTarget "F62AtomicCountersSwift" */;
@@ -474,46 +419,21 @@
 			productReference = F9BE40B21B2A1FEC00CD0A72 /* F62AtomicCountersSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F9BE40C51B2A1FEC00CD0A72 /* F62AtomicCountersSwiftTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F9BE40D11B2A1FEC00CD0A72 /* Build configuration list for PBXNativeTarget "F62AtomicCountersSwiftTests" */;
-			buildPhases = (
-				F9BE40C21B2A1FEC00CD0A72 /* Sources */,
-				F9BE40C31B2A1FEC00CD0A72 /* Frameworks */,
-				F9BE40C41B2A1FEC00CD0A72 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F9BE40C81B2A1FEC00CD0A72 /* PBXTargetDependency */,
-			);
-			name = F62AtomicCountersSwiftTests;
-			productName = F62AtomicCountersSwiftTests;
-			productReference = F9BE40C61B2A1FEC00CD0A72 /* F62AtomicCountersSwiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		F9BE404B1B2A1F6000CD0A72 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Slava Vdovichenko";
 				TargetAttributes = {
 					F9BE40521B2A1F6000CD0A72 = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
-					F9BE406B1B2A1F6000CD0A72 = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = F9BE40521B2A1F6000CD0A72;
-					};
 					F9BE40B11B2A1FEC00CD0A72 = {
 						CreatedOnToolsVersion = 6.3.2;
-					};
-					F9BE40C51B2A1FEC00CD0A72 = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = F9BE40B11B2A1FEC00CD0A72;
 					};
 				};
 			};
@@ -532,8 +452,6 @@
 			targets = (
 				F9BE40521B2A1F6000CD0A72 /* F62AtomicCounters */,
 				F9BE40B11B2A1FEC00CD0A72 /* F62AtomicCountersSwift */,
-				F9BE406B1B2A1F6000CD0A72 /* F62AtomicCountersTests */,
-				F9BE40C51B2A1FEC00CD0A72 /* F62AtomicCountersSwiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -549,13 +467,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9BE406A1B2A1F6000CD0A72 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F9BE40B01B2A1FEC00CD0A72 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -563,13 +474,6 @@
 				F9BE40BC1B2A1FEC00CD0A72 /* Main.storyboard in Resources */,
 				F9BE40C11B2A1FEC00CD0A72 /* LaunchScreen.xib in Resources */,
 				F9BE40BE1B2A1FEC00CD0A72 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F9BE40C41B2A1FEC00CD0A72 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,14 +490,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9BE40681B2A1F6000CD0A72 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F9BE40731B2A1F6000CD0A72 /* F62AtomicCountersTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F9BE40AE1B2A1FEC00CD0A72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -603,28 +499,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9BE40C21B2A1FEC00CD0A72 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F9BE40CD1B2A1FEC00CD0A72 /* F62AtomicCountersSwiftTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F9BE406E1B2A1F6000CD0A72 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F9BE40521B2A1F6000CD0A72 /* F62AtomicCounters */;
-			targetProxy = F9BE406D1B2A1F6000CD0A72 /* PBXContainerItemProxy */;
-		};
-		F9BE40C81B2A1FEC00CD0A72 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F9BE40B11B2A1FEC00CD0A72 /* F62AtomicCountersSwift */;
-			targetProxy = F9BE40C71B2A1FEC00CD0A72 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F9BE40601B2A1F6000CD0A72 /* Main.storyboard */ = {
@@ -683,6 +558,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -755,6 +631,7 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -770,41 +647,8 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		F9BE407A1B2A1F6000CD0A72 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F62AtomicCountersTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F62AtomicCounters.app/F62AtomicCounters";
-			};
-			name = Debug;
-		};
-		F9BE407B1B2A1F6000CD0A72 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F62AtomicCountersTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F62AtomicCounters.app/F62AtomicCounters";
 			};
 			name = Release;
 		};
@@ -823,6 +667,7 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -840,42 +685,9 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
-			};
-			name = Release;
-		};
-		F9BE40D21B2A1FEC00CD0A72 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F62AtomicCountersSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F62AtomicCountersSwift.app/F62AtomicCountersSwift";
-			};
-			name = Debug;
-		};
-		F9BE40D31B2A1FEC00CD0A72 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F62AtomicCountersSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F62AtomicCountersSwift.app/F62AtomicCountersSwift";
 			};
 			name = Release;
 		};
@@ -898,14 +710,7 @@
 				F9BE40781B2A1F6000CD0A72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		F9BE40791B2A1F6000CD0A72 /* Build configuration list for PBXNativeTarget "F62AtomicCountersTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F9BE407A1B2A1F6000CD0A72 /* Debug */,
-				F9BE407B1B2A1F6000CD0A72 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F9BE40CE1B2A1FEC00CD0A72 /* Build configuration list for PBXNativeTarget "F62AtomicCountersSwift" */ = {
 			isa = XCConfigurationList;
@@ -914,14 +719,7 @@
 				F9BE40D01B2A1FEC00CD0A72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		F9BE40D11B2A1FEC00CD0A72 /* Build configuration list for PBXNativeTarget "F62AtomicCountersSwiftTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F9BE40D21B2A1FEC00CD0A72 /* Debug */,
-				F9BE40D31B2A1FEC00CD0A72 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F90F29721BB00EAE004F8D33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90F29711BB00EAE004F8D33 /* libsqlite3.tbd */; };
+		F90F29731BB00EB4004F8D33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90F29711BB00EAE004F8D33 /* libsqlite3.tbd */; };
 		F997E2061B31980C001C602F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F997E2051B31980C001C602F /* Person.m */; };
 		F997E2081B319823001C602F /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F997E2071B319823001C602F /* Person.swift */; };
 		F9BE3E8B1B29BD5B00CD0A72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BE3E8A1B29BD5B00CD0A72 /* main.m */; };
@@ -15,16 +17,12 @@
 		F9BE3E941B29BD5B00CD0A72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BE3E921B29BD5B00CD0A72 /* Main.storyboard */; };
 		F9BE3E961B29BD5B00CD0A72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9BE3E951B29BD5B00CD0A72 /* Images.xcassets */; };
 		F9BE3E991B29BD5B00CD0A72 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9BE3E971B29BD5B00CD0A72 /* LaunchScreen.xib */; };
-		F9BE3EA51B29BD5B00CD0A72 /* F61CachePlacingRetrievingObjectsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BE3EA41B29BD5B00CD0A72 /* F61CachePlacingRetrievingObjectsTests.m */; };
 		F9BE3EB71B29BDAC00CD0A72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE3EB61B29BDAC00CD0A72 /* AppDelegate.swift */; };
 		F9BE3EB91B29BDAC00CD0A72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE3EB81B29BDAC00CD0A72 /* ViewController.swift */; };
 		F9BE3EBC1B29BDAC00CD0A72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BE3EBA1B29BDAC00CD0A72 /* Main.storyboard */; };
 		F9BE3EBE1B29BDAC00CD0A72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9BE3EBD1B29BDAC00CD0A72 /* Images.xcassets */; };
 		F9BE3EC11B29BDAC00CD0A72 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9BE3EBF1B29BDAC00CD0A72 /* LaunchScreen.xib */; };
-		F9BE3ECD1B29BDAD00CD0A72 /* F61CachePlacingRetrievingObjectsSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE3ECC1B29BDAD00CD0A72 /* F61CachePlacingRetrievingObjectsSwiftTests.swift */; };
-		F9BE3FE31B29C01B00CD0A72 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE3FE11B29C01B00CD0A72 /* libsqlite3.dylib */; };
 		F9BE3FE41B29C01B00CD0A72 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE3FE21B29C01B00CD0A72 /* SystemConfiguration.framework */; };
-		F9BE3FE51B29C03800CD0A72 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE3FE11B29C01B00CD0A72 /* libsqlite3.dylib */; };
 		F9BE3FE61B29C03800CD0A72 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE3FE21B29C01B00CD0A72 /* SystemConfiguration.framework */; };
 		F9BE403C1B29C05200CD0A72 /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE3FE91B29C05100CD0A72 /* backendless.a */; };
 		F9BE403D1B29C05200CD0A72 /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE3FE91B29C05100CD0A72 /* backendless.a */; };
@@ -32,24 +30,8 @@
 		F9BE403F1B29C05200CD0A72 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE40271B29C05200CD0A72 /* CommLibiOS.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F9BE3E9F1B29BD5B00CD0A72 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F9BE3E7D1B29BD5A00CD0A72 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F9BE3E841B29BD5A00CD0A72;
-			remoteInfo = F61CachePlacingRetrievingObjects;
-		};
-		F9BE3EC71B29BDAC00CD0A72 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F9BE3E7D1B29BD5A00CD0A72 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F9BE3EB11B29BDAC00CD0A72;
-			remoteInfo = F61CachePlacingRetrievingObjectsSwift;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		F90F29711BB00EAE004F8D33 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		F997E2041B31980C001C602F /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		F997E2051B31980C001C602F /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		F997E2071B319823001C602F /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
@@ -63,7 +45,6 @@
 		F9BE3E931B29BD5B00CD0A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9BE3E951B29BD5B00CD0A72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F9BE3E981B29BD5B00CD0A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		F9BE3E9E1B29BD5B00CD0A72 /* F61CachePlacingRetrievingObjectsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F61CachePlacingRetrievingObjectsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9BE3EA31B29BD5B00CD0A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9BE3EA41B29BD5B00CD0A72 /* F61CachePlacingRetrievingObjectsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = F61CachePlacingRetrievingObjectsTests.m; sourceTree = "<group>"; };
 		F9BE3EB21B29BDAC00CD0A72 /* F61CachePlacingRetrievingObjectsSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F61CachePlacingRetrievingObjectsSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,10 +54,8 @@
 		F9BE3EBB1B29BDAC00CD0A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9BE3EBD1B29BDAC00CD0A72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F9BE3EC01B29BDAC00CD0A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		F9BE3EC61B29BDAC00CD0A72 /* F61CachePlacingRetrievingObjectsSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F61CachePlacingRetrievingObjectsSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9BE3ECB1B29BDAD00CD0A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9BE3ECC1B29BDAD00CD0A72 /* F61CachePlacingRetrievingObjectsSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F61CachePlacingRetrievingObjectsSwiftTests.swift; sourceTree = "<group>"; };
-		F9BE3FE11B29C01B00CD0A72 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		F9BE3FE21B29C01B00CD0A72 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		F9BE3FE91B29C05100CD0A72 /* backendless.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = backendless.a; sourceTree = "<group>"; };
 		F9BE3FEB1B29C05100CD0A72 /* AbstractProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractProperty.h; sourceTree = "<group>"; };
@@ -165,17 +144,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9BE3FE31B29C01B00CD0A72 /* libsqlite3.dylib in Frameworks */,
+				F90F29721BB00EAE004F8D33 /* libsqlite3.tbd in Frameworks */,
 				F9BE403E1B29C05200CD0A72 /* CommLibiOS.a in Frameworks */,
 				F9BE403C1B29C05200CD0A72 /* backendless.a in Frameworks */,
 				F9BE3FE41B29C01B00CD0A72 /* SystemConfiguration.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F9BE3E9B1B29BD5B00CD0A72 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,17 +155,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9BE3FE51B29C03800CD0A72 /* libsqlite3.dylib in Frameworks */,
+				F90F29731BB00EB4004F8D33 /* libsqlite3.tbd in Frameworks */,
 				F9BE403F1B29C05200CD0A72 /* CommLibiOS.a in Frameworks */,
 				F9BE403D1B29C05200CD0A72 /* backendless.a in Frameworks */,
 				F9BE3FE61B29C03800CD0A72 /* SystemConfiguration.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F9BE3EC31B29BDAC00CD0A72 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,8 +168,8 @@
 		F9BE3E7C1B29BD5A00CD0A72 = {
 			isa = PBXGroup;
 			children = (
+				F90F29711BB00EAE004F8D33 /* libsqlite3.tbd */,
 				F9BE3FE71B29C05100CD0A72 /* lib */,
-				F9BE3FE11B29C01B00CD0A72 /* libsqlite3.dylib */,
 				F9BE3FE21B29C01B00CD0A72 /* SystemConfiguration.framework */,
 				F9BE3E871B29BD5A00CD0A72 /* F61CachePlacingRetrievingObjects */,
 				F9BE3EA11B29BD5B00CD0A72 /* F61CachePlacingRetrievingObjectsTests */,
@@ -218,9 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				F9BE3E851B29BD5A00CD0A72 /* F61CachePlacingRetrievingObjects.app */,
-				F9BE3E9E1B29BD5B00CD0A72 /* F61CachePlacingRetrievingObjectsTests.xctest */,
 				F9BE3EB21B29BDAC00CD0A72 /* F61CachePlacingRetrievingObjectsSwift.app */,
-				F9BE3EC61B29BDAC00CD0A72 /* F61CachePlacingRetrievingObjectsSwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -447,24 +410,6 @@
 			productReference = F9BE3E851B29BD5A00CD0A72 /* F61CachePlacingRetrievingObjects.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F9BE3E9D1B29BD5B00CD0A72 /* F61CachePlacingRetrievingObjectsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F9BE3EAB1B29BD5B00CD0A72 /* Build configuration list for PBXNativeTarget "F61CachePlacingRetrievingObjectsTests" */;
-			buildPhases = (
-				F9BE3E9A1B29BD5B00CD0A72 /* Sources */,
-				F9BE3E9B1B29BD5B00CD0A72 /* Frameworks */,
-				F9BE3E9C1B29BD5B00CD0A72 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F9BE3EA01B29BD5B00CD0A72 /* PBXTargetDependency */,
-			);
-			name = F61CachePlacingRetrievingObjectsTests;
-			productName = F61CachePlacingRetrievingObjectsTests;
-			productReference = F9BE3E9E1B29BD5B00CD0A72 /* F61CachePlacingRetrievingObjectsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		F9BE3EB11B29BDAC00CD0A72 /* F61CachePlacingRetrievingObjectsSwift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9BE3ECE1B29BDAD00CD0A72 /* Build configuration list for PBXNativeTarget "F61CachePlacingRetrievingObjectsSwift" */;
@@ -482,46 +427,21 @@
 			productReference = F9BE3EB21B29BDAC00CD0A72 /* F61CachePlacingRetrievingObjectsSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F9BE3EC51B29BDAC00CD0A72 /* F61CachePlacingRetrievingObjectsSwiftTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F9BE3ED11B29BDAD00CD0A72 /* Build configuration list for PBXNativeTarget "F61CachePlacingRetrievingObjectsSwiftTests" */;
-			buildPhases = (
-				F9BE3EC21B29BDAC00CD0A72 /* Sources */,
-				F9BE3EC31B29BDAC00CD0A72 /* Frameworks */,
-				F9BE3EC41B29BDAC00CD0A72 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F9BE3EC81B29BDAC00CD0A72 /* PBXTargetDependency */,
-			);
-			name = F61CachePlacingRetrievingObjectsSwiftTests;
-			productName = F61CachePlacingRetrievingObjectsSwiftTests;
-			productReference = F9BE3EC61B29BDAC00CD0A72 /* F61CachePlacingRetrievingObjectsSwiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		F9BE3E7D1B29BD5A00CD0A72 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Slava Vdovichenko";
 				TargetAttributes = {
 					F9BE3E841B29BD5A00CD0A72 = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
-					F9BE3E9D1B29BD5B00CD0A72 = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = F9BE3E841B29BD5A00CD0A72;
-					};
 					F9BE3EB11B29BDAC00CD0A72 = {
 						CreatedOnToolsVersion = 6.3.2;
-					};
-					F9BE3EC51B29BDAC00CD0A72 = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = F9BE3EB11B29BDAC00CD0A72;
 					};
 				};
 			};
@@ -540,8 +460,6 @@
 			targets = (
 				F9BE3E841B29BD5A00CD0A72 /* F61CachePlacingRetrievingObjects */,
 				F9BE3EB11B29BDAC00CD0A72 /* F61CachePlacingRetrievingObjectsSwift */,
-				F9BE3E9D1B29BD5B00CD0A72 /* F61CachePlacingRetrievingObjectsTests */,
-				F9BE3EC51B29BDAC00CD0A72 /* F61CachePlacingRetrievingObjectsSwiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -557,13 +475,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9BE3E9C1B29BD5B00CD0A72 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F9BE3EB01B29BDAC00CD0A72 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -571,13 +482,6 @@
 				F9BE3EBC1B29BDAC00CD0A72 /* Main.storyboard in Resources */,
 				F9BE3EC11B29BDAC00CD0A72 /* LaunchScreen.xib in Resources */,
 				F9BE3EBE1B29BDAC00CD0A72 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F9BE3EC41B29BDAC00CD0A72 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,14 +499,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9BE3E9A1B29BD5B00CD0A72 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F9BE3EA51B29BD5B00CD0A72 /* F61CachePlacingRetrievingObjectsTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F9BE3EAE1B29BDAC00CD0A72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -613,28 +509,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9BE3EC21B29BDAC00CD0A72 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F9BE3ECD1B29BDAD00CD0A72 /* F61CachePlacingRetrievingObjectsSwiftTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F9BE3EA01B29BD5B00CD0A72 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F9BE3E841B29BD5A00CD0A72 /* F61CachePlacingRetrievingObjects */;
-			targetProxy = F9BE3E9F1B29BD5B00CD0A72 /* PBXContainerItemProxy */;
-		};
-		F9BE3EC81B29BDAC00CD0A72 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F9BE3EB11B29BDAC00CD0A72 /* F61CachePlacingRetrievingObjectsSwift */;
-			targetProxy = F9BE3EC71B29BDAC00CD0A72 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F9BE3E921B29BD5B00CD0A72 /* Main.storyboard */ = {
@@ -693,6 +568,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -765,6 +641,7 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -780,41 +657,8 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		F9BE3EAC1B29BD5B00CD0A72 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F61CachePlacingRetrievingObjectsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F61CachePlacingRetrievingObjects.app/F61CachePlacingRetrievingObjects";
-			};
-			name = Debug;
-		};
-		F9BE3EAD1B29BD5B00CD0A72 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F61CachePlacingRetrievingObjectsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F61CachePlacingRetrievingObjects.app/F61CachePlacingRetrievingObjects";
 			};
 			name = Release;
 		};
@@ -833,6 +677,7 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -850,42 +695,9 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
-			};
-			name = Release;
-		};
-		F9BE3ED21B29BDAD00CD0A72 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F61CachePlacingRetrievingObjectsSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F61CachePlacingRetrievingObjectsSwift.app/F61CachePlacingRetrievingObjectsSwift";
-			};
-			name = Debug;
-		};
-		F9BE3ED31B29BDAD00CD0A72 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F61CachePlacingRetrievingObjectsSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F61CachePlacingRetrievingObjectsSwift.app/F61CachePlacingRetrievingObjectsSwift";
 			};
 			name = Release;
 		};
@@ -910,29 +722,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F9BE3EAB1B29BD5B00CD0A72 /* Build configuration list for PBXNativeTarget "F61CachePlacingRetrievingObjectsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F9BE3EAC1B29BD5B00CD0A72 /* Debug */,
-				F9BE3EAD1B29BD5B00CD0A72 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		F9BE3ECE1B29BDAD00CD0A72 /* Build configuration list for PBXNativeTarget "F61CachePlacingRetrievingObjectsSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F9BE3ECF1B29BDAD00CD0A72 /* Debug */,
 				F9BE3ED01B29BDAD00CD0A72 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F9BE3ED11B29BDAD00CD0A72 /* Build configuration list for PBXNativeTarget "F61CachePlacingRetrievingObjectsSwiftTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F9BE3ED21B29BDAD00CD0A72 /* Debug */,
-				F9BE3ED31B29BDAD00CD0A72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -7,22 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F90F29871BB00FC3004F8D33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90F29861BB00FC3004F8D33 /* libsqlite3.tbd */; };
+		F90F29881BB00FC9004F8D33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90F29861BB00FC3004F8D33 /* libsqlite3.tbd */; };
 		F997E3701B3422CC001C602F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F997E36F1B3422CC001C602F /* main.m */; };
 		F997E3731B3422CC001C602F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F997E3721B3422CC001C602F /* AppDelegate.m */; };
 		F997E3761B3422CC001C602F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F997E3751B3422CC001C602F /* ViewController.m */; };
 		F997E3791B3422CC001C602F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F997E3771B3422CC001C602F /* Main.storyboard */; };
 		F997E37B1B3422CC001C602F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F997E37A1B3422CC001C602F /* Images.xcassets */; };
 		F997E37E1B3422CC001C602F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F997E37C1B3422CC001C602F /* LaunchScreen.xib */; };
-		F997E38A1B3422CC001C602F /* F22OneStepDataLoadingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F997E3891B3422CC001C602F /* F22OneStepDataLoadingTests.m */; };
 		F997E44C1B3424AB001C602F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F997E44B1B3424AB001C602F /* AppDelegate.swift */; };
 		F997E44E1B3424AB001C602F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F997E44D1B3424AB001C602F /* ViewController.swift */; };
 		F997E4511B3424AB001C602F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F997E44F1B3424AB001C602F /* Main.storyboard */; };
 		F997E4531B3424AB001C602F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F997E4521B3424AB001C602F /* Images.xcassets */; };
 		F997E4561B3424AB001C602F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F997E4541B3424AB001C602F /* LaunchScreen.xib */; };
-		F997E4621B3424AB001C602F /* F22OneStepDataLoadingSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F997E4611B3424AB001C602F /* F22OneStepDataLoadingSwiftTests.swift */; };
-		F997E51D1B342636001C602F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F997E51B1B342636001C602F /* libsqlite3.dylib */; };
 		F997E51E1B342636001C602F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F997E51C1B342636001C602F /* SystemConfiguration.framework */; };
-		F997E51F1B342646001C602F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F997E51B1B342636001C602F /* libsqlite3.dylib */; };
 		F997E5201B342646001C602F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F997E51C1B342636001C602F /* SystemConfiguration.framework */; };
 		F997E6341B34270C001C602F /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F997E5E11B34270C001C602F /* backendless.a */; };
 		F997E6351B34270C001C602F /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F997E5E11B34270C001C602F /* backendless.a */; };
@@ -34,24 +32,8 @@
 		F997E7B41B343DFB001C602F /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F997E7B21B343DFB001C602F /* Restaurant.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F997E3841B3422CC001C602F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F997E3621B3422CC001C602F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F997E3691B3422CC001C602F;
-			remoteInfo = F22OneStepDataLoading;
-		};
-		F997E45C1B3424AB001C602F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F997E3621B3422CC001C602F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F997E4461B3424AB001C602F;
-			remoteInfo = F22OneStepDataLoadingSwift;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		F90F29861BB00FC3004F8D33 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		F997E36A1B3422CC001C602F /* F22OneStepDataLoading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F22OneStepDataLoading.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F997E36E1B3422CC001C602F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F997E36F1B3422CC001C602F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -62,7 +44,6 @@
 		F997E3781B3422CC001C602F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F997E37A1B3422CC001C602F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F997E37D1B3422CC001C602F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		F997E3831B3422CC001C602F /* F22OneStepDataLoadingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F22OneStepDataLoadingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F997E3881B3422CC001C602F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F997E3891B3422CC001C602F /* F22OneStepDataLoadingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = F22OneStepDataLoadingTests.m; sourceTree = "<group>"; };
 		F997E4471B3424AB001C602F /* F22OneStepDataLoadingSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F22OneStepDataLoadingSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,10 +53,8 @@
 		F997E4501B3424AB001C602F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F997E4521B3424AB001C602F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F997E4551B3424AB001C602F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		F997E45B1B3424AB001C602F /* F22OneStepDataLoadingSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F22OneStepDataLoadingSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F997E4601B3424AB001C602F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F997E4611B3424AB001C602F /* F22OneStepDataLoadingSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F22OneStepDataLoadingSwiftTests.swift; sourceTree = "<group>"; };
-		F997E51B1B342636001C602F /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		F997E51C1B342636001C602F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		F997E5E11B34270C001C602F /* backendless.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = backendless.a; sourceTree = "<group>"; };
 		F997E5E31B34270C001C602F /* AbstractProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractProperty.h; sourceTree = "<group>"; };
@@ -170,17 +149,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F997E51D1B342636001C602F /* libsqlite3.dylib in Frameworks */,
+				F90F29871BB00FC3004F8D33 /* libsqlite3.tbd in Frameworks */,
 				F997E6361B34270C001C602F /* CommLibiOS.a in Frameworks */,
 				F997E6341B34270C001C602F /* backendless.a in Frameworks */,
 				F997E51E1B342636001C602F /* SystemConfiguration.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F997E3801B3422CC001C602F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,17 +160,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F997E51F1B342646001C602F /* libsqlite3.dylib in Frameworks */,
+				F90F29881BB00FC9004F8D33 /* libsqlite3.tbd in Frameworks */,
 				F997E6371B34270C001C602F /* CommLibiOS.a in Frameworks */,
 				F997E6351B34270C001C602F /* backendless.a in Frameworks */,
 				F997E5201B342646001C602F /* SystemConfiguration.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F997E4581B3424AB001C602F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,8 +173,8 @@
 		F997E3611B3422CC001C602F = {
 			isa = PBXGroup;
 			children = (
+				F90F29861BB00FC3004F8D33 /* libsqlite3.tbd */,
 				F997E5DF1B34270C001C602F /* lib */,
-				F997E51B1B342636001C602F /* libsqlite3.dylib */,
 				F997E51C1B342636001C602F /* SystemConfiguration.framework */,
 				F997E36C1B3422CC001C602F /* F22OneStepDataLoading */,
 				F997E3861B3422CC001C602F /* F22OneStepDataLoadingTests */,
@@ -223,9 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				F997E36A1B3422CC001C602F /* F22OneStepDataLoading.app */,
-				F997E3831B3422CC001C602F /* F22OneStepDataLoadingTests.xctest */,
 				F997E4471B3424AB001C602F /* F22OneStepDataLoadingSwift.app */,
-				F997E45B1B3424AB001C602F /* F22OneStepDataLoadingSwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -455,24 +418,6 @@
 			productReference = F997E36A1B3422CC001C602F /* F22OneStepDataLoading.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F997E3821B3422CC001C602F /* F22OneStepDataLoadingTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F997E3901B3422CC001C602F /* Build configuration list for PBXNativeTarget "F22OneStepDataLoadingTests" */;
-			buildPhases = (
-				F997E37F1B3422CC001C602F /* Sources */,
-				F997E3801B3422CC001C602F /* Frameworks */,
-				F997E3811B3422CC001C602F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F997E3851B3422CC001C602F /* PBXTargetDependency */,
-			);
-			name = F22OneStepDataLoadingTests;
-			productName = F22OneStepDataLoadingTests;
-			productReference = F997E3831B3422CC001C602F /* F22OneStepDataLoadingTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		F997E4461B3424AB001C602F /* F22OneStepDataLoadingSwift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F997E4631B3424AB001C602F /* Build configuration list for PBXNativeTarget "F22OneStepDataLoadingSwift" */;
@@ -490,46 +435,21 @@
 			productReference = F997E4471B3424AB001C602F /* F22OneStepDataLoadingSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F997E45A1B3424AB001C602F /* F22OneStepDataLoadingSwiftTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F997E4661B3424AB001C602F /* Build configuration list for PBXNativeTarget "F22OneStepDataLoadingSwiftTests" */;
-			buildPhases = (
-				F997E4571B3424AB001C602F /* Sources */,
-				F997E4581B3424AB001C602F /* Frameworks */,
-				F997E4591B3424AB001C602F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F997E45D1B3424AB001C602F /* PBXTargetDependency */,
-			);
-			name = F22OneStepDataLoadingSwiftTests;
-			productName = F22OneStepDataLoadingSwiftTests;
-			productReference = F997E45B1B3424AB001C602F /* F22OneStepDataLoadingSwiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		F997E3621B3422CC001C602F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Slava Vdovichenko";
 				TargetAttributes = {
 					F997E3691B3422CC001C602F = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
-					F997E3821B3422CC001C602F = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = F997E3691B3422CC001C602F;
-					};
 					F997E4461B3424AB001C602F = {
 						CreatedOnToolsVersion = 6.3.2;
-					};
-					F997E45A1B3424AB001C602F = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = F997E4461B3424AB001C602F;
 					};
 				};
 			};
@@ -548,8 +468,6 @@
 			targets = (
 				F997E3691B3422CC001C602F /* F22OneStepDataLoading */,
 				F997E4461B3424AB001C602F /* F22OneStepDataLoadingSwift */,
-				F997E3821B3422CC001C602F /* F22OneStepDataLoadingTests */,
-				F997E45A1B3424AB001C602F /* F22OneStepDataLoadingSwiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -565,13 +483,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F997E3811B3422CC001C602F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F997E4451B3424AB001C602F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -579,13 +490,6 @@
 				F997E4511B3424AB001C602F /* Main.storyboard in Resources */,
 				F997E4561B3424AB001C602F /* LaunchScreen.xib in Resources */,
 				F997E4531B3424AB001C602F /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F997E4591B3424AB001C602F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,14 +508,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F997E37F1B3422CC001C602F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F997E38A1B3422CC001C602F /* F22OneStepDataLoadingTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F997E4431B3424AB001C602F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -623,28 +519,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F997E4571B3424AB001C602F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F997E4621B3424AB001C602F /* F22OneStepDataLoadingSwiftTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F997E3851B3422CC001C602F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F997E3691B3422CC001C602F /* F22OneStepDataLoading */;
-			targetProxy = F997E3841B3422CC001C602F /* PBXContainerItemProxy */;
-		};
-		F997E45D1B3424AB001C602F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F997E4461B3424AB001C602F /* F22OneStepDataLoadingSwift */;
-			targetProxy = F997E45C1B3424AB001C602F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F997E3771B3422CC001C602F /* Main.storyboard */ = {
@@ -703,6 +578,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -775,6 +651,7 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -790,41 +667,8 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		F997E3911B3422CC001C602F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F22OneStepDataLoadingTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F22OneStepDataLoading.app/F22OneStepDataLoading";
-			};
-			name = Debug;
-		};
-		F997E3921B3422CC001C602F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F22OneStepDataLoadingTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F22OneStepDataLoading.app/F22OneStepDataLoading";
 			};
 			name = Release;
 		};
@@ -843,6 +687,7 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -860,42 +705,9 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
-			};
-			name = Release;
-		};
-		F997E4671B3424AB001C602F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F22OneStepDataLoadingSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F22OneStepDataLoadingSwift.app/F22OneStepDataLoadingSwift";
-			};
-			name = Debug;
-		};
-		F997E4681B3424AB001C602F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F22OneStepDataLoadingSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F22OneStepDataLoadingSwift.app/F22OneStepDataLoadingSwift";
 			};
 			name = Release;
 		};
@@ -918,14 +730,7 @@
 				F997E38F1B3422CC001C602F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		F997E3901B3422CC001C602F /* Build configuration list for PBXNativeTarget "F22OneStepDataLoadingTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F997E3911B3422CC001C602F /* Debug */,
-				F997E3921B3422CC001C602F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F997E4631B3424AB001C602F /* Build configuration list for PBXNativeTarget "F22OneStepDataLoadingSwift" */ = {
 			isa = XCConfigurationList;
@@ -934,14 +739,7 @@
 				F997E4651B3424AB001C602F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		F997E4661B3424AB001C602F /* Build configuration list for PBXNativeTarget "F22OneStepDataLoadingSwiftTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F997E4671B3424AB001C602F /* Debug */,
-				F997E4681B3424AB001C602F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

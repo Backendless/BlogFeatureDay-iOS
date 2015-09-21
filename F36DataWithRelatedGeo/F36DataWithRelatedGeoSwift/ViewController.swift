@@ -43,9 +43,9 @@ class ViewController: UIViewController {
     
     func saveDataWithGeoSync() {
         
-        println("\n============ Saving data with geo point using the SYNC API ============")
+        print("\n============ Saving data with geo point using the SYNC API ============")
         
-        Types.try({ () -> Void in
+        Types.tryblock({ () -> Void in
             
             var driver = Driver()
             driver.driverName = "Ruben Barrichelli"
@@ -55,20 +55,20 @@ class ViewController: UIViewController {
             driver.location = GeoPoint.geoPoint(GEO_POINT(latitude: 41.878247, longitude: -87.629767), categories: ["drivers"], metadata: ["city":"Chicago"]) as? GeoPoint
             
             driver = self.backendless.persistenceService.of(Driver.ofClass()).save(driver) as! Driver
-            println("SYNC: Driver has been saved. Location object ID - \(driver.location!.objectId)")
+            print("SYNC: Driver has been saved. Location object ID - \(driver.location!.objectId)")
             },
             
-            catch: { (exception) -> Void in
-                println("Server reported an error: \(exception as! Fault)")
+            catchblock: { (exception) -> Void in
+                print("Server reported an error: \(exception as! Fault)")
             }
         )
     }
     
     func saveDataWithGeoAsync() {
         
-        println("\n============ Saving data with geo point using the ASYNC API ============")
+        print("\n============ Saving data with geo point using the ASYNC API ============")
         
-        var driver = Driver()
+        let driver = Driver()
         driver.driverName = "Jen Buttons"
         driver.rating = 4
         driver.carMake = "Lamborghini"
@@ -76,12 +76,12 @@ class ViewController: UIViewController {
         driver.location = GeoPoint.geoPoint(GEO_POINT(latitude: 32.803468, longitude: -96.769879), categories: ["drivers"], metadata: ["city":"Dallas"]) as? GeoPoint
         
         backendless.persistenceService.of(Driver.ofClass()).save(driver,
-            response: { (var d : AnyObject!) -> () in
-                println("ASYNC: Driver has been saved. Location object ID - \((d as! Driver).location!.objectId)")
+            response: { ( d : AnyObject!) -> () in
+                print("ASYNC: Driver has been saved. Location object ID - \((d as! Driver).location!.objectId)")
             },
             
-            error: { (var fault : Fault!) -> () in
-                println("Server reported an error: \(fault)")
+            error: { ( fault : Fault!) -> () in
+                print("Server reported an error: \(fault)")
             }
         )
     }

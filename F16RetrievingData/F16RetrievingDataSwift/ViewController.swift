@@ -40,54 +40,54 @@ class ViewController: UIViewController {
     
     func fetchingFirstPage() {
         
-        println("\n============ Fetching first page using the SYNC API ============")
+        print("\n============ Fetching first page using the SYNC API ============")
        
-        Types.try({ () -> Void in
+        Types.tryblock({ () -> Void in
             
-            var startTime = NSDate()
+            let startTime = NSDate()
             
-            var query = BackendlessDataQuery()
-            var restaurants = self.backendless.persistenceService.of(Restaurant.ofClass()).find(query)
+            let query = BackendlessDataQuery()
+            let restaurants = self.backendless.persistenceService.of(Restaurant.ofClass()).find(query)
             
-            var currentPage = restaurants.getCurrentPage()
-            println("Loaded \(currentPage.count) restaurant objects")
-            println("Total restaurants in the Backendless starage - \(restaurants.totalObjects)")
+            let currentPage = restaurants.getCurrentPage()
+            print("Loaded \(currentPage.count) restaurant objects")
+            print("Total restaurants in the Backendless starage - \(restaurants.totalObjects)")
             
             for restaurant in currentPage as! [Restaurant] {
-                println("Restaurant <\(restaurant.ofClass())> name = \(restaurant.name), cuisine = \(restaurant.cuisine)")
+                print("Restaurant <\(restaurant.ofClass())> name = \(restaurant.name), cuisine = \(restaurant.cuisine)")
             }
             
-            println("Total time (ms) - \(1000*NSDate().timeIntervalSinceDate(startTime))")
+            print("Total time (ms) - \(1000*NSDate().timeIntervalSinceDate(startTime))")
             },
             
-            catch: { (exception) -> Void in
-                println("Server reported an error: \(exception as! Fault)")
+            catchblock: { (exception) -> Void in
+                print("Server reported an error: \(exception as! Fault)")
             }
         )
     }
     
     func fetchingFirstPageAsync() {
         
-        println("\n============ Fetching first page using the ASYNC API ============")
+        print("\n============ Fetching first page using the ASYNC API ============")
         
-        var startTime = NSDate()
+        let startTime = NSDate()
         
-        var query = BackendlessDataQuery()
+        let query = BackendlessDataQuery()
         backendless.persistenceService.of(Restaurant.ofClass()).find(
             query,
-            response: { (var restaurants : BackendlessCollection!) -> () in
-                var currentPage = restaurants.getCurrentPage()
-                println("Loaded \(currentPage.count) restaurant objects")
-                println("Total restaurants in the Backendless starage - \(restaurants.totalObjects)")
+            response: { ( restaurants : BackendlessCollection!) -> () in
+                let currentPage = restaurants.getCurrentPage()
+                print("Loaded \(currentPage.count) restaurant objects")
+                print("Total restaurants in the Backendless starage - \(restaurants.totalObjects)")
                 
                 for restaurant in currentPage as! [Restaurant] {
-                    println("Restaurant name = \(restaurant.name)")
+                    print("Restaurant name = \(restaurant.name)")
                 }
                 
-                println("Total time (ms) - \(1000*NSDate().timeIntervalSinceDate(startTime))")
+                print("Total time (ms) - \(1000*NSDate().timeIntervalSinceDate(startTime))")
             },
-            error: { (var fault : Fault!) -> () in
-                println("Server reported an error: \(fault)")
+            error: { ( fault : Fault!) -> () in
+                print("Server reported an error: \(fault)")
             }
         )
     }
@@ -96,68 +96,68 @@ class ViewController: UIViewController {
     
     func addMenuItems() {
         
-        Types.try({ () -> Void in
+        Types.tryblock({ () -> Void in
             
-            var menuItem1 : NSDictionary = ["name":"Milk", "price":3.75]
+            let menuItem1 : NSDictionary = ["name":"Milk", "price":3.75]
             self.backendless.persistenceService.save("MenuItem", entity:menuItem1 as [NSObject : AnyObject])
             
-            var menuItem2 : NSDictionary = ["name":"Meet", "price":7.39]
+            let menuItem2 : NSDictionary = ["name":"Meet", "price":7.39]
             self.backendless.persistenceService.save("MenuItem", entity:menuItem2 as [NSObject : AnyObject])
             
             },
             
-            catch: { (exception) -> Void in
-                println("Server reported an error: \(exception)")
+            catchblock: { (exception) -> Void in
+                print("Server reported an error: \(exception)")
             }
         )
     }
     
     func fetchingFirstPageMenuItems() {
         
-        println("\n============ Fetching first page using the SYNC API ============")
+        print("\n============ Fetching first page using the SYNC API ============")
         
-        Types.try({ () -> Void in
+        Types.tryblock({ () -> Void in
             
-            var startTime = NSDate()
+            let startTime = NSDate()
             
-            var query = BackendlessDataQuery()
-            var menuItems = self.backendless.persistenceService.of(MenuItem.ofClass()).find(query)
+            let query = BackendlessDataQuery()
+            let menuItems = self.backendless.persistenceService.of(MenuItem.ofClass()).find(query)
             
-            var currentPage = menuItems.getCurrentPage()
-            println("Loaded \(currentPage.count) MenuItem objects")
-            println("Total MenuItems in the Backendless starage - \(menuItems.totalObjects)")
+            let currentPage = menuItems.getCurrentPage()
+            print("Loaded \(currentPage.count) MenuItem objects")
+            print("Total MenuItems in the Backendless starage - \(menuItems.totalObjects)")
             
             for menuItem in currentPage as! [MenuItem] {
-                println("<\(menuItem)> name = \(menuItem.name)")
+                print("<\(menuItem)> name = \(menuItem.name)")
             }
             
-            println("Total time (ms) - \(1000*NSDate().timeIntervalSinceDate(startTime))")
+            print("Total time (ms) - \(1000*NSDate().timeIntervalSinceDate(startTime))")
             },
             
-            catch: { (exception) -> Void in
-                println("Server reported an error: \(exception as! Fault)")
+            catchblock: { (exception) -> Void in
+                print("Server reported an error: \(exception as! Fault)")
             }
         )
     }
     
     func fetchingFirstPageRestautants() {
         
-        Types.try({ () -> Void in
+        Types.tryblock({ () -> Void in
             
-            var query = BackendlessDataQuery()
-            var restaurants = self.backendless.persistenceService.of(Restaurant.ofClass()).find(query)
+            let query = BackendlessDataQuery()
+            let restaurants = self.backendless.persistenceService.of(Restaurant.ofClass()).find(query)
             
-            var currentPage = restaurants.getCurrentPage()
-            println("Loaded \(currentPage.count) restaurant objects")
-            println("Total restaurants in the Backendless starage - \(restaurants.totalObjects)")
+            let currentPage = restaurants.getCurrentPage()
+            print("Loaded \(currentPage.count) restaurant objects")
+            print("Total restaurants in the Backendless starage - \(restaurants.totalObjects)")
             
             for restaurant in currentPage as! [Restaurant] {
-                println("Restaurant <\(restaurant.ofClass())> name = \(restaurant.name), cuisine = \(restaurant.cuisine)")
+                print("Restaurant <\(restaurant.ofClass())> name = \(restaurant.name), cuisine = \(restaurant.cuisine)")
             }
             },
             
-            catch: { (exception) -> Void in
-                println("Server reported an error: \(exception as! Fault)")
+            catchblock: { (exception) -> Void in
+                print("Server reported an error: \(exception as! Fault)")
             }
         )
     }

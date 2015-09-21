@@ -41,75 +41,75 @@ class ViewController: UIViewController {
     func printLocations(locations: [Location]?) {
         
         if locations == nil {
-            println("Restaurant locations have not been loaded")
+            print("Restaurant locations have not been loaded")
             return
         }
         
         if locations?.count == 0 {
-            println("There are no related locations")
+            print("There are no related locations")
             return
         }
         
         for location in locations! {
-            println("Location: Street address - \(location.streetAdress), City - \(location.city)")
+            print("Location: Street address - \(location.streetAdress), City - \(location.city)")
         }
     }
     
     func twoStepsLoadRelationsSync() {
         
-        println("\n============ Loading relations with the SYNC API ============")
+        print("\n============ Loading relations with the SYNC API ============")
         
-        Types.try({ () -> Void in
+        Types.tryblock({ () -> Void in
             
-            var query = BackendlessDataQuery()
-            var restaurants = self.backendless.persistenceService.of(Restaurant.ofClass()).find(query)
+            let query = BackendlessDataQuery()
+            let restaurants = self.backendless.persistenceService.of(Restaurant.ofClass()).find(query)
             
-            var currentPage = restaurants.getCurrentPage()
-            println("Loaded \(currentPage.count) restaurant objects")
-            println("Total restaurants in the Backendless starage - \(restaurants.totalObjects)")
+            let currentPage = restaurants.getCurrentPage()
+            print("Loaded \(currentPage.count) restaurant objects")
+            print("Total restaurants in the Backendless starage - \(restaurants.totalObjects)")
             
             for restaurant in currentPage as! [Restaurant] {
                 self.backendless.persistenceService.load(restaurant, relations:["locations"])
-                println("Restaurant name = \(restaurant.name)")
+                print("Restaurant name = \(restaurant.name)")
                 self.printLocations(restaurant.locations)
             }
             },
             
-            catch: { (exception) -> Void in
-                println("Server reported an error: \(exception as! Fault)")
+            catchblock: { (exception) -> Void in
+                print("Server reported an error: \(exception as! Fault)")
             }
         )
     }
     
     func twoStepsLoadRelationsAsync() {
         
-        println("\n============ Loading relations with the ASYNC API ============")
+        print("\n============ Loading relations with the ASYNC API ============")
         
-        var query = BackendlessDataQuery()
+        let query = BackendlessDataQuery()
         backendless.persistenceService.of(Restaurant.ofClass()).find(
             query,
-            response: { (var restaurants : BackendlessCollection!) -> () in
-                var currentPage = restaurants.getCurrentPage()
-                println("Loaded \(currentPage.count) restaurant objects")
-                println("Total restaurants in the Backendless starage - \(restaurants.totalObjects)")
+            response: { ( restaurants : BackendlessCollection!) -> () in
+                let currentPage = restaurants.getCurrentPage()
+                print("Loaded \(currentPage.count) restaurant objects")
+                print("Total restaurants in the Backendless starage - \(restaurants.totalObjects)")
                 
                 for restaurant in currentPage {
                     self.backendless.persistenceService.load(
                         restaurant,
                         relations:["locations"],
-                        response: { (var response : AnyObject!) -> () in
-                            var r = response as! Restaurant
-                            println("Restaurant name = \(r.name)")
+                        response: { ( response : AnyObject!) -> () in
+                            let r = response as! Restaurant
+                            print("Restaurant name = \(r.name)")
                             self.printLocations(r.locations)
                         },
-                        error: { (var fault : Fault!) -> () in
-                            println("Server reported an error: \(fault)")
+                        error: { ( fault : Fault!) -> () in
+                            print("Server reported an error: \(fault)")
                         }
                     )
                 }
             },
-            error: { (var fault : Fault!) -> () in
-                println("Server reported an error: \(fault)")
+            error: { ( fault : Fault!) -> () in
+                print("Server reported an error: \(fault)")
             }
         )
     }

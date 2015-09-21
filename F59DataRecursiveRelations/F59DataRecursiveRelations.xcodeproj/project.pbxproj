@@ -7,22 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F90F296C1BB00E52004F8D33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90F296B1BB00E52004F8D33 /* libsqlite3.tbd */; };
+		F90F296D1BB00E61004F8D33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90F296B1BB00E52004F8D33 /* libsqlite3.tbd */; };
 		F9BE3E271B29BBAB00CD0A72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BE3E261B29BBAB00CD0A72 /* main.m */; };
 		F9BE3E2A1B29BBAB00CD0A72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BE3E291B29BBAB00CD0A72 /* AppDelegate.m */; };
 		F9BE3E2D1B29BBAB00CD0A72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BE3E2C1B29BBAB00CD0A72 /* ViewController.m */; };
 		F9BE3E301B29BBAB00CD0A72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BE3E2E1B29BBAB00CD0A72 /* Main.storyboard */; };
 		F9BE3E321B29BBAB00CD0A72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9BE3E311B29BBAB00CD0A72 /* Images.xcassets */; };
 		F9BE3E351B29BBAB00CD0A72 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9BE3E331B29BBAB00CD0A72 /* LaunchScreen.xib */; };
-		F9BE3E411B29BBAB00CD0A72 /* F59DataRecursiveRelationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BE3E401B29BBAB00CD0A72 /* F59DataRecursiveRelationsTests.m */; };
 		F9BE3F031B29BDEF00CD0A72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE3F021B29BDEF00CD0A72 /* AppDelegate.swift */; };
 		F9BE3F051B29BDEF00CD0A72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE3F041B29BDEF00CD0A72 /* ViewController.swift */; };
 		F9BE3F081B29BDEF00CD0A72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BE3F061B29BDEF00CD0A72 /* Main.storyboard */; };
 		F9BE3F0A1B29BDEF00CD0A72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9BE3F091B29BDEF00CD0A72 /* Images.xcassets */; };
 		F9BE3F0D1B29BDEF00CD0A72 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9BE3F0B1B29BDEF00CD0A72 /* LaunchScreen.xib */; };
-		F9BE3F191B29BDEF00CD0A72 /* F59DataRecursiveRelationsSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE3F181B29BDEF00CD0A72 /* F59DataRecursiveRelationsSwiftTests.swift */; };
-		F9BE3F221B29BEDC00CD0A72 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE3F201B29BEDC00CD0A72 /* libsqlite3.dylib */; };
 		F9BE3F231B29BEDC00CD0A72 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE3F211B29BEDC00CD0A72 /* SystemConfiguration.framework */; };
-		F9BE3F241B29BF0000CD0A72 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE3F201B29BEDC00CD0A72 /* libsqlite3.dylib */; };
 		F9BE3F251B29BF0000CD0A72 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE3F211B29BEDC00CD0A72 /* SystemConfiguration.framework */; };
 		F9BE3F7E1B29BF6900CD0A72 /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE3F2B1B29BF6900CD0A72 /* backendless.a */; };
 		F9BE3F7F1B29BF6900CD0A72 /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BE3F2B1B29BF6900CD0A72 /* backendless.a */; };
@@ -32,24 +30,8 @@
 		F9BE40441B29D20B00CD0A72 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE40431B29D20B00CD0A72 /* Person.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F9BE3E3B1B29BBAB00CD0A72 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F9BE3E191B29BBAB00CD0A72 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F9BE3E201B29BBAB00CD0A72;
-			remoteInfo = F59DataRecursiveRelations;
-		};
-		F9BE3F131B29BDEF00CD0A72 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F9BE3E191B29BBAB00CD0A72 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F9BE3EFD1B29BDEF00CD0A72;
-			remoteInfo = F59DataRecursiveRelationsSwift;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		F90F296B1BB00E52004F8D33 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		F9BE3E211B29BBAB00CD0A72 /* F59DataRecursiveRelations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F59DataRecursiveRelations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9BE3E251B29BBAB00CD0A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9BE3E261B29BBAB00CD0A72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,7 +42,6 @@
 		F9BE3E2F1B29BBAB00CD0A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9BE3E311B29BBAB00CD0A72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F9BE3E341B29BBAB00CD0A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		F9BE3E3A1B29BBAB00CD0A72 /* F59DataRecursiveRelationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F59DataRecursiveRelationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9BE3E3F1B29BBAB00CD0A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9BE3E401B29BBAB00CD0A72 /* F59DataRecursiveRelationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = F59DataRecursiveRelationsTests.m; sourceTree = "<group>"; };
 		F9BE3EFE1B29BDEF00CD0A72 /* F59DataRecursiveRelationsSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F59DataRecursiveRelationsSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,10 +51,8 @@
 		F9BE3F071B29BDEF00CD0A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9BE3F091B29BDEF00CD0A72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F9BE3F0C1B29BDEF00CD0A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		F9BE3F121B29BDEF00CD0A72 /* F59DataRecursiveRelationsSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F59DataRecursiveRelationsSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9BE3F171B29BDEF00CD0A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9BE3F181B29BDEF00CD0A72 /* F59DataRecursiveRelationsSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F59DataRecursiveRelationsSwiftTests.swift; sourceTree = "<group>"; };
-		F9BE3F201B29BEDC00CD0A72 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		F9BE3F211B29BEDC00CD0A72 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		F9BE3F2B1B29BF6900CD0A72 /* backendless.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = backendless.a; sourceTree = "<group>"; };
 		F9BE3F2D1B29BF6900CD0A72 /* AbstractProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractProperty.h; sourceTree = "<group>"; };
@@ -165,17 +144,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9BE3F221B29BEDC00CD0A72 /* libsqlite3.dylib in Frameworks */,
+				F90F296C1BB00E52004F8D33 /* libsqlite3.tbd in Frameworks */,
 				F9BE3F801B29BF6900CD0A72 /* CommLibiOS.a in Frameworks */,
 				F9BE3F7E1B29BF6900CD0A72 /* backendless.a in Frameworks */,
 				F9BE3F231B29BEDC00CD0A72 /* SystemConfiguration.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F9BE3E371B29BBAB00CD0A72 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,17 +155,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9BE3F241B29BF0000CD0A72 /* libsqlite3.dylib in Frameworks */,
+				F90F296D1BB00E61004F8D33 /* libsqlite3.tbd in Frameworks */,
 				F9BE3F811B29BF6900CD0A72 /* CommLibiOS.a in Frameworks */,
 				F9BE3F7F1B29BF6900CD0A72 /* backendless.a in Frameworks */,
 				F9BE3F251B29BF0000CD0A72 /* SystemConfiguration.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F9BE3F0F1B29BDEF00CD0A72 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,8 +168,8 @@
 		F9BE3E181B29BBAB00CD0A72 = {
 			isa = PBXGroup;
 			children = (
+				F90F296B1BB00E52004F8D33 /* libsqlite3.tbd */,
 				F9BE3F291B29BF6900CD0A72 /* lib */,
-				F9BE3F201B29BEDC00CD0A72 /* libsqlite3.dylib */,
 				F9BE3F211B29BEDC00CD0A72 /* SystemConfiguration.framework */,
 				F9BE3E231B29BBAB00CD0A72 /* F59DataRecursiveRelations */,
 				F9BE3E3D1B29BBAB00CD0A72 /* F59DataRecursiveRelationsTests */,
@@ -218,9 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				F9BE3E211B29BBAB00CD0A72 /* F59DataRecursiveRelations.app */,
-				F9BE3E3A1B29BBAB00CD0A72 /* F59DataRecursiveRelationsTests.xctest */,
 				F9BE3EFE1B29BDEF00CD0A72 /* F59DataRecursiveRelationsSwift.app */,
-				F9BE3F121B29BDEF00CD0A72 /* F59DataRecursiveRelationsSwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -447,24 +410,6 @@
 			productReference = F9BE3E211B29BBAB00CD0A72 /* F59DataRecursiveRelations.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F9BE3E391B29BBAB00CD0A72 /* F59DataRecursiveRelationsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F9BE3E471B29BBAB00CD0A72 /* Build configuration list for PBXNativeTarget "F59DataRecursiveRelationsTests" */;
-			buildPhases = (
-				F9BE3E361B29BBAB00CD0A72 /* Sources */,
-				F9BE3E371B29BBAB00CD0A72 /* Frameworks */,
-				F9BE3E381B29BBAB00CD0A72 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F9BE3E3C1B29BBAB00CD0A72 /* PBXTargetDependency */,
-			);
-			name = F59DataRecursiveRelationsTests;
-			productName = F59DataRecursiveRelationsTests;
-			productReference = F9BE3E3A1B29BBAB00CD0A72 /* F59DataRecursiveRelationsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		F9BE3EFD1B29BDEF00CD0A72 /* F59DataRecursiveRelationsSwift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9BE3F1A1B29BDEF00CD0A72 /* Build configuration list for PBXNativeTarget "F59DataRecursiveRelationsSwift" */;
@@ -482,46 +427,21 @@
 			productReference = F9BE3EFE1B29BDEF00CD0A72 /* F59DataRecursiveRelationsSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F9BE3F111B29BDEF00CD0A72 /* F59DataRecursiveRelationsSwiftTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F9BE3F1D1B29BDEF00CD0A72 /* Build configuration list for PBXNativeTarget "F59DataRecursiveRelationsSwiftTests" */;
-			buildPhases = (
-				F9BE3F0E1B29BDEF00CD0A72 /* Sources */,
-				F9BE3F0F1B29BDEF00CD0A72 /* Frameworks */,
-				F9BE3F101B29BDEF00CD0A72 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F9BE3F141B29BDEF00CD0A72 /* PBXTargetDependency */,
-			);
-			name = F59DataRecursiveRelationsSwiftTests;
-			productName = F59DataRecursiveRelationsSwiftTests;
-			productReference = F9BE3F121B29BDEF00CD0A72 /* F59DataRecursiveRelationsSwiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		F9BE3E191B29BBAB00CD0A72 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Slava Vdovichenko";
 				TargetAttributes = {
 					F9BE3E201B29BBAB00CD0A72 = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
-					F9BE3E391B29BBAB00CD0A72 = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = F9BE3E201B29BBAB00CD0A72;
-					};
 					F9BE3EFD1B29BDEF00CD0A72 = {
 						CreatedOnToolsVersion = 6.3.2;
-					};
-					F9BE3F111B29BDEF00CD0A72 = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = F9BE3EFD1B29BDEF00CD0A72;
 					};
 				};
 			};
@@ -540,8 +460,6 @@
 			targets = (
 				F9BE3E201B29BBAB00CD0A72 /* F59DataRecursiveRelations */,
 				F9BE3EFD1B29BDEF00CD0A72 /* F59DataRecursiveRelationsSwift */,
-				F9BE3E391B29BBAB00CD0A72 /* F59DataRecursiveRelationsTests */,
-				F9BE3F111B29BDEF00CD0A72 /* F59DataRecursiveRelationsSwiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -557,13 +475,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9BE3E381B29BBAB00CD0A72 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F9BE3EFC1B29BDEF00CD0A72 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -571,13 +482,6 @@
 				F9BE3F081B29BDEF00CD0A72 /* Main.storyboard in Resources */,
 				F9BE3F0D1B29BDEF00CD0A72 /* LaunchScreen.xib in Resources */,
 				F9BE3F0A1B29BDEF00CD0A72 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F9BE3F101B29BDEF00CD0A72 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,14 +499,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9BE3E361B29BBAB00CD0A72 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F9BE3E411B29BBAB00CD0A72 /* F59DataRecursiveRelationsTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F9BE3EFA1B29BDEF00CD0A72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -613,28 +509,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9BE3F0E1B29BDEF00CD0A72 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F9BE3F191B29BDEF00CD0A72 /* F59DataRecursiveRelationsSwiftTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F9BE3E3C1B29BBAB00CD0A72 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F9BE3E201B29BBAB00CD0A72 /* F59DataRecursiveRelations */;
-			targetProxy = F9BE3E3B1B29BBAB00CD0A72 /* PBXContainerItemProxy */;
-		};
-		F9BE3F141B29BDEF00CD0A72 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F9BE3EFD1B29BDEF00CD0A72 /* F59DataRecursiveRelationsSwift */;
-			targetProxy = F9BE3F131B29BDEF00CD0A72 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F9BE3E2E1B29BBAB00CD0A72 /* Main.storyboard */ = {
@@ -693,6 +568,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -765,6 +641,7 @@
 					/Users/slava/Documents/Projects/backendless/BlogFeatureDay/lib/backendless,
 					/Users/slava/Documents/Projects/backendless/BlogFeatureDay/lib/CommLibiOS,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -780,41 +657,8 @@
 					/Users/slava/Documents/Projects/backendless/BlogFeatureDay/lib/backendless,
 					/Users/slava/Documents/Projects/backendless/BlogFeatureDay/lib/CommLibiOS,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		F9BE3E481B29BBAB00CD0A72 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F59DataRecursiveRelationsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F59DataRecursiveRelations.app/F59DataRecursiveRelations";
-			};
-			name = Debug;
-		};
-		F9BE3E491B29BBAB00CD0A72 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F59DataRecursiveRelationsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F59DataRecursiveRelations.app/F59DataRecursiveRelations";
 			};
 			name = Release;
 		};
@@ -833,6 +677,7 @@
 					/Users/slava/Documents/Projects/backendless/BlogFeatureDay/lib/backendless,
 					/Users/slava/Documents/Projects/backendless/BlogFeatureDay/lib/CommLibiOS,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -850,42 +695,9 @@
 					/Users/slava/Documents/Projects/backendless/BlogFeatureDay/lib/backendless,
 					/Users/slava/Documents/Projects/backendless/BlogFeatureDay/lib/CommLibiOS,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
-			};
-			name = Release;
-		};
-		F9BE3F1E1B29BDEF00CD0A72 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F59DataRecursiveRelationsSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F59DataRecursiveRelationsSwift.app/F59DataRecursiveRelationsSwift";
-			};
-			name = Debug;
-		};
-		F9BE3F1F1B29BDEF00CD0A72 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F59DataRecursiveRelationsSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F59DataRecursiveRelationsSwift.app/F59DataRecursiveRelationsSwift";
 			};
 			name = Release;
 		};
@@ -908,14 +720,7 @@
 				F9BE3E461B29BBAB00CD0A72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		F9BE3E471B29BBAB00CD0A72 /* Build configuration list for PBXNativeTarget "F59DataRecursiveRelationsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F9BE3E481B29BBAB00CD0A72 /* Debug */,
-				F9BE3E491B29BBAB00CD0A72 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F9BE3F1A1B29BDEF00CD0A72 /* Build configuration list for PBXNativeTarget "F59DataRecursiveRelationsSwift" */ = {
 			isa = XCConfigurationList;
@@ -924,14 +729,7 @@
 				F9BE3F1C1B29BDEF00CD0A72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		F9BE3F1D1B29BDEF00CD0A72 /* Build configuration list for PBXNativeTarget "F59DataRecursiveRelationsSwiftTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F9BE3F1E1B29BDEF00CD0A72 /* Debug */,
-				F9BE3F1F1B29BDEF00CD0A72 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

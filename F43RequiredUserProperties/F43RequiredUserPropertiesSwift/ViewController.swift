@@ -23,35 +23,35 @@ class ViewController: UIViewController {
     
     func registerUserSync() {
         
-        Types.try({ () -> Void in
+        Types.tryblock({ () -> Void in
             
-            var user = BackendlessUser()
+            let user = BackendlessUser()
             user.email = "spiday@backendless.com"
             user.password = "greeng0blin"
             //user.name = "Spidey";
            
-            var registeredUser = self.backendless.userService.registering(user)
-            println("User has been registered (SYNC): \(registeredUser)")
+            let registeredUser = self.backendless.userService.registering(user)
+            print("User has been registered (SYNC): \(registeredUser)")
             },
             
-            catch: { (exception) -> Void in
-                println("Server reported an error (SYNC): \(exception as! Fault)")
+            catchblock: { (exception) -> Void in
+                print("Server reported an error (SYNC): \(exception as! Fault)")
         })
     }
     
     func registerUserAsync() {
         
-        var user = BackendlessUser()
+        let user = BackendlessUser()
         user.email = "spiday@backendless.com"
         user.password = "greeng0blin"
         //user.name = "Spidey";
         
         backendless.userService.registering(user,
-            response: { (var registeredUser : BackendlessUser!) -> () in
-                println("User has been registered (ASYNC): \(registeredUser)")
+            response: { ( registeredUser : BackendlessUser!) -> () in
+                print("User has been registered (ASYNC): \(registeredUser)")
             },
-            error: { (var fault : Fault!) -> () in
-                println("Server reported an error (ASYNC): \(fault)")
+            error: { ( fault : Fault!) -> () in
+                print("Server reported an error (ASYNC): \(fault)")
             }
         )
     }

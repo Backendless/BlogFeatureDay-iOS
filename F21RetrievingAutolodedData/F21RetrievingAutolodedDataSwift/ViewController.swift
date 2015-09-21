@@ -41,72 +41,72 @@ class ViewController: UIViewController {
     func printLocations(locations: [Location]?) {
         
         if locations == nil {
-            println("Restaurant locations have not been loaded")
+            print("Restaurant locations have not been loaded")
             return
         }
         
         if locations?.count == 0 {
-            println("There are no related locations")
+            print("There are no related locations")
             return
         }
         
         for location in locations! {
-            println("Location: Street address - \(location.streetAdress), City - \(location.city)")
+            print("Location: Street address - \(location.streetAdress), City - \(location.city)")
         }
     }
     
     func fetchingFirstPage() {
         
-        println("\n============ Fetching first page using the SYNC API ============")
+        print("\n============ Fetching first page using the SYNC API ============")
         
-        Types.try({ () -> Void in
+        Types.tryblock({ () -> Void in
             
-            var startTime = NSDate()
+            let startTime = NSDate()
             
-            var query = BackendlessDataQuery()
-            var restaurants = self.backendless.persistenceService.of(Restaurant.ofClass()).find(query)
+            let query = BackendlessDataQuery()
+            let restaurants = self.backendless.persistenceService.of(Restaurant.ofClass()).find(query)
             
-            var currentPage = restaurants.getCurrentPage()
-            println("Loaded \(currentPage.count) restaurant objects")
-            println("Total restaurants in the Backendless starage - \(restaurants.totalObjects)")
+            let currentPage = restaurants.getCurrentPage()
+            print("Loaded \(currentPage.count) restaurant objects")
+            print("Total restaurants in the Backendless starage - \(restaurants.totalObjects)")
             
             for restaurant in currentPage as! [Restaurant] {
-                println("Restaurant <\(restaurant.ofClass())> name = \(restaurant.name), cuisine = \(restaurant.cuisine)")
+                print("Restaurant <\(restaurant.ofClass())> name = \(restaurant.name), cuisine = \(restaurant.cuisine)")
                 self.printLocations(restaurant.locations)
             }
             
-            println("Total time (ms) - \(1000*NSDate().timeIntervalSinceDate(startTime))")
+            print("Total time (ms) - \(1000*NSDate().timeIntervalSinceDate(startTime))")
             },
             
-            catch: { (exception) -> Void in
-                println("Server reported an error: \(exception as! Fault)")
+            catchblock: { (exception) -> Void in
+                print("Server reported an error: \(exception as! Fault)")
             }
         )
     }
     
     func fetchingFirstPageAsync() {
         
-        println("\n============ Fetching first page using the ASYNC API ============")
+        print("\n============ Fetching first page using the ASYNC API ============")
         
-        var startTime = NSDate()
+        let startTime = NSDate()
         
-        var query = BackendlessDataQuery()
+        let query = BackendlessDataQuery()
         backendless.persistenceService.of(Restaurant.ofClass()).find(
             query,
-            response: { (var restaurants : BackendlessCollection!) -> () in
-                var currentPage = restaurants.getCurrentPage()
-                println("Loaded \(currentPage.count) restaurant objects")
-                println("Total restaurants in the Backendless starage - \(restaurants.totalObjects)")
+            response: { ( restaurants : BackendlessCollection!) -> () in
+                let currentPage = restaurants.getCurrentPage()
+                print("Loaded \(currentPage.count) restaurant objects")
+                print("Total restaurants in the Backendless starage - \(restaurants.totalObjects)")
                 
                 for restaurant in currentPage as! [Restaurant] {
-                    println("Restaurant name = \(restaurant.name)")
+                    print("Restaurant name = \(restaurant.name)")
                     self.printLocations(restaurant.locations)
                 }
                 
-                println("Total time (ms) - \(1000*NSDate().timeIntervalSinceDate(startTime))")
+                print("Total time (ms) - \(1000*NSDate().timeIntervalSinceDate(startTime))")
             },
-            error: { (var fault : Fault!) -> () in
-                println("Server reported an error: \(fault)")
+            error: { ( fault : Fault!) -> () in
+                print("Server reported an error: \(fault)")
             }
         )
     }

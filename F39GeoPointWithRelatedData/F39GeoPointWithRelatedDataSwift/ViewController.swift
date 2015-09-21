@@ -40,59 +40,59 @@ class ViewController: UIViewController {
     
     func addGeoPointWithRelatedDataSync() {
         
-        println("\n============ Adding geo point with the SYNC API ============")
+        print("\n============ Adding geo point with the SYNC API ============")
         
-        Types.try({ () -> Void in
+        Types.tryblock({ () -> Void in
             
-            var dateFormatter = NSDateFormatter()
+            let dateFormatter = NSDateFormatter()
             dateFormatter.dateFormat = "dd.MM.yyyy 'at' HH:mm"
             
-            var gustaveEiffel = Architect();
+            let gustaveEiffel = Architect();
             gustaveEiffel.name = "Gustave Eiffel";
             gustaveEiffel.birthday = dateFormatter.dateFromString("27.11.1923 at 12:00")
             gustaveEiffel.nationality = "French";
             
-            var eiffelTower = GeoPoint.geoPoint(
+            let eiffelTower = GeoPoint.geoPoint(
                 GEO_POINT(latitude: 48.85815, longitude: 2.29452),
                 categories: ["towers", "placesToVisit"],
                 metadata: ["name":"Eiffel Tower", "architect":gustaveEiffel]
-                ) as GeoPoint
+                ) as! GeoPoint
             
-            var savedPoint = self.backendless.geoService.savePoint(eiffelTower);
-            println("SYNC: geo point saved. Object ID - \(savedPoint.objectId)")
+            let savedPoint = self.backendless.geoService.savePoint(eiffelTower);
+            print("SYNC: geo point saved. Object ID - \(savedPoint.objectId)")
             },
             
-            catch: { (exception) -> Void in
-                println("Server reported an error: \(exception as! Fault)")
+            catchblock: { (exception) -> Void in
+                print("Server reported an error: \(exception as! Fault)")
             }
         )
     }
     
     func addGeoPointWithRelatedDataAsync() {
         
-        println("\n============ Adding geo point with the ASYNC API ============")
+        print("\n============ Adding geo point with the ASYNC API ============")
         
-        var dateFormatter = NSDateFormatter()
+        let dateFormatter = NSDateFormatter()
         dateFormatter.dateFormat = "dd.MM.yyyy 'at' HH:mm"
         
-        var gustaveEiffel = Architect();
+        let gustaveEiffel = Architect();
         gustaveEiffel.name = "Gustave Eiffel";
         gustaveEiffel.birthday = dateFormatter.dateFromString("27.11.1923 at 12:00")
         gustaveEiffel.nationality = "French";
         
-        var eiffelTower = GeoPoint.geoPoint(
+        let eiffelTower = GeoPoint.geoPoint(
             GEO_POINT(latitude: 48.85815, longitude: 2.29452),
             categories: ["towers", "placesToVisit"],
             metadata: ["name":"Eiffel Tower", "architect":gustaveEiffel]
-            ) as GeoPoint
+            )as! GeoPoint
         
         backendless.geoService.savePoint(
             eiffelTower,
-            response: { (var geoPoint : GeoPoint!) -> () in
-                println("ASYNC: geo point saved. Object ID - \(geoPoint.objectId)")
+            response: { ( geoPoint : GeoPoint!) -> () in
+                print("ASYNC: geo point saved. Object ID - \(geoPoint.objectId)")
             },
-            error: { (var fault : Fault!) -> () in
-                println("Server reported an error: \(fault)")
+            error: { ( fault : Fault!) -> () in
+                print("Server reported an error: \(fault)")
             }
         )
     }

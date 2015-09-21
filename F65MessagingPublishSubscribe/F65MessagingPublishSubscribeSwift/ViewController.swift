@@ -27,29 +27,29 @@ class ViewController: UIViewController {
     
     func publishSync() {
         
-        Types.try({ () -> Void in
+        Types.tryblock({ () -> Void in
             
-            var message = "Message \(self.i++)"
-            var messageStatus = self.backendless.messaging.publish("default", message:message)
-            println("Message published (SYNC) - \(messageStatus.messageId)")
+            let message = "Message \(self.i++)"
+            let messageStatus = self.backendless.messaging.publish("default", message:message)
+            print("Message published (SYNC) - \(messageStatus.messageId)")
             },
             
-            catch: { (exception) -> Void in
-                println("Server reported an error (SYNC): \(exception as! Fault)")
+            catchblock: { (exception) -> Void in
+                print("Server reported an error (SYNC): \(exception as! Fault)")
             }
         )
     }
     
     func publishAsync() {
         
-        var message = "Message \(self.i++)"
+        let message = "Message \(self.i++)"
         backendless.messaging.publish(
             "default", message:message,
-            response: { (var messageStatus) -> () in
-                println("Message published (ASYNC) -  \(messageStatus.messageId)")
+            response: { ( messageStatus) -> () in
+                print("Message published (ASYNC) -  \(messageStatus.messageId)")
             },
-            error: { (var fault : Fault!) -> () in
-                println("Server reported an error (ASYNC): \(fault)")
+            error: { ( fault : Fault!) -> () in
+                print("Server reported an error (ASYNC): \(fault)")
             }
         )
     }
@@ -71,20 +71,20 @@ class ViewController: UIViewController {
         
         backendless.messaging.subscribe(
             "default",
-            subscriptionResponse: { (var messages) -> () in
+            subscriptionResponse: { ( messages) -> () in
                 
                 for message in messages as! [Message] {
-                    println("Received message - \(message.data)")
+                    print("Received message - \(message.data)")
                 }
             },
-            subscriptionError: { (var fault : Fault!) -> () in
-                println("Server reported an error (FAULT): \(fault)")
+            subscriptionError: { ( fault : Fault!) -> () in
+                print("Server reported an error (FAULT): \(fault)")
             },
-            response: { (var response) -> () in
-                println("subscribe -  \(response)")
+            response: { (response) -> () in
+                print("subscribe -  \(response)")
             },
-            error: { (var fault : Fault!) -> () in
-                println("Server reported an error (SUBSCRIPTION ERROR): \(fault)")
+            error: { (fault : Fault!) -> () in
+                print("Server reported an error (SUBSCRIPTION ERROR): \(fault)")
             }
         )
     }

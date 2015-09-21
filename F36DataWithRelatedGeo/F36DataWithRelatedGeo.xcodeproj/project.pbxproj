@@ -7,22 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F90F298D1BB01011004F8D33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90F298C1BB01011004F8D33 /* libsqlite3.tbd */; };
+		F90F298E1BB01017004F8D33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90F298C1BB01011004F8D33 /* libsqlite3.tbd */; };
 		F997E3D41B34232A001C602F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F997E3D31B34232A001C602F /* main.m */; };
 		F997E3D71B34232A001C602F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F997E3D61B34232A001C602F /* AppDelegate.m */; };
 		F997E3DA1B34232A001C602F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F997E3D91B34232A001C602F /* ViewController.m */; };
 		F997E3DD1B34232A001C602F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F997E3DB1B34232A001C602F /* Main.storyboard */; };
 		F997E3DF1B34232A001C602F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F997E3DE1B34232A001C602F /* Images.xcassets */; };
 		F997E3E21B34232A001C602F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F997E3E01B34232A001C602F /* LaunchScreen.xib */; };
-		F997E3EE1B34232A001C602F /* F36DataWithRelatedGeoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F997E3ED1B34232A001C602F /* F36DataWithRelatedGeoTests.m */; };
 		F997E4001B342472001C602F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F997E3FF1B342472001C602F /* AppDelegate.swift */; };
 		F997E4021B342472001C602F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F997E4011B342472001C602F /* ViewController.swift */; };
 		F997E4051B342472001C602F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F997E4031B342472001C602F /* Main.storyboard */; };
 		F997E4071B342472001C602F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F997E4061B342472001C602F /* Images.xcassets */; };
 		F997E40A1B342472001C602F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F997E4081B342472001C602F /* LaunchScreen.xib */; };
-		F997E4161B342472001C602F /* F36DataWithRelatedGeoSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F997E4151B342472001C602F /* F36DataWithRelatedGeoSwiftTests.swift */; };
-		F997E5291B342683001C602F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F997E5271B342683001C602F /* libsqlite3.dylib */; };
 		F997E52A1B342683001C602F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F997E5281B342683001C602F /* SystemConfiguration.framework */; };
-		F997E52B1B342691001C602F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F997E5271B342683001C602F /* libsqlite3.dylib */; };
 		F997E52C1B342691001C602F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F997E5281B342683001C602F /* SystemConfiguration.framework */; };
 		F997E5821B3426AD001C602F /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F997E52F1B3426AD001C602F /* backendless.a */; };
 		F997E5831B3426AD001C602F /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F997E52F1B3426AD001C602F /* backendless.a */; };
@@ -32,24 +30,8 @@
 		F997E7A01B3435A2001C602F /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F997E79F1B3435A2001C602F /* Driver.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F997E3E81B34232A001C602F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F997E3C61B34232A001C602F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F997E3CD1B34232A001C602F;
-			remoteInfo = F36DataWithRelatedGeo;
-		};
-		F997E4101B342472001C602F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F997E3C61B34232A001C602F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F997E3FA1B342472001C602F;
-			remoteInfo = F36DataWithRelatedGeoSwift;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		F90F298C1BB01011004F8D33 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		F997E3CE1B34232A001C602F /* F36DataWithRelatedGeo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F36DataWithRelatedGeo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F997E3D21B34232A001C602F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F997E3D31B34232A001C602F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,7 +42,6 @@
 		F997E3DC1B34232A001C602F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F997E3DE1B34232A001C602F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F997E3E11B34232A001C602F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		F997E3E71B34232A001C602F /* F36DataWithRelatedGeoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F36DataWithRelatedGeoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F997E3EC1B34232A001C602F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F997E3ED1B34232A001C602F /* F36DataWithRelatedGeoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = F36DataWithRelatedGeoTests.m; sourceTree = "<group>"; };
 		F997E3FB1B342472001C602F /* F36DataWithRelatedGeoSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F36DataWithRelatedGeoSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,10 +51,8 @@
 		F997E4041B342472001C602F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F997E4061B342472001C602F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F997E4091B342472001C602F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		F997E40F1B342472001C602F /* F36DataWithRelatedGeoSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F36DataWithRelatedGeoSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F997E4141B342472001C602F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F997E4151B342472001C602F /* F36DataWithRelatedGeoSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F36DataWithRelatedGeoSwiftTests.swift; sourceTree = "<group>"; };
-		F997E5271B342683001C602F /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		F997E5281B342683001C602F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		F997E52F1B3426AD001C602F /* backendless.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = backendless.a; sourceTree = "<group>"; };
 		F997E5311B3426AD001C602F /* AbstractProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractProperty.h; sourceTree = "<group>"; };
@@ -165,17 +144,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F997E5291B342683001C602F /* libsqlite3.dylib in Frameworks */,
+				F90F298D1BB01011004F8D33 /* libsqlite3.tbd in Frameworks */,
 				F997E5841B3426AE001C602F /* CommLibiOS.a in Frameworks */,
 				F997E5821B3426AD001C602F /* backendless.a in Frameworks */,
 				F997E52A1B342683001C602F /* SystemConfiguration.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F997E3E41B34232A001C602F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,17 +155,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F997E52B1B342691001C602F /* libsqlite3.dylib in Frameworks */,
+				F90F298E1BB01017004F8D33 /* libsqlite3.tbd in Frameworks */,
 				F997E5851B3426AE001C602F /* CommLibiOS.a in Frameworks */,
 				F997E5831B3426AD001C602F /* backendless.a in Frameworks */,
 				F997E52C1B342691001C602F /* SystemConfiguration.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F997E40C1B342472001C602F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,8 +168,8 @@
 		F997E3C51B34232A001C602F = {
 			isa = PBXGroup;
 			children = (
+				F90F298C1BB01011004F8D33 /* libsqlite3.tbd */,
 				F997E52D1B3426AD001C602F /* lib */,
-				F997E5271B342683001C602F /* libsqlite3.dylib */,
 				F997E5281B342683001C602F /* SystemConfiguration.framework */,
 				F997E3D01B34232A001C602F /* F36DataWithRelatedGeo */,
 				F997E3EA1B34232A001C602F /* F36DataWithRelatedGeoTests */,
@@ -218,9 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				F997E3CE1B34232A001C602F /* F36DataWithRelatedGeo.app */,
-				F997E3E71B34232A001C602F /* F36DataWithRelatedGeoTests.xctest */,
 				F997E3FB1B342472001C602F /* F36DataWithRelatedGeoSwift.app */,
-				F997E40F1B342472001C602F /* F36DataWithRelatedGeoSwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -447,24 +410,6 @@
 			productReference = F997E3CE1B34232A001C602F /* F36DataWithRelatedGeo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F997E3E61B34232A001C602F /* F36DataWithRelatedGeoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F997E3F41B34232A001C602F /* Build configuration list for PBXNativeTarget "F36DataWithRelatedGeoTests" */;
-			buildPhases = (
-				F997E3E31B34232A001C602F /* Sources */,
-				F997E3E41B34232A001C602F /* Frameworks */,
-				F997E3E51B34232A001C602F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F997E3E91B34232A001C602F /* PBXTargetDependency */,
-			);
-			name = F36DataWithRelatedGeoTests;
-			productName = F36DataWithRelatedGeoTests;
-			productReference = F997E3E71B34232A001C602F /* F36DataWithRelatedGeoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		F997E3FA1B342472001C602F /* F36DataWithRelatedGeoSwift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F997E4171B342472001C602F /* Build configuration list for PBXNativeTarget "F36DataWithRelatedGeoSwift" */;
@@ -482,46 +427,21 @@
 			productReference = F997E3FB1B342472001C602F /* F36DataWithRelatedGeoSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F997E40E1B342472001C602F /* F36DataWithRelatedGeoSwiftTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F997E41A1B342472001C602F /* Build configuration list for PBXNativeTarget "F36DataWithRelatedGeoSwiftTests" */;
-			buildPhases = (
-				F997E40B1B342472001C602F /* Sources */,
-				F997E40C1B342472001C602F /* Frameworks */,
-				F997E40D1B342472001C602F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F997E4111B342472001C602F /* PBXTargetDependency */,
-			);
-			name = F36DataWithRelatedGeoSwiftTests;
-			productName = F36DataWithRelatedGeoSwiftTests;
-			productReference = F997E40F1B342472001C602F /* F36DataWithRelatedGeoSwiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		F997E3C61B34232A001C602F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Slava Vdovichenko";
 				TargetAttributes = {
 					F997E3CD1B34232A001C602F = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
-					F997E3E61B34232A001C602F = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = F997E3CD1B34232A001C602F;
-					};
 					F997E3FA1B342472001C602F = {
 						CreatedOnToolsVersion = 6.3.2;
-					};
-					F997E40E1B342472001C602F = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = F997E3FA1B342472001C602F;
 					};
 				};
 			};
@@ -540,8 +460,6 @@
 			targets = (
 				F997E3CD1B34232A001C602F /* F36DataWithRelatedGeo */,
 				F997E3FA1B342472001C602F /* F36DataWithRelatedGeoSwift */,
-				F997E3E61B34232A001C602F /* F36DataWithRelatedGeoTests */,
-				F997E40E1B342472001C602F /* F36DataWithRelatedGeoSwiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -557,13 +475,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F997E3E51B34232A001C602F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F997E3F91B342472001C602F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -571,13 +482,6 @@
 				F997E4051B342472001C602F /* Main.storyboard in Resources */,
 				F997E40A1B342472001C602F /* LaunchScreen.xib in Resources */,
 				F997E4071B342472001C602F /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F997E40D1B342472001C602F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,14 +499,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F997E3E31B34232A001C602F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F997E3EE1B34232A001C602F /* F36DataWithRelatedGeoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F997E3F71B342472001C602F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -613,28 +509,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F997E40B1B342472001C602F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F997E4161B342472001C602F /* F36DataWithRelatedGeoSwiftTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F997E3E91B34232A001C602F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F997E3CD1B34232A001C602F /* F36DataWithRelatedGeo */;
-			targetProxy = F997E3E81B34232A001C602F /* PBXContainerItemProxy */;
-		};
-		F997E4111B342472001C602F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F997E3FA1B342472001C602F /* F36DataWithRelatedGeoSwift */;
-			targetProxy = F997E4101B342472001C602F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F997E3DB1B34232A001C602F /* Main.storyboard */ = {
@@ -693,6 +568,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -765,6 +641,7 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -780,41 +657,8 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		F997E3F51B34232A001C602F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F36DataWithRelatedGeoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F36DataWithRelatedGeo.app/F36DataWithRelatedGeo";
-			};
-			name = Debug;
-		};
-		F997E3F61B34232A001C602F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F36DataWithRelatedGeoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F36DataWithRelatedGeo.app/F36DataWithRelatedGeo";
 			};
 			name = Release;
 		};
@@ -833,6 +677,7 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -850,42 +695,9 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
-			};
-			name = Release;
-		};
-		F997E41B1B342472001C602F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F36DataWithRelatedGeoSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F36DataWithRelatedGeoSwift.app/F36DataWithRelatedGeoSwift";
-			};
-			name = Debug;
-		};
-		F997E41C1B342472001C602F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F36DataWithRelatedGeoSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F36DataWithRelatedGeoSwift.app/F36DataWithRelatedGeoSwift";
 			};
 			name = Release;
 		};
@@ -908,14 +720,7 @@
 				F997E3F31B34232A001C602F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		F997E3F41B34232A001C602F /* Build configuration list for PBXNativeTarget "F36DataWithRelatedGeoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F997E3F51B34232A001C602F /* Debug */,
-				F997E3F61B34232A001C602F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F997E4171B342472001C602F /* Build configuration list for PBXNativeTarget "F36DataWithRelatedGeoSwift" */ = {
 			isa = XCConfigurationList;
@@ -924,14 +729,7 @@
 				F997E4191B342472001C602F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		F997E41A1B342472001C602F /* Build configuration list for PBXNativeTarget "F36DataWithRelatedGeoSwiftTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F997E41B1B342472001C602F /* Debug */,
-				F997E41C1B342472001C602F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

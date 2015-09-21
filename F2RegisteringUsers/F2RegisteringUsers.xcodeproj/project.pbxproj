@@ -13,8 +13,6 @@
 		D35CA3571A5FF9E600F500B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35CA3551A5FF9E600F500B0 /* Main.storyboard */; };
 		D35CA3591A5FF9E600F500B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35CA3581A5FF9E600F500B0 /* Images.xcassets */; };
 		D35CA35C1A5FF9E600F500B0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D35CA35A1A5FF9E600F500B0 /* LaunchScreen.xib */; };
-		D35CA3681A5FF9E600F500B0 /* F2RegisteringUsersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D35CA3671A5FF9E600F500B0 /* F2RegisteringUsersTests.m */; };
-		D35CA3731A5FFCE800F500B0 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D35CA3711A5FFCE800F500B0 /* libsqlite3.dylib */; };
 		D35CA3741A5FFCE800F500B0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35CA3721A5FFCE800F500B0 /* SystemConfiguration.framework */; };
 		D35CA3C31A5FFD0600F500B0 /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D35CA3771A5FFD0600F500B0 /* backendless.a */; };
 		D35CA3C41A5FFD0600F500B0 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D35CA3AE1A5FFD0600F500B0 /* CommLibiOS.a */; };
@@ -23,29 +21,12 @@
 		D35CA4271A60094B00F500B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35CA4251A60094B00F500B0 /* Main.storyboard */; };
 		D35CA4291A60094B00F500B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35CA4281A60094B00F500B0 /* Images.xcassets */; };
 		D35CA42C1A60094B00F500B0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D35CA42A1A60094B00F500B0 /* LaunchScreen.xib */; };
-		D35CA4381A60094B00F500B0 /* F2RegisteredUsersSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35CA4371A60094B00F500B0 /* F2RegisteredUsersSwiftTests.swift */; };
-		D35CA43F1A6009AC00F500B0 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D35CA3711A5FFCE800F500B0 /* libsqlite3.dylib */; };
 		D35CA4401A6009B000F500B0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35CA3721A5FFCE800F500B0 /* SystemConfiguration.framework */; };
 		D35CA4411A6009B700F500B0 /* backendless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D35CA3771A5FFD0600F500B0 /* backendless.a */; };
 		D35CA4421A6009BC00F500B0 /* CommLibiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D35CA3AE1A5FFD0600F500B0 /* CommLibiOS.a */; };
+		F90F294B1BB00C1F004F8D33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90F294A1BB00C1F004F8D33 /* libsqlite3.tbd */; };
+		F90F294C1BB00C25004F8D33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90F294A1BB00C1F004F8D33 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D35CA3621A5FF9E600F500B0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D35CA3401A5FF9E600F500B0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D35CA3471A5FF9E600F500B0;
-			remoteInfo = F2RegisteringUsers;
-		};
-		D35CA4321A60094B00F500B0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D35CA3401A5FF9E600F500B0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D35CA41C1A60094B00F500B0;
-			remoteInfo = F2RegisteredUsersSwift;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D35CA3481A5FF9E600F500B0 /* F2RegisteringUsers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F2RegisteringUsers.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,10 +39,8 @@
 		D35CA3561A5FF9E600F500B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D35CA3581A5FF9E600F500B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D35CA35B1A5FF9E600F500B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D35CA3611A5FF9E600F500B0 /* F2RegisteringUsersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F2RegisteringUsersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35CA3661A5FF9E600F500B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D35CA3671A5FF9E600F500B0 /* F2RegisteringUsersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = F2RegisteringUsersTests.m; sourceTree = "<group>"; };
-		D35CA3711A5FFCE800F500B0 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		D35CA3721A5FFCE800F500B0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		D35CA3771A5FFD0600F500B0 /* backendless.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = backendless.a; sourceTree = "<group>"; };
 		D35CA3791A5FFD0600F500B0 /* AbstractProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractProperty.h; sourceTree = "<group>"; };
@@ -143,9 +122,9 @@
 		D35CA4261A60094B00F500B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D35CA4281A60094B00F500B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D35CA42B1A60094B00F500B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D35CA4311A60094B00F500B0 /* F2RegisteredUsersSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = F2RegisteredUsersSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35CA4361A60094B00F500B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D35CA4371A60094B00F500B0 /* F2RegisteredUsersSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F2RegisteredUsersSwiftTests.swift; sourceTree = "<group>"; };
+		F90F294A1BB00C1F004F8D33 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,17 +132,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D35CA3731A5FFCE800F500B0 /* libsqlite3.dylib in Frameworks */,
+				F90F294B1BB00C1F004F8D33 /* libsqlite3.tbd in Frameworks */,
 				D35CA3C41A5FFD0600F500B0 /* CommLibiOS.a in Frameworks */,
 				D35CA3C31A5FFD0600F500B0 /* backendless.a in Frameworks */,
 				D35CA3741A5FFCE800F500B0 /* SystemConfiguration.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D35CA35E1A5FF9E600F500B0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,17 +143,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D35CA43F1A6009AC00F500B0 /* libsqlite3.dylib in Frameworks */,
+				F90F294C1BB00C25004F8D33 /* libsqlite3.tbd in Frameworks */,
 				D35CA4411A6009B700F500B0 /* backendless.a in Frameworks */,
 				D35CA4421A6009BC00F500B0 /* CommLibiOS.a in Frameworks */,
 				D35CA4401A6009B000F500B0 /* SystemConfiguration.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D35CA42E1A60094B00F500B0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,8 +156,8 @@
 		D35CA33F1A5FF9E600F500B0 = {
 			isa = PBXGroup;
 			children = (
+				F90F294A1BB00C1F004F8D33 /* libsqlite3.tbd */,
 				D35CA3751A5FFD0600F500B0 /* lib */,
-				D35CA3711A5FFCE800F500B0 /* libsqlite3.dylib */,
 				D35CA3721A5FFCE800F500B0 /* SystemConfiguration.framework */,
 				D35CA34A1A5FF9E600F500B0 /* F2RegisteringUsers */,
 				D35CA3641A5FF9E600F500B0 /* F2RegisteringUsersTests */,
@@ -206,9 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				D35CA3481A5FF9E600F500B0 /* F2RegisteringUsers.app */,
-				D35CA3611A5FF9E600F500B0 /* F2RegisteringUsersTests.xctest */,
 				D35CA41D1A60094B00F500B0 /* F2RegisteredUsersSwift.app */,
-				D35CA4311A60094B00F500B0 /* F2RegisteredUsersSwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -425,24 +388,6 @@
 			productReference = D35CA3481A5FF9E600F500B0 /* F2RegisteringUsers.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D35CA3601A5FF9E600F500B0 /* F2RegisteringUsersTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D35CA36E1A5FF9E600F500B0 /* Build configuration list for PBXNativeTarget "F2RegisteringUsersTests" */;
-			buildPhases = (
-				D35CA35D1A5FF9E600F500B0 /* Sources */,
-				D35CA35E1A5FF9E600F500B0 /* Frameworks */,
-				D35CA35F1A5FF9E600F500B0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D35CA3631A5FF9E600F500B0 /* PBXTargetDependency */,
-			);
-			name = F2RegisteringUsersTests;
-			productName = F2RegisteringUsersTests;
-			productReference = D35CA3611A5FF9E600F500B0 /* F2RegisteringUsersTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		D35CA41C1A60094B00F500B0 /* F2RegisteredUsersSwift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D35CA4391A60094B00F500B0 /* Build configuration list for PBXNativeTarget "F2RegisteredUsersSwift" */;
@@ -460,46 +405,21 @@
 			productReference = D35CA41D1A60094B00F500B0 /* F2RegisteredUsersSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D35CA4301A60094B00F500B0 /* F2RegisteredUsersSwiftTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D35CA43C1A60094B00F500B0 /* Build configuration list for PBXNativeTarget "F2RegisteredUsersSwiftTests" */;
-			buildPhases = (
-				D35CA42D1A60094B00F500B0 /* Sources */,
-				D35CA42E1A60094B00F500B0 /* Frameworks */,
-				D35CA42F1A60094B00F500B0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D35CA4331A60094B00F500B0 /* PBXTargetDependency */,
-			);
-			name = F2RegisteredUsersSwiftTests;
-			productName = F2RegisteredUsersSwiftTests;
-			productReference = D35CA4311A60094B00F500B0 /* F2RegisteredUsersSwiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		D35CA3401A5FF9E600F500B0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = BACKENDLESS.COM;
 				TargetAttributes = {
 					D35CA3471A5FF9E600F500B0 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
-					D35CA3601A5FF9E600F500B0 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = D35CA3471A5FF9E600F500B0;
-					};
 					D35CA41C1A60094B00F500B0 = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					D35CA4301A60094B00F500B0 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = D35CA41C1A60094B00F500B0;
 					};
 				};
 			};
@@ -518,8 +438,6 @@
 			targets = (
 				D35CA3471A5FF9E600F500B0 /* F2RegisteringUsers */,
 				D35CA41C1A60094B00F500B0 /* F2RegisteredUsersSwift */,
-				D35CA3601A5FF9E600F500B0 /* F2RegisteringUsersTests */,
-				D35CA4301A60094B00F500B0 /* F2RegisteredUsersSwiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -535,13 +453,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D35CA35F1A5FF9E600F500B0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D35CA41B1A60094B00F500B0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -549,13 +460,6 @@
 				D35CA4271A60094B00F500B0 /* Main.storyboard in Resources */,
 				D35CA42C1A60094B00F500B0 /* LaunchScreen.xib in Resources */,
 				D35CA4291A60094B00F500B0 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D35CA42F1A60094B00F500B0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,14 +476,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D35CA35D1A5FF9E600F500B0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D35CA3681A5FF9E600F500B0 /* F2RegisteringUsersTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D35CA4191A60094B00F500B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -589,28 +485,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D35CA42D1A60094B00F500B0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D35CA4381A60094B00F500B0 /* F2RegisteredUsersSwiftTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D35CA3631A5FF9E600F500B0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D35CA3471A5FF9E600F500B0 /* F2RegisteringUsers */;
-			targetProxy = D35CA3621A5FF9E600F500B0 /* PBXContainerItemProxy */;
-		};
-		D35CA4331A60094B00F500B0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D35CA41C1A60094B00F500B0 /* F2RegisteredUsersSwift */;
-			targetProxy = D35CA4321A60094B00F500B0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D35CA3551A5FF9E600F500B0 /* Main.storyboard */ = {
@@ -668,6 +543,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -736,6 +612,7 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -752,41 +629,8 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		D35CA36F1A5FF9E600F500B0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F2RegisteringUsersTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F2RegisteringUsers.app/F2RegisteringUsers";
-			};
-			name = Debug;
-		};
-		D35CA3701A5FF9E600F500B0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F2RegisteringUsersTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F2RegisteringUsers.app/F2RegisteringUsers";
 			};
 			name = Release;
 		};
@@ -806,6 +650,7 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -824,42 +669,9 @@
 					"$(SRCROOT)/../lib/backendless",
 					"$(SRCROOT)/../lib/CommLibiOS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themidnightcoders.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/../lib/backendless/include/Backendless-Bridging-Header.h";
-			};
-			name = Release;
-		};
-		D35CA43D1A60094B00F500B0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F2RegisteredUsersSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F2RegisteredUsersSwift.app/F2RegisteredUsersSwift";
-			};
-			name = Debug;
-		};
-		D35CA43E1A60094B00F500B0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = F2RegisteredUsersSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F2RegisteredUsersSwift.app/F2RegisteredUsersSwift";
 			};
 			name = Release;
 		};
@@ -884,29 +696,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D35CA36E1A5FF9E600F500B0 /* Build configuration list for PBXNativeTarget "F2RegisteringUsersTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D35CA36F1A5FF9E600F500B0 /* Debug */,
-				D35CA3701A5FF9E600F500B0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		D35CA4391A60094B00F500B0 /* Build configuration list for PBXNativeTarget "F2RegisteredUsersSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D35CA43A1A60094B00F500B0 /* Debug */,
 				D35CA43B1A60094B00F500B0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D35CA43C1A60094B00F500B0 /* Build configuration list for PBXNativeTarget "F2RegisteredUsersSwiftTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D35CA43D1A60094B00F500B0 /* Debug */,
-				D35CA43E1A60094B00F500B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

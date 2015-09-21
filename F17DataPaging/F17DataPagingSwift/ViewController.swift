@@ -48,154 +48,154 @@ class ViewController: UIViewController {
     
     func addRestaurants() {
         
-        Types.try({ () -> Void in
+        Types.tryblock({ () -> Void in
             
-            var dataStore = self.backendless.persistenceService.of(Restaurant.ofClass())
+            let dataStore = self.backendless.persistenceService.of(Restaurant.ofClass())
             for var i = 0; i < 300; ++i {
                 var r = Restaurant()
                 r.name = "TastyBaaS \(i)"
                 r.cuisine = "mBaaS"
                 r = dataStore.save(r) as! Restaurant
-                println("Save restaurant name = \(r.name)")
+                print("Save restaurant name = \(r.name)")
             }
             },
             
-            catch: { (exception) -> Void in
-                println("Server reported an error: \(exception as! Fault)")
+            catchblock: { (exception) -> Void in
+                print("Server reported an error: \(exception as! Fault)")
             }
         )
     }
     
     func basicPaging() {
         
-        Types.try({ () -> Void in
+        Types.tryblock({ () -> Void in
             
-            var startTime = NSDate()
+            let startTime = NSDate()
             
-            var query = BackendlessDataQuery()
+            let query = BackendlessDataQuery()
             var restaurants = self.backendless.persistenceService.of(Restaurant.ofClass()).find(query)
-            println("Total restaurants in the Backendless starage - \(restaurants.totalObjects)")
+            print("Total restaurants in the Backendless starage - \(restaurants.totalObjects)")
             
             var size = restaurants.getCurrentPage().count
             while size > 0 {
-                println("Loaded \(size) restaurant in the current page")
+                print("Loaded \(size) restaurant in the current page")
                 restaurants = restaurants.nextPage()
                 size = restaurants.getCurrentPage().count
             }
             
-            println("Total time (ms) - \(1000*NSDate().timeIntervalSinceDate(startTime))")
+            print("Total time (ms) - \(1000*NSDate().timeIntervalSinceDate(startTime))")
             },
             
-            catch: { (exception) -> Void in
-                println("Server reported an error: \(exception as! Fault)")
+            catchblock: { (exception) -> Void in
+                print("Server reported an error: \(exception as! Fault)")
             }
         )
     }
     
     func nextPageAsync(restaurants: BackendlessCollection, startTime: NSDate) {
         
-        var size = restaurants.getCurrentPage().count
+        let size = restaurants.getCurrentPage().count
         if size == 0 {
-            println("Total time (ms) - \(1000*NSDate().timeIntervalSinceDate(startTime))")
+            print("Total time (ms) - \(1000*NSDate().timeIntervalSinceDate(startTime))")
             return
         }
         
-        println("Loaded \(size) restaurant in the current page")
+        print("Loaded \(size) restaurant in the current page")
         
         restaurants.nextPageAsync(
-            { (var rests : BackendlessCollection!) -> () in
+            { ( rests : BackendlessCollection!) -> () in
                 self.nextPageAsync(rests, startTime:startTime)
             },
-            error: { (var fault : Fault!) -> () in
-                println("Server reported an error: \(fault)")
+            error: { ( fault : Fault!) -> () in
+                print("Server reported an error: \(fault)")
             }
         )
     }
     
     func basicPagingAsync() {
         
-        var startTime = NSDate()
+        let startTime = NSDate()
         
-        var query = BackendlessDataQuery()
+        let query = BackendlessDataQuery()
         backendless.persistenceService.of(Restaurant.ofClass()).find(
             query,
-            response: { (var restaurants : BackendlessCollection!) -> () in
-                println("Total restaurants in the Backendless starage - \(restaurants.totalObjects)")
+            response: { ( restaurants : BackendlessCollection!) -> () in
+                print("Total restaurants in the Backendless starage - \(restaurants.totalObjects)")
                 self.nextPageAsync(restaurants, startTime:startTime)
             },
-            error: { (var fault : Fault!) -> () in
-                println("Server reported an error: \(fault)")
+            error: { ( fault : Fault!) -> () in
+                print("Server reported an error: \(fault)")
             }
         )
     }
     
     func advancedPaging() {
         
-        Types.try({ () -> Void in
+        Types.tryblock({ () -> Void in
             
-            var startTime = NSDate()
+            let startTime = NSDate()
             
-            var query = BackendlessDataQuery()
+            let query = BackendlessDataQuery()
             query.queryOptions.pageSize = self.PAGESIZE // set page size
             var restaurants = self.backendless.persistenceService.of(Restaurant.ofClass()).find(query)
-            println("Total restaurants in the Backendless starage - \(restaurants.totalObjects)")
+            print("Total restaurants in the Backendless starage - \(restaurants.totalObjects)")
             
             var offset = 0
             var size = restaurants.getCurrentPage().count
             while size > 0 {
-                println("Loaded \(size) restaurant in the current page")
+                print("Loaded \(size) restaurant in the current page")
                 offset += size
                 restaurants = restaurants.getPage(offset, pageSize:self.PAGESIZE)
                 size = restaurants.getCurrentPage().count
             }
             
-            println("Total time (ms) - \(1000*NSDate().timeIntervalSinceDate(startTime))")
+            print("Total time (ms) - \(1000*NSDate().timeIntervalSinceDate(startTime))")
             },
             
-            catch: { (exception) -> Void in
-                println("Server reported an error: \(exception as! Fault)")
+            catchblock: { (exception) -> Void in
+                print("Server reported an error: \(exception as! Fault)")
             }
         )
     }
     
     func getPageAsync(restaurants: BackendlessCollection, var offset: Int, startTime: NSDate) {
         
-        var size = restaurants.getCurrentPage().count
+        let size = restaurants.getCurrentPage().count
         if size == 0 {
-            println("Total time (ms) - \(1000*NSDate().timeIntervalSinceDate(startTime))")
+            print("Total time (ms) - \(1000*NSDate().timeIntervalSinceDate(startTime))")
             return
         }
         
-        println("Loaded \(size) restaurant in the current page")
+        print("Loaded \(size) restaurant in the current page")
         
         offset += size
         restaurants.getPage(
             offset,
             pageSize:PAGESIZE,
-            response: { (var rests : BackendlessCollection!) -> () in
+            response: { ( rests : BackendlessCollection!) -> () in
                 self.getPageAsync(rests, offset:offset, startTime:startTime)
             },
-            error: { (var fault : Fault!) -> () in
-                println("Server reported an error: \(fault)")
+            error: { ( fault : Fault!) -> () in
+                print("Server reported an error: \(fault)")
             }
         )
     }
     
     func advancedPagingAsync() {
         
-        var startTime = NSDate()
+        let startTime = NSDate()
         
-        var offset = 0
-        var query = BackendlessDataQuery()
+        let offset = 0
+        let query = BackendlessDataQuery()
         query.queryOptions.pageSize = PAGESIZE // set page size
         backendless.persistenceService.of(Restaurant.ofClass()).find(
             query,
-            response: { (var restaurants : BackendlessCollection!) -> () in
-                println("Total restaurants in the Backendless starage - \(restaurants.totalObjects)")
+            response: { ( restaurants : BackendlessCollection!) -> () in
+                print("Total restaurants in the Backendless starage - \(restaurants.totalObjects)")
                 self.getPageAsync(restaurants, offset:offset, startTime:startTime)
             },
-            error: { (var fault : Fault!) -> () in
-                println("Server reported an error: \(fault)")
+            error: { ( fault : Fault!) -> () in
+                print("Server reported an error: \(fault)")
             }
         )
     }

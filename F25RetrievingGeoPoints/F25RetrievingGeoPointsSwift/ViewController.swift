@@ -40,30 +40,30 @@ class ViewController: UIViewController {
     
     func loadGeoPointsSync() {
         
-        println("\n============ Loading geo points with the SYNC API ============")
+        print("\n============ Loading geo points with the SYNC API ============")
         
-        Types.try({ () -> Void in
+        Types.tryblock({ () -> Void in
             
-            var query = BackendlessGeoQuery()
+            let query = BackendlessGeoQuery()
             query.addCategory("geoservice_sample")
             query.includeMeta = true
             
             var points = self.backendless.geoService.getPoints(query)
-            println("Total points in category \(points.totalObjects)")
+            print("Total points in category \(points.totalObjects)")
             
             while points.getCurrentPage().count > 0 {
                 
-                var geoPoints = points.getCurrentPage() as! [GeoPoint]
+                let geoPoints = points.getCurrentPage() as! [GeoPoint]
                 for geoPoint in geoPoints {
-                    println("\(geoPoint)")
+                    print("\(geoPoint)")
                 }
                 
                 points = points.nextPage()
             }
             },
             
-            catch: { (exception) -> Void in
-                println("Server reported an error: \(exception as! Fault)")
+            catchblock: { (exception) -> Void in
+                print("Server reported an error: \(exception as! Fault)")
             }
         )
     }
@@ -74,36 +74,36 @@ class ViewController: UIViewController {
             return
         }
         
-        var geoPoints = points.getCurrentPage() as! [GeoPoint]
+        let geoPoints = points.getCurrentPage() as! [GeoPoint]
         for geoPoint in geoPoints {
-            println("\(geoPoint)")
+            print("\(geoPoint)")
         }
         
         points.nextPageAsync(
-            { (var rest : BackendlessCollection!) -> () in
+            { ( rest : BackendlessCollection!) -> () in
                 self.nextPageAsync(rest)
             },
-            error: { (var fault : Fault!) -> () in
-                println("Server reported an error: \(fault)")
+            error: { ( fault : Fault!) -> () in
+                print("Server reported an error: \(fault)")
             }
         )
     }
     
     func loadGeoPointsAsync() {
         
-        println("\n============ Loading geo points with the ASYNC API ============")
+        print("\n============ Loading geo points with the ASYNC API ============")
         
-        var query = BackendlessGeoQuery()
+        let query = BackendlessGeoQuery()
         query.addCategory("geoservice_sample")
         query.includeMeta = true
         
         backendless.geoService.getPoints(
             query,
-            response: { (var points : BackendlessCollection!) -> () in
+            response: { ( points : BackendlessCollection!) -> () in
                 self.nextPageAsync(points)
             },
-            error: { (var fault : Fault!) -> () in
-                println("Server reported an error: \(fault)")
+            error: { ( fault : Fault!) -> () in
+                print("Server reported an error: \(fault)")
             }
         )
     }
