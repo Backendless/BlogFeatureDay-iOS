@@ -24,8 +24,8 @@
 #import "Location.h"
 #import "Restaurant.h"
 
-static NSString *APP_ID = @"YOUR-APP-ID-GOES-HERE";
-static NSString *SECRET_KEY = @"YOUR-IOS-SECRET-KEY-GOES-HERE";
+static NSString *APP_ID = @"CF47722D-EB7B-A0D0-FFE3-1FADE3346100";
+static NSString *SECRET_KEY = @"43B43EF7-247A-ED56-FF2F-ECD43C6E9000";
 static NSString *VERSION_NUM = @"v1";
 
 @implementation ViewController
@@ -36,7 +36,7 @@ static NSString *VERSION_NUM = @"v1";
     [backendless initApp:APP_ID secret:SECRET_KEY version:VERSION_NUM];
     
     [self fetchingFirstPage];
-    [self fetchingFirstPageAsync];
+    //[self fetchingFirstPageAsync];
 }
 
 #pragma mark -

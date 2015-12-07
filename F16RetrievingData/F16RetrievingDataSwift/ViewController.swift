@@ -23,8 +23,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let APP_ID = "YOUR-APP-ID-GOES-HERE"
-    let SECRET_KEY = "YOUR-IOS-SECRET-KEY-GOES-HERE"
+    let APP_ID = "CF47722D-EB7B-A0D0-FFE3-1FADE3346100"
+    let SECRET_KEY = "43B43EF7-247A-ED56-FF2F-ECD43C6E9000"
     let VERSION_NUM = "v1"
     
     var backendless = Backendless.sharedInstance()
@@ -35,7 +35,9 @@ class ViewController: UIViewController {
         backendless.initApp(APP_ID, secret:SECRET_KEY, version:VERSION_NUM)
         
         fetchingFirstPage()
-        fetchingFirstPageAsync()
+        //fetchingFirstPageAsync()
+        
+        fetchingFirstPageMenuItems()
     }
     
     func fetchingFirstPage() {

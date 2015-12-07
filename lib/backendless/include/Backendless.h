@@ -19,6 +19,9 @@
  *  ********************************************************************************************************************
  */
 
+//version activations
+#define BACKENDLESS_VERSION_2_1_0 0
+
 // applications & services deployment
 #define OLD_ASYNC_WITH_FAULT 0
 #define OLD_MEDIA_APP 0
@@ -87,6 +90,9 @@
 #import "Logger.h"
 #import "BackendlessSimpleQuery.h"
 #import "BEFileInfo.h"
+#import "IPresenceListener.h"
+#import "BackendlessBeacon.h"
+#import "Presence.h"
 
 //Cache
 #import "BackendlessCachePolicy.h"
