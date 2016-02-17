@@ -24,8 +24,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let APP_ID = "YOUR-APP-ID-GOES-HERE"
-    let SECRET_KEY = "YOUR-IOS-SECRET-KEY-GOES-HERE"
+    let APP_ID = "E7E19714-4915-AB27-FF93-A081D48C5100"
+    let SECRET_KEY = "B4CE8CD5-756C-3367-FFB2-2349543D8100"
     let VERSION_NUM = "v1"
     
     var backendless = Backendless.sharedInstance()
