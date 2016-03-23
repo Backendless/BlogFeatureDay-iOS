@@ -23,8 +23,14 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    /* - production (UserServiceOperation)
+    let APP_ID = "1A9E560D-E6EE-DEF9-FF2C-2565B567E800"
+    let SECRET_KEY = "2146BA33-CA63-EBC6-FFE4-1EAC4E0CD400"
+    */
+    // - production (BEFeatureDay)
     let APP_ID = "CF47722D-EB7B-A0D0-FFE3-1FADE3346100"
     let SECRET_KEY = "43B43EF7-247A-ED56-FF2F-ECD43C6E9000"
+    //
     let VERSION_NUM = "v1"
     
     var backendless = Backendless.sharedInstance()
@@ -32,38 +38,41 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //print("self.ofClass = \(Types.insideTypeClassName(self.ofClass()))")
+        
         backendless.initApp(APP_ID, secret:SECRET_KEY, version:VERSION_NUM)
+        backendless.hostURL = "http://api.backendless.com"
         
         fetchingFirstPage()
-        //fetchingFirstPageAsync()
+        fetchingFirstPageAsync()
         
-        fetchingFirstPageMenuItems()
+        //fetchingFirstPageMenuItems()
     }
     
     func fetchingFirstPage() {
         
         print("\n============ Fetching first page using the SYNC API ============")
+        
+        let startTime = NSDate()
        
         Types.tryblock({ () -> Void in
-            
-            let startTime = NSDate()
             
             let query = BackendlessDataQuery()
             let restaurants = self.backendless.persistenceService.of(Restaurant.ofClass()).find(query)
             
             let currentPage = restaurants.getCurrentPage()
-            print("Loaded \(currentPage.count) restaurant objects")
+            print("Loaded \(currentPage.count) restaurant objects:")
             print("Total restaurants in the Backendless starage - \(restaurants.totalObjects)")
-            
             for restaurant in currentPage as! [Restaurant] {
                 print("Restaurant <\(restaurant.ofClass())> name = \(restaurant.name), cuisine = \(restaurant.cuisine)")
             }
-            
-            print("Total time (ms) - \(1000*NSDate().timeIntervalSinceDate(startTime))")
             },
-            
             catchblock: { (exception) -> Void in
                 print("Server reported an error: \(exception as! Fault)")
+            },
+            
+            finally: {() -> Void in
+                print("Total time (ms) - \(1000*NSDate().timeIntervalSinceDate(startTime))")
             }
         )
     }
@@ -118,9 +127,9 @@ class ViewController: UIViewController {
         
         print("\n============ Fetching first page using the SYNC API ============")
         
+        let startTime = NSDate()
+        
         Types.tryblock({ () -> Void in
-            
-            let startTime = NSDate()
             
             let query = BackendlessDataQuery()
             let menuItems = self.backendless.persistenceService.of(MenuItem.ofClass()).find(query)
@@ -131,13 +140,15 @@ class ViewController: UIViewController {
             
             for menuItem in currentPage as! [MenuItem] {
                 print("<\(menuItem)> name = \(menuItem.name)")
-            }
-            
-            print("Total time (ms) - \(1000*NSDate().timeIntervalSinceDate(startTime))")
+                }
             },
             
             catchblock: { (exception) -> Void in
                 print("Server reported an error: \(exception as! Fault)")
+            },
+            
+            finally: {() -> Void in
+                print("Total time (ms) - \(1000*NSDate().timeIntervalSinceDate(startTime))")
             }
         )
     }
