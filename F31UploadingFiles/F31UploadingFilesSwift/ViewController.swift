@@ -46,8 +46,8 @@ class ViewController: UIViewController {
         
         Types.tryblock({ () -> Void in
 
-            let data = NSData(bytes:"Hello mbaas!\nUploading files is easy!", length:37)
-            let uploadedFile = self.backendless.fileService.upload("myfiles/myhelloworld-sync.txt", content: data)
+            let data = "Hello mbaas!\nUploading files is easy!".dataUsingEncoding(NSUTF8StringEncoding)
+            let uploadedFile = self.backendless.fileService.saveFile("myfiles/myhelloworld-sync.txt", content: data, overwriteIfExist:true)
             print("File has been uploaded. File URL is - \(uploadedFile.fileURL)")
             },
             
@@ -61,8 +61,11 @@ class ViewController: UIViewController {
         
         print("\n============ Uploading files with the ASYNC API ============")
         
-        let data = NSData(bytes:"Hello mbaas!\nUploading files is easy!", length:37)
-        backendless.fileService.upload("myfiles/myhelloworld-async.txt", content: data,
+        let data = "Hello mbaas!\nUploading files is easy!".dataUsingEncoding(NSUTF8StringEncoding)
+        backendless.fileService.saveFile(
+            "myfiles/myhelloworld-async.txt",
+            content: data,
+            overwriteIfExist:true,
             response: { ( uploadedFile : BackendlessFile!) -> () in
                 print("File has been uploaded. File URL is - \(uploadedFile.fileURL)")
             },

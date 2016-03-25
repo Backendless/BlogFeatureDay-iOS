@@ -34,7 +34,7 @@ static NSString *VERSION_NUM = @"v1";
     [backendless initApp:APP_ID secret:SECRET_KEY version:VERSION_NUM];
     
     [self uploadSync];
-    //[self uploadAsync];
+    [self uploadAsync];
 }
 
 #pragma mark -
@@ -45,9 +45,10 @@ static NSString *VERSION_NUM = @"v1";
     NSLog(@"\n============ Uploading file with the SYNC API ============");
     
     @try {
-        
-        NSData *data = [NSData dataWithBytes:"Hello mbaas!\nUploading files is easy!" length:37];
-        BackendlessFile *uploadedFile = [backendless.fileService upload:@"myfiles/myhelloworld-sync.txt" content:data];
+        NSData *data = [@"Hello mbaas!\nUploading files is easy!" dataUsingEncoding:NSUTF8StringEncoding];
+        BackendlessFile *uploadedFile = [backendless.fileService saveFile:@"myfiles/myhelloworld-sync.txt" content:data overwriteIfExist:YES];
+        //BackendlessFile *uploadedFile = [backendless.fileService upload:@"myfiles/myhelloworld-sync.txt" content:data overwrite:NO];
+        //BackendlessFile *uploadedFile = [backendless.fileService upload:@"myfiles/myhelloworld-sync.txt" content:data];
         NSLog(@"File has been uploaded. File URL is - %@", uploadedFile.fileURL);
     }
     
@@ -61,8 +62,11 @@ static NSString *VERSION_NUM = @"v1";
     
     NSLog(@"\n============ Uploading file  with the ASYNC API ============");
     
-    NSData *data = [NSData dataWithBytes:"Hello mbaas!\nUploading files is easy!" length:37];
-    [backendless.fileService upload:@"myfiles/myhelloworld-async.txt" content:data
+    NSData *data = [@"Hello mbaas!\nUploading files is easy!" dataUsingEncoding:NSUTF8StringEncoding];
+    [backendless.fileService
+     saveFile:@"myfiles/myhelloworld-async.txt"
+     content:data
+     overwriteIfExist:YES
      response:^(BackendlessFile *uploadedFile) {
          NSLog(@"File has been uploaded. File URL is - %@", uploadedFile.fileURL);
      }
