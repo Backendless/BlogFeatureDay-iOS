@@ -24,8 +24,9 @@
 #import "Location.h"
 #import "Restaurant.h"
 
-static NSString *APP_ID = @"CF47722D-EB7B-A0D0-FFE3-1FADE3346100";
-static NSString *SECRET_KEY = @"43B43EF7-247A-ED56-FF2F-ECD43C6E9000";
+// BKNDLSS-12192
+static NSString *APP_ID = @"5F7F7EF0-9B9E-C874-FF62-CD9F2D96D200";
+static NSString *SECRET_KEY = @"4523642F-231F-7937-FFEC-B2FB24A28100";
 static NSString *VERSION_NUM = @"v1";
 
 @implementation ViewController
@@ -35,8 +36,8 @@ static NSString *VERSION_NUM = @"v1";
     
     [backendless initApp:APP_ID secret:SECRET_KEY version:VERSION_NUM];
     
-    [self fetchingFirstPage];
-    //[self fetchingFirstPageAsync];
+    //[self fetchingFirstPage];
+    [self fetchingFirstPageAsync];
 }
 
 #pragma mark -

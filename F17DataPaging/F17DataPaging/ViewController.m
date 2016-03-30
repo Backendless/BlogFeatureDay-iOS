@@ -27,8 +27,9 @@
 #import "Location.h"
 #import "Restaurant.h"
 
-static NSString *APP_ID = @"YOUR-APP-ID-GOES-HERE";
-static NSString *SECRET_KEY = @"YOUR-IOS-SECRET-KEY-GOES-HERE";
+// BKNDLSS-12192
+static NSString *APP_ID = @"5F7F7EF0-9B9E-C874-FF62-CD9F2D96D200";
+static NSString *SECRET_KEY = @"4523642F-231F-7937-FFEC-B2FB24A28100";
 static NSString *VERSION_NUM = @"v1";
 
 @implementation ViewController
@@ -37,12 +38,14 @@ static NSString *VERSION_NUM = @"v1";
     [super viewDidLoad];
     
     [backendless initApp:APP_ID secret:SECRET_KEY version:VERSION_NUM];
+    
+    //[self addRestaurants];
 
     [self basicPaging];
-    [self basicPagingAsync];
+    //[self basicPagingAsync];
     
-    [self advancedPaging];
-    [self advancedPagingAsync];
+    //[self advancedPaging];
+    //[self advancedPagingAsync];
 }
 
 #pragma mark -
@@ -121,6 +124,12 @@ static NSString *VERSION_NUM = @"v1";
     [[backendless.persistenceService of:[Restaurant class]]
      find:query
      response:^(BackendlessCollection *restaurants) {
+         
+         NSArray *currentPage =[restaurants getCurrentPage];
+         NSLog(@"Loaded %lu restaurant objects", (unsigned long)[currentPage count]);
+         for (Restaurant *restuarant in currentPage) {
+             NSLog(@"Restaurant name = %@", restuarant.name);
+         }
          
          NSLog(@"Total restaurants in the Backendless storage - %@", [restaurants getTotalObjects]);
          [self nextPageAsync:restaurants start:startTime];

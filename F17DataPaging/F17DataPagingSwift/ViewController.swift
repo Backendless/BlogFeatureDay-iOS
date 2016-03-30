@@ -26,8 +26,9 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let APP_ID = "YOUR-APP-ID-GOES-HERE"
-    let SECRET_KEY = "YOUR-IOS-SECRET-KEY-GOES-HERE"
+    // BKNDLSS-12192
+    let APP_ID = "5F7F7EF0-9B9E-C874-FF62-CD9F2D96D200"
+    let SECRET_KEY = "4523642F-231F-7937-FFEC-B2FB24A28100"
     let VERSION_NUM = "v1"
     
     let PAGESIZE = 100
@@ -39,11 +40,13 @@ class ViewController: UIViewController {
         
         backendless.initApp(APP_ID, secret:SECRET_KEY, version:VERSION_NUM)
         
-        basicPaging()
-        basicPagingAsync()
+        //addRestaurants()
         
-        advancedPaging()
-        advancedPagingAsync()
+        basicPaging()
+        //basicPagingAsync()
+        
+        //advancedPaging()
+        //advancedPagingAsync()
     }
     
     func addRestaurants() {
@@ -51,7 +54,7 @@ class ViewController: UIViewController {
         Types.tryblock({ () -> Void in
             
             let dataStore = self.backendless.persistenceService.of(Restaurant.ofClass())
-            for var i = 0; i < 300; ++i {
+            for i in 0 ..< 300 {
                 var r = Restaurant()
                 r.name = "TastyBaaS \(i)"
                 r.cuisine = "mBaaS"
