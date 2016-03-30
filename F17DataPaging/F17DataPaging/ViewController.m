@@ -27,24 +27,33 @@
 #import "Location.h"
 #import "Restaurant.h"
 
+#define BKNDLSS12192 0
+
 // BKNDLSS-12192
 static NSString *APP_ID = @"5F7F7EF0-9B9E-C874-FF62-CD9F2D96D200";
 static NSString *SECRET_KEY = @"4523642F-231F-7937-FFEC-B2FB24A28100";
 static NSString *VERSION_NUM = @"v1";
+static NSString *HOST_URL = @"http://api.backendless.com";
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    backendless.hostURL = HOST_URL;
     [backendless initApp:APP_ID secret:SECRET_KEY version:VERSION_NUM];
+    
+#if BKNDLSS12192
+    // http://support.backendless.com/topic/custom-class-name
+    [[backendless data] mapTableToClass:@"Restaurants" type:[Restaurant class]];
+#endif
     
     //[self addRestaurants];
 
-    [self basicPaging];
+    //[self basicPaging];
     //[self basicPagingAsync];
     
-    //[self advancedPaging];
+    [self advancedPaging];
     //[self advancedPagingAsync];
 }
 
@@ -81,7 +90,7 @@ static NSString *VERSION_NUM = @"v1";
         
         BackendlessDataQuery *query = [BackendlessDataQuery query];
         BackendlessCollection *restaurants = [[backendless.persistenceService of:[Restaurant class]] find:query];
-        NSLog(@"Total restaurants in the Backendless storage - %@", [restaurants getTotalObjects]);
+        NSLog(@"Total restaurants in the Backendless storage - %@ <%@>", [restaurants getTotalObjects], [restaurants type]);
         
         unsigned long size = 0;
         while ( (size = [[restaurants getCurrentPage] count]) ) {
