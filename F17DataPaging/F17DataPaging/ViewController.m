@@ -50,11 +50,11 @@ static NSString *HOST_URL = @"http://api.backendless.com";
     
     //[self addRestaurants];
 
-    //[self basicPaging];
-    //[self basicPagingAsync];
+    [self basicPaging];
+    [self basicPagingAsync];
     
     [self advancedPaging];
-    //[self advancedPagingAsync];
+    [self advancedPagingAsync];
 }
 
 #pragma mark -
@@ -133,13 +133,6 @@ static NSString *HOST_URL = @"http://api.backendless.com";
     [[backendless.persistenceService of:[Restaurant class]]
      find:query
      response:^(BackendlessCollection *restaurants) {
-         
-         NSArray *currentPage =[restaurants getCurrentPage];
-         NSLog(@"Loaded %lu restaurant objects", (unsigned long)[currentPage count]);
-         for (Restaurant *restuarant in currentPage) {
-             NSLog(@"Restaurant name = %@", restuarant.name);
-         }
-         
          NSLog(@"Total restaurants in the Backendless storage - %@", [restaurants getTotalObjects]);
          [self nextPageAsync:restaurants start:startTime];
      }
@@ -155,6 +148,7 @@ static NSString *HOST_URL = @"http://api.backendless.com";
         NSDate *startTime = [NSDate date];
         
         BackendlessDataQuery *query = [BackendlessDataQuery query];
+        query.queryOptions.relationsDepth = @(1);
         query.queryOptions.pageSize = @(PAGESIZE); //set page size
         BackendlessCollection *restaurants = [[backendless.persistenceService of:[Restaurant class]] find:query];
         NSLog(@"Total restaurants in the Backendless storage - %@", [restaurants getTotalObjects]);
@@ -202,6 +196,7 @@ static NSString *HOST_URL = @"http://api.backendless.com";
     
     int offset = 0;
     BackendlessDataQuery *query = [BackendlessDataQuery query];
+    query.queryOptions.relationsDepth = @(1);
     query.queryOptions.pageSize = @(PAGESIZE); //set page size
     [[backendless.persistenceService of:[Restaurant class]]
      find:query
