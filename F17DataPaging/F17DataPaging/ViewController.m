@@ -29,9 +29,9 @@
 
 #define BKNDLSS12192 0
 
-// BKNDLSS-12192
-static NSString *APP_ID = @"5F7F7EF0-9B9E-C874-FF62-CD9F2D96D200";
-static NSString *SECRET_KEY = @"4523642F-231F-7937-FFEC-B2FB24A28100";
+// BasicTest
+static NSString *APP_ID = @"25C2E37D-8EB6-8CDA-FF37-D6F05AE7EE00";
+static NSString *SECRET_KEY = @"675002F9-A2F8-567F-FFB2-3E348B887900";
 static NSString *VERSION_NUM = @"v1";
 static NSString *HOST_URL = @"http://api.backendless.com";
 
@@ -48,7 +48,7 @@ static NSString *HOST_URL = @"http://api.backendless.com";
     [[backendless data] mapTableToClass:@"Restaurants" type:[Restaurant class]];
 #endif
     
-    //[self addRestaurants];
+    [self addRestaurants];
 
     [self basicPaging];
     [self basicPagingAsync];
@@ -90,7 +90,7 @@ static NSString *HOST_URL = @"http://api.backendless.com";
         
         BackendlessDataQuery *query = [BackendlessDataQuery query];
         BackendlessCollection *restaurants = [[backendless.persistenceService of:[Restaurant class]] find:query];
-        NSLog(@"Total restaurants in the Backendless storage - %@ <%@>", [restaurants getTotalObjects], [restaurants type]);
+        NSLog(@"Total restaurants in the Backendless storage - %@ <'%@'=='%@'>", [restaurants getTotalObjects], [restaurants type], [restaurants getEntityName]);
         
         unsigned long size = 0;
         while ( (size = [[restaurants getCurrentPage] count]) ) {

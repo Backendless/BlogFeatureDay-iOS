@@ -26,14 +26,15 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    // BKNDLSS-12192
-    let APP_ID = "5F7F7EF0-9B9E-C874-FF62-CD9F2D96D200"
-    let SECRET_KEY = "4523642F-231F-7937-FFEC-B2FB24A28100"
+    // BasicTest
+    let APP_ID = "25C2E37D-8EB6-8CDA-FF37-D6F05AE7EE00"
+    let SECRET_KEY = "675002F9-A2F8-567F-FFB2-3E348B887900"
     let VERSION_NUM = "v1"
     
     let PAGESIZE = 100
     
     var backendless = Backendless.sharedInstance()
+    var offset = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,7 +44,7 @@ class ViewController: UIViewController {
         //addRestaurants()
         
         basicPaging()
-        //basicPagingAsync()
+        basicPagingAsync()
         
         //advancedPaging()
         //advancedPagingAsync()
@@ -161,7 +162,7 @@ class ViewController: UIViewController {
         )
     }
     
-    func getPageAsync(restaurants: BackendlessCollection, var offset: Int, startTime: NSDate) {
+    func getPageAsync(restaurants: BackendlessCollection, startTime: NSDate) {
         
         let size = restaurants.getCurrentPage().count
         if size == 0 {
@@ -171,12 +172,12 @@ class ViewController: UIViewController {
         
         print("Loaded \(size) restaurant in the current page")
         
-        offset += size
+        self.offset += size
         restaurants.getPage(
-            offset,
+            self.offset,
             pageSize:PAGESIZE,
             response: { ( rests : BackendlessCollection!) -> () in
-                self.getPageAsync(rests, offset:offset, startTime:startTime)
+                self.getPageAsync(rests, startTime:startTime)
             },
             error: { ( fault : Fault!) -> () in
                 print("Server reported an error: \(fault)")
@@ -188,14 +189,14 @@ class ViewController: UIViewController {
         
         let startTime = NSDate()
         
-        let offset = 0
+        self.offset = 0
         let query = BackendlessDataQuery()
         query.queryOptions.pageSize = PAGESIZE // set page size
         backendless.persistenceService.of(Restaurant.ofClass()).find(
             query,
             response: { ( restaurants : BackendlessCollection!) -> () in
                 print("Total restaurants in the Backendless starage - \(restaurants.totalObjects)")
-                self.getPageAsync(restaurants, offset:offset, startTime:startTime)
+                self.getPageAsync(restaurants, startTime:startTime)
             },
             error: { ( fault : Fault!) -> () in
                 print("Server reported an error: \(fault)")

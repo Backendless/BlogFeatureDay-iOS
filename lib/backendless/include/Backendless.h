@@ -28,7 +28,17 @@
 #define TEST_MEDIA_INSTANCE 0
 #define AS_IDENTIFIER_MANAGER_ON 0
 
+// implementation options
+#define _IS_USERS_CLASS_ 0
+#define _USE_SAFARI_VC_ 1
+
 #import <Foundation/Foundation.h>
+
+#if TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR
+#if _USE_SAFARI_VC_
+#import <SafariServices/SafariServices.h>
+#endif
+#endif
 
 #if TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR
 #if AS_IDENTIFIER_MANAGER_ON
@@ -96,7 +106,7 @@
 #import "IPresenceListener.h"
 #import "BackendlessBeacon.h"
 #import "Presence.h"
-
+//#import "MapDrivenDataStore.h"
 
 //Cache
 #import "BackendlessCachePolicy.h"
@@ -150,6 +160,13 @@
 @property (assign, nonatomic, readonly) FileService *file;
 // delegates
 @property (strong, nonatomic) id <ReachabilityDelegate> reachabilityDelegate;
+//
+#if TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR
+#if _USE_SAFARI_VC_
+@property (strong, nonatomic) SFSafariViewController *safariVC;
+#endif
+#endif
+
 
 // Singleton accessor:  this is how you should ALWAYS get a reference to the class instance.  Never init your own.
 +(Backendless *)sharedInstance;
@@ -167,6 +184,7 @@
 -(void)initApp;
 -(void)initAppFault;
 -(NSString *)mediaServerUrl;
+-(void)networkActivityIndicatorOn:(BOOL)value;
 #pragma mark - exceptions management
 -(void)setThrowException:(BOOL)needThrow;
 -(id)throwFault:(Fault *)fault;

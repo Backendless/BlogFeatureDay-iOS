@@ -21,6 +21,7 @@
 
 #import <Foundation/Foundation.h>
 
+#define CURRENTUSER_PERSISTENCE_ON 0
 #define FILTRATION_USER_TOKEN_ON 1
 
 #define BACKENDLESS_EMAIL_KEY @"email"
@@ -30,7 +31,7 @@
 #define BACKENDLESS_USER_TOKEN @"user-token"
 #define BACKENDLESS_USER_REGISTERED @"user-registered"
 
-@interface BackendlessUser : NSObject
+@interface BackendlessUser : NSObject <NSCopying>
 
 @property (nonatomic, assign, getter = getObjectId, setter = setObjectId:) NSString *objectId;
 @property (nonatomic, assign, getter = getEmail, setter = setEmail:) NSString *email;
@@ -48,4 +49,5 @@
 -(void)setProperty:(NSString *)key object:(id)value;
 -(void)removeProperty:(NSString *)key;
 -(void)removeProperties:(NSArray<NSString*> *)keys;
+-(void)persistCurrentUser;
 @end

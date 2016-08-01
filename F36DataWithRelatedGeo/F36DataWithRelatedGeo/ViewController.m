@@ -26,8 +26,8 @@
 #import "Backendless.h"
 #import "Driver.h"
 
-static NSString *APP_ID = @"YOUR-APP-ID-GOES-HERE";
-static NSString *SECRET_KEY = @"YOUR-IOS-SECRET-KEY-GOES-HERE";
+static NSString *APP_ID = @"1A9E560D-E6EE-DEF9-FF2C-2565B567E800";
+static NSString *SECRET_KEY = @"2146BA33-CA63-EBC6-FFE4-1EAC4E0CD400";
 static NSString *VERSION_NUM = @"v1";
 
 @implementation ViewController
@@ -36,9 +36,10 @@ static NSString *VERSION_NUM = @"v1";
     [super viewDidLoad];
     
     [backendless initApp:APP_ID secret:SECRET_KEY version:VERSION_NUM];
+    [backendless networkActivityIndicatorOn:YES];
     
     [self saveDataWithGeoSync];
-    [self saveDataWithGeoAsync];
+    //[self saveDataWithGeoAsync];
 }
 
 #pragma mark -
