@@ -43,7 +43,7 @@ class ViewController: UIViewController {
         
         //addRestaurants()
         
-        basicPaging()
+        //basicPaging()
         basicPagingAsync()
         
         //advancedPaging()
@@ -105,6 +105,12 @@ class ViewController: UIViewController {
         }
         
         print("Loaded \(size) restaurant in the current page")
+        let currentPage = restaurants.getCurrentPage() as! [Restaurant]
+        for restaurant in currentPage {
+            if restaurant.name != nil {
+                print(restaurant.name)
+            }
+        }
         
         restaurants.nextPageAsync(
             { ( rests : BackendlessCollection!) -> () in
