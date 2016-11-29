@@ -48,13 +48,13 @@ static NSString *HOST_URL = @"http://api.backendless.com";
     [[backendless data] mapTableToClass:@"Restaurants" type:[Restaurant class]];
 #endif
     
-    [self addRestaurants];
+    //[self addRestaurants];
 
     [self basicPaging];
-    [self basicPagingAsync];
+    //[self basicPagingAsync];
     
-    [self advancedPaging];
-    [self advancedPagingAsync];
+    //[self advancedPaging];
+    //[self advancedPagingAsync];
 }
 
 #pragma mark -
